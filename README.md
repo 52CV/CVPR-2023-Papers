@@ -49,11 +49,7 @@
 <a name="57"/>
 
 ## 57.Gaze Estimation(视线估计)
-* [GazeOnce: Real-Time Multi-Person Gaze Estimation](https://arxiv.org/abs/2204.09480)
-* [Contrastive Regression for Domain Adaptation on Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Contrastive_Regression_for_Domain_Adaptation_on_Gaze_Estimation_CVPR_2022_paper.pdf) 
-* [Generalizing Gaze Estimation With Rotation Consistency](https://openaccess.thecvf.com/content/CVPR2022/papers/Bao_Generalizing_Gaze_Estimation_With_Rotation_Consistency_CVPR_2022_paper.pdf)
-* [GaTector: A Unified Framework for Gaze Object Prediction](https://arxiv.org/abs/2112.03549)
-* [Dynamic 3D Gaze From Afar: Deep Gaze Estimation From Temporal Eye-Head-Body Coordination](https://openaccess.thecvf.com/content/CVPR2022/papers/Nonaka_Dynamic_3D_Gaze_From_Afar_Deep_Gaze_Estimation_From_Temporal_CVPR_2022_paper.pdf)<br>:house:[project](https://vision.ist.i.kyoto-u.ac.jp/)
+
   
 <a name="56"/>
 
