@@ -1,13 +1,7 @@
 # CVPR-2022-Papers
 ![5533b620402406dba74eb9a452e32d4](https://user-images.githubusercontent.com/62801906/150053890-e667997b-62c8-40a8-b561-ccc99ecd89f6.png)
 
-官网链接：https://cvpr2022.thecvf.com/
-
-开会时间：2022年6月19日-6月24日
-
-### ❣❣❣近日，[CVPR 2022 接收论文公布！ 总计2067篇！](https://mp.weixin.qq.com/s/WfzbGK34z3gIk1E9su8moA)，全部论文已发布，多多关注!!
-
-### ❣❣❣另外打包下载所有论文，可在[【我爱计算机视觉】微信公众号](https://user-images.githubusercontent.com/62801906/163739684-175f0b8a-871e-4a41-b310-b549625fdcb1.png)后台回复“paper”。
+官网链接：
 
 ## 历年综述论文分类汇总戳这里↘️[CV-Surveys](https://github.com/52CV/CV-Surveys)施工中~~~~~~~~~~
 
