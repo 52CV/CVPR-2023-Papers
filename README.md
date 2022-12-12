@@ -289,7 +289,8 @@
 <a name="3"/>
 
 ## 3.Image Progress(图像处理)
-
+* 阴影去除
+  * [ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal](https://arxiv.org/abs/2212.04711)
 
 <a name="2"/>
 
