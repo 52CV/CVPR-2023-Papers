@@ -1,17 +1,18 @@
-# CVPR-2022-Papers
+# CVPR-2023-Papers
 ![5533b620402406dba74eb9a452e32d4](https://user-images.githubusercontent.com/62801906/150053890-e667997b-62c8-40a8-b561-ccc99ecd89f6.png)
 
 官网链接：
 
 ## 历年综述论文分类汇总戳这里↘️[CV-Surveys](https://github.com/52CV/CV-Surveys)施工中~~~~~~~~~~
 
-## 2022 年论文分类汇总戳这里
+## 2023 年论文分类汇总戳这里
 ↘️[CVPR-2023-Papers](https://github.com/52CV/CVPR-2023-Papers)
 ↘️[WACV-2023-Papers](https://github.com/52CV/WACV-2023-Papers)
 
 ## 2022 年论文分类汇总戳这里
 ↘️[CVPR-2022-Papers](https://github.com/52CV/CVPR-2022-Papers)
 ↘️[WACV-2022-Papers](https://github.com/52CV/WACV-2022-Papers)
+↘️[ECCV-2022-Papers](https://github.com/52CV/ECCV-2022-Papers)
 
 ## 2021年论文分类汇总戳这里
 ↘️[ICCV-2021-Papers](https://github.com/52CV/ICCV-2021-Papers)
@@ -253,6 +254,7 @@
 <a name="12"/>
 
 ## 12.Image-to-Image Translation(图像到图像翻译)
+* [DSI2I: Dense Style for Unpaired Image-to-Image Translation](https://arxiv.org/abs/2212.13253)
 
 <a name="11"/>
 
@@ -281,6 +283,8 @@
 <a name="5"/>
 
 ## 5.Object Detection(目标检测)
+* OOD
+  * [Out-of-Distribution Detection with Reconstruction Error and Typicality-based Penalty](https://arxiv.org/abs/2212.12641)
 
 <a name="4"/>
 
