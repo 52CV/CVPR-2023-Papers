@@ -283,8 +283,7 @@
 <a name="5"/>
 
 ## 5.Object Detection(目标检测)
-* OOD
-  * [Out-of-Distribution Detection with Reconstruction Error and Typicality-based Penalty](https://arxiv.org/abs/2212.12641)
+
 
 <a name="4"/>
 
