@@ -63,7 +63,7 @@
 <a name="54"/>
 
 ## 54.Dataset(数据集)
-
+* [xFBD: Focused Building Damage Dataset and Analysis](https://arxiv.org/abs/2212.13876)<br>建筑物损坏数据集
 
 
 <a name="53"/>
