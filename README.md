@@ -50,7 +50,7 @@
 <a name="57"/>
 
 ## 57.Gaze Estimation(视线估计)
-
+* [NeRF-Gaze: A Head-Eye Redirection Parametric Model for Gaze Estimation](https://arxiv.org/abs/2212.14710)
   
 <a name="56"/>
 
