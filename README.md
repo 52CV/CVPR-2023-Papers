@@ -51,6 +51,9 @@
 * 工业异常检测
   * [Multimodal Industrial Anomaly Detection via Hybrid Fusion](https://arxiv.org/pdf/2303.00601.pdf)<br>:star:[code](https://github.com/nomewang/M3DM)
 
+25.Image Compression
+* [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
+
 <a name="58"/>
 
 ## 58.Neural rendering(神经渲染)
@@ -72,7 +75,7 @@
 
 ## 54.Dataset(数据集)
 * [xFBD: Focused Building Damage Dataset and Analysis](https://arxiv.org/abs/2212.13876)<br>建筑物损坏数据集
-
+* [Spring: A High-Resolution High-Detail Dataset and Benchmark for Scene Flow, Optical Flow and Stereo](https://arxiv.org/abs/2303.01943)<br>:sunflower:[dataset](https://spring-benchmark.org/)
 
 <a name="53"/>
 
@@ -101,7 +104,8 @@
 <a name="47"/>
 
 ## 47.Few/Zero-Shot Learning/Domain Generalization/Adaptation(小/零样本/域泛化/适应)
-
+* 域泛化
+  * [Towards Domain Generalization for Multi-view 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2303.01686)
   
 <a name="46"/>
 
@@ -111,6 +115,7 @@
 <a name="45"/>
 
 ## 45.Dense Prediction(密集预测)
+* [DejaVu: Conditional Regenerative Learning to Enhance Dense Prediction](https://arxiv.org/abs/2303.01573)
 
 <a name="44"/>
 
@@ -192,7 +197,7 @@
 * VQA
   * [SimVQA: Exploring Simulated Environments for Visual Question Answering](https://arxiv.org/abs/2203.17219)<br>:house:[project](https://simvqa.github.io)
   * [MixPHM: Redundancy-Aware Parameter-Efficient Tuning for Low-Resource Visual Question Answering](https://arxiv.org/pdf/2303.01239.pdf)
-
+  * [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2303.01903)<br>:star:[code](https://github.com/MILVLG/prophet)
  
 <a name="29"/>
 
@@ -211,6 +216,8 @@
 <a name="27"/>
 
 ## 27.Pose Estimation(物体姿势估计)
+* 物体计数
+  * [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
 
 <a name="26"/>
 
@@ -218,8 +225,11 @@
 
 <a name="25"/>
 
-## 25.Image Compression
-* [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
+## 25.Fine-Grained/Image Classification(细粒度/图像分类)
+* 小样本分类
+  * [Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners](https://arxiv.org/abs/2303.02151)<br>:star:[code](https://github.com/ZrrSkywalker/CaFo)
+* 细粒度
+  * [Learning Common Rationale to Improve Self-Supervised Representation for Fine-Grained Visual Recognition Problems](https://arxiv.org/abs/2303.01669)<br>:star:[code](https://github.com/GANPerf/LCR)
 
 <a name="24"/>
 
@@ -243,6 +253,8 @@
 <a name="20"/>
 
 ## 20.Autonomous vehicles(自动驾驶)
+* 自动驾驶
+  * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
 * 轨迹预测
   * [IPCC-TP: Utilizing Incremental Pearson Correlation Coefficient for Joint Multi-Agent Trajectory Prediction](https://arxiv.org/pdf/2303.00575.pdf)
 
@@ -260,6 +272,7 @@
 
 ## 17.Medical Image(医学影像)
 * [Towards Trustable Skin Cancer Diagnosis via Rewriting Model’s Decision](https://arxiv.org/pdf/2303.00885.pdf)
+* [Hierarchical discriminative learning improves visual representations of biomedical microscopy](https://arxiv.org/abs/2303.01605)<br>:house:[project](https://hidisc.mlins.org/)
 * 3D医学
   * [Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training](https://arxiv.org/pdf/2303.00874.pdf)<br>:star:[code](https://github.com/YutingHe-list/GVSL)
 * 图像配准
@@ -288,6 +301,7 @@
 <a name="13"/>
 
 ## 13.GAN
+* [Improving GAN Training via Feature Space Shrinkage](https://arxiv.org/abs/2303.01559)<br>:star:[code](https://github.com/WentianZhang-ML/AdaptiveMix)
 
 <a name="12"/>
 
@@ -302,12 +316,18 @@
 
 <a name="10"/>
 
-## 10.3D(三维视觉)
+## 10.3D(三维重建\视觉)
+* 三维重建
+  * [Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly](https://arxiv.org/abs/2303.01999)
+  * [MobileBrick: Building LEGO for 3D Reconstruction on Mobile Devices](https://arxiv.org/abs/2303.01932)<br>:house:[project](http://code.active.vision/MobileBrick/)
 
 <a name="9"/>
 
 ## 9.Human Pose Estimation(人体姿态估计)
-
+* 手势
+  * 3D手势合成
+    * [Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement](https://arxiv.org/abs/2303.01765)
+  
 <a name="8"/>
 
 ## 8.Action Detection(人体动作检测与识别)
@@ -318,8 +338,11 @@
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
 * 点云实例分割
   * [ISBNet: a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution](https://arxiv.org/pdf/2303.00246.pdf)
+* 点云分类
+  * [PointCert: Point Cloud Classification with Deterministic Certified Robustness Guarantees](https://arxiv.org/abs/2303.01959)
 * 点云补全
   * [ProxyFormer: Proxy Alignment Assisted Point Cloud Completion with Missing Part Sensitive Transformer](https://arxiv.org/pdf/2302.14435.pdf)<br>:star:[code](https://github.com/I2-Multimedia-Lab/ProxyFormer)
+  * [ACL-SPC: Adaptive Closed-Loop system for Self-Supervised Point Cloud Completion](https://arxiv.org/abs/2303.01979)<br>:star:[code](https://github.com/Sangminhong/ACL-SPC_PyTorch)
 
 <a name="6"/>
 
@@ -367,6 +390,9 @@
 * [Neuro-Modulated Hebbian Learning for Fully Test-Time Adaptation](https://arxiv.org/pdf/2303.00914.pdf)
 * [Disentangling Orthogonal Planes for Indoor Panoramic Room Layout Estimation with Cross-Scale Distortion Awareness](https://arxiv.org/abs/2303.00971)
 * [DART: Diversify-Aggregate-Repeat Training Improves Generalization of Neural Networks](https://arxiv.org/pdf/2302.14685.pdf)
+* [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904)
+* [Intrinsic Physical Concepts Discovery with Object-Centric Predictive Models](https://arxiv.org/pdf/2303.01869.pdf)
+* [A Meta-Learning Approach to Predicting Performance and Data Requirements](https://arxiv.org/abs/2303.01598)
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
