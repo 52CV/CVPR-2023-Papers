@@ -48,6 +48,8 @@
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
 
 ## 工业缺陷检测
+* 缺陷定位
+  * [PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow](https://arxiv.org/abs/2303.02595)
 * 工业异常检测
   * [Multimodal Industrial Anomaly Detection via Hybrid Fusion](https://arxiv.org/pdf/2303.00601.pdf)<br>:star:[code](https://github.com/nomewang/M3DM)
 
@@ -76,10 +78,14 @@
 ## 54.Dataset(数据集)
 * [xFBD: Focused Building Damage Dataset and Analysis](https://arxiv.org/abs/2212.13876)<br>建筑物损坏数据集
 * [Spring: A High-Resolution High-Detail Dataset and Benchmark for Scene Flow, Optical Flow and Stereo](https://arxiv.org/abs/2303.01943)<br>:sunflower:[dataset](https://spring-benchmark.org/)
+* [Human-Art: A Versatile Human-Centric Dataset Bridging Natural and Artificial Scenes](https://arxiv.org/abs/2303.02760)
+* [HairStep: Transfer Synthetic to Real Using Strand and Depth Maps for Single-View 3D Hair Modeling](https://arxiv.org/abs/2303.02700)<br>:sunflower:[dataset](https://paulyzheng.github.io/research/hairstep/)
 
 <a name="53"/>
 
 ## 53.Sign Language Translation(手语翻译)
+* 手语识别
+  * [Continuous Sign Language Recognition with Correlation Network](https://arxiv.org/abs/2303.03202)<br>:star:[code](https://github.com/hulianyuyy/CorrNet)
 
 <a name="52"/>
 
@@ -178,6 +184,7 @@
 <a name="33"/>
 
 ## 33.Human-Object Interaction(人物交互)
+* [Detecting Human-Object Contact in Images](https://arxiv.org/abs/2303.03373)<br>:house:[project](https://hot.is.tue.mpg.de/)
 * 双手交互
   * [Im2Hands: Learning Attentive Implicit Representation of Interacting Two-Hand Shapes](https://arxiv.org/pdf/2302.14348.pdf)<br>:star:[code](https://github.com/jyunlee/Im2Hands)
 
@@ -189,7 +196,7 @@
 <a name="31"/>
 
 ## 31.Vision-Language(视觉语言)
-
+* [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://arxiv.org/abs/2303.02483)<br>:star:[code](https://github.com/BrandonHanx/FAME-ViL)
 
 <a name="30"/>
 
@@ -230,11 +237,13 @@
   * [Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners](https://arxiv.org/abs/2303.02151)<br>:star:[code](https://github.com/ZrrSkywalker/CaFo)
 * 细粒度
   * [Learning Common Rationale to Improve Self-Supervised Representation for Fine-Grained Visual Recognition Problems](https://arxiv.org/abs/2303.01669)<br>:star:[code](https://github.com/GANPerf/LCR)
+  * [Fine-Grained Classification with Noisy Labels](https://arxiv.org/abs/2303.02404)
 
 <a name="24"/>
 
 ## 24.Super-Resolution(超分辨率)
 * [OPE-SR: Orthogonal Position Encoding for Designing a Parameter-free Upsampling Module in Arbitrary-scale Image Super-Resolution](https://arxiv.org/pdf/2303.01091.pdf)
+* [Super-Resolution Neural Operator](https://arxiv.org/pdf/2303.02584.pdf)<br>:star:[code](https://github.com/2y7c3/Super-Resolution-Neural-Operator)
 
 <a name="23"/>
 
@@ -320,6 +329,8 @@
 * 三维重建
   * [Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly](https://arxiv.org/abs/2303.01999)
   * [MobileBrick: Building LEGO for 3D Reconstruction on Mobile Devices](https://arxiv.org/abs/2303.01932)<br>:house:[project](http://code.active.vision/MobileBrick/)
+  * [MACARONS: Mapping And Coverage Anticipation with RGB Online Self-Supervision](https://arxiv.org/abs/2303.03315)<br>:house:[project](https://imagine.enpc.fr/~guedona/MACARONS/)
+  * [NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction](https://arxiv.org/abs/2303.02375)
 
 <a name="9"/>
 
@@ -327,7 +338,10 @@
 * 手势
   * 3D手势合成
     * [Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement](https://arxiv.org/abs/2303.01765)
-  
+* 人体
+  * HPE  
+    * [DistilPose: Tokenized Pose Regression with Heatmap Distillation](https://arxiv.org/abs/2303.02455)
+    
 <a name="8"/>
 
 ## 8.Action Detection(人体动作检测与识别)
@@ -347,11 +361,17 @@
 <a name="6"/>
 
 ## 6.Object Tracking(目标跟踪)
+* 多目标跟踪
+  * [Referring Multi-Object Tracking](https://arxiv.org/abs/2303.03366)<br>:star:[code](https://github.com/wudongming97/RMOT)
 
 <a name="5"/>
 
 ## 5.Object Detection(目标检测)
-
+* Open-World检测
+  * [CapDet: Unifying Dense Captioning and Open-World Detection Pretraining](https://arxiv.org/abs/2303.02489)
+* 3D OD
+  * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
+  * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
 
 <a name="4"/>
 
@@ -372,6 +392,7 @@
 <a name="2"/>
 
 ## 2.Image Segmentation(图像分割)
+* [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
 * 语义分割
   * [Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480)<br>:star:[code](https://jamycheung.github.io/DELIVER.html)
   * [Foundation Model Drives Weakly Incremental Learning for Semantic Segmentation](https://arxiv.org/pdf/2302.14250.pdf)
@@ -393,6 +414,11 @@
 * [EcoTTA: Memory-Efficient Continual Test-time Adaptation via Self-distilled Regularization](https://arxiv.org/abs/2303.01904)
 * [Intrinsic Physical Concepts Discovery with Object-Centric Predictive Models](https://arxiv.org/pdf/2303.01869.pdf)
 * [A Meta-Learning Approach to Predicting Performance and Data Requirements](https://arxiv.org/abs/2303.01598)
+* [Multimodal Prompting with Missing Modalities for Visual Recognition](https://arxiv.org/abs/2303.03369)<br>:star:[code](https://github.com/YiLunLee/Missing_aware_prompts)
+* [Masked Images Are Counterfactual Samples for Robust Fine-tuning](https://arxiv.org/abs/2303.03052)
+* [UniHCP: A Unified Model for Human-Centric Perceptions](https://arxiv.org/abs/2303.02936)<br>:star:[code](https://github.com/OpenGVLab/UniHCP)
+* [DeepMAD: Mathematical Architecture Design for Deep Convolutional Neural Network](https://arxiv.org/abs/2303.02165)<br>:star:[code](https://github.com/alibaba/lightweight-neural-architecture-search)
+* [Gradient Norm Aware Minimization Seeks First-Order Flatness and Improves Generalization](https://arxiv.org/abs/2303.03108)
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
