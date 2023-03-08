@@ -112,7 +112,9 @@
 ## 47.Few/Zero-Shot Learning/Domain Generalization/Adaptation(小/零样本/域泛化/适应)
 * 域泛化
   * [Towards Domain Generalization for Multi-view 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2303.01686)
-  
+* DA
+  * [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770)<br>:star:[code](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Test-Time-Adaptation)
+
 <a name="46"/>
 
 ## 46.Scene Graph Generation(场景图生成)
@@ -180,6 +182,7 @@
 <a name="34"/>
 
 ## 34.Model Compression/Knowledge Distillation/Pruning(模型压缩/知识蒸馏/剪枝)
+* [Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks](https://arxiv.org/abs/2303.03667)<br>:star:[code](https://github.com/JierunChen/FasterNet)
 
 <a name="33"/>
 
@@ -197,6 +200,8 @@
 
 ## 31.Vision-Language(视觉语言)
 * [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://arxiv.org/abs/2303.02483)<br>:star:[code](https://github.com/BrandonHanx/FAME-ViL)
+* VLN
+  * [Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding](https://arxiv.org/abs/2303.04077)<br>:house:[project](https://rllab-snu.github.io/projects/Meta-Explore/doc.html)
 
 <a name="30"/>
 
@@ -302,10 +307,12 @@
 <a name="14"/>
 
 ## 14.Video
-* 
+* 视频时刻检索
   * [Towards Generalisable Video Moment Retrieval:Visual-Dynamic Injection to Image-Text Pre-Training](https://arxiv.org/pdf/2303.00040.pdf)
 * 视频帧插值
   * [Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation](https://arxiv.org/pdf/2303.00440.pdf)<br>:star:[code](https://github.com/MCG-NJU/EMA-VFI)
+* 视频预测
+  * [MOSO: Decomposing MOtion, Scene and Object for Video Prediction](https://arxiv.org/abs/2303.03684)<br>:star:[code](https://github.com/anonymous202203/MOSO)
 
 <a name="13"/>
 
@@ -345,6 +352,7 @@
 <a name="8"/>
 
 ## 8.Action Detection(人体动作检测与识别)
+* [Learning Discriminative Representations for Skeleton Based Action Recognition](https://arxiv.org/abs/2303.03729)
 
 <a name="7"/>
 
@@ -372,6 +380,7 @@
 * 3D OD
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
+  * [LoGoNet: Towards Accurate 3D Object Detection with Local-to-Global Cross-Modal Fusion](https://arxiv.org/abs/2303.03595)<br>:star:[code](https://github.com/sankin97/LoGoNet)
 
 <a name="4"/>
 
