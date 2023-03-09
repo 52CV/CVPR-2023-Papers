@@ -68,6 +68,8 @@
 <a name="56"/>
 
 ## 56.Sound
+* 扬声器检测
+  * [A Light Weight Model for Active Speaker Detection](https://arxiv.org/abs/2303.04439)<br>:star:[code](https://github.com/Junhua-Liao/Light-ASD)
 
 <a name="55"/>
 
@@ -80,6 +82,7 @@
 * [Spring: A High-Resolution High-Detail Dataset and Benchmark for Scene Flow, Optical Flow and Stereo](https://arxiv.org/abs/2303.01943)<br>:sunflower:[dataset](https://spring-benchmark.org/)
 * [Human-Art: A Versatile Human-Centric Dataset Bridging Natural and Artificial Scenes](https://arxiv.org/abs/2303.02760)
 * [HairStep: Transfer Synthetic to Real Using Strand and Depth Maps for Single-View 3D Hair Modeling](https://arxiv.org/abs/2303.02700)<br>:sunflower:[dataset](https://paulyzheng.github.io/research/hairstep/)
+* [CUDA: Convolution-based Unlearnable Datasets](https://arxiv.org/abs/2303.04278)<br>:sunflower:[dataset](https://github.com/vinusankars/Convolution-based-Unlearnability)
 
 <a name="53"/>
 
@@ -102,6 +105,7 @@
 <a name="49"/>
 
 ## 49.Image Geo-localization(图像地理定位)
+* [Where We Are and What We're Looking At: Query Based Worldwide Image Geo-localization Using Hierarchies and Scenes](https://arxiv.org/abs/2303.04249)
 
 <a name="48"/>
 
