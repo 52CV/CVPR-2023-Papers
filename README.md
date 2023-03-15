@@ -43,6 +43,12 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
+## Generation
+* prompting
+  * [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138)<br>:star:[code](https://github.com/shikiw/DAM-VP)
+* 生成
+  * [LayoutDM: Discrete Diffusion Model for Controllable Layout Generation](https://arxiv.org/abs/2303.08137)<br>:house:[project](https://cyberagentailab.github.io/layout-dm/)
+  * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/)
 
 ## Scene flow estimation(场景流估计)
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
@@ -61,6 +67,7 @@
 
 ## 58.Neural rendering(神经渲染)
 * [NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer](https://arxiv.org/abs/2303.06919)<br>:house:[project](https://redrock303.github.io/nerflix/)
+* [FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization](https://arxiv.org/abs/2303.07418)<br>:house:[project](https://jiawei-yang.github.io/FreeNeRF/)
 
 <a name="57"/>
 
@@ -76,6 +83,7 @@
 <a name="55"/>
 
 ## 55.Novel View Synthesis(视图合成)
+* [Frequency-Modulated Point Cloud Rendering with Easy Editing](https://arxiv.org/abs/2303.07596)<br>:star:[code](https://github.com/yizhangphd/FreqPCR)
 
 <a name="54"/>
 
@@ -86,6 +94,7 @@
 * [HairStep: Transfer Synthetic to Real Using Strand and Depth Maps for Single-View 3D Hair Modeling](https://arxiv.org/abs/2303.02700)<br>:sunflower:[dataset](https://paulyzheng.github.io/research/hairstep/)
 * [CUDA: Convolution-based Unlearnable Datasets](https://arxiv.org/abs/2303.04278)<br>:sunflower:[dataset](https://github.com/vinusankars/Convolution-based-Unlearnability)
 * [MVImgNet: A Large-scale Dataset of Multi-view Images](https://arxiv.org/abs/2303.06042)<br>:sunflower:[dataset](https://gaplab.cuhk.edu.cn/projects/MVImgNet/)
+* [V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception](https://arxiv.org/abs/2303.07601)<br>:sunflower:[dataset](https://github.com/ucla-mobility/V2V4Real)<br>Vehicle-to-Vehicle(V2V)感知
 
 <a name="53"/>
 
@@ -272,6 +281,8 @@
 <a name="23"/>
 
 ## 23.Image Retrieval(图像检索)
+* 基于草图的图像检索
+  * [Data-Free Sketch-Based Image Retrieval](https://arxiv.org/abs/2303.07775)<br>:star:[code](https://github.com/abhrac/data-free-sbir)
 
 <a name="22"/>
 
@@ -314,6 +325,8 @@
 <a name="16"/>
 
 ## 16.Semi/self-supervised learning(半/自监督)
+* 无监督学习
+  * [Non-Contrastive Unsupervised Learning of Physiological Signals from Video](https://arxiv.org/abs/2303.07944)<br>:star:[code](https://github.com/CVRL/SiNC-rPPG)
 
 
 <a name="15"/>
@@ -334,6 +347,10 @@
   * [MOSO: Decomposing MOtion, Scene and Object for Video Prediction](https://arxiv.org/abs/2303.03684)<br>:star:[code](https://github.com/anonymous202203/MOSO)
 * 视频摘要
   * [Align and Attend: Multimodal Summarization with Dual Contrastive Losses](https://arxiv.org/abs/2303.07284)<br>:star:[code](https://boheumd.github.io/A2Summ/)
+* Video Deflickering(去闪烁)
+  * [Blind Video Deflickering by Neural Filtering with a Flawed Atlas](https://arxiv.org/abs/2303.08120)<br>:star:[code](http://github.com/ChenyangLEI/All-In-One-Deflicker)
+* 时间句子定位(TSG)
+  * [You Can Ground Earlier than See: An Effective and Efficient Pipeline for Temporal Sentence Grounding in Compressed Videos](https://arxiv.org/abs/2303.07863)
 
 <a name="13"/>
 
@@ -355,6 +372,8 @@
   * [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/pdf/2302.14434.pdf)
 * 人脸恢复
   * [DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration](https://arxiv.org/abs/2303.06885)
+* 裸眼年龄识别
+  * [DAA: A Delta Age AdaIN operation for age estimation via binary code transformer](https://arxiv.org/abs/2303.07929)
 
 <a name="10"/>
 
@@ -364,7 +383,10 @@
   * [MobileBrick: Building LEGO for 3D Reconstruction on Mobile Devices](https://arxiv.org/abs/2303.01932)<br>:house:[project](http://code.active.vision/MobileBrick/)
   * [MACARONS: Mapping And Coverage Anticipation with RGB Online Self-Supervision](https://arxiv.org/abs/2303.03315)<br>:house:[project](https://imagine.enpc.fr/~guedona/MACARONS/)
   * [NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction](https://arxiv.org/abs/2303.02375)
-  * [Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction](https://arxiv.org/abs/2303.05937)<br>:star:[code]
+  * [Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction](https://arxiv.org/abs/2303.05937)
+  * [NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-view Images](https://arxiv.org/abs/2303.07653)<br>:house:[project](https://yunfan1202.github.io/NEF/)
+* 室内场景重建
+  * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
 
 <a name="9"/>
 
@@ -393,6 +415,8 @@
 ## 7.Point Cloud(点云)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
 * [SCPNet: Semantic Scene Completion on Point Cloud](https://arxiv.org/abs/2303.06884)
+* 3D点云
+  * [Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134)<br>:star:[code](https://github.com/ZrrSkywalker/Point-NN)
 * 点云实例分割
   * [ISBNet: a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution](https://arxiv.org/pdf/2303.00246.pdf)
 * 点云分类
@@ -419,6 +443,7 @@
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
   * [Bi3D: Bi-domain Active Learning for Cross-domain 3D Object Detection](https://arxiv.org/abs/2303.05886)<br>:star:[code](https://github.com/PJLabADG/3DTrans)
   * [LoGoNet: Towards Accurate 3D Object Detection with Local-to-Global Cross-Modal Fusion](https://arxiv.org/abs/2303.03595)<br>:star:[code](https://github.com/sankin97/LoGoNet)
+  * [PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection](https://arxiv.org/abs/2303.08129)<br>:star:[code](https://github.com/BLVLab/PiMAE)
   * [Uni3D: A Unified Baseline for Multi-dataset 3D Object Detection](https://arxiv.org/abs/2303.06880)<br>:star:[code](https://github.com/PJLab-ADG/3DTrans)
 * 小样本目标检测
   * [NIFF: Alleviating Forgetting in Generalized Few-Shot Object Detection via Neural Instance Feature Forging](https://arxiv.org/abs/2303.04958)
@@ -440,11 +465,15 @@
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
 
+
+
 <a name="2"/>
 
 ## 2.Image Segmentation(图像分割)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
 * [MP-Former: Mask-Piloted Transformer for Image Segmentation](https://arxiv.org/abs/2303.07336)<br>:star:[code](https://github.com/IDEA-Research/MP-Former)
+* 实例分割
+  * [DynaMask: Dynamic Mask Selection for Instance Segmentation](https://arxiv.org/abs/2303.07868)<br>:star:[code](https://github.com/lslrh/DynaMask)
 * 语义分割
   * [Delivering Arbitrary-Modal Semantic Segmentation](https://arxiv.org/abs/2303.01480)<br>:star:[code](https://jamycheung.github.io/DELIVER.html)
   * [Foundation Model Drives Weakly Incremental Learning for Semantic Segmentation](https://arxiv.org/pdf/2302.14250.pdf)
@@ -457,6 +486,9 @@
   * [Interactive Segmentation as Gaussian Process Classification](https://arxiv.org/pdf/2302.14578.pdf)<br>:star:[code](https://github.com/zmhhmz/GPCIS_CVPR2023)
 * VSS
   * [Efficient Semantic Segmentation by Altering Resolutions for Compressed Videos](https://arxiv.org/abs/2303.07224)<br>:star:[code](https://github.com/THU-LYJ-Lab/AR-Seg)
+* VOS
+  * [InstMove: Instance Motion for Object-centric Video Segmentation](https://arxiv.org/abs/2303.08132)<br>:star:[code](https://github.com/wjf5203/VNext)
+  * [MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation](https://arxiv.org/abs/2303.07815)
 
 <a name="1"/>
 
