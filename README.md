@@ -1,5 +1,5 @@
 # CVPR-2023-Papers
-![5533b620402406dba74eb9a452e32d4](https://user-images.githubusercontent.com/62801906/150053890-e667997b-62c8-40a8-b561-ccc99ecd89f6.png)
+![1ad4f8f92d9208b0f4b579e426b2dcd](https://user-images.githubusercontent.com/62801906/225788627-781870be-cc92-4054-b865-e2556b88cefc.jpg)
 
 官网链接：
 
@@ -140,6 +140,7 @@
 * DA
   * [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770)<br>:star:[code](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Test-Time-Adaptation)
   * [Upcycling Models under Domain and Category Shift](https://arxiv.org/abs/2303.07110)<br>:star:[code](https://github.com/ispc-lab/GLC)
+  * [A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation](https://arxiv.org/abs/2303.09165)<br>:star:[code](https://github.com/huitangtang/On_the_Utility_of_Synthetic_Data)
 * ZSL
   * [Bi-directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)<br>:star:[code](https://github.com/Zhicaiwww/Bi-VAEGAN)
 
@@ -185,7 +186,7 @@
 <a name="39"/>
 
 ## 39.Continual Learning(持续学习)
-
+* [Achieving a Better Stability-Plasticity Trade-off via Auxiliary Networks in Continual Learning](https://arxiv.org/abs/2303.09483)<br>:star:[code](https://github.com/kim-sanghwan/ANCL)
 
 <a name="38"/>
 
@@ -275,6 +276,7 @@
 ## 25.Fine-Grained/Image Classification(细粒度/图像分类)
 * 小样本分类
   * [Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners](https://arxiv.org/abs/2303.02151)<br>:star:[code](https://github.com/ZrrSkywalker/CaFo)
+  * [Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings](https://arxiv.org/abs/2303.09352)<br>:star:[code](https://github.com/uitml/noHub)
 * 细粒度
   * [Learning Common Rationale to Improve Self-Supervised Representation for Fine-Grained Visual Recognition Problems](https://arxiv.org/abs/2303.01669)<br>:star:[code](https://github.com/GANPerf/LCR)
   * [Fine-Grained Classification with Noisy Labels](https://arxiv.org/abs/2303.02404)
@@ -397,6 +399,7 @@
 <a name="10"/>
 
 ## 10.3D(三维重建\视觉)
+* [PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision](https://arxiv.org/abs/2303.09554)<br>:house:[project](https://ktertikas.github.io/part_nerf)
 * 三维重建
   * [Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly](https://arxiv.org/abs/2303.01999)
   * [MobileBrick: Building LEGO for 3D Reconstruction on Mobile Devices](https://arxiv.org/abs/2303.01932)<br>:house:[project](http://code.active.vision/MobileBrick/)
@@ -411,6 +414,8 @@
 
 ## 9.Human Pose Estimation(人体姿态估计)
 * 手势
+  * 音频驱动的联合语音手势生成
+    * [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2303.09119)<br>:star:[code](https://github.com/Advocate99/DiffGesture)
   * 3D手势合成
     * [Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement](https://arxiv.org/abs/2303.01765)
   * 手部重建
@@ -420,6 +425,10 @@
     * [DistilPose: Tokenized Pose Regression with Heatmap Distillation](https://arxiv.org/abs/2303.02455)
     * [PoseExaminer: Automated Testing of Out-of-Distribution Robustness in Human Pose and Shape Estimation](https://arxiv.org/abs/2303.07337)<br>:star:[code](https://github.com/qihao067/PoseExaminer)
     * [Mutual Information-Based Temporal Difference Learning for Human Pose Estimation in Video](https://arxiv.org/abs/2303.08475)
+  * 3D HPE
+    * [PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers](https://arxiv.org/abs/2303.09187)
+  * 4D HPE
+    * [SLOPER4D: A Scene-Aware Dataset for Global 4D Human Pose Estimation in Urban Environments](https://arxiv.org/abs/2303.09095)<br>:star:[code](http://www.lidarhumanmotion.net/sloper4d/) 
  * 多人姿态预测
    * [Trajectory-Aware Body Interaction Transformer for Multi-Person Pose Forecasting](https://arxiv.org/abs/2303.05095)<br>:star:[code](https://github.com/xiaogangpeng/TBIFormer)
     
@@ -472,6 +481,7 @@
   * [Uni3D: A Unified Baseline for Multi-dataset 3D Object Detection](https://arxiv.org/abs/2303.06880)<br>:star:[code](https://github.com/PJLab-ADG/3DTrans)
 * 半监督目标检测
   * [Active Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.08348)<br>:star:[code](https://github.com/HunterJ-Lin/ActiveTeacher)
+  * [MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.09061)<br>:star:[code](https://github.com/lliuz/MixTeacher)
 * 小样本目标检测
   * [NIFF: Alleviating Forgetting in Generalized Few-Shot Object Detection via Neural Instance Feature Forging](https://arxiv.org/abs/2303.04958)
 
