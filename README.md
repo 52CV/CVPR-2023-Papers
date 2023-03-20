@@ -50,6 +50,10 @@
   * [LayoutDM: Discrete Diffusion Model for Controllable Layout Generation](https://arxiv.org/abs/2303.08137)<br>:house:[project](https://cyberagentailab.github.io/layout-dm/)
   * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/)
 
+## 聚类
+* MVC
+  * [On the Effects of Self-supervision and Contrastive Alignment in Deep Multi-view Clustering](https://arxiv.org/abs/2303.09877)<br>:star:[code](https://github.com/DanielTrosten/DeepMVC)
+ 
 ## Scene flow estimation(场景流估计)
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
 
@@ -141,6 +145,7 @@
   * [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770)<br>:star:[code](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Test-Time-Adaptation)
   * [Upcycling Models under Domain and Category Shift](https://arxiv.org/abs/2303.07110)<br>:star:[code](https://github.com/ispc-lab/GLC)
   * [A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation](https://arxiv.org/abs/2303.09165)<br>:star:[code](https://github.com/huitangtang/On_the_Utility_of_Synthetic_Data)
+  * [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://arxiv.org/abs/2303.09870)<br>:star:[code](https://github.com/devavratTomar/TeSLA)
 * ZSL
   * [Bi-directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)<br>:star:[code](https://github.com/Zhicaiwww/Bi-VAEGAN)
 
@@ -353,6 +358,7 @@
 * [Generic-to-Specific Distillation of Masked Autoencoders](https://arxiv.org/pdf/2302.14771.pdf)<br>:star:[code](https://github.com/pengzhiliang/G2SD)
 * [BiFormer: Vision Transformer with Bi-Level Routing Attention](https://arxiv.org/abs/2303.08810)<br>:star:[code](https://github.com/rayleizhu/BiFormer)
 * [Making Vision Transformers Efficient from A Token Sparsification View](https://arxiv.org/abs/2303.08685)
+* [Dual-path Adaptation from Image to Video Transformers](https://arxiv.org/abs/2303.09857)<br>:star:[code](https://github.com/park-jungin/DualPath)
 
 <a name="14"/>
 
@@ -365,6 +371,7 @@
   * [Decomposed Diffusion Models for High-Quality Video Generation](https://arxiv.org/abs/2303.08320)
 * 视频预测
   * [MOSO: Decomposing MOtion, Scene and Object for Video Prediction](https://arxiv.org/abs/2303.03684)<br>:star:[code](https://github.com/anonymous202203/MOSO)
+  * [A Dynamic Multi-Scale Voxel Flow Network for Video Prediction](https://arxiv.org/abs/2303.09875)<br>:star:[code](https://huxiaotaostasy.github.io/DMVFN/)
 * 视频摘要
   * [Align and Attend: Multimodal Summarization with Dual Contrastive Losses](https://arxiv.org/abs/2303.07284)<br>:star:[code](https://boheumd.github.io/A2Summ/)
 * Video Deflickering(去闪烁)
@@ -454,6 +461,8 @@
 * 点云补全
   * [ProxyFormer: Proxy Alignment Assisted Point Cloud Completion with Missing Part Sensitive Transformer](https://arxiv.org/pdf/2302.14435.pdf)<br>:star:[code](https://github.com/I2-Multimedia-Lab/ProxyFormer)
   * [ACL-SPC: Adaptive Closed-Loop system for Self-Supervised Point Cloud Completion](https://arxiv.org/abs/2303.01979)<br>:star:[code](https://github.com/Sangminhong/ACL-SPC_PyTorch)
+* 点云配准
+  * [Deep Graph-based Spatial Consistency for Robust Non-rigid Point Cloud Registration](https://arxiv.org/abs/2303.09950)<br>:star:[code](https://github.com/qinzheng93/GraphSCNet)
 
 <a name="6"/>
 
@@ -468,6 +477,8 @@
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
 * [Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)<br>:star:[code](https://github.com/LutingWang/OADP)
+* 目标定位
+  * [LOCATE: Localize and Transfer Object Parts for Weakly Supervised Affordance Grounding](https://arxiv.org/abs/2303.09665)<br>:house:[project](https://reagan1311.github.io/locate/)
 * Open-World检测
   * [CapDet: Unifying Dense Captioning and Open-World Detection Pretraining](https://arxiv.org/abs/2303.02489)
 * 3D OD
@@ -484,6 +495,7 @@
   * [MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.09061)<br>:star:[code](https://github.com/lliuz/MixTeacher)
 * 小样本目标检测
   * [NIFF: Alleviating Forgetting in Generalized Few-Shot Object Detection via Neural Instance Feature Forging](https://arxiv.org/abs/2303.04958)
+  * [DiGeo: Discriminative Geometry-Aware Learning for Generalized Few-Shot Object Detection](https://arxiv.org/abs/2303.09674)<br>:star:[code](https://github.com/Phoenix-V/DiGeo)
 
 
 <a name="4"/>
@@ -501,7 +513,8 @@
   * [Efficient and Explicit Modelling of Image Hierarchies for Image Restoration](https://arxiv.org/pdf/2303.00748.pdf)<br>:star:[code](https://github.com/ofsoundof/GRL-Image-Restoration.git)
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
-
+* 去雾
+  * [Video Dehazing via a Multi-Range Temporal Alignment Network with Physical Prior](https://arxiv.org/abs/2303.09757)<br>:star:[code](https://github.com/jiaqixuac/MAP-Net)
 
 
 <a name="2"/>
@@ -530,6 +543,7 @@
 * VOS
   * [InstMove: Instance Motion for Object-centric Video Segmentation](https://arxiv.org/abs/2303.08132)<br>:star:[code](https://github.com/wjf5203/VNext)
   * [MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation](https://arxiv.org/abs/2303.07815)
+  * [Unified Mask Embedding and Correspondence Learning for Self-Supervised Video Segmentation](https://arxiv.org/abs/2303.10100)<br>:star:[code](https://github.com/0liliulei/Mask-VOS)
 
 <a name="1"/>
 
@@ -553,6 +567,7 @@
 * [Masked Image Modeling with Local Multi-Scale Reconstruction](https://arxiv.org/abs/2303.05251)<br>:star:[code](https://gitee.com/mindspore/hub/blob/fa2a3270aa36673f835e524fa55c5a4c67262eb2/mshub_res/assets/noah-cvlab/gpu/1.8/localmim_v1.0_imagenet2012.md)
 * [Revisiting Rotation Averaging: Uncertainties and Robust Losses](https://arxiv.org/abs/2303.05195)<br>:star:[code](https://github.com/zhangganlin/GlobalSfMpy)
 * [Unifying Layout Generation with a Decoupled Diffusion Model](https://arxiv.org/abs/2303.05049)
+* [Adversarial Counterfactual Visual Explanations](https://arxiv.org/abs/2303.09962)<br>:star:[code](https://github.com/guillaumejs2403/ACE)
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
