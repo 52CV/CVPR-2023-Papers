@@ -43,12 +43,41 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
+### 3月23日更新25篇
+* [CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning](http://arxiv.org/abs/2303.12793v1)<br>:star:[code](https://github.com/FangyunWei/SLRT)
+* [Dense Distinct Query for End-to-End Object Detection](http://arxiv.org/abs/2303.12776v1)<br>:star:[code](https://github.com/jshilong/DDQ)
+* [Spherical Transformer for LiDAR-based 3D Recognition](http://arxiv.org/abs/2303.12766v1)<br>:star:[code](https://github.com/dvlab-research/SphereFormer.git)
+* [MaskCon: Masked Contrastive Learning for Coarse-Labelled Dataset](http://arxiv.org/abs/2303.12756v1)<br>:star:[code](https://github.com/MrChenFeng/MaskCon_CVPR2023)
+* [Open Set Action Recognition via Multi-Label Evidential Learning](http://arxiv.org/abs/2303.12698v1)
+* [Dense Network Expansion for Class Incremental Learning](http://arxiv.org/abs/2303.12696v1)
+* [VecFontSDF: Learning to Reconstruct and Synthesize High-quality Vector Fonts via Signed Distance Functions](http://arxiv.org/abs/2303.12675v1)
+* [Correlational Image Modeling for Self-Supervised Visual Pre-Training](http://arxiv.org/abs/2303.12670v1)
+* [OcTr: Octree-based Transformer for 3D Object Detection](http://arxiv.org/abs/2303.12621v1)
+* [RaBit: Parametric Modeling of 3D Biped Cartoon Characters with a Topological-consistent Dataset](http://arxiv.org/abs/2303.12564v1)<br>:house:[project](https://gaplab.cuhk.edu.cn/projects/RaBit/)
+* [Is BERT Blind? Exploring the Effect of Vision-and-Language Pretraining on Visual Language Understanding](http://arxiv.org/abs/2303.12513v1)<br>:star:[code](https://isbertblind.github.io/)
+* [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
+* [Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](http://arxiv.org/abs/2303.12501v1)<br>:star:[code](https://github.com/anosorae/IRRA)
+* [Text with Knowledge Graph Augmented Transformer for Video Captioning](http://arxiv.org/abs/2303.12423v1)
+* [BiCro: Noisy Correspondence Rectification for Multi-modality Data via Bi-directional Cross-modal Similarity Consistency](http://arxiv.org/abs/2303.12419v1)
+* [Balanced Spherical Grid for Egocentric View Synthesis](http://arxiv.org/abs/2303.12408v1)
+* [Rigidity-Aware Detection for 6D Object Pose Estimation](http://arxiv.org/abs/2303.12396v1)
+* [Weakly Supervised Video Representation Learning with Unaligned Text for Sequential Videos](http://arxiv.org/abs/2303.12370v1)<br>:star:[code](https://github.com/svip-lab/WeakSVR)
+* [Re-thinking Federated Active Learning based on Inter-class Diversity](http://arxiv.org/abs/2303.12317v1)
+* [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
+* [Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation](http://arxiv.org/abs/2303.12246v1)
+* [MAGVLT: Masked Generative Vision-and-Language Transformer](http://arxiv.org/abs/2303.12208v1)
+* [Learning a Depth Covariance Function](http://arxiv.org/abs/2303.12157v1)<br>:star:[code](https://edexheim.github.io/depth_cov/)
+* [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation](http://arxiv.org/abs/2303.12112v1)<br>:star:[code](https://github.com/aimagelab/pacscore)
+
+
 ## Generation
 * prompting
   * [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138)<br>:star:[code](https://github.com/shikiw/DAM-VP)
 * 生成
   * [LayoutDM: Discrete Diffusion Model for Controllable Layout Generation](https://arxiv.org/abs/2303.08137)<br>:house:[project](https://cyberagentailab.github.io/layout-dm/)
   * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/)
+## Active Learning
+* [Re-thinking Federated Active Learning based on Inter-class Diversity](http://arxiv.org/abs/2303.12317v1)
 
 ## 聚类
 * MVC
@@ -100,6 +129,7 @@
 
 ## 55.Novel View Synthesis(视图合成)
 * [Frequency-Modulated Point Cloud Rendering with Easy Editing](https://arxiv.org/abs/2303.07596)<br>:star:[code](https://github.com/yizhangphd/FreqPCR)
+* [Balanced Spherical Grid for Egocentric View Synthesis](http://arxiv.org/abs/2303.12408v1)
 
 <a name="54"/>
 
@@ -112,6 +142,8 @@
 * [MVImgNet: A Large-scale Dataset of Multi-view Images](https://arxiv.org/abs/2303.06042)<br>:sunflower:[dataset](https://gaplab.cuhk.edu.cn/projects/MVImgNet/)
 * [V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception](https://arxiv.org/abs/2303.07601)<br>:sunflower:[dataset](https://github.com/ucla-mobility/V2V4Real)<br>Vehicle-to-Vehicle(V2V)感知
 * [Polynomial Implicit Neural Representations For Large Diverse Datasets](https://arxiv.org/abs/2303.11424)<br>:sunflower:[dataset](https://github.com/Rajhans0/Poly_INR)
+* [MaskCon: Masked Contrastive Learning for Coarse-Labelled Dataset](http://arxiv.org/abs/2303.12756v1)<br>:sunflower:[dataset](https://github.com/MrChenFeng/MaskCon_CVPR2023)
+* [RaBit: Parametric Modeling of 3D Biped Cartoon Characters with a Topological-consistent Dataset](http://arxiv.org/abs/2303.12564v1)<br>:sunflower:[dataset](https://gaplab.cuhk.edu.cn/projects/RaBit/)
 
 <a name="53"/>
 
@@ -119,6 +151,8 @@
 * 手语识别
   * [Continuous Sign Language Recognition with Correlation Network](https://arxiv.org/abs/2303.03202)<br>:star:[code](https://github.com/hulianyuyy/CorrNet)
   * [Natural Language-Assisted Sign Language Recognition](https://arxiv.org/abs/2303.12080)<br>:star:[code](https://github.com/FangyunWei/SLRT)
+* 手语检索
+  * [CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning](http://arxiv.org/abs/2303.12793v1)<br>:star:[code](https://github.com/FangyunWei/SLRT)
 
 <a name="52"/>
 
@@ -193,7 +227,8 @@
 <a name="41"/>
 
 ## 41.Incremental Learning(增量学习)
-
+* 类增量学习
+  * [Dense Network Expansion for Class Incremental Learning](http://arxiv.org/abs/2303.12696v1)
 
 <a name="40"/>
 
@@ -260,6 +295,8 @@
 * [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://arxiv.org/abs/2303.02483)<br>:star:[code](https://github.com/BrandonHanx/FAME-ViL)
 * [DeAR: Debiasing Vision-Language Models with Additive Residuals](https://arxiv.org/abs/2303.10431)
 * [Understanding and Constructing Latent Modality Structures in Multi-modal Representation Learning](https://arxiv.org/abs/2303.05952)
+* [Is BERT Blind? Exploring the Effect of Vision-and-Language Pretraining on Visual Language Understanding](http://arxiv.org/abs/2303.12513v1)<br>:star:[code](https://isbertblind.github.io/)
+* [MAGVLT: Masked Generative Vision-and-Language Transformer](http://arxiv.org/abs/2303.12208v1)
 * VLN
   * [Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding](https://arxiv.org/abs/2303.04077)<br>:house:[project](https://rllab-snu.github.io/projects/Meta-Explore/doc.html)
   * [Lana: A Language-Capable Navigator for Instruction Following and Generation](https://arxiv.org/abs/2303.08409)<br>:star:[code](https://github.com/wxh1996/LANA-VLN)
@@ -297,7 +334,17 @@
   * [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
 * 物体重识别
   * [MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065)<br>:star:[code](https://github.com/vimar-gu/MSINet)
- 
+* 物体姿势估计
+  * [Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation](http://arxiv.org/abs/2303.12246v1)
+* 6D
+  * [Rigidity-Aware Detection for 6D Object Pose Estimation](http://arxiv.org/abs/2303.12396v1)
+
+
+
+
+  
+
+
 <a name="26"/>
 
 ## 26.GCN/GNN
@@ -313,6 +360,10 @@
 * 细粒度
   * [Learning Common Rationale to Improve Self-Supervised Representation for Fine-Grained Visual Recognition Problems](https://arxiv.org/abs/2303.01669)<br>:star:[code](https://github.com/GANPerf/LCR)
   * [Fine-Grained Classification with Noisy Labels](https://arxiv.org/abs/2303.02404)
+* 长尾分类
+  * [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
+
+
 
 <a name="24"/>
 
@@ -360,7 +411,8 @@
 <a name="18"/>
 
 ## 18.Person Re-Identification(人员重识别)
-
+* 人员检索
+  * [Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](http://arxiv.org/abs/2303.12501v1)<br>:star:[code](https://github.com/anosorae/IRRA)
 
 <a name="17"/>
 
@@ -383,6 +435,7 @@
   * [Non-Contrastive Unsupervised Learning of Physiological Signals from Video](https://arxiv.org/abs/2303.07944)<br>:star:[code](https://github.com/CVRL/SiNC-rPPG)
 * 自监督
   * [Coreset Sampling from Open-Set for Fine-Grained Self-Supervised Learning](https://arxiv.org/abs/2303.11101)
+  * [Correlational Image Modeling for Self-Supervised Visual Pre-Training](http://arxiv.org/abs/2303.12670v1)
 * 半监督
   * [Boosting Semi-Supervised Learning by Exploiting All Unlabeled Data](https://arxiv.org/abs/2303.11066)<br>:star:[code](https://github.com/megvii-research/FullMatch)
 
@@ -395,10 +448,12 @@
 * [BiFormer: Vision Transformer with Bi-Level Routing Attention](https://arxiv.org/abs/2303.08810)<br>:star:[code](https://github.com/rayleizhu/BiFormer)
 * [Making Vision Transformers Efficient from A Token Sparsification View](https://arxiv.org/abs/2303.08685)
 * [Dual-path Adaptation from Image to Video Transformers](https://arxiv.org/abs/2303.09857)<br>:star:[code](https://github.com/park-jungin/DualPath)
+* [Spherical Transformer for LiDAR-based 3D Recognition](http://arxiv.org/abs/2303.12766v1)<br>:star:[code](https://github.com/dvlab-research/SphereFormer.git)
 
 <a name="14"/>
 
 ## 14.Video
+* [Weakly Supervised Video Representation Learning with Unaligned Text for Sequential Videos](http://arxiv.org/abs/2303.12370v1)<br>:star:[code](https://github.com/svip-lab/WeakSVR)
 * 视频时刻检索
   * [Towards Generalisable Video Moment Retrieval:Visual-Dynamic Injection to Image-Text Pre-Training](https://arxiv.org/pdf/2303.00040.pdf)
 * 视频帧插值
@@ -430,10 +485,12 @@
 ## 12.Image-to-Image Translation(图像到图像翻译)
 * [DSI2I: Dense Style for Unpaired Image-to-Image Translation](https://arxiv.org/abs/2212.13253)
 * [Fix the Noise: Disentangling Source Feature for Controllable Domain Translation](https://arxiv.org/abs/2303.11545)<br>:star:[code](https://github.com/LeeDongYeun/FixNoise)
-
+  
+    
 <a name="11"/>
 
 ## 11.Face(人脸)
+* [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
 * 3D 人脸
   * [Graphics Capsule: Learning Hierarchical 3D Face Representations from 2D Images](https://arxiv.org/abs/2303.10896)
   * [Learning a 3D Morphable Face Reflectance Model from Low-cost Data](https://arxiv.org/abs/2303.11686)<br>:house:[project](https://yxuhan.github.io/ReflectanceMM/index.html)
@@ -493,8 +550,7 @@
     * [3D Human Mesh Estimation from Virtual Markers](https://arxiv.org/abs/2303.11726)<br>:star:[code](https://github.com/ShirleyMaxx/VirtualMarker) 
  * 多人姿态预测
    * [Trajectory-Aware Body Interaction Transformer for Multi-Person Pose Forecasting](https://arxiv.org/abs/2303.05095)<br>:star:[code](https://github.com/xiaogangpeng/TBIFormer)
-    
-    
+
 <a name="8"/>
 
 ## 8.Action Detection(人体动作检测与识别)
@@ -503,7 +559,9 @@
   * [Actionlet-Dependent Contrastive Learning for Unsupervised Skeleton-Based Action Recognition](https://arxiv.org/abs/2303.10904)<br>:house:[project](https://langlandslin.github.io/projects/ActCLR/)
 * 时序动作识别
   * [TriDet: Temporal Action Detection with Relative Boundary Modeling](https://arxiv.org/abs/2303.07347)<br>:star:[code](https://github.com/sssste/TriDet)
-
+* 开集动作识别
+  * [Open Set Action Recognition via Multi-Label Evidential Learning](http://arxiv.org/abs/2303.12698v1) 
+ 
 <a name="7"/>
 
 ## 7.Point Cloud(点云)
@@ -551,6 +609,7 @@
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
   * [Weakly Supervised Monocular 3D Object Detection using Multi-View Projection and Direction Consistency](https://arxiv.org/abs/2303.08686)<br>:star:[code](https://github.com/weakmono3d/weakmono3d)
   * [Benchmarking Robustness of 3D Object Detection to Common Corruptions in Autonomous Driving](https://arxiv.org/abs/2303.11040)<br>:star:[code](https://github.com/kkkcx/3D_Corruptions_AD)
+  * [OcTr: Octree-based Transformer for 3D Object Detection](http://arxiv.org/abs/2303.12621v1)
   * [MSF: Motion-guided Sequential Fusion for Efficient 3D Object Detection from Point Cloud Sequences](https://arxiv.org/abs/2303.08316)<br>:star:[code](https://github.com/skyhehe123/MSF)
   * [VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking](https://arxiv.org/abs/2303.11301)<br>:star:[code](https://github.com/dvlab-research/VoxelNeXt)
   * [Bi3D: Bi-domain Active Learning for Cross-domain 3D Object Detection](https://arxiv.org/abs/2303.05886)<br>:star:[code](https://github.com/PJLabADG/3DTrans)
@@ -558,6 +617,8 @@
   * [PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection](https://arxiv.org/abs/2303.08129)<br>:star:[code](https://github.com/BLVLab/PiMAE)
   * [CAPE: Camera View Position Embedding for Multi-View 3D Object Detection](https://arxiv.org/abs/2303.10209)<br>:star:[code](https://github.com/kaixinbear/CAPE)
   * [Uni3D: A Unified Baseline for Multi-dataset 3D Object Detection](https://arxiv.org/abs/2303.06880)<br>:star:[code](https://github.com/PJLab-ADG/3DTrans)
+* 端到端目标检测
+  * [Dense Distinct Query for End-to-End Object Detection](http://arxiv.org/abs/2303.12776v1)<br>:star:[code](https://github.com/jshilong/DDQ)
 * 半监督目标检测
   * [Active Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.08348)<br>:star:[code](https://github.com/HunterJ-Lin/ActiveTeacher)
   * [MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.09061)<br>:star:[code](https://github.com/lliuz/MixTeacher)
@@ -572,6 +633,8 @@
 ## 4.Image Captioning(图像字幕)
 * 视频字幕
   * [Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/pdf/2302.14115.pdf)<br>:house:[project](https://antoyang.github.io/vid2seq.html)
+  * [Text with Knowledge Graph Augmented Transformer for Video Captioning](http://arxiv.org/abs/2303.12423v1)
+  * [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation](http://arxiv.org/abs/2303.12112v1)<br>:star:[code](https://github.com/aimagelab/pacscore)
 
 <a name="3"/>
 
@@ -655,6 +718,9 @@
 * [PRISE: Demystifying Deep Lucas-Kanade with Strongly Star-Convex Constraints for Multimodel Image Alignment](https://arxiv.org/abs/2303.11526)<br>:star:[code](https://github.com/Zhang-VISLab)
 * [Boundary Unlearning](https://arxiv.org/abs/2303.11570)<br>:house:[project](https://www.dropbox.com/s/bwu543qsdy4s32i/Boundary-Unlearning-Code.zip?dl=0)
 * [ProphNet: Efficient Agent-Centric Motion Forecasting with Anchor-Informed Proposals](https://arxiv.org/abs/2303.12071)
+* [VecFontSDF: Learning to Reconstruct and Synthesize High-quality Vector Fonts via Signed Distance Functions](http://arxiv.org/abs/2303.12675v1)
+* [BiCro: Noisy Correspondence Rectification for Multi-modality Data via Bi-directional Cross-modal Similarity Consistency](http://arxiv.org/abs/2303.12419v1)
+* [Learning a Depth Covariance Function](http://arxiv.org/abs/2303.12157v1)<br>:star:[code](https://edexheim.github.io/depth_cov/)
 
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
