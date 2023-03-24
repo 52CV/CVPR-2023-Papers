@@ -363,12 +363,6 @@
 * 6D
   * [Rigidity-Aware Detection for 6D Object Pose Estimation](http://arxiv.org/abs/2303.12396v1)
 
-
-
-
-  
-
-
 <a name="26"/>
 
 ## 26.GCN/GNN
@@ -559,6 +553,7 @@
 * 深度估计
   * [Fully Self-Supervised Depth Estimation from Defocus Clue](https://arxiv.org/abs/2303.10752)<br>:star:[code](https://github.com/Ehzoahis/DEReD)
   * [HRDFuse: Monocular 360°Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions](https://arxiv.org/abs/2303.11616)<br>:house:[project](https://haoai-1997.github.io/HRDFuse/)
+  * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
 * 室内场景重建
   * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
 
@@ -638,7 +633,7 @@
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
 * [Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)<br>:star:[code](https://github.com/LutingWang/OADP)
-* [Detecting Everything in the Open World: Towards Universal Object Detection](https://arxiv.org/abs/2303.11749)<br>:star:[code](https://github.com/zhenyuw16/UniDetector)
+* [Detecting Everything in the Open World: Towards Universal Object Detection](https://arxiv.org/abs/2303.11749)<br>:star:[code](https://github.com/zhenyuw16/UniDetector)<br>:thumbsup:[CVPR 2023 | 标注500类，检测7000类！清华大学等提出通用目标检测算法UniDetector](https://zhuanlan.zhihu.com/p/616328874)
 * [STDLens: Model Hijacking-resilient Federated Learning for Object Detection](https://arxiv.org/abs/2303.11511)<br>:star:[code](https://github.com/git-disl/STDLens)
 * [CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching](http://arxiv.org/abs/2303.13076v1)
 * 目标定位
