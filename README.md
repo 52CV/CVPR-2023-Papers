@@ -43,7 +43,7 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 3月24日更新35篇
+### 3月27日更新42篇
 * [MV-JAR: Masked Voxel Jigsaw and Reconstruction for LiDAR-Based Self-Supervised Pre-Training](http://arxiv.org/abs/2303.13510v1)<br>:star:[code](https://github.com/SmartBot-PJLab/MV-JAR)
 * [NS3D: Neuro-Symbolic Grounding of 3D Objects and Relations](http://arxiv.org/abs/2303.13483v1)
 * [Egocentric Audio-Visual Object Localization](http://arxiv.org/abs/2303.13471v1)
@@ -78,7 +78,6 @@
 * [LightPainter: Interactive Portrait Relighting with Freehand Scribble](http://arxiv.org/abs/2303.12950v1)
 * [Dense-Localizing Audio-Visual Events in Untrimmed Videos: A Large-Scale Benchmark and Baseline](http://arxiv.org/abs/2303.12930v1)
 * [Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models](http://arxiv.org/abs/2303.13031v1)<br>:star:[code](https://github.com/AndreGuo/HDRTVDM)
-* [Persistent Nature: A Generative Model of Unbounded 3D Worlds](https://arxiv.org/abs/2303.13515)<br>:house:[project](https://chail.github.io/persistent-nature/)
 
 
 
