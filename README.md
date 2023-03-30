@@ -641,7 +641,7 @@
 
 ## 11.Face(人脸)
 * [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
-* [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)
+* [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
 * 3D 人脸
   * [Graphics Capsule: Learning Hierarchical 3D Face Representations from 2D Images](https://arxiv.org/abs/2303.10896)
   * [Learning a 3D Morphable Face Reflectance Model from Low-cost Data](https://arxiv.org/abs/2303.11686)<br>:house:[project](https://yxuhan.github.io/ReflectanceMM/index.html)
