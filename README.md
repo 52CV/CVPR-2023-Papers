@@ -43,7 +43,7 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 3月30日更新篇
+### 3月30日更新 24 篇
 * [AutoAD: Movie Description in Context](http://arxiv.org/abs/2303.16899v1)<br>:house:[project](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
 * [Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos](http://arxiv.org/abs/2303.16897v1)<br>:star:[code](https://sukun1045.github.io/video-physics-sound-diffusion/)
 * [Mask-free OVIS: Open-Vocabulary Instance Segmentation without Manual Mask Annotations](http://arxiv.org/abs/2303.16891v1)<br>:star:[code](https://vibashan.github.io/ovis-web/)
@@ -67,7 +67,7 @@
 * [Language-Guided Audio-Visual Source Separation via Trimodal Consistency](http://arxiv.org/abs/2303.16342v1)
 * [TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition](http://arxiv.org/abs/2303.16268v1)<br>:star:[code](https://github.com/DAVEISHAN/TimeBalance)
 * [Fair Federated Medical Image Segmentation via Client Contribution Estimation](http://arxiv.org/abs/2303.16520v1)
-
+* [Spatiotemporal Self-supervised Learning for Point Clouds in the Wild](https://arxiv.org/pdf/2303.16235.pdf)<br>:star:[code](https://github.com/YanhaoWu/STSSL)
 
 ## Generation
 * prompting
@@ -776,6 +776,7 @@
 * [VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud](http://arxiv.org/abs/2303.14408v1)<br>:star:[code](https://github.com/wz7in/CVPR2023-VLSAT)
 * [Unsupervised Inference of Signed Distance Functions from Single Sparse Point Clouds without Learning Priors](http://arxiv.org/abs/2303.14505v1)<br>:star:[code](https://github.com/chenchao15/NeuralTPS)
 * [Binarizing Sparse Convolutional Networks for Efficient Point Cloud Analysis](http://arxiv.org/abs/2303.15493v1)
+* [Spatiotemporal Self-supervised Learning for Point Clouds in the Wild](https://arxiv.org/pdf/2303.16235.pdf)<br>:star:[code](https://github.com/YanhaoWu/STSSL)
 * [NerVE: Neural Volumetric Edges for Parametric Curve Extraction from Point Cloud](http://arxiv.org/abs/2303.16465v1)<br>:star:[code](https://dongdu3.github.io/projects/2023/NerVE/)
 * 3D点云
   * [Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134)<br>:star:[code](https://github.com/ZrrSkywalker/Point-NN)
