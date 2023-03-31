@@ -613,7 +613,6 @@
 * [Weakly Supervised Video Representation Learning with Unaligned Text for Sequential Videos](http://arxiv.org/abs/2303.12370v1)<br>:star:[code](https://github.com/svip-lab/WeakSVR)
 * [VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](http://arxiv.org/abs/2303.16727v1)
 * [Implicit View-Time Interpolation of Stereo Videos using Multi-Plane Disparities and Non-Uniform Coordinates](http://arxiv.org/abs/2303.17181v1)<br>:house:[project](https://people.engr.tamu.edu/nimak/Papers/CVPR23StereoVideo/index.html)<br>:house:[project](https://www.youtube.com/watch?v=XJa_bf8OCrc)
-* [Streaming Video Model](http://arxiv.org/abs/2303.17228v1)<br>:star:[code](https://github.com/yuzhms/Streaming-Video-Model)
 * 视频时刻检索
   * [Towards Generalisable Video Moment Retrieval:Visual-Dynamic Injection to Image-Text Pre-Training](https://arxiv.org/pdf/2303.00040.pdf)
   * [Query-Dependent Video Representation for Moment Retrieval and Highlight Detection](http://arxiv.org/abs/2303.13874v1)<br>:star:[code](https://github.com/wjun0830/QD-DETR)
@@ -631,6 +630,7 @@
 * 视频理解
   * [Selective Structured State-Spaces for Long-Form Video Understanding](http://arxiv.org/abs/2303.14526v1)
   * [System-status-aware Adaptive Network for Online Streaming Video Understanding](http://arxiv.org/abs/2303.15742v1)
+  * [Streaming Video Model](http://arxiv.org/abs/2303.17228v1)<br>:star:[code](https://github.com/yuzhms/Streaming-Video-Model)
 * 视频描述
   * [Fine-grained Audible Video Description](http://arxiv.org/abs/2303.15616v1)
 * 视频摘要
