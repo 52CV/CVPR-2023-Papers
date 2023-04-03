@@ -667,7 +667,7 @@
   * [NeuFace: Realistic 3D Neural Face Rendering from Multi-view Images](http://arxiv.org/abs/2303.14092v1)<br>:star:[code](https://github.com/aejion/NeuFace)
   * [FaceLit: Neural 3D Relightable Faces](http://arxiv.org/abs/2303.15437v1)
 * 人脸重建
-  * [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/pdf/2302.14434.pdf)
+  * [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/pdf/2302.14434.pdf)<br>:house:[project](https://younglbw.github.io/HRN-homepage/)
 * 人脸恢复
   * [DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration](https://arxiv.org/abs/2303.06885)
 * 人脸匿名化
