@@ -1000,7 +1000,7 @@
   * [Reliability in Semantic Segmentation: Are We on the Right Track?](https://arxiv.org/abs/2303.11298)<br>:star:[code](https://github.com/naver/relis)
   * [Both Style and Distortion Matter: Dual-Path Unsupervised Domain Adaptation for Panoramic Semantic Segmentation](http://arxiv.org/abs/2303.14360v1)
   * [Less is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11203)<br>:star:[code](https://github.com/l1997i/lim3d;)
-  * [Instant Domain Augmentation for LiDAR Semantic Segmentation](http://arxiv.org/abs/2303.14378v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/LiDomAug
+  * [Instant Domain Augmentation for LiDAR Semantic Segmentation](http://arxiv.org/abs/2303.14378v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/LiDomAug)
   * [Leveraging Hidden Positives for Unsupervised Semantic Segmentation](http://arxiv.org/abs/2303.15014v1)<br>:star:[code](https://github.com/hynnsk/HP)
   * 半监督语义分割
     * [Conflict-Based Cross-View Consistency for Semi-Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.01276.pdf)<br>:star:[code](https://github.com/xiaoyao3302/CCVC)  
@@ -1009,7 +1009,7 @@
   * 点云语义分割
     * [Novel Class Discovery for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11610)<br>:star:[code](https://github.com/LuigiRiz/NOPS)
   * 3D 语义分割
-    * Seg3D: Multi-modal 3D Semantic Segmentation for Autonomous Driving](https://arxiv.org/abs/2303.08600)<br>:star:[code](https://github.com/jialeli1/lidarseg3d)
+    * [Seg3D: Multi-modal 3D Semantic Segmentation for Autonomous Driving](https://arxiv.org/abs/2303.08600)<br>:star:[code](https://github.com/jialeli1/lidarseg3d)
     * [3D Semantic Segmentation in the Wild: Learning Generalized Models for Adverse-Condition Point Clouds](http://arxiv.org/abs/2304.00690v1)<br>:star:[code](https://github.com/xiaoaoran/SemanticSTF)
 * 交互式分割
   * [Interactive Segmentation as Gaussian Process Classification](https://arxiv.org/pdf/2302.14578.pdf)<br>:star:[code](https://github.com/zmhhmz/GPCIS_CVPR2023)
