@@ -43,7 +43,7 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月4日更新 29 篇
+### 4月4日更新 28 篇
 * [On the Benefits of 3D Pose and Tracking for Human Action Recognition](http://arxiv.org/abs/2304.01199v1)<br>:star:[code](https://brjathu.github.io/LART)
 * [Burstormer: Burst Image Restoration and Enhancement Transformer](http://arxiv.org/abs/2304.01194v1)
 * [Use Your Head: Improving Long-Tail Video Recognition](http://arxiv.org/abs/2304.01143v1)
@@ -70,7 +70,6 @@
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * [SuperDisco: Super-Class Discovery Improves Visual Recognition for the Long-Tail](http://arxiv.org/abs/2304.00101v1)
 * [Neural Volumetric Memory for Visual Locomotion Control](http://arxiv.org/abs/2304.01201v1)<br>:star:[code](https://rchalyang.github.io/NVM)
-* [The Effect of Counterfactuals on Reading Chest X-rays](http://arxiv.org/abs/2304.00487v1)
 * [UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning](http://arxiv.org/abs/2304.00464v1)
 * [Directional Connectivity-based Segmentation of Medical Images](http://arxiv.org/abs/2304.00145v1)<br>:star:[code](https://github.com/Zyun-Y/DconnNet)
 
@@ -590,9 +589,6 @@
   * [Directional Connectivity-based Segmentation of Medical Images](http://arxiv.org/abs/2304.00145v1)<br>:star:[code](https://github.com/Zyun-Y/DconnNet)
 * 肿瘤分割
   * [Label-Free Liver Tumor Segmentation](http://arxiv.org/abs/2303.14869v1)
-* X射线
-  * [The Effect of Counterfactuals on Reading Chest X-rays](http://arxiv.org/abs/2304.00487v1)
-
 
 <a name="16"/>
 
