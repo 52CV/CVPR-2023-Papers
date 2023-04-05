@@ -76,6 +76,7 @@
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
+* [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
 
 ## Image Forgery Detection
 * [Hierarchical Fine-Grained Image Forgery Detection and Localization](http://arxiv.org/abs/2303.17111v1)<br>:star:[code](https://github.com/CHELSEA234/HiFi_IFDL)
@@ -129,6 +130,7 @@
 * [JAWS: Just A Wild Shot for Cinematic Transfer in Neural Radiance Fields](http://arxiv.org/abs/2303.15427v1)<br>:house:[project](http://www.lix.polytechnique.fr/vista/projects/2023_cvpr_wang)
 * [FlexNeRF: Photorealistic Free-viewpoint Rendering of Moving Humans from Sparse Views](http://arxiv.org/abs/2303.14368v1)<br>:star:[code](https://flex-nerf.github.io/)
 * [NeFII: Inverse Rendering for Reflectance Decomposition with Near-Field Indirect Illumination](http://arxiv.org/abs/2303.16617v1)
+* [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
 
 <a name="57"/>
 
@@ -408,6 +410,7 @@
 * [Multi-Modal Representation Learning with Text-Driven Soft Masks](http://arxiv.org/abs/2304.00719v1)
 * [Fine-tuned CLIP models are efficient video learners](https://arxiv.org/abs/2212.03640)<br>:star:[code](https://github.com/muzairkhattak/ViFi-CLIP)
 * [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)<br>:star:[code](https://github.com/muzairkhattak/multimodal-prompt-learning)
+* [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)
 * VLN
   * [Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding](https://arxiv.org/abs/2303.04077)<br>:house:[project](https://rllab-snu.github.io/projects/Meta-Explore/doc.html)
   * [Lana: A Language-Capable Navigator for Instruction Following and Generation](https://arxiv.org/abs/2303.08409)<br>:star:[code](https://github.com/wxh1996/LANA-VLN)
@@ -442,7 +445,8 @@
 * AR/VR
   * [Affordance Grounding from Demonstration Video to Target Image](http://arxiv.org/abs/2303.14644v1)<br>:star:[code](https://github.com/showlab/afformer)
   * [Learning to Zoom and Unzoom](http://arxiv.org/abs/2303.15390v1)<br>:star:[code](https://tchittesh.github.io/lzu/)
-
+* Visual Localization(视觉定位)
+  * [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)
 
 <a name="28"/>
 
@@ -490,6 +494,8 @@
   * [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
 * 长尾视觉识别
   * [SuperDisco: Super-Class Discovery Improves Visual Recognition for the Long-Tail](http://arxiv.org/abs/2304.00101v1)
+* 多标签分类
+  * [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
 
 <a name="24"/>
 
@@ -527,7 +533,8 @@
 * 海报生成
   * [Unsupervised Domain Adaption with Pixel-level Discriminator for Image-aware Layout Generation](http://arxiv.org/abs/2303.14377v1)
 * 文本-图像合成
-  * [Variational Distribution Learning for Unsupervised Text-to-Image Generation](http://arxiv.org/abs/2303.16105v1)  
+  * [Variational Distribution Learning for Unsupervised Text-to-Image Generation](http://arxiv.org/abs/2303.16105v1)
+  * [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)
 * prompting
   * [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138)<br>:star:[code](https://github.com/shikiw/DAM-VP)
 * 生成
@@ -968,7 +975,9 @@
   * [Real-time Controllable Denoising for Image and Video](http://arxiv.org/abs/2303.16425v1)
   * [LG-BPN: Local and Global Blind-Patch Network for Self-Supervised Real-World Denoising](http://arxiv.org/abs/2304.00534v1)<br>:star:[code](https://github.com/Wang-XIaoDingdd/LGBPN)
   * [Efficient View Synthesis and 3D-based Multi-Frame Denoising with Multiplane Feature Representations](http://arxiv.org/abs/2303.18139v1)
-* 消除照片中的反射光斑
+* 去模糊
+  * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
+* 去反射光斑
   * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
 * 图像缩放
   * [HyperThumbnail: Real-time 6K Image Rescaling with Rate-distortion Optimization](http://arxiv.org/abs/2304.01064v1)<br>:star:[code](https://github.com/AbnerVictor/HyperThumbnail)
