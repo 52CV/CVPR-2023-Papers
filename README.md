@@ -967,7 +967,7 @@
   * [LG-BPN: Local and Global Blind-Patch Network for Self-Supervised Real-World Denoising](http://arxiv.org/abs/2304.00534v1)<br>:star:[code](https://github.com/Wang-XIaoDingdd/LGBPN)
   * [Efficient View Synthesis and 3D-based Multi-Frame Denoising with Multiplane Feature Representations](http://arxiv.org/abs/2303.18139v1)
 * 消除照片中的反射光斑
-  * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)
+  * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
 * 图像缩放
   * [HyperThumbnail: Real-time 6K Image Rescaling with Rate-distortion Optimization](http://arxiv.org/abs/2304.01064v1)<br>:star:[code](https://github.com/AbnerVictor/HyperThumbnail)
 
