@@ -406,6 +406,8 @@
 * [Top-Down Visual Attention from Analysis by Synthesis](http://arxiv.org/abs/2303.13043v1)<br>:house:[project](https://sites.google.com/view/absvit)
 * [Accelerating Vision-Language Pretraining with Free Language Modeling](http://arxiv.org/abs/2303.14038v1)<br>:star:[code](https://github.com/TencentARC/FLM)
 * [Multi-Modal Representation Learning with Text-Driven Soft Masks](http://arxiv.org/abs/2304.00719v1)
+* [Fine-tuned CLIP models are efficient video learners](https://arxiv.org/abs/2212.03640)<br>:star:[code](https://github.com/muzairkhattak/ViFi-CLIP)
+* [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)<br>:star:[code](https://github.com/muzairkhattak/multimodal-prompt-learning)
 * VLN
   * [Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding](https://arxiv.org/abs/2303.04077)<br>:house:[project](https://rllab-snu.github.io/projects/Meta-Explore/doc.html)
   * [Lana: A Language-Capable Navigator for Instruction Following and Generation](https://arxiv.org/abs/2303.08409)<br>:star:[code](https://github.com/wxh1996/LANA-VLN)
