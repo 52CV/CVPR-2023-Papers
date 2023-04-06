@@ -267,7 +267,6 @@
   * [A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation](https://arxiv.org/abs/2303.09165)<br>:star:[code](https://github.com/huitangtang/On_the_Utility_of_Synthetic_Data)
   * [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://arxiv.org/abs/2303.09870)<br>:star:[code](https://github.com/devavratTomar/TeSLA)
   * [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)
-  * [\emph{MEnsA}: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds](http://arxiv.org/abs/2304.01554v1)<br>:star:[code](https://github.com/sinAshish/MEnsA_mtda)
 * ZSL
   * [Bi-directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)<br>:star:[code](https://github.com/Zhicaiwww/Bi-VAEGAN)
   * [Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning](http://arxiv.org/abs/2303.15322v1)<br>:star:[code](https://github.com/ManLiuCoder/PSVMA)
