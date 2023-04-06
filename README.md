@@ -44,426 +44,54 @@
 
 
 ### 4月6日更新 11 篇
-CVPR 2023. Project page at https://haochen-rye.github.io/HNeRV, and
-  Code at https://github.com/haochen-rye/HNeRV
-
-1）方向：神经表示学习
-2）应用：视频重建、视频插值、视频压缩、视频修复
-3）背景：隐式神经表示已经被证明在各种视觉任务中表现良好，如视频压缩和去噪。然而，这种表示的固定和内容不可知的嵌入限制了其回归能力和内部泛化能力，尤其是对于视频插值任务。
-4）方法：本文提出了一种混合神经表示学习方法，称为HNeRV，其中可学习的编码器生成内容自适应的嵌入，作为解码器的输入。此外，引入了HNeRV块，以确保模型参数均匀分布在整个网络中，使得更高层（靠近输出的层）可以具有更多存储高分辨率内容和视频细节的能力。
-5）结果：HNeRV在视频重建任务中表现出比隐式方法更好的重建质量（+4.7 PSNR）和更快的收敛速度（16倍），并显示出更好的内部泛化能力。作为一种简单高效的视频表示方法，与传统编解码器（H.264、H.265）和基于学习的压缩方法相比，HNeRV还显示出解码速度、灵活性和部署优势。最后，本文还探讨了HNeRV在视频压缩和视频修复等下游任务中的有效性。
-
-* [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023. Project page:
-  https://rshaojimmy.github.io/Projects/MultiModal-DeepFake Code:
-  https://github.com/rshaojimmy/MultiModal-DeepFake
-
-1）方向：多模态媒体篡改检测和定位
-2）应用：网络虚假信息检测
-3）背景：网络虚假信息在视觉和文本形式上广泛存在，现有的检测方法只能针对单模态伪造进行二元分类，无法分析和推理跨不同模态的微妙伪造痕迹。
-4）方法：构建了第一个多模态媒体篡改检测和定位数据集，提出了一种新的HierArchical Multi-modal Manipulation rEasoning tRansformer（HAMMER）模型，通过浅层和深层的多模态信息交互，实现了对多模态媒体篡改的检测和定位。
-5）结果：实验结果表明，HAMMER模型在多模态媒体篡改检测和定位方面具有优越性，为未来的多模态媒体篡改研究提供了有价值的观察结果。
-
-* [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023
-
-1）方向：连续卷积
-2）应用：图像识别
-3）背景：连续卷积因其处理不规则采样数据和建模长期依赖的能力而备受关注。使用大型卷积核的实验结果也促进了连续卷积的发展，因为它们可以非常高效地构建大型卷积核。然而，利用神经网络，特别是多层感知器（MLP），是实现连续卷积最普遍的方法之一。但是，存在一些缺点，例如高计算成本、复杂的超参数调整和有限的滤波器描述能力。
-4）方法：本文提出了一种不使用神经网络构建连续卷积的替代方法，从而实现更高效的计算和改进的性能。我们提出了自移动点表示，其中权重参数自由移动，并使用插值方案实现连续函数。当应用于构建卷积核时，实验结果表明，具有现有框架中的替换功能的性能得到了改进。由于其轻量级结构，我们首次在大规模设置（例如ImageNet）中展示了连续卷积的有效性，并呈现了对先前技术的改进。我们的代码可在https://github.com/sangnekim/SMPConv上获得。
-5）结果：本文提出的自移动点表示方法可以更高效地构建连续卷积，且性能得到了改进。在大规模设置中，连续卷积的有效性得到了证明，并呈现了对先前技术的改进。该方法的代码已经公开发布。
-
+* [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV)视频压缩
+* [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)虚假信息检测
 * [SMPConv: Self-moving Point Representations for Continuous Convolution](http://arxiv.org/abs/2304.02330v1)<br>:star:[code](https://github.com/sangnekim/SMPConv)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023
-
-1）方向：计算机视觉
-2）应用：语义图像合成
-3）背景：语义图像合成需要大量的图像数据进行像素级别的标注，这一过程非常繁琐。为了降低标注成本，提高小规模数据集的学习能力，提出了一种基于源数据集的迁移方法。
-4）方法：引入类亲和矩阵作为源模型的第一层，使其与目标标签图兼容，并进一步微调源模型以适应目标域。为了估计类亲和度，考虑了不同的方法来利用先验知识：源域的语义分割、文本标签嵌入和自监督视觉特征。将该方法应用于基于GAN和扩散的语义合成架构。
-5）结果：实验结果表明，不同的估计类亲和度的方法可以有效地结合起来，并且该方法显著改善了现有的最先进的生成图像模型的迁移方法。
-
-* [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR2023
-
-1）方向：视频处理技术
-2）应用：4K视频帧插值
-3）背景：本文提出了一种基于双边变换器（BiFormer）的新型4K视频帧插值方法，该方法包括全局运动估计、局部运动细化和帧合成三个步骤。
-4）方法：首先，在全局运动估计中，作者使用BiFormer算法预测粗略的对称双边运动场。其次，作者使用分块双边代价体（BBCVs）高效地对全局运动场进行细化。最后，作者使用细化的运动场对输入帧进行变形并混合它们以合成中间帧。
-5）结果：大量实验表明，所提出的BiFormer算法在4K数据集上实现了出色的插值性能。源代码可在https://github.com/JunHeum/BiFormer上获得。
-
-* [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR20232023 Proceedings of the IEEE/CVF Conference on Computer Vision and
-  Pattern Recognition
-
-1）方向：计算机视觉
-2）应用：语义分割
-3）背景：目前领域自适应语义分割方法通常采用分阶段训练，包括热身和自我训练阶段。然而，这种流行的方法在每个阶段仍然面临一些挑战：对于热身阶段，广泛采用的对抗训练往往由于盲目的特征对齐而导致性能提升有限；对于自我训练阶段，找到适当的分类阈值非常棘手。
-4）方法：为了缓解这些问题，作者首先提出用一种新颖的对称知识蒸馏模块替换热身阶段中的对抗训练，该模块仅访问源域数据并使模型具有域通用性。令人惊讶的是，这种具有域通用性的热身模型带来了显著的性能提升，这可以通过作者提出的跨域混合数据增强技术进一步放大。然后，对于自我训练阶段，作者提出了一种无阈值动态伪标签选择机制，以缓解上述阈值问题并使模型更好地适应目标域。
-5）结果：大量实验证明，与先前的方法相比，作者的框架在流行的基准测试中实现了显着且一致的改进。代码和模型可在https://github.com/fy-vision/DiGA上获得。
-
-* [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted by CVPR2023
-
-1）方向：自然语言处理（NLP）和计算机视觉（CV）交叉领域
-2）应用：医学图像诊断
-3）背景：在医学图像诊断中，多个专家的协同诊断可以显著提高诊断准确性，但现有文献中多采用单个专家的框架。因此，本文提出了一种“多专家联合诊断”的机制，旨在提高现有框架的性能。
-4）方法：本文提出了一种名为METransformer的方法，采用基于transformer的骨干网络，引入多个可学习的“专家”token，分别嵌入到transformer编码器和解码器中。在编码器中，每个专家token与视觉token和其他专家token交互，学习关注不同的图像区域以获取图像表示。通过正交损失来鼓励这些专家token捕获互补信息。在解码器中，每个被关注的专家token指导输入单词和视觉token之间的交叉注意力，从而影响生成的报告。进一步开发了基于指标的专家投票策略来生成最终报告。
-5）结果：实验结果表明，METransformer在两个广泛使用的基准测试中表现出良好的性能。通过多专家的概念，本模型具有集成方法的优点，但计算效率更高，支持更复杂的专家之间的交互。此外，本文的框架级创新使其可以整合现有“单专家”模型的进展，进一步提高性能。
-
-* [METransformer: Radiology Report Generation by Transformer with Multiple Learnable Expert Tokens](http://arxiv.org/abs/2304.02211v1)
-
-----------------------------------------------------------------------------------------------------
-
-10 pages, 5 figures, Accepted by CVPR 2023
-
-1）方向：计算机视觉
-2）应用：物体检测
-3）背景：旋转边界框可以显著减少细长物体的输出歧义，但由于标注旋转边界框的过程繁琐，许多检测数据集只提供轴对齐边界框的标注，因此旋转检测器并不常用。
-4）方法：该论文提出了一种框架，使模型能够预测精确的旋转边界框，只需要使用更便宜的轴对齐标注。为了实现这一点，作者利用神经网络能够学习目标域比任务所需更丰富的表示的事实。该框架结合了来自源数据集的任务知识和更强的注释以及来自目标数据集的域知识和更弱的注释。作者使用了一种新的分配过程和投影损失来实现源数据集和目标数据集的联合训练。
-5）结果：作者在各种目标数据集上进行了广泛的评估，包括新鲜农产品数据集、HRSC2016和SSDD。结果表明，所提出的方法与完全监督方法表现一致。在推理过程中，该模型无需额外的计算开销即可解决目标域中的更详细任务。
-
-* [Knowledge Combination to Learn Rotated Detection Without Rotated Annotation](http://arxiv.org/abs/2304.02199v1)
-
-
-----------------------------------------------------------------------------------------------------
-
-Accepted by CVPR 2023
-
-1）方向：计算机视觉、机器学习
-2）应用：自动驾驶、机器人学习
-3）背景：使用传感器数据对3D世界进行建模，以进行仿真是开发测试和验证环境的可扩展方式，但手动创建或重新创建类似于真实世界的环境是困难、昂贵且不可扩展的。最近的生成模型技术通过仅使用丰富的2D图像学习3D资产，已经显示出解决这些挑战的有希望的进展，但仍然存在限制，因为它们利用人类策划的图像数据集或手动创建的合成3D环境的渲染。本文介绍了GINA-3D，这是一种生成模型，它使用来自相机和LiDAR传感器的真实世界驾驶数据，创建多样化的车辆和行人的逼真的3D隐式神经资产。
-4）方法：GINA-3D将表示学习和生成建模分为两个阶段，使用学习的三平面潜在结构，受到图像生成模型的最新进展的启发，以解决真实世界驾驶环境中的遮挡、光照变化和长尾分布等挑战。
-5）结果：为了评估这种方法，研究人员构建了一个大规模的以物体为中心的数据集，其中包含来自Waymo开放数据集的超过520K张车辆和行人的图像，以及一个新的包含80K张长尾实例（如建筑设备、垃圾车和缆车）的图像集。研究人员将他们的模型与现有方法进行比较，并证明它在生成的图像和几何形状的质量和多样性方面实现了最先进的性能。
-
-* [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR'23
-
-1）方向：计算机视觉
-2）应用：语义场景分割
-3）背景：虽然近年来在语义场景分割中的域自适应取得了显著的进展，但是域自适应中的公平性问题尚未得到很好的定义和解决。此外，公平性是将分割模型部署到人类相关的实际应用中时最关键的方面之一，例如自动驾驶，因为任何不公平的预测都可能影响人类的安全。
-4）方法：本文提出了一种新颖的公平域自适应（FREDOM）方法来进行语义场景分割。具体来说，从提出的公平目标出发，基于类分布的公平处理，引入了一个新的自适应框架。此外，为了普遍建模结构依赖的上下文，引入了一个新的条件结构约束，以强制预测分割的一致性。由于提出的条件结构网络，自我关注机制已充分建模了分割的结构信息。通过消融研究，所提出的方法已经显示出了分割模型的性能提高，并促进了模型预测的公平性。在两个标准基准测试中，即SYNTHIA $\to$ Cityscapes和GTA5 $\to$ Cityscapes，实验结果表明，我们的方法实现了最先进的性能。
-5）结果：本文提出的FREDOM方法在语义场景分割中取得了最先进的性能，并促进了模型预测的公平性。在两个标准基准测试中，即SYNTHIA $\to$ Cityscapes和GTA5 $\to$ Cityscapes，实验结果表明，我们的方法实现了最先进的性能。
-
-* [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)
-
-----------------------------------------------------------------------------------------------------
-
-To be published in proceedings of the IEEE/CVF Conference on Computer
-  Vision and Pattern Recognition (CVPR) 2023
-
-1）方向：数字病理学
-2）应用：细胞分类、癌症诊断和预后
-3）背景：数字病理学中，细胞的空间背景对于细胞分类、癌症诊断和预后非常重要。然而，模拟这种复杂的细胞背景是具有挑战性的，因为细胞形成不同的混合物、谱系、簇和空洞。
-4）方法：为了以可学习的方式模拟这种复杂的细胞背景，研究人员引入了空间统计学和拓扑数据分析中的数学工具。他们将这些结构描述符作为条件输入和可微损失，融入到深度生成模型中。通过这种方式，他们能够首次生成高质量的多类细胞布局。研究人员表明，富含拓扑结构的细胞布局可用于数据增强，并提高下游任务（如细胞分类）的性能。
-5）结果：研究人员成功地开发了一种新的方法，可以生成高质量的多类细胞布局，并将其用于数据增强，提高了下游任务的性能。这种方法为数字病理学中的细胞分类、癌症诊断和预后等应用领域提供了新的思路和工具。
-
-* [Topology-Guided Multi-Class Cell Context Generation for Digital Pathology](http://arxiv.org/abs/2304.02255v1)
-
-----------------------------------------------------------------------------------------------------
+* [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
+* [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)视频帧插值
+* [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)语义分割
+* [METransformer: Radiology Report Generation by Transformer with Multiple Learnable Expert Tokens](http://arxiv.org/abs/2304.02211v1)医学诊断
+* [Knowledge Combination to Learn Rotated Detection Without Rotated Annotation](http://arxiv.org/abs/2304.02199v1)目标检测
+* [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
+* [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)场景理解
+* [Topology-Guided Multi-Class Cell Context Generation for Digital Pathology](http://arxiv.org/abs/2304.02255v1)医学
 
 
 ### 4月5日更新 22 篇
-CVPR 2023
-
-1）方向：计算机视觉
-2）应用：机器人和增强现实场景中的定位
-3）背景：人类可以使用简单的2D地图在3D环境中定位自己，但是计算机视觉算法通常需要复杂的3D点云来定位，这种方法昂贵且难以维护。
-4）方法：OrienterNet是第一个使用与人类相同的2D语义地图来定位图像的深度神经网络。它通过将神经Bird's-Eye View与来自OpenStreetMap的开放和全球可用地图进行匹配，估计查询图像的位置和方向。OrienterNet仅由相机姿态进行监督，但可以学习以端到端的方式执行语义匹配。为了实现这一点，作者引入了一个大型的众包数据集，其中包含来自汽车、自行车和行人的不同视角下拍摄的图像。
-5）结果：OrienterNet可以在亚米级精度下定位图像，并在机器人和增强现实场景中推动了技术的发展。作者将公开发布代码和训练模型。
-
-* [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)
-
-----------------------------------------------------------------------------------------------------
-
-15 pages, 14 figures. Accepted to CVPR 2023. Project page:
-  https://yzmblog.github.io/projects/MonoHuman/
-
-1）方向：计算机图形学
-2）应用：虚拟现实和数字娱乐
-3）背景：以前的研究尝试利用神经辐射场（NeRF）的表示能力从单目视频中重建人体。最近的研究提出将变形网络嫁接到NeRF中，以进一步模拟人类神经场的动态，以实现生动的人类动作动画。然而，这种流程要么依赖于姿态相关的表示，要么由于帧独立优化而缺乏运动连贯性，使得难以实现对未见过的姿态序列的真实性推广。
-4）方法：提出了一个名为MonoHuman的新框架，可以在任意新姿势下稳健地呈现视角一致和高保真度的虚拟人物。其关键在于使用双向约束模型变形场，并明确利用现成的关键帧信息来推理特征相关性，以实现连贯的结果。具体而言，首先提出了一个共享双向变形模块，通过将向后和向前变形对应关系分解为共享的骨骼运动权重和单独的非刚性运动，创建了一个姿态无关的可推广变形场。然后，设计了一个向前对应搜索模块，查询关键帧的对应特征来指导渲染网络。因此，即使在具有挑战性的新姿势设置下，渲染结果也是多视角一致且高保真的。
-5）结果：大量实验表明，MonoHuman比现有最先进的方法更优秀。
-
-* [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
-
-----------------------------------------------------------------------------------------------------
-
-Conference on Computer Vision and Pattern Recognition (CVPR) 2023
-
-1）方向：计算机图形学
-2）应用：生成逼真的行人轨迹和全身动画
-3）背景：该方法利用了最近在引导扩散建模方面的进展，以实现测试时间轨迹的可控性，这通常只与基于规则的系统相关联。
-4）方法：该方法结合了引导扩散模型和基于物理的人形控制器，形成了一个闭环的全身行人动画系统，能够在模拟环境中放置大量的人群，并考虑周围环境的情况。该方法还利用了强化学习训练过程中学习到的价值函数，以指导扩散生成更适合特定场景的轨迹，如避免碰撞和穿越不平地形。
-5）结果：该方法可以生成逼真的行人轨迹和全身动画，并且可以通过用户定义的目标进行控制，同时考虑周围环境的情况。视频结果可以在项目页面https://nv-tlabs.github.io/trace-pace上查看。
-
-* [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023
-
-1）方向：计算机视觉和自然语言处理
-2）应用：图像分类和目标检测
-3）背景：大规模视觉和语言模型可以通过将类别特定的文本查询映射到图像内容来实现令人印象深刻的零样本识别性能。然而，仍然存在两个不同的挑战，即对手工制作的定义查询的类名高度敏感，以及难以适应新的、较小的数据集。
-4）方法：为了解决这些问题，提出了利用可用数据来学习每个类别的最佳词嵌入作为视觉内容的函数的方法。通过在一个冻结的模型上学习新的词嵌入，我们能够保留新类别的零样本能力，轻松地将模型适应新的数据集，并调整可能存在的错误、不描述或模糊的类名。该方法可以轻松地集成到图像分类和目标检测流水线中，并在多种情况下提供显著的性能提升，并提供有关模型偏差和标注错误的见解。
-5）结果：该方法可以轻松地集成到图像分类和目标检测流水线中，并在多种情况下提供显著的性能提升，并提供有关模型偏差和标注错误的见解。
-
-* [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：文本到图像生成模型的人类评估
-2）应用：改进文本到图像生成模型的性能
-3）背景：近期的37篇论文中，许多文本到图像生成模型的研究仅依赖于自动度量或进行了描述不清、不可靠或不可重复的人类评估。因此，需要一个标准化和明确定义的人类评估协议来促进未来工作中可验证和可重复的人类评估。
-4）方法：提出了一个标准化和明确定义的人类评估协议，以促进未来工作中可验证和可重复的人类评估。在试验数据收集中，实验表明当前的自动度量与人类感知在评估文本到图像生成结果的性能方面不兼容。此外，提供了设计可靠和确定性人类评估实验的见解。最后，提供了几个公开资源，以便于社区进行简单快速的实现。
-5）结果：提出了一个标准化和明确定义的人类评估协议，以促进未来工作中可验证和可重复的人类评估。实验表明当前的自动度量与人类感知在评估文本到图像生成结果的性能方面不兼容。提供了设计可靠和确定性人类评估实验的见解。提供了几个公开资源，以便于社区进行简单快速的实现。
-
-* [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR2023 Camera-ready
-
-1）方向：计算机视觉中的多标签分类
-2）应用：部分标注的多标签分类
-3）背景：由于在多标签分类数据集中收集标签的昂贵成本，部分标注的多标签分类已成为计算机视觉中的新兴领域。其中一种基线方法是将未观察到的标签视为负标签，但这种假设会引入标签噪声，形成假阴性。
-4）方法：为了理解假阴性标签带来的负面影响，研究人员研究了这些标签如何影响模型的解释。他们发现，使用完整标签和部分标签训练的两个模型的解释都突出了相似的区域，但缩放不同，后者倾向于具有较低的归因分数。基于这些发现，他们提出了一种方法，即提高使用部分标签训练的模型的归因分数，使其解释类似于使用完整标签训练的模型。即使采用概念上简单的方法，在单个正标签设置和大规模部分标签设置的三个不同数据集中，多标签分类性能也有了很大的提高。
-5）结果：使用提出的方法，多标签分类性能在三个不同数据集上均有很大提高，包括单个正标签设置和大规模部分标签设置。研究人员已经在https://github.com/youngwk/BridgeGapExplanationPAMC上提供了代码。
-
-* [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023
-
-1）方向：图像处理
-2）应用：图像到视频去模糊
-3）背景：图像到视频去模糊是一个具有挑战性的任务，旨在恢复与给定模糊图像输入相对应的一系列清晰图像。然而，训练图像到视频模型的一个关键问题是帧顺序的不确定性，因为正向和反向序列都是合理的解决方案。
-4）方法：本文提出了一种有效的自监督排序方案，允许训练高质量的图像到视频去模糊模型。与先前依赖于无序损失的方法不同，我们为每个视频序列分配了一个明确的顺序，从而避免了顺序不确定性问题。具体而言，我们将每个视频序列映射到一个潜在的高维空间向量中，以便存在一个超平面，使得对于每个视频序列，从中提取的向量和其反转序列的向量位于超平面的不同侧。向量的侧面将用于定义相应序列的顺序。
-5）结果：最后，我们提出了一个真实图像数据集，用于图像到视频去模糊问题，涵盖了各种流行领域，包括面部、手部和街道。广泛的实验结果证实了我们方法的有效性。代码和数据可在https://github.com/VinAIResearch/HyperCUT.git上获得。
-
-* [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：机器学习
-2）应用：类增量学习
-3）背景：类增量学习的主要目标是在稳定性和可塑性之间取得平衡，模型应该既稳定到足以保留从先前看到的类中学到的知识，又具有足够的可塑性来学习新类的概念。虽然以前的研究在类增量基准测试上表现出强大的性能，但不清楚它们的成功是来自模型的稳定性、可塑性还是两者的混合。
-4）方法：本文旨在阐明最近的类增量学习算法如何有效地解决稳定性-可塑性权衡问题。我们建立了衡量特征表示稳定性和可塑性的分析工具，并使用这些工具来研究在大规模类增量基准测试上使用各种算法训练的模型。我们发现，令人惊讶的是，大多数类增量学习算法严重偏向于稳定性而非可塑性，以至于在初始类集上训练的模型的特征提取器不比最终增量模型的特征提取器差。
-5）结果：我们的观察结果不仅启发了两种简单的算法，突出了特征表示分析的重要性，而且还表明，总的来说，类增量学习方法应该努力实现更好的特征表示学习。
-
-* [On the Stability-Plasticity Dilemma of Class-Incremental Learning](http://arxiv.org/abs/2304.01663v1)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：自然语言处理
-2）应用：图像描述生成
-3）背景：神经图像描述生成模型通常是为了模仿人类生成的参考文本而训练的，而没有针对任何特定的交流目标进行优化，导致生成模糊的描述。本文提出了一种自我监督的区分性交流目标，通过微调现有的神经图像描述生成模型，使其生成更加详细、更具信息量的图像描述。
-4）方法：给定目标图像，系统必须学习生成一种描述，使得一个现成的文本条件图像检索器能够在候选集中识别出该图像。作者使用了流行的ClipCap图像描述生成模型，并在BLIP上复制了主要结果。
-5）结果：与非微调模型相比，经过区分性微调的图像描述生成模型在与人类描述的相似度方面略逊一筹，但当模型用于生成不同领域的图像描述时，经过微调的模型生成的描述比未经微调的模型更接近人类参考文本。作者还表明，在概念字幕数据集上，经过微调的图像描述比ClipCap模型生成的描述或人类参考文本更有助于人类注释者完成图像区分任务。
-
-* [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted as poster at L3D-IVU (arxival track) and CL VIsion
-  (non-arxvial track) CVPR 2023
-
-1）方向：计算机视觉
-2）应用：自动驾驶系统
-3）背景：单目标域适应（STDA）在2D和3D视觉文献中得到了广泛研究，但是多目标域适应（MTDA）在3D数据方面的研究还很少，尽管它在自动驾驶系统等实际应用中具有广泛的应用。
-4）方法：提出了一种MTDA基线，通过将所有域的特征表示混合在一起，通过集成平均值来实现更好的域适应性能，称为Mixup Ensemble Average或MEnsA。使用域分类器在共享的潜在空间中改进区分源域的特征表示和目标域的特征表示。 
-5）结果：在具有挑战性的PointDA-10数据集上进行了广泛的实证验证，展示了我们的简单方法相对于先前的无监督STDA和MTDA方法的明显优势（在所有域移位上平均高达17.10％和4.76％）。他们在\href{https://github.com/sinAshish/MEnsA_mtda}{这里}公开了代码。
-
-* [\emph{MEnsA}: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds](http://arxiv.org/abs/2304.01554v1)<br>:star:[code](https://github.com/sinAshish/MEnsA_mtda)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted at CVPR 2023. Code is available at:
-  https://github.com/Suhyun777/CVPR23-GAP
-
-1）方向：元学习算法
-2）应用：Few-shot learning任务
-3）背景：MAML是最成功的元学习算法之一，但其内循环过程依赖于标准梯度下降，最近的研究表明，使用元学习的预处理器来控制内循环的梯度下降可以带来好处。然而，现有的预处理器不能同时以任务特定和路径相关的方式进行调整，并且它们不满足黎曼度量条件，这可以使预处理梯度下降的最陡下降学习变得更加有效。
-4）方法：本研究提出了一种名为几何自适应预处理梯度下降（GAP）的方法，可以克服MAML中的限制。GAP可以高效地元学习依赖于任务特定参数的预处理器，并且其预处理器可以被证明是黎曼度量。由于这两个属性，几何自适应预处理器对于改进内循环优化是有效的。
-5）结果：实验结果表明，GAP在各种few-shot learning任务中优于最先进的MAML家族和预处理梯度下降-MAML（PGD-MAML）家族。代码可在https://github.com/Suhyun777/CVPR23-GAP上获得。
-
-* [Meta-Learning with a Geometry-Adaptive Preconditioner](http://arxiv.org/abs/2304.01552v1)<br>:star:[code](https://github.com/Suhyun777/CVPR23-GAP)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：计算机视觉
-2）应用：可见光-红外人员再识别（VI-ReID）
-3）背景：现代数据增强技术可以通过混合技术来规范化各种计算机视觉应用中的模型，以避免过度拟合训练数据，但是针对基于部分的VI-ReID模型的适当数据增强技术仍未被探索。
-4）方法：本文提出了一种新的数据增强技术，称为PartMix，通过混合不同模态的部分描述符来合成增强样本，以提高基于部分的VI-ReID模型的性能。特别地，我们在同一身份和不同身份之间合成正样本和负样本，并通过对比学习来规范化骨干模型。此外，我们还提出了一种基于熵的挖掘策略，以削弱不可靠正样本和负样本的不利影响。
-5）结果：将PartMix应用于现有的基于部分的VI-ReID模型中，可以持续提高性能。我们进行了实验，证明了PartMix相对于现有VI-ReID方法的有效性，并提供了消融研究。
-
-* [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)
-
-----------------------------------------------------------------------------------------------------
-
-This paper has been accepted to the IEEE/CVF CVPR Conference, 2023
-
-1）方向：三维视觉
-2）应用：点云过滤或去噪
-3）背景：点云质量常常受到捕捉过程中引入的噪声的限制。因此，去噪是一项基本的三维视觉任务。现有的基于学习的方法侧重于训练神经网络来推断过滤位移，并直接将噪声点移动到底层的干净表面上。在高噪声条件下，它们迭代过滤过程。然而，这种迭代过滤只在测试时进行，对于确保点快速收敛到干净表面的效果不够明显。
-4）方法：提出了IterativePFN（迭代点云过滤网络），它由多个IterationModule组成，可以在单个网络内部模拟真正的迭代过滤过程。使用一种新的损失函数训练IterativePFN网络，该函数在每次迭代时利用自适应的真实目标来捕捉训练期间中间过滤结果之间的关系。这确保了过滤结果更快地收敛到干净表面。与现有的方法相比，我们的方法能够获得更好的性能。
-5）结果：IterativePFN方法能够获得比现有方法更好的性能。源代码可以在https://github.com/ddsediri/IterativePFN找到。
-
-* [IterativePFN: True Iterative Point Cloud Filtering](http://arxiv.org/abs/2304.01529v1)<br>:star:[code](https://github.com/ddsediri/IterativePFN)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted by CVPR2023
-
-1）方向：三维配准
-2）应用：用于三维配准中的异常值（不匹配的对应点）去除
-3）背景：在三维配准中，异常值的存在会导致配准结果不准确，因此需要对异常值进行去除。现有的方法通常将异常值去除看作是一个内点/外点分类问题，需要学习区分内点和外点的特征表示。
-4）方法：本文提出了一种基于变分非局部网络的异常值去除框架。通过将非局部特征学习重新定义为变分贝叶斯推断，可以建模贝叶斯驱动的长程依赖，以聚合区分内点/外点的几何上下文信息。具体来说，为了实现这种贝叶斯驱动的上下文依赖，我们的非局部网络中的每个查询/键/值组件都会预测一个先验特征分布和一个后验特征分布。嵌入内点/外点标签的后验特征分布是标签相关且具有区分性的。因此，在训练步骤中将先验推向具有区分性的后验，可以使从该先验中采样的特征在测试时模拟高质量的长程依赖。值得注意的是，为了实现有效的后验特征引导，我们在非局部模型上设计了一个特定的概率图模型，使我们可以推导出一个变分下限作为模型训练的优化目标。最后，我们提出了一种基于投票的内点搜索策略，以聚类高质量的假设内点进行变换估计。
-5）结果：在3DMatch、3DLoMatch和KITTI数据集上的广泛实验验证了我们方法的有效性。
-
-* [Robust Outlier Rejection for 3D Registration with Variational Bayes](http://arxiv.org/abs/2304.01514v1)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：计算机视觉
-2）应用：红外小目标检测
-3）背景：使用卷积神经网络（CNN）进行全监督的红外小目标检测需要大量的像素注释，因此非常费时费力。为了解决这个问题，本文首次尝试使用点级别监督来实现红外小目标检测。
-4）方法：在点标签的监督下，使用卷积神经网络进行训练，发现CNN首先学习将目标附近的像素聚类分割，然后逐渐收敛到预测地面真实点标签。基于这种“映射退化”现象，提出了一种标签演化框架，称为单点监督标签演化（LESPS），通过利用CNN的中间预测逐步扩展点标签。通过这种方式，网络预测最终可以近似于更新的伪标签，并且可以获得像素级目标掩码以进行端到端的CNN训练。
-5）结果：通过详细的可视化实验验证了该方法的有效性。实验结果表明，配备LESPS的CNN可以从相应的点标签中恢复目标掩码，并且在像素级交集联合（IoU）和目标级检测概率（Pd）方面可以实现超过70％和95％的全监督性能。代码可在https://github.com/XinyiYing/LESPS上获得。
-
-* [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023
-
-1）方向：自监督学习防御
-2）应用：防御数据污染攻击
-3）背景：最近，自监督学习（SSL）被证明容易受到基于数据补丁的后门攻击的影响。攻击者可以污染未标记数据的一小部分，当受害者在其上训练SSL模型时，最终模型将具有攻击者可以利用的后门。
-4）方法：本研究旨在防御自监督学习受到此类攻击。作者使用了三步防御流程，首先在污染数据上训练模型。第二步，作者提出的防御算法（PatchSearch）使用训练好的模型搜索训练数据中的污染样本，并将其从训练集中删除。第三步，在清理后的训练集上训练最终模型。 
-5）结果：实验结果表明，PatchSearch是一种有效的防御方法。例如，它将模型在包含触发器的图像上的准确性从38.2％提高到63.7％，非常接近于干净模型的准确性64.6％。此外，作者还表明，PatchSearch优于基线和最先进的防御方法，包括使用额外的干净、可信数据的方法。作者的代码可在https://github.com/UCDvision/PatchSearch上获得。
-
-* [Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning](http://arxiv.org/abs/2304.01482v1)<br>:star:[code](https://github.com/UCDvision/PatchSearch)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted by CVPR2023
-
-1）方向：3D目标检测
-2）应用：计算机视觉、自动驾驶、机器人等领域
-3）背景：目前的3D目标检测方法通常需要大规模的高质量3D标注数据集，但这种标注通常昂贵且耗时，不适用于实际应用。因此，采用半监督学习（SSL）来利用有限的标注样本和丰富的未标注样本成为一种自然的解决方案。
-4）方法：本文提出了一种新的层次监督和洗牌数据增强（HSSDA）方法，它是一种简单而有效的师生框架。教师网络通过设计动态双阈值策略为学生网络生成更合理的监督信号。此外，洗牌数据增强策略旨在增强学生网络的特征表示能力。
-5）结果：大量实验证明，HSSDA在不同数据集上始终优于最近的最先进方法。代码将在https://github.com/azhuantou/HSSDA发布。
-
-* [Hierarchical Supervision and Shuffle Data Augmentation for 3D Semi-Supervised Object Detection](http://arxiv.org/abs/2304.01464v1)<br>:star:[code](https://github.com/azhuantou/HSSDA)
-
-----------------------------------------------------------------------------------------------------
-
-In CVPR2023. Project page:
-  https://augmentedperception.github.io/monoavatar/
-
-1）方向：计算机视觉、计算机图形学
-2）应用：三维头像生成
-3）背景：该文研究了如何从野外拍摄的单目RGB视频中学习高质量的隐式三维头像，以实现用户控制的面部表情和头部姿势。
-4）方法：该文提出了一种混合管道，将3DMM的几何先验和动态跟踪与神经辐射场相结合，以实现精细的控制和逼真的效果。为了减少过度平滑和提高模型外表情合成的效果，该文提出了预测锚定在3DMM几何上的局部特征的方法。这些学习到的特征由3DMM变形驱动，并在3D空间内插值以产生指定查询点的体积辐射。该文还表明，在UV空间中使用卷积神经网络是关键的，可以融合空间上下文并产生代表性的局部特征。
-5）结果：大量实验表明，该方法能够重建高质量的头像，具有更准确的表情相关细节，对训练之外的表情具有良好的泛化能力，并且在定量渲染方面比其他最先进的方法表现更好。
-
-* [Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos](http://arxiv.org/abs/2304.01436v1)<br>:star:[code](https://augmentedperception.github.io/monoavatar/)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted at CVPR 2023. Code is available at:
-  https://github.com/jaeill/CVPR23-VNE
-
-1）方向：深度学习中的表示学习
-2）应用：改进领域泛化、元学习、自监督学习和生成模型等算法
-3）背景：在深度学习中，为了提高表示的质量，研究了多种表示属性，如去相关性、白化、解缠、秩、等向性和互信息。然而，操作这些属性在实现有效性和普适性方面可能具有挑战性。
-4）方法：提出了正则化表示的von Neumann熵（VNE）。首先，证明了VNE的数学公式在有效操纵表示自相关矩阵的特征值方面具有优越性。然后，通过研究领域泛化、元学习、自监督学习和生成模型等领域的算法，证明了它在改进最先进算法或流行基准算法方面具有广泛适用性。此外，还正式建立了与表示的秩、解缠和等向性的理论联系。最后，对VNE的维度控制和与Shannon熵的关系进行了讨论。
-5）结果：VNE可以有效地改进各种深度学习算法，并且在理论上与表示的其他属性有关联。该方法的代码可在https://github.com/jaeill/CVPR23-VNE上获得。
-
+* [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)视觉定位（机器人/VR）
+* [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)渲染
+* [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)计算图形学
+* [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)图像分类和目标检测
+* [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)文本-图形生成
+* [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)分类
+* [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)去模糊
+* [On the Stability-Plasticity Dilemma of Class-Incremental Learning](http://arxiv.org/abs/2304.01663v1)类增量
+* [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)图像字幕
+* [\emph{MEnsA}: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds](http://arxiv.org/abs/2304.01554v1)<br>:star:[code](https://github.com/sinAshish/MEnsA_mtda)域适应
+* [Meta-Learning with a Geometry-Adaptive Preconditioner](http://arxiv.org/abs/2304.01552v1)<br>:star:[code](https://github.com/Suhyun777/CVPR23-GAP)元学习
+* [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别（VI-ReID）
+* [IterativePFN: True Iterative Point Cloud Filtering](http://arxiv.org/abs/2304.01529v1)<br>:star:[code](https://github.com/ddsediri/IterativePFN)点云
+* [Robust Outlier Rejection for 3D Registration with Variational Bayes](http://arxiv.org/abs/2304.01514v1)三维
+* [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)红外小目标检测
+* [Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning](http://arxiv.org/abs/2304.01482v1)<br>:star:[code](https://github.com/UCDvision/PatchSearch)对抗
+* [Hierarchical Supervision and Shuffle Data Augmentation for 3D Semi-Supervised Object Detection](http://arxiv.org/abs/2304.01464v1)<br>:star:[code](https://github.com/azhuantou/HSSDA)3D目标检测
+* [Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos](http://arxiv.org/abs/2304.01436v1)<br>:star:[code](https://augmentedperception.github.io/monoavatar/)三维头像生成
 * [VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](http://arxiv.org/abs/2304.01434v1)<br>:star:[code](https://github.com/jaeill/CVPR23-VNE)
-
-----------------------------------------------------------------------------------------------------
-
-CVPR 2023
-
-1）方向：深度神经网络
-2）应用：解决长尾分布数据分类问题
-3）背景：传统深度模型在处理长尾分布数据时，往往会对多数类别产生偏差，难以对少数类别进行准确分类。
-4）方法：提出了一种基于混合专家的方法，称为自异构集成与知识挖掘（SHIKE）。该方法采用深度知识融合（DKF）来融合不同浅层和深层特征，使得专家在表示方面更加多样化。在此基础上，进一步提出了动态知识转移（DKT）来减少对尾部类别影响较大的最难分类的影响。通过该方法，可以显著提高长尾数据的分类准确性，特别是对于尾部类别。
-5）结果：SHIKE在CIFAR100-LT（IF100）、ImageNet-LT、iNaturalist 2018和Places-LT上分别取得了56.3％、60.3％、75.4％和41.9％的最优性能。
-
-* [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)
-
-----------------------------------------------------------------------------------------------------
-
-46 pages, 38 figures, accepted by CVPR2023
-
-1）方向：图像恢复
-2）应用：线性问题（如超分辨率、去模糊、修补、上色）、非线性问题（如低光增强、HDR图像恢复）
-3）背景：现有的图像恢复方法大多利用自然图像的后验分布，但它们通常假设已知退化并需要监督训练，这限制了它们在复杂实际应用中的适应性。
-4）方法：提出了生成扩散先验（GDP）来有效地以无监督的采样方式建模后验分布。GDP利用预训练的去噪扩散生成模型（DDPM）来解决线性反演、非线性或盲目问题。具体来说，GDP系统地探索了一种条件指导协议，这种协议被证明比常用的指导方式更实用。此外，GDP在去噪过程中优化退化模型的参数，实现盲目图像恢复。此外，我们设计了分层指导和基于补丁的方法，使GDP能够生成任意分辨率的图像。
-5）结果：实验结果表明，GDP在多个图像数据集上展现了其多功能性，包括线性问题（如超分辨率、去模糊、修补、上色）和非线性、盲目问题（如低光增强和HDR图像恢复）。GDP在重建质量和感知质量方面优于当前领先的无监督方法。此外，GDP还可以很好地推广到来自ImageNet训练集分布之外的各种任务的任意大小的自然图像或合成图像。
-
-* [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
-
-----------------------------------------------------------------------------------------------------
-
-Accepted to CVPR 2023. The first two authors contributed equally
-
-1）方向：计算机安全
-2）应用：模型反演攻击
-3）背景：模型反演攻击旨在通过滥用对模型的访问来推断和重建私有训练数据。最近，已经提出了几种算法来改进模型反演攻击的性能。
-4）方法：本文重新审视模型反演攻击，研究了所有最先进的模型反演攻击算法所涉及的两个基本问题，并提出了解决这些问题的解决方案，这些解决方案显著提高了所有最先进的模型反演攻击的性能。具体而言，本文的贡献有两个方面：1）分析了最先进的模型反演攻击算法的优化目标，认为该目标对于实现模型反演攻击是次优的，并提出了一种改进的优化目标，显著提高了攻击性能。2）分析了“模型过拟合”的问题，表明这会阻止重建图像学习训练数据的语义，并提出了一种新颖的“模型增强”思想来克服这个问题。本文提出的解决方案简单易行，显著提高了所有最先进的模型反演攻击的准确性。例如，在标准的CelebA基准测试中，本文的解决方案将准确性提高了11.8％，并首次实现了超过90％的攻击准确性。
-5）结果：本文的研究表明，深度学习模型泄露敏感信息的风险是明显存在的。我们敦促认真考虑隐私影响。本文的代码、演示和模型可在https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/上获得。
-
-* [Re-thinking Model Inversion Attacks Against Deep Neural Networks](http://arxiv.org/abs/2304.01669v1)<br>:star:[code](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
-
-----------------------------------------------------------------------------------------------------
+* [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)长尾视觉识别
+* [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)图像恢复
+* [Re-thinking Model Inversion Attacks Against Deep Neural Networks](http://arxiv.org/abs/2304.01669v1)<br>:star:[code](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)对抗
 
 
 
 
-
-
+  
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
 * [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
-
+* [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
 ## Image Forgery Detection
 * [Hierarchical Fine-Grained Image Forgery Detection and Localization](http://arxiv.org/abs/2303.17111v1)<br>:star:[code](https://github.com/CHELSEA234/HiFi_IFDL)
+* [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)虚假信息检测
 
 
 ## Active Learning(主动学习)
@@ -497,7 +125,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Learned Image Compression with Mixed Transformer-CNN Architectures](http://arxiv.org/abs/2303.14978v1)<br>:star:[code](https://github.com/jmliu206/LIC_TCM)
 * 视频压缩
   * [Towards Scalable Neural Representation for Diverse Videos](http://arxiv.org/abs/2303.14124v1)
-  
+  * [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV) 
+   
 <a name="58"/>
 
 ## 58.Neural rendering(神经渲染)
@@ -514,6 +143,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [JAWS: Just A Wild Shot for Cinematic Transfer in Neural Radiance Fields](http://arxiv.org/abs/2303.15427v1)<br>:house:[project](http://www.lix.polytechnique.fr/vista/projects/2023_cvpr_wang)
 * [FlexNeRF: Photorealistic Free-viewpoint Rendering of Moving Humans from Sparse Views](http://arxiv.org/abs/2303.14368v1)<br>:star:[code](https://flex-nerf.github.io/)
 * [NeFII: Inverse Rendering for Reflectance Decomposition with Near-Field Indirect Illumination](http://arxiv.org/abs/2303.16617v1)
+* [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
 * [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
 
 <a name="57"/>
@@ -637,6 +267,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation](https://arxiv.org/abs/2303.09165)<br>:star:[code](https://github.com/huitangtang/On_the_Utility_of_Synthetic_Data)
   * [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://arxiv.org/abs/2303.09870)<br>:star:[code](https://github.com/devavratTomar/TeSLA)
   * [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)
+  * [\emph{MEnsA}: Mix-up Ensemble Average for Unsupervised Multi Target Domain Adaptation on 3D Point Clouds](http://arxiv.org/abs/2304.01554v1)<br>:star:[code](https://github.com/sinAshish/MEnsA_mtda)
 * ZSL
   * [Bi-directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)<br>:star:[code](https://github.com/Zhicaiwww/Bi-VAEGAN)
   * [Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning](http://arxiv.org/abs/2303.15322v1)<br>:star:[code](https://github.com/ManLiuCoder/PSVMA)
@@ -663,7 +294,6 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Make Landscape Flatter in Differentially Private Federated Learning](https://arxiv.org/abs/2303.11242)
 * [The Resource Problem of Using Linear Layer Leakage Attack in Federated Learning](http://arxiv.org/abs/2303.14868v1)
 
-
 <a name="43"/>
 
 ## 43.Multi-Task Learning(多任务学习)
@@ -680,7 +310,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Dense Network Expansion for Class Incremental Learning](http://arxiv.org/abs/2303.12696v1)
   * [Class-Incremental Exemplar Compression for Class-Incremental Learning](http://arxiv.org/abs/2303.14042v1)<br>:star:[code](https://github.com/xfflzl/CIM-CIL)
   * [Learning with Fantasy: Semantic-Aware Virtual Contrastive Constraint for Few-Shot Class-Incremental Learning](http://arxiv.org/abs/2304.00426v1)<br>:star:[code](https://github.com/zysong0113/SAVC)
-
+  * [On the Stability-Plasticity Dilemma of Class-Incremental Learning](http://arxiv.org/abs/2304.01663v1)
+  
 <a name="40"/>
 
 ## 40.Adversarial Learning(对抗学习)
@@ -698,6 +329,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * 对抗攻击
   * [Adversarial Attack with Raindrops](https://arxiv.org/pdf/2302.14267.pdf)
   * [Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization](http://arxiv.org/abs/2303.15754v1)
+  * [Re-thinking Model Inversion Attacks Against Deep Neural Networks](http://arxiv.org/abs/2304.01669v1)<br>:star:[code](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
+  * [Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning](http://arxiv.org/abs/2304.01482v1)<br>:star:[code](https://github.com/UCDvision/PatchSearch)
 
 <a name="39"/>
 
@@ -706,19 +339,16 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Computationally Budgeted Continual Learning: What Does Matter?](https://arxiv.org/abs/2303.11165)<br>:star:[code](https://github.com/drimpossible/BudgetCL)
 * [Preserving Linear Separability in Continual Learning by Backward Feature Projection](http://arxiv.org/abs/2303.14595v1)
 
-
-
 <a name="38"/>
 
 ## 38.Meta-Learning(元学习)
+* [Meta-Learning with a Geometry-Adaptive Preconditioner](http://arxiv.org/abs/2304.01552v1)<br>:star:[code](https://github.com/Suhyun777/CVPR23-GAP)元学习
 
-  
 <a name="37"/>
 
 ## 37.Contrastive Learning(对比学习)
 * [Twin Contrastive Learning with Noisy Labels](https://arxiv.org/abs/2303.06930)<br>:star:[code](https://github.com/Hzzone/TCL)
 * [Revisiting Multimodal Representation in Contrastive Learning: From Patch and Token Embeddings to Finite Discrete Tokens](http://arxiv.org/abs/2303.14865v1)
-
 
 <a name="36"/>
 
@@ -831,7 +461,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Learning to Zoom and Unzoom](http://arxiv.org/abs/2303.15390v1)<br>:star:[code](https://tchittesh.github.io/lzu/)
 * Visual Localization(视觉定位)
   * [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)
-
+  
 <a name="28"/>
 
 ## 28.Style Transfer(风格迁移)
@@ -878,9 +508,11 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
 * 长尾视觉识别
   * [SuperDisco: Super-Class Discovery Improves Visual Recognition for the Long-Tail](http://arxiv.org/abs/2304.00101v1)
+  * [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)
 * 多标签分类
   * [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
 
+  
 <a name="24"/>
 
 ## 24.Super-Resolution(超分辨率)
@@ -910,6 +542,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 
 ## 22.Image Synthesis/Generation(图像合成)
 * [Freestyle Layout-to-Image Synthesis](http://arxiv.org/abs/2303.14412v1)<br>:star:[code](https://github.com/essunny310/FreestyleNet)
+* [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
 * 基于草图生成
   * [Picture that Sketch: Photorealistic Image Generation from Abstract Sketches](https://arxiv.org/abs/2303.11162)<br>:house:[project](https://subhadeepkoley.github.io/PictureThatSketch)
 * 图像-视频合成
@@ -938,6 +571,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 ## 20.Autonomous vehicles(自动驾驶)
 * 自动驾驶
   * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
+  * [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
 * 轨迹预测
   * [IPCC-TP: Utilizing Incremental Pearson Correlation Coefficient for Joint Multi-Agent Trajectory Prediction](https://arxiv.org/pdf/2303.00575.pdf)
   * [Leapfrog Diffusion Model for Stochastic Trajectory Prediction](https://arxiv.org/abs/2303.10895)<br>:star:[code](https://github.com/MediaBrain-SJTU/LED)
@@ -958,13 +592,17 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](http://arxiv.org/abs/2303.12501v1)<br>:star:[code](https://github.com/anosorae/IRRA)
 * 可见光-红外人员重识别（VIReID）
   * [Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2303.14481v1)<br>:star:[code](https://github.com/ZYK100/LLCM)
+  * [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别（VI-ReID）
+
 
 <a name="17"/>
 
 ## 17.Medical Image(医学影像)
 * [Towards Trustable Skin Cancer Diagnosis via Rewriting Model’s Decision](https://arxiv.org/pdf/2303.00885.pdf)
 * [Hierarchical discriminative learning improves visual representations of biomedical microscopy](https://arxiv.org/abs/2303.01605)<br>:house:[project](https://hidisc.mlins.org/)
+* [Topology-Guided Multi-Class Cell Context Generation for Digital Pathology](http://arxiv.org/abs/2304.02255v1)
 * [Image Quality-aware Diagnosis via Meta-knowledge Co-embedding](http://arxiv.org/abs/2303.15038v1)
+* [METransformer: Radiology Report Generation by Transformer with Multiple Learnable Expert Tokens](http://arxiv.org/abs/2304.02211v1)医学诊断
 * 3D医学
   * [Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training](https://arxiv.org/pdf/2303.00874.pdf)<br>:star:[code](https://github.com/YutingHe-list/GVSL)
 * 图像配准
@@ -1028,6 +666,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * 视频帧插值
   * [Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation](https://arxiv.org/pdf/2303.00440.pdf)<br>:star:[code](https://github.com/MCG-NJU/EMA-VFI)
   * [Joint Video Multi-Frame Interpolation and Deblurring under Unknown Exposure Time](http://arxiv.org/abs/2303.15043v1)<br>:star:[code](https://github.com/shangwei5/VIDUE)
+  * [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)视频帧插值
 * 视频合成
   * [Decomposed Diffusion Models for High-Quality Video Generation](https://arxiv.org/abs/2303.08320)
 * 视频预测
@@ -1107,6 +746,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Parameter Efficient Local Implicit Image Function Network for Face Segmentation](http://arxiv.org/abs/2303.15122v1)
 * 眨眼检测
   * [Real-time Multi-person Eyeblink Detection in the Wild for Untrimmed Video](http://arxiv.org/abs/2303.16053v1)
+* 三维头像生成
+  * [Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos](http://arxiv.org/abs/2304.01436v1)<br>:star:[code](https://augmentedperception.github.io/monoavatar/)
 
 <a name="10"/>
 
@@ -1132,6 +773,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Multi-View Azimuth Stereo via Tangent Space Consistency](http://arxiv.org/abs/2303.16447v1)<br>:star:[code](https://xucao-42.github.io/mvas_homepage/)
 * [3D Line Mapping Revisited](http://arxiv.org/abs/2303.17504v1)<br>:star:[code](https://github.com/cvg/limap)
 * [NeRF-Supervised Deep Stereo](http://arxiv.org/abs/2303.17603v1)<br>:star:[code](https://nerfstereo.github.io/)<br>:star:[code](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo)
+* [Robust Outlier Rejection for 3D Registration with Variational Bayes](http://arxiv.org/abs/2304.01514v1)三维
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * 三维重建
   * [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](http://arxiv.org/abs/2303.14158v1)<br>:star:[code](https://bundlesdf.github.io)
@@ -1230,6 +872,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Binarizing Sparse Convolutional Networks for Efficient Point Cloud Analysis](http://arxiv.org/abs/2303.15493v1)
 * [Spatiotemporal Self-supervised Learning for Point Clouds in the Wild](https://arxiv.org/pdf/2303.16235.pdf)<br>:star:[code](https://github.com/YanhaoWu/STSSL)
 * [NerVE: Neural Volumetric Edges for Parametric Curve Extraction from Point Cloud](http://arxiv.org/abs/2303.16465v1)<br>:star:[code](https://dongdu3.github.io/projects/2023/NerVE/)
+* [IterativePFN: True Iterative Point Cloud Filtering](http://arxiv.org/abs/2304.01529v1)<br>:star:[code](https://github.com/ddsediri/IterativePFN)
 * 3D点云
   * [Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134)<br>:star:[code](https://github.com/ZrrSkywalker/Point-NN)
   * [NeuralPCI: Spatio-temporal Neural Field for 3D Point Cloud Multi-frame Non-linear Interpolation](http://arxiv.org/abs/2303.15126v1)<br>:star:[code](https://github.com/ispc-lab/NeuralPCI)<br>:star:[code](https://dyfcalid.github.io/NeuralPCI)
@@ -1277,6 +920,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Bridging Precision and Confidence: A Train-Time Loss for Calibrating Object Detection](http://arxiv.org/abs/2303.14404v1)<br>:star:[code](https://github.com/akhtarvision/bpc_calibration)
 * [Learned Two-Plane Perspective Prior based Image Resampling for Efficient Object Detection](http://arxiv.org/abs/2303.14311v1)
 * [T-SEA: Transfer-based Self-Ensemble Attack on Object Detection](https://arxiv.org/pdf/2211.09773.pdf)<br>:star:[code](https://github.com/VDIGPKU/T-SEA)<br>:thumbsup:[CVPR 2023 | 北大提出T-SEA: 自集成策略实现更强的黑盒攻击迁移性](https://mp.weixin.qq.com/s/UPFnuHwHe1YqNOYCcHQ1rQ)
+* [Knowledge Combination to Learn Rotated Detection Without Rotated Annotation](http://arxiv.org/abs/2304.02199v1)
+* [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)
 * 目标定位
   * [LOCATE: Localize and Transfer Object Parts for Weakly Supervised Affordance Grounding](https://arxiv.org/abs/2303.09665)<br>:house:[project](https://reagan1311.github.io/locate/)
   * [Egocentric Audio-Visual Object Localization](http://arxiv.org/abs/2303.13471v1)
@@ -1303,6 +948,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection](https://arxiv.org/abs/2303.08129)<br>:star:[code](https://github.com/BLVLab/PiMAE)
   * [CAPE: Camera View Position Embedding for Multi-View 3D Object Detection](https://arxiv.org/abs/2303.10209)<br>:star:[code](https://github.com/kaixinbear/CAPE)
   * [Uni3D: A Unified Baseline for Multi-dataset 3D Object Detection](https://arxiv.org/abs/2303.06880)<br>:star:[code](https://github.com/PJLab-ADG/3DTrans)
+  * [Hierarchical Supervision and Shuffle Data Augmentation for 3D Semi-Supervised Object Detection](http://arxiv.org/abs/2304.01464v1)<br>:star:[code](https://github.com/azhuantou/HSSDA)3D目标检测
 * 端到端目标检测
   * [Dense Distinct Query for End-to-End Object Detection](http://arxiv.org/abs/2303.12776v1)<br>:star:[code](https://github.com/jshilong/DDQ)
 * 半监督目标检测
@@ -1323,7 +969,9 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Ambiguity-Resistant Semi-Supervised Learning for Dense Object Detection](http://arxiv.org/abs/2303.14960v1)<br>:star:[code](https://github.com/PaddlePaddle/PaddleDetection)
 * 目标发现
   * [Object Discovery from Motion-Guided Tokens](http://arxiv.org/abs/2303.15555v1)
-
+* 小目标检测
+  * 红外小目标检测
+    * [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)
 
 <a name="4"/>
 
@@ -1332,6 +980,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/pdf/2302.14115.pdf)<br>:house:[project](https://antoyang.github.io/vid2seq.html)
   * [Text with Knowledge Graph Augmented Transformer for Video Captioning](http://arxiv.org/abs/2303.12423v1)
   * [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation](http://arxiv.org/abs/2303.12112v1)<br>:star:[code](https://github.com/aimagelab/pacscore)
+* 图像字幕
+  * [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)
 
 <a name="3"/>
 
@@ -1344,6 +994,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * 图像恢复
   * [Efficient and Explicit Modelling of Image Hierarchies for Image Restoration](https://arxiv.org/pdf/2303.00748.pdf)<br>:star:[code](https://github.com/ofsoundof/GRL-Image-Restoration.git)
   * [Burstormer: Burst Image Restoration and Enhancement Transformer](http://arxiv.org/abs/2304.01194v1)
+  * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
   * [Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective](http://arxiv.org/abs/2303.14968v1)<br>:star:[code](https://github.com/zwx8981/LIQE)
@@ -1360,6 +1011,7 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [LG-BPN: Local and Global Blind-Patch Network for Self-Supervised Real-World Denoising](http://arxiv.org/abs/2304.00534v1)<br>:star:[code](https://github.com/Wang-XIaoDingdd/LGBPN)
   * [Efficient View Synthesis and 3D-based Multi-Frame Denoising with Multiplane Feature Representations](http://arxiv.org/abs/2303.18139v1)
 * 去模糊
+  * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
   * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
 * 去反射光斑
   * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
@@ -1398,6 +1050,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Less is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11203)<br>:star:[code](https://github.com/l1997i/lim3d;)
   * [Instant Domain Augmentation for LiDAR Semantic Segmentation](http://arxiv.org/abs/2303.14378v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/LiDomAug)
   * [Leveraging Hidden Positives for Unsupervised Semantic Segmentation](http://arxiv.org/abs/2303.15014v1)<br>:star:[code](https://github.com/hynnsk/HP)
+  * 域适应语义分割
+    * [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)
   * 半监督语义分割
     * [Conflict-Based Cross-View Consistency for Semi-Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.01276.pdf)<br>:star:[code](https://github.com/xiaoyao3302/CCVC)  
   * 弱监督语义分割
@@ -1421,6 +1075,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
   * [Two-shot Video Object Segmentation](https://arxiv.org/abs/2303.12078)<br>:star:[code](https://github.com/yk-pku/Two-shot-Video-Object-Segmentation)
  * VIS
    * [Mask-Free Video Instance Segmentation](http://arxiv.org/abs/2303.15904v1)<br>:star:[code](https://github.com/SysCV/MaskFreeVis)<br>:house:[project](http://vis.xyz/pub/maskfreevis)<br>:star:[code](https://github.com/SysCV/MaskFreeVis)
+* 场景理解
+  * [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)
 
 <a name="1"/>
 
@@ -1479,7 +1135,8 @@ Accepted to CVPR 2023. The first two authors contributed equally
 * [Disorder-invariant Implicit Neural Representation](http://arxiv.org/abs/2304.00837v1)<br>:star:[code](https://ezio77.github.io/DINER-website/)
 * [HypLiLoc: Towards Effective LiDAR Pose Regression with Hyperbolic Fusion](http://arxiv.org/abs/2304.00932v1)<br>:star:[code](https://github.com/sijieaaa/HypLiLoc)
 * [Enhancing Deformable Local Features by Jointly Learning to Detect and Describe Keypoints](http://arxiv.org/abs/2304.00583v1)<br>:house:[project](https://verlab.dcc.ufmg.br/descriptors/dalf_cvpr23)
-
+* [SMPConv: Self-moving Point Representations for Continuous Convolution](http://arxiv.org/abs/2304.02330v1)<br>:star:[code](https://github.com/sangnekim/SMPConv)
+* [VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](http://arxiv.org/abs/2304.01434v1)<br>:star:[code](https://github.com/jaeill/CVPR23-VNE)
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
