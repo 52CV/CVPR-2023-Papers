@@ -43,42 +43,38 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月6日更新 11 篇
-* [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV)视频压缩
-* [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)虚假信息检测
-* [SMPConv: Self-moving Point Representations for Continuous Convolution](http://arxiv.org/abs/2304.02330v1)<br>:star:[code](https://github.com/sangnekim/SMPConv)
-* [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
-* [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)视频帧插值
-* [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)语义分割
-* [METransformer: Radiology Report Generation by Transformer with Multiple Learnable Expert Tokens](http://arxiv.org/abs/2304.02211v1)医学诊断
-* [Knowledge Combination to Learn Rotated Detection Without Rotated Annotation](http://arxiv.org/abs/2304.02199v1)目标检测
-* [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
-* [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)场景理解
-* [Topology-Guided Multi-Class Cell Context Generation for Digital Pathology](http://arxiv.org/abs/2304.02255v1)医学
+### 4月7日更新 14+14 篇
+* [$\text{DC}^2$: Dual-Camera Defocus Control by Learning to Refocus](http://arxiv.org/abs/2304.03285v1)<br>:star:[code](https://defocus-control.github.io)去模糊
+* [Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention](http://arxiv.org/abs/2304.03282v1)Transformer
+* [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)场景重建
+* [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
+* [Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream](http://arxiv.org/abs/2304.03184v1)HOI
+* [CloSET: Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition](http://arxiv.org/abs/2304.03167v1)<br>:house:[project](https://www.liuyebin.com/closet)计算机图形
+* [VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](http://arxiv.org/abs/2304.03135v1)<br>:star:[code](https://github.com/lmy98129/VLPD)行人检测
+* [Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](http://arxiv.org/abs/2304.03119v1)<br>:star:[code](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation)图像合成
+* [Continual Detection Transformer for Incremental Object Detection](http://arxiv.org/abs/2304.03110v1)目标检测
+* [Multi-view Adversarial Discriminator: Mine the Non-causal Factors for Object Detection in Unseen Domains](http://arxiv.org/abs/2304.02950v1)<br>:star:[code](https://github.com/K2OKOH/MAD")目标检测
+* [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
+* [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](http://arxiv.org/abs/2304.02828v1)数据集
+* [StyleGAN Salon: Multi-View Latent Optimization for Pose-Invariant Hairstyle Transfer](http://arxiv.org/abs/2304.02744v1)<br>:star:[code](https://stylegan-salon.github.io/)风格迁移
+* [MethaneMapper: Spectral Absorption aware Hyperspectral Transformer for Methane Detection](http://arxiv.org/abs/2304.02767v1)遥感
 
+* [Rethinking Gradient Projection Continual Learning: Stability / Plasticity Feature Space Decoupling]持续学习(论文未公开)
+* [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
+* [Learning with Noisy labels via Self-supervised Adversarial Noisy Masking](https://arxiv.org/abs/2302.06805)去噪
+* [Learning from Noisy Labels with Decoupled Meta Label Purifier](https://arxiv.org/abs/2302.06810)去噪
+* [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
+* [Rethinking the Learning Paradigm for Dynamic Facial Expression Recognition]人脸(论文未公开)
+* [Instance-Aware Domain Generalization for Face Anti-Spoofing]人脸(论文未公开)
+* [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
+* [Learning Neural Proto-face Field for Disentangled 3D Face Modeling In the Wild]人脸(论文未公开)
+* [Discriminator-Cooperated Feature Map Distillation for GAN Compression](https://arxiv.org/abs/2212.14169)<br>:star:[code](https://github.com/poopit/DCD-official)
+* [NewsNet: A Novel Benchmark for Hierarchical Temporal Segmentation]视频理解(论文未公开)
+* [OSAN: A One-Stage Alignment Network to Unify Multimodal Alignment and Unsupervised Domain Adaptation]域适应(论文未公开)
+* [Learning to Measure the Point Cloud Reconstruction Loss in a Representation Space]点云重建(论文未公开)
+* [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution]超分辨率(论文未公开)
+  
 
-### 4月5日更新 22 篇
-* [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)视觉定位（机器人/VR）
-* [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)渲染
-* [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)计算图形学
-* [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)图像分类和目标检测
-* [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)文本-图形生成
-* [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)分类
-* [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)去模糊
-* [On the Stability-Plasticity Dilemma of Class-Incremental Learning](http://arxiv.org/abs/2304.01663v1)类增量
-* [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)图像字幕
-* [Meta-Learning with a Geometry-Adaptive Preconditioner](http://arxiv.org/abs/2304.01552v1)<br>:star:[code](https://github.com/Suhyun777/CVPR23-GAP)元学习
-* [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别（VI-ReID）
-* [IterativePFN: True Iterative Point Cloud Filtering](http://arxiv.org/abs/2304.01529v1)<br>:star:[code](https://github.com/ddsediri/IterativePFN)点云
-* [Robust Outlier Rejection for 3D Registration with Variational Bayes](http://arxiv.org/abs/2304.01514v1)三维
-* [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)红外小目标检测
-* [Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning](http://arxiv.org/abs/2304.01482v1)<br>:star:[code](https://github.com/UCDvision/PatchSearch)对抗
-* [Hierarchical Supervision and Shuffle Data Augmentation for 3D Semi-Supervised Object Detection](http://arxiv.org/abs/2304.01464v1)<br>:star:[code](https://github.com/azhuantou/HSSDA)3D目标检测
-* [Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos](http://arxiv.org/abs/2304.01436v1)<br>:star:[code](https://augmentedperception.github.io/monoavatar/)三维头像生成
-* [VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](http://arxiv.org/abs/2304.01434v1)<br>:star:[code](https://github.com/jaeill/CVPR23-VNE)
-* [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)长尾视觉识别
-* [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)图像恢复
-* [Re-thinking Model Inversion Attacks Against Deep Neural Networks](http://arxiv.org/abs/2304.01669v1)<br>:star:[code](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)对抗
 
 
 
@@ -88,6 +84,8 @@
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
 * [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
 * [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
+* [CloSET: Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition](http://arxiv.org/abs/2304.03167v1)<br>:house:[project](https://www.liuyebin.com/closet)
+
 ## Image Forgery Detection
 * [Hierarchical Fine-Grained Image Forgery Detection and Localization](http://arxiv.org/abs/2303.17111v1)<br>:star:[code](https://github.com/CHELSEA234/HiFi_IFDL)
 * [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)虚假信息检测
@@ -203,6 +201,7 @@
 * [GeoNet: Benchmarking Unsupervised Adaptation across Geographies](http://arxiv.org/abs/2303.15443v1)<br>:star:[code](https://tarun005.github.io/GeoNet)
 * [PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout](http://arxiv.org/abs/2303.15937v1)<br>:star:[code](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
 * [CIMI4D: A Large Multimodal Climbing Motion Dataset under Human-scene Interactions](http://arxiv.org/abs/2303.17948v1)<br>:house:[project](http://www.lidarhumanmotion.net/cimi4d/)<br>攀爬动作数据集
+* [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](http://arxiv.org/abs/2304.02828v1)
 
 <a name="53"/>
 
@@ -246,6 +245,7 @@
 ## 48.Visual Grounding
 * [Text-Visual Prompting for Efficient 2D Temporal Video Grounding](https://arxiv.org/abs/2303.04995)
 
+  
 <a name="47"/>
 
 ## 47.Few/Zero-Shot Learning/Domain Generalization/Adaptation(小/零样本/域泛化/适应)
@@ -265,6 +265,7 @@
   * [C-SFDA: A Curriculum Learning Aided Self-Training Framework for Efficient Source Free Domain Adaptation](http://arxiv.org/abs/2303.17132v1)
   * [A New Benchmark: On the Utility of Synthetic Data with Blender for Bare Supervised Learning and Downstream Domain Adaptation](https://arxiv.org/abs/2303.09165)<br>:star:[code](https://github.com/huitangtang/On_the_Utility_of_Synthetic_Data)
   * [TeSLA: Test-Time Self-Learning With Automatic Adversarial Augmentation](https://arxiv.org/abs/2303.09870)<br>:star:[code](https://github.com/devavratTomar/TeSLA)
+  * [OSAN: A One-Stage Alignment Network to Unify Multimodal Alignment and Unsupervised Domain Adaptation]域适应(论文未公开)
   * [Feature Alignment and Uniformity for Test Time Adaptation](https://arxiv.org/abs/2303.10902)
 * ZSL
   * [Bi-directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)<br>:star:[code](https://github.com/Zhicaiwww/Bi-VAEGAN)
@@ -336,6 +337,7 @@
 * [Achieving a Better Stability-Plasticity Trade-off via Auxiliary Networks in Continual Learning](https://arxiv.org/abs/2303.09483)<br>:star:[code](https://github.com/kim-sanghwan/ANCL)
 * [Computationally Budgeted Continual Learning: What Does Matter?](https://arxiv.org/abs/2303.11165)<br>:star:[code](https://github.com/drimpossible/BudgetCL)
 * [Preserving Linear Separability in Continual Learning by Backward Feature Projection](http://arxiv.org/abs/2303.14595v1)
+* [Rethinking Gradient Projection Continual Learning: Stability / Plasticity Feature Space Decoupling]持续学习(论文未公开)
 
 <a name="38"/>
 
@@ -394,6 +396,7 @@
 * [Gazeformer: Scalable, Effective and Fast Prediction of Goal-Directed Human Attention](http://arxiv.org/abs/2303.15274v1)
 * [HOICLIP: Efficient Knowledge Transfer for HOI Detection with Vision-Language Models](http://arxiv.org/abs/2303.15786v1)<br>:star:[code](https://github.com/Artanic30/HOICLIP)
 * [Visibility Aware Human-Object Interaction Tracking from Single RGB Camera](http://arxiv.org/abs/2303.16479v1)<br>:house:[project](https://virtualhumans.mpi-inf.mpg.de/VisTracker)
+* [Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream](http://arxiv.org/abs/2304.03184v1)
 * 双手交互
   * [Im2Hands: Learning Attentive Implicit Representation of Interacting Two-Hand Shapes](https://arxiv.org/pdf/2302.14348.pdf)<br>:star:[code](https://github.com/jyunlee/Im2Hands)
 * 手物交互
@@ -460,11 +463,13 @@
   * [Learning to Zoom and Unzoom](http://arxiv.org/abs/2303.15390v1)<br>:star:[code](https://tchittesh.github.io/lzu/)
 * Visual Localization(视觉定位)
   * [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)
-  
+
+
 <a name="28"/>
 
 ## 28.Style Transfer(风格迁移)
 * [CAP-VSTNet: Content Affinity Preserved Versatile Style Transfer](http://arxiv.org/abs/2303.17867v1)
+* [StyleGAN Salon: Multi-View Latent Optimization for Pose-Invariant Hairstyle Transfer](http://arxiv.org/abs/2304.02744v1)<br>:star:[code](https://stylegan-salon.github.io/)
 
 <a name="27"/>
 
@@ -521,6 +526,7 @@
   * [Local Implicit Normalizing Flow for Arbitrary-Scale Image Super-Resolution](https://arxiv.org/abs/2303.05156)
   * [Human Guided Ground-truth Generation for Realistic Image Super-resolution](http://arxiv.org/abs/2303.13069v1)<br>:star:[code](https://github.com/ChrisDud0257/HGGT)
   * [Implicit Diffusion Models for Continuous Super-Resolution](http://arxiv.org/abs/2303.16491v1)
+  * [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution]超分辨率(论文未公开)
 * VSR
   * [Towards High-Quality and Efficient Video Super-Resolution via Spatial-Temporal Data Overfitting](https://arxiv.org/abs/2303.08331)<br>:star:[code](https://github.com/coulsonlee/STDO-CVPR2023.git)
 * 文本图像超分辨率
@@ -537,11 +543,13 @@
 * 文本-视频检索
   * [Video-Text as Game Players: Hierarchical Banzhaf Interaction for Cross-Modal Representation Learning](http://arxiv.org/abs/2303.14369v1)<br>:star:[code](https://jpthu17.github.io/HBI/)
 
+
 <a name="22"/>
 
 ## 22.Image Synthesis/Generation(图像合成)
 * [Freestyle Layout-to-Image Synthesis](http://arxiv.org/abs/2303.14412v1)<br>:star:[code](https://github.com/essunny310/FreestyleNet)
 * [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
+* [Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](http://arxiv.org/abs/2304.03119v1)<br>:star:[code](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation)
 * 基于草图生成
   * [Picture that Sketch: Photorealistic Image Generation from Abstract Sketches](https://arxiv.org/abs/2303.11162)<br>:house:[project](https://subhadeepkoley.github.io/PictureThatSketch)
 * 图像-视频合成
@@ -563,6 +571,7 @@
 <a name="21"/>
 
 ## 21.UAV/Remote Sensing/Satellite Image(无人机/遥感/卫星图像)
+* [MethaneMapper: Spectral Absorption aware Hyperspectral Transformer for Methane Detection](http://arxiv.org/abs/2304.02767v1)
 * 图像检测
   * [Adaptive Sparse Convolutional Networks with Global Context Enhancement for Faster Object Detection on Drone Images](http://arxiv.org/abs/2303.14488v1)<br>:star:[code](https://github.com/Cuogeihong/CEASC)
 
@@ -594,7 +603,8 @@
 * 可见光-红外人员重识别（VIReID）
   * [Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2303.14481v1)<br>:star:[code](https://github.com/ZYK100/LLCM)
   * [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别（VI-ReID）
-
+* 行人检测
+  * [VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](http://arxiv.org/abs/2304.03135v1)<br>:star:[code](https://github.com/lmy98129/VLPD)
 
 <a name="17"/>
 
@@ -652,6 +662,7 @@
 * [Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers](http://arxiv.org/abs/2303.13755v1)
 * [Learning Expressive Prompting With Residuals for Vision Transformers](http://arxiv.org/abs/2303.15591v1)
 * [SparseViT: Revisiting Activation Sparsity for Efficient High-Resolution Vision Transformer](http://arxiv.org/abs/2303.17605v1)<br>:house:[project](https://sparsevit.mit.edu)
+* [Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention](http://arxiv.org/abs/2304.03282v1)Transformer
 
 <a name="14"/>
 
@@ -681,6 +692,7 @@
   * [Procedure-Aware Pretraining for Instructional Video Understanding](http://arxiv.org/abs/2303.18230v1)<br>:star:[code](https://github.com/salesforce/paprika)
   * [Learning Procedure-aware Video Representation from Instructional Videos and Their Narrations](http://arxiv.org/abs/2303.17839v1)<br>:star:[code](https://github.com/facebookresearch/ProcedureVRL)
   * [Revisiting Temporal Modeling for CLIP-based Image-to-Video Knowledge Transferring](https://arxiv.org/pdf/2301.11116.pdf)<br>:star:[code](https://github.com/farewellthree/STAN)
+  * [NewsNet: A Novel Benchmark for Hierarchical Temporal Segmentation]视频理解(论文未公开)
 * 视频描述
   * [Fine-grained Audible Video Description](http://arxiv.org/abs/2303.15616v1)
 * 视频摘要
@@ -695,6 +707,7 @@
 * VAD
   * [Hierarchical Semantic Contrast for Scene-aware Video Anomaly Detection](http://arxiv.org/abs/2303.13051v1)
 
+
 <a name="13"/>
 
 ## 13.GAN
@@ -704,6 +717,7 @@
 * [Cross-GAN Auditing: Unsupervised Identification of Attribute Level Similarities and Differences between Pretrained Generative Models](https://arxiv.org/abs/2303.10774)<br>:star:[code](https://github.com/mattolson93/cross_gan_auditing)
 * [Efficient Scale-Invariant Generator with Column-Row Entangled Pixel Synthesis](http://arxiv.org/abs/2303.14157v1)<br>:star:[code](https://github.com/VinAIResearch/CREPS)
 * [VIVE3D: Viewpoint-Independent Video Editing using 3D-Aware GANs](http://arxiv.org/abs/2303.15893v1)<br>:star:[code](http://afruehstueck.github.io/vive3D)
+* [Discriminator-Cooperated Feature Map Distillation for GAN Compression](https://arxiv.org/abs/2212.14169)<br>:star:[code](https://github.com/poopit/DCD-official)
 * 图像-文本合成
   * [Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511)<br>:house:[project](https://mingukkang.github.io/GigaGAN/)
 
@@ -722,11 +736,13 @@
 ## 11.Face(人脸)
 * [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
 * [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
+* [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
 * 3D 人脸
   * [Graphics Capsule: Learning Hierarchical 3D Face Representations from 2D Images](https://arxiv.org/abs/2303.10896)
   * [Learning a 3D Morphable Face Reflectance Model from Low-cost Data](https://arxiv.org/abs/2303.11686)<br>:house:[project](https://yxuhan.github.io/ReflectanceMM/index.html)
   * [NeuFace: Realistic 3D Neural Face Rendering from Multi-view Images](http://arxiv.org/abs/2303.14092v1)<br>:star:[code](https://github.com/aejion/NeuFace)
   * [FaceLit: Neural 3D Relightable Faces](http://arxiv.org/abs/2303.15437v1)
+  * [Learning Neural Proto-face Field for Disentangled 3D Face Modeling In the Wild]人脸(论文未公开)
 * 人脸重建
   * [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/pdf/2302.14434.pdf)<br>:house:[project](https://younglbw.github.io/HRN-homepage/)
 * 人脸恢复
@@ -742,9 +758,11 @@
   * [LightPainter: Interactive Portrait Relighting with Freehand Scribble](http://arxiv.org/abs/2303.12950v1)
 * 人脸活体检测
   * [Rethinking Domain Generalization for Face Anti-spoofing: Separability and Alignment](http://arxiv.org/abs/2303.13662v1)
+  * [Instance-Aware Domain Generalization for Face Anti-Spoofing]人脸(论文未公开)
 * 说话头
   * [OTAvatar: One-shot Talking Face Avatar with Controllable Tri-plane Rendering](http://arxiv.org/abs/2303.14662v1)<br>:star:[code](https://github.com/theEricMa/OTAvatar)
   * [Seeing What You Said: Talking Face Generation Guided by a Lip Reading Expert](http://arxiv.org/abs/2303.17480v1)
+  * [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
 * 人脸分割
   * [Parameter Efficient Local Implicit Image Function Network for Face Segmentation](http://arxiv.org/abs/2303.15122v1)
 * 眨眼检测
@@ -753,7 +771,11 @@
   * [Learning Personalized High Quality Volumetric Head Avatars from Monocular RGB Videos](http://arxiv.org/abs/2304.01436v1)<br>:star:[code](https://augmentedperception.github.io/monoavatar/)
   * [OmniAvatar: Geometry-Guided Controllable 3D Head Synthesis](http://arxiv.org/abs/2303.15539)
   * [PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360◦](https://arxiv.org/abs/2303.13071)
-
+* 人脸表情识别
+  * [Rethinking the Learning Paradigm for Dynamic Facial Expression Recognition]人脸(论文未公开)
+* 微表情识别
+  * [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
+  
 <a name="10"/>
 
 ## 10.3D(三维重建\视觉)
@@ -798,6 +820,9 @@
   * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
 * 室内场景重建
   * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
+* 场景重建
+  * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
+
 
 <a name="9"/>
 
@@ -895,7 +920,9 @@
   * [Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration](http://arxiv.org/abs/2303.13290v1)
   * [Robust Multiview Point Cloud Registration with Reliable Pose Graph Initialization and History Reweighting](http://arxiv.org/abs/2304.00467v1)<br>:star:[code](https://github.com/WHU-USI3DV/SGHR)
 * 点云理解
-  * [Self-positioning Point-based Transformer for Point Cloud Understanding](http://arxiv.org/abs/2303.16450v1)<br>:star:[code](https://github.com/mlvlab/SPoTr)
+  * [Self-positioning Point-based Transformer for Point Cloud Understanding](http://arxiv.org/abs/2303.16450v1)<br>:star:[code](https://github.com/mlvlab/SPoTr)  
+* 点云重建  
+  * [Learning to Measure the Point Cloud Reconstruction Loss in a Representation Space](论文未公开)
 
 <a name="6"/>
 
@@ -929,6 +956,8 @@
 * [Knowledge Combination to Learn Rotated Detection Without Rotated Annotation](http://arxiv.org/abs/2304.02199v1)
 * [Learning to Name Classes for Vision and Language Models](http://arxiv.org/abs/2304.01830v1)
 * [Universal Instance Perception as Object Discovery and Retrieval](https://arxiv.org/abs/2303.06674)<br>:star:[code](https://github.com/MasterBin-IIAU/UNINEXT)
+* [Continual Detection Transformer for Incremental Object Detection](http://arxiv.org/abs/2304.03110v1)目标检测
+* [Multi-view Adversarial Discriminator: Mine the Non-causal Factors for Object Detection in Unseen Domains](http://arxiv.org/abs/2304.02950v1)<br>:star:[code](https://github.com/K2OKOH/MAD")目标检测
 * 目标定位
   * [LOCATE: Localize and Transfer Object Parts for Weakly Supervised Affordance Grounding](https://arxiv.org/abs/2303.09665)<br>:house:[project](https://reagan1311.github.io/locate/)
   * [Egocentric Audio-Visual Object Localization](http://arxiv.org/abs/2303.13471v1)
@@ -1017,8 +1046,11 @@
   * [Real-time Controllable Denoising for Image and Video](http://arxiv.org/abs/2303.16425v1)
   * [LG-BPN: Local and Global Blind-Patch Network for Self-Supervised Real-World Denoising](http://arxiv.org/abs/2304.00534v1)<br>:star:[code](https://github.com/Wang-XIaoDingdd/LGBPN)
   * [Efficient View Synthesis and 3D-based Multi-Frame Denoising with Multiplane Feature Representations](http://arxiv.org/abs/2303.18139v1)
+  * [Learning with Noisy labels via Self-supervised Adversarial Noisy Masking](https://arxiv.org/abs/2302.06805)去噪
+  * [Learning from Noisy Labels with Decoupled Meta Label Purifier](https://arxiv.org/abs/2302.06810)去噪
 * 去模糊
   * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
+  * [$\text{DC}^2$: Dual-Camera Defocus Control by Learning to Refocus](http://arxiv.org/abs/2304.03285v1)<br>:star:[code](https://defocus-control.github.io)去模糊
   * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
 * 去反射光斑
   * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
@@ -1148,6 +1180,8 @@
 * [VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution](http://arxiv.org/abs/2304.01434v1)<br>:star:[code](https://github.com/jaeill/CVPR23-VNE)
 * [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce]论文未公开
 * [Meta Compositional Referring Expression Segmentation]论文未公开
+* [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
+* [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
 
 ### 扫码CV君微信（注明：CVPR）入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
