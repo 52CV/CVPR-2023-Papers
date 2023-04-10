@@ -627,7 +627,7 @@
 * 自监督
   * [Coreset Sampling from Open-Set for Fine-Grained Self-Supervised Learning](https://arxiv.org/abs/2303.11101)
   * [Correlational Image Modeling for Self-Supervised Visual Pre-Training](http://arxiv.org/abs/2303.12670v1)
-  * [Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](http://arxiv.org/abs/2303.17602v1)<br>:star:[code](https://github.com/tinyvision/SOLIDER)
+  * [Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](http://arxiv.org/abs/2303.17602v1)<br>:star:[code](https://github.com/tinyvision/SOLIDER)<br>:thumbsup:[CVPR 2023 深挖无标签数据价值！自监督学习框架SOLIDER：用于以人为中心的视觉](https://mp.weixin.qq.com/s/XYewbXlp38MWSDJigrInmw)
   * [Mixed Autoencoder for Self-supervised Visual Representation Learning](http://arxiv.org/abs/2303.17152v1)
   * [Siamese DETR](http://arxiv.org/abs/2303.18144v1)<br>:star:[code](https://github.com/Zx55/SiameseDETR)
   * [Token Boosting for Robust Self-Supervised Visual Transformer Pre-training](https://eprints.lancs.ac.uk/id/eprint/189827/1/CVPR2023_Lingeng_Tianjiao_TBM.pdf)
