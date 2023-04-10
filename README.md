@@ -75,7 +75,7 @@
 * [Re-thinking Federated Active Learning based on Inter-class Diversity](http://arxiv.org/abs/2303.12317v1)
 * [Box-Level Active Detection](http://arxiv.org/abs/2303.13089v1)<br>:star:[code](https://github.com/lyumengyao/blad)
 
-## 聚类
+## Clustering(聚类)
 * [DivClust: Controlling Diversity in Deep Clustering](http://arxiv.org/abs/2304.01042v1)
 * MVC
   * [On the Effects of Self-supervision and Contrastive Alignment in Deep Multi-view Clustering](https://arxiv.org/abs/2303.09877)<br>:star:[code](https://github.com/DanielTrosten/DeepMVC)
@@ -83,20 +83,20 @@
 ## Scene flow estimation(场景流估计)
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
 
-## Motion Retargeting
+## Motion Retargeting(动作重定向)
 * [Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry](https://arxiv.org/abs/2303.08658)<br>:star:[code](https://github.com/Kebii/R2ET)
 
-## edge detection
+## edge detection(边缘检测)
 * edge detection
   * [The Treasure Beneath Multiple Annotations: An Uncertainty-aware Edge Detector](https://arxiv.org/abs/2303.11828)<br>:star:[code](https://github.com/ZhouCX117/UAED)
 
-## 工业缺陷检测
+## Industrial Anomaly Detection(工业缺陷检测)
 * 缺陷定位
   * [PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow](https://arxiv.org/abs/2303.02595)
 * 工业异常检测
   * [Multimodal Industrial Anomaly Detection via Hybrid Fusion](https://arxiv.org/pdf/2303.00601.pdf)<br>:star:[code](https://github.com/nomewang/M3DM)
 
-## .Image Compression
+## .Image\Video Compression(图像视频压缩)
 * [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
 * [Context-Based Trit-Plane Coding for Progressive Image Compression](https://arxiv.org/abs/2303.05715)<br>:star:[code](https://github.com/seungminjeon-github/CTC)
 * [Learned Image Compression with Mixed Transformer-CNN Architectures](http://arxiv.org/abs/2303.14978v1)<br>:star:[code](https://github.com/jmliu206/LIC_TCM)
@@ -130,7 +130,7 @@
   
 <a name="56"/>
 
-## 56.Sound
+## 56.Sound + Vision(声音与视觉)
 * 扬声器检测
   * [A Light Weight Model for Active Speaker Detection](https://arxiv.org/abs/2303.04439)<br>:star:[code](https://github.com/Junhua-Liao/Light-ASD)
 * 视听语音识别
@@ -199,7 +199,7 @@
 
 <a name="51"/>
 
-## 51.光学、几何、光场成像
+## 51.Computed Imaging(计算成像，如光学、几何、光场成像等)
 * [DyLiN: Making Light Field Networks Dynamic](http://arxiv.org/abs/2303.14243v1)<br>:star:[code](https://dylin2023.github.io)
 * [Learning Rotation-Equivariant Features for Visual Correspondence](http://arxiv.org/abs/2303.15472v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/RELF)
 
@@ -217,18 +217,18 @@
 
 <a name="49"/>
 
-## 49.Image Geo-localization(图像地理定位)
+## 49.Image Geo-localization(图像地理位置识别)
 * [Where We Are and What We're Looking At: Query Based Worldwide Image Geo-localization Using Hierarchies and Scenes](https://arxiv.org/abs/2303.04249)
 
 <a name="48"/>
 
-## 48.Visual Grounding
+## 48.Visual Grounding(视觉指代)
 * [Text-Visual Prompting for Efficient 2D Temporal Video Grounding](https://arxiv.org/abs/2303.04995)
 
   
 <a name="47"/>
 
-## 47.Few/Zero-Shot Learning/Domain Generalization/Adaptation(小/零样本/域泛化/适应)
+## 47.Few/Zero-Shot Learning/Domain Generalization/Adaptation(小/零样本/域泛化/域适应)
 * DG
   * [Towards Domain Generalization for Multi-view 3D Object Detection in Bird-Eye-View](https://arxiv.org/abs/2303.01686)
   * [Modality-Agnostic Debiasing for Single Domain Generalization](https://arxiv.org/abs/2303.07123)
@@ -586,9 +586,9 @@
 ## 18.Person Re-Identification(人员重识别)
 * 人员检索
   * [Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](http://arxiv.org/abs/2303.12501v1)<br>:star:[code](https://github.com/anosorae/IRRA)
-* 可见光-红外人员重识别（VIReID）
+* 可见光-红外人员重识别(VIReID)
   * [Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2303.14481v1)<br>:star:[code](https://github.com/ZYK100/LLCM)
-  * [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别（VI-ReID）
+  * [PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-identification](http://arxiv.org/abs/2304.01537v1)可见光-红外人员重识别(VI-ReID)
 * 行人检测
   * [VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](http://arxiv.org/abs/2304.03135v1)<br>:star:[code](https://github.com/lmy98129/VLPD)
 
@@ -768,7 +768,7 @@
 
 <a name="10"/>
 
-## 10.3D(三维重建\视觉)
+## 10.3D(三维重建\三维视觉)
 * [PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision](https://arxiv.org/abs/2303.09554)<br>:house:[project](https://ktertikas.github.io/part_nerf)
 * [Masked Scene Contrast: A Scalable Framework for Unsupervised 3D Representation Learning](http://arxiv.org/abs/2303.14191v1)<br>:star:[code](https://github.com/Pointcept/Pointcept)
 * [Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching](https://arxiv.org/abs/2303.10971)<br>:star:[code](https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching)
@@ -1003,7 +1003,7 @@
 
 <a name="4"/>
 
-## 4.Image Captioning(图像字幕)
+## 4.Image Captioning(图像字幕生成)
 * 视频字幕
   * [Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/pdf/2302.14115.pdf)<br>:house:[project](https://antoyang.github.io/vid2seq.html)
   * [Text with Knowledge Graph Augmented Transformer for Video Captioning](http://arxiv.org/abs/2303.12423v1)
@@ -1015,7 +1015,7 @@
  
 <a name="3"/>
 
-## 3.Image Progress(图像处理)
+## 3.Image Progress(低层图像处理、质量评价)
 * [Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models](http://arxiv.org/abs/2303.13031v1)<br>:star:[code](https://github.com/AndreGuo/HDRTVDM)
 * [Tunable Convolutions with Parametric Multi-Loss Optimization](http://arxiv.org/abs/2304.00898v1)
 * 阴影去除
@@ -1115,7 +1115,7 @@
 
 <a name="1"/>
 
-## 1.其它
+## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
 * [Neuro-Modulated Hebbian Learning for Fully Test-Time Adaptation](https://arxiv.org/pdf/2303.00914.pdf)
 * [Disentangling Orthogonal Planes for Indoor Panoramic Room Layout Estimation with Cross-Scale Distortion Awareness](https://arxiv.org/abs/2303.00971)
@@ -1177,6 +1177,6 @@
 * [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
 * [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
 
-### 扫码CV君微信（注明：CVPR）入微信交流群：
+### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
 
