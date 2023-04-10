@@ -43,39 +43,19 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月7日更新 14+14 篇
-* [$\text{DC}^2$: Dual-Camera Defocus Control by Learning to Refocus](http://arxiv.org/abs/2304.03285v1)<br>:star:[code](https://defocus-control.github.io)去模糊
-* [Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention](http://arxiv.org/abs/2304.03282v1)Transformer
-* [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)场景重建
-* [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
-* [Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream](http://arxiv.org/abs/2304.03184v1)HOI
-* [CloSET: Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition](http://arxiv.org/abs/2304.03167v1)<br>:house:[project](https://www.liuyebin.com/closet)计算机图形
-* [VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](http://arxiv.org/abs/2304.03135v1)<br>:star:[code](https://github.com/lmy98129/VLPD)行人检测
-* [Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](http://arxiv.org/abs/2304.03119v1)<br>:star:[code](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation)图像合成
-* [Continual Detection Transformer for Incremental Object Detection](http://arxiv.org/abs/2304.03110v1)目标检测
-* [Multi-view Adversarial Discriminator: Mine the Non-causal Factors for Object Detection in Unseen Domains](http://arxiv.org/abs/2304.02950v1)<br>:star:[code](https://github.com/K2OKOH/MAD")目标检测
-* [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
-* [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](http://arxiv.org/abs/2304.02828v1)数据集
-* [StyleGAN Salon: Multi-View Latent Optimization for Pose-Invariant Hairstyle Transfer](http://arxiv.org/abs/2304.02744v1)<br>:star:[code](https://stylegan-salon.github.io/)风格迁移
-* [MethaneMapper: Spectral Absorption aware Hyperspectral Transformer for Methane Detection](http://arxiv.org/abs/2304.02767v1)遥感
-
-* [Rethinking Gradient Projection Continual Learning: Stability / Plasticity Feature Space Decoupling]持续学习(论文未公开)
-* [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
-* [Learning with Noisy labels via Self-supervised Adversarial Noisy Masking](https://arxiv.org/abs/2302.06805)去噪
-* [Learning from Noisy Labels with Decoupled Meta Label Purifier](https://arxiv.org/abs/2302.06810)去噪
-* [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
-* [Rethinking the Learning Paradigm for Dynamic Facial Expression Recognition]人脸(论文未公开)
-* [Instance-Aware Domain Generalization for Face Anti-Spoofing]人脸(论文未公开)
-* [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
-* [Learning Neural Proto-face Field for Disentangled 3D Face Modeling In the Wild]人脸(论文未公开)
-* [Discriminator-Cooperated Feature Map Distillation for GAN Compression](https://arxiv.org/abs/2212.14169)<br>:star:[code](https://github.com/poopit/DCD-official)
-* [NewsNet: A Novel Benchmark for Hierarchical Temporal Segmentation]视频理解(论文未公开)
-* [OSAN: A One-Stage Alignment Network to Unify Multimodal Alignment and Unsupervised Domain Adaptation]域适应(论文未公开)
-* [Learning to Measure the Point Cloud Reconstruction Loss in a Representation Space]点云重建(论文未公开)
-* [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution]超分辨率(论文未公开)
-  
-
-
+### 4月10日更新 12 篇
+* [Meta-causal Learning for Single Domain Generalization](http://arxiv.org/abs/2304.03709v1)域泛化
+* [TopNet: Transformer-based Object Placement Network for Image Compositing](https://arxiv.org/abs/2304.03372)
+* [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)图像字幕
+* [DATE: Domain Adaptive Product Seeker for E-commerce](http://arxiv.org/abs/2304.03669v1)<br>:star:[code](https://github.com/Taobao-live/Product-Seeking)域适应
+* [A2J-Transformer: Anchor-to-Joint Transformer Network for 3D Interacting Hand Pose Estimation from a Single RGB Image](http://arxiv.org/abs/2304.03635v1)<br>:star:[code](https://github.com/ChanglongJiangGit/A2J-Transformer)3D交互手势姿势估计
+* [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](http://arxiv.org/abs/2304.03560v1)<br>:star:[code](https://antabangun.github.io/projects/DualRefine/)<br>:star:[code](https://github.com/antabangun/DualRefine)深度估计
+* [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution](http://arxiv.org/abs/2304.03542v1)超分辨率
+* [Lift3D: Synthesize 3D Training Data by Lifting 2D GAN to 3D Generative Radiance Field](http://arxiv.org/abs/2304.03526v1)<br>:star:[code](https://len-li.github.io/lift3d-web)GAN
+* [Devil's on the Edges: Selective Quad Attention for Scene Graph Generation](http://arxiv.org/abs/2304.03495v1)<br>:house:[project](https://cvlab.postech.ac.kr/research/SQUAT/)场景图生成
+* [Towards Unified Scene Text Spotting based on Sequence Generation](http://arxiv.org/abs/2304.03435v1)<br>:star:[code](https://github.com/clovaai/units)文本检测
+* [Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting](http://arxiv.org/abs/2304.03307v1)<br>:star:[code](https://github.com/TalalWasim/Vita-CLIP)视频分类
+* [Weakly supervised segmentation with point annotations for histopathology images via contrast-based variational model](http://arxiv.org/abs/2304.03572v1)图像分割
 
 
 
@@ -258,8 +238,10 @@
   * [Generalist: Decoupling Natural and Robust Generalization](http://arxiv.org/abs/2303.13813v1)<br>:star:[code](https://github.com/PKU-ML/Generalist)
   * [ALOFT: A Lightweight MLP-like Architecture with Dynamic Low-frequency Transform for Domain Generalization](https://arxiv.org/abs/2303.11674)<br>:star:[code](https://github.com/lingeringlight/ALOFT/)
   * [Progressive Random Convolutions for Single Domain Generalization](http://arxiv.org/abs/2304.00424v1)
+  * [Meta-causal Learning for Single Domain Generalization](http://arxiv.org/abs/2304.03709v1)
 * DA
   * [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770)<br>:star:[code](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Test-Time-Adaptation)
+  * [DATE: Domain Adaptive Product Seeker for E-commerce](http://arxiv.org/abs/2304.03669v1)<br>:star:[code](https://github.com/Taobao-live/Product-Seeking)
   * [Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective](http://arxiv.org/abs/2303.13434v1)
   * [Upcycling Models under Domain and Category Shift](https://arxiv.org/abs/2303.07110)<br>:star:[code](https://github.com/ispc-lab/GLC)
   * [C-SFDA: A Curriculum Learning Aided Self-Training Framework for Efficient Source Free Domain Adaptation](http://arxiv.org/abs/2303.17132v1)
@@ -277,6 +259,7 @@
 
 ## 46.Scene Graph Generation(场景图生成)
 * [Prototype-based Embedding Network for Scene Graph Generation](https://arxiv.org/abs/2303.07096)<br>:star:[code](https://github.com/VL-Group/PENET)
+* [Devil's on the Edges: Selective Quad Attention for Scene Graph Generation](http://arxiv.org/abs/2304.03495v1)<br>:house:[project](https://cvlab.postech.ac.kr/research/SQUAT/)
 
 <a name="45"/>
 
@@ -362,6 +345,7 @@
 ## 35.OCR
 * 场景文本检测
   * [Turning a CLIP Model into a Scene Text Detector](https://arxiv.org/pdf/2302.14338.pdf)<br>:star:[code](https://github.com/wenwenyu/TCM)
+  * [Towards Unified Scene Text Spotting based on Sequence Generation](http://arxiv.org/abs/2304.03435v1)<br>:star:[code](https://github.com/clovaai/units)
 * 表格结构识别
   * [Improving Table Structure Recognition with Visual-Alignment Sequential Coordinate Modeling](https://arxiv.org/abs/2303.06949)
 * 字体生成
@@ -373,6 +357,7 @@
   * [DeepVecFont-v2: Exploiting Transformers to Synthesize Vector Fonts with Higher Quality](http://arxiv.org/abs/2303.14585v1)<br>:star:[code](https://github.com/yizhiwang96/deepvecfont-v2)
 * 生成图形文档
   * [Towards Flexible Multi-modal Document Models](http://arxiv.org/abs/2303.18248v1)<br>:star:[code](https://cyberagentailab.github.io/flex-dm)
+
 
 <a name="34"/>
 
@@ -516,7 +501,6 @@
 * 多标签分类
   * [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
 
-  
 <a name="24"/>
 
 ## 24.Super-Resolution(超分辨率)
@@ -524,6 +508,7 @@
   * [OPE-SR: Orthogonal Position Encoding for Designing a Parameter-free Upsampling Module in Arbitrary-scale Image Super-Resolution](https://arxiv.org/pdf/2303.01091.pdf)
   * [Super-Resolution Neural Operator](https://arxiv.org/pdf/2303.02584.pdf)<br>:star:[code](https://github.com/2y7c3/Super-Resolution-Neural-Operator)
   * [Local Implicit Normalizing Flow for Arbitrary-Scale Image Super-Resolution](https://arxiv.org/abs/2303.05156)
+  * [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution](http://arxiv.org/abs/2304.03542v1)
   * [Human Guided Ground-truth Generation for Realistic Image Super-resolution](http://arxiv.org/abs/2303.13069v1)<br>:star:[code](https://github.com/ChrisDud0257/HGGT)
   * [Implicit Diffusion Models for Continuous Super-Resolution](http://arxiv.org/abs/2303.16491v1)
   * [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution]超分辨率(论文未公开)
@@ -550,6 +535,7 @@
 * [Freestyle Layout-to-Image Synthesis](http://arxiv.org/abs/2303.14412v1)<br>:star:[code](https://github.com/essunny310/FreestyleNet)
 * [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
 * [Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](http://arxiv.org/abs/2304.03119v1)<br>:star:[code](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation)
+* [TopNet: Transformer-based Object Placement Network for Image Compositing](https://arxiv.org/abs/2304.03372)
 * 基于草图生成
   * [Picture that Sketch: Photorealistic Image Generation from Abstract Sketches](https://arxiv.org/abs/2303.11162)<br>:house:[project](https://subhadeepkoley.github.io/PictureThatSketch)
 * 图像-视频合成
@@ -588,7 +574,7 @@
   * [FEND: A Future Enhanced Distribution-Aware Contrastive Learning Framework for Long-tail Trajectory Prediction](http://arxiv.org/abs/2303.16574v1)
 * Place Recognition
   * [Data-efficient Large Scale Place Recognition with Graded Similarity Supervision](https://arxiv.org/abs/2303.11739)<br>:star:[code](https://github.com/marialeyvallina/generalized_contrastive_loss)
-  * [R2Former: Unified Retrieval and Reranking Transformer for Place Recognition]论文未公开
+  * [R2Former: Unified Retrieval and Reranking Transformer for Place Recognition](https://arxiv.org/abs/2304.03410)<br>:star:[code](https://github.com/Jeff-Zilence/R2Former)
   
 <a name="19"/>
 
@@ -626,12 +612,13 @@
   * [Orthogonal Annotation Benefits Barely-supervised Medical Image Segmentation](http://arxiv.org/abs/2303.13090v1)
   * [Fair Federated Medical Image Segmentation via Client Contribution Estimation](http://arxiv.org/abs/2303.16520v1)
   * [Devil is in the Queries: Advancing Mask Transformers for Real-world Medical Image Segmentation and Out-of-Distribution Localization](http://arxiv.org/abs/2304.00212v1)
+  * [Weakly supervised segmentation with point annotations for histopathology images via contrast-based variational model](http://arxiv.org/abs/2304.03572v1)
 * 医学影像分析
   * [Best of Both Worlds: Multimodal Contrastive Learning with Tabular and Imaging Data](http://arxiv.org/abs/2303.14080v1)
   * [Directional Connectivity-based Segmentation of Medical Images](http://arxiv.org/abs/2304.00145v1)<br>:star:[code](https://github.com/Zyun-Y/DconnNet)
 * 肿瘤分割
   * [Label-Free Liver Tumor Segmentation](http://arxiv.org/abs/2303.14869v1)
-
+ 
 <a name="16"/>
 
 ## 16.Semi/self-supervised learning(半/自监督)
@@ -693,6 +680,8 @@
   * [Learning Procedure-aware Video Representation from Instructional Videos and Their Narrations](http://arxiv.org/abs/2303.17839v1)<br>:star:[code](https://github.com/facebookresearch/ProcedureVRL)
   * [Revisiting Temporal Modeling for CLIP-based Image-to-Video Knowledge Transferring](https://arxiv.org/pdf/2301.11116.pdf)<br>:star:[code](https://github.com/farewellthree/STAN)
   * [NewsNet: A Novel Benchmark for Hierarchical Temporal Segmentation]视频理解(论文未公开)
+* 视频分类
+  * [Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting](http://arxiv.org/abs/2304.03307v1)<br>:star:[code](https://github.com/TalalWasim/Vita-CLIP)
 * 视频描述
   * [Fine-grained Audible Video Description](http://arxiv.org/abs/2303.15616v1)
 * 视频摘要
@@ -718,6 +707,7 @@
 * [Efficient Scale-Invariant Generator with Column-Row Entangled Pixel Synthesis](http://arxiv.org/abs/2303.14157v1)<br>:star:[code](https://github.com/VinAIResearch/CREPS)
 * [VIVE3D: Viewpoint-Independent Video Editing using 3D-Aware GANs](http://arxiv.org/abs/2303.15893v1)<br>:star:[code](http://afruehstueck.github.io/vive3D)
 * [Discriminator-Cooperated Feature Map Distillation for GAN Compression](https://arxiv.org/abs/2212.14169)<br>:star:[code](https://github.com/poopit/DCD-official)
+* [Lift3D: Synthesize 3D Training Data by Lifting 2D GAN to 3D Generative Radiance Field](http://arxiv.org/abs/2304.03526v1)<br>:star:[code](https://len-li.github.io/lift3d-web)
 * 图像-文本合成
   * [Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511)<br>:house:[project](https://mingukkang.github.io/GigaGAN/)
 
@@ -775,7 +765,7 @@
   * [Rethinking the Learning Paradigm for Dynamic Facial Expression Recognition]人脸(论文未公开)
 * 微表情识别
   * [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
-  
+
 <a name="10"/>
 
 ## 10.3D(三维重建\视觉)
@@ -817,6 +807,7 @@
 * 深度估计
   * [Fully Self-Supervised Depth Estimation from Defocus Clue](https://arxiv.org/abs/2303.10752)<br>:star:[code](https://github.com/Ehzoahis/DEReD)
   * [HRDFuse: Monocular 360°Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions](https://arxiv.org/abs/2303.11616)<br>:house:[project](https://haoai-1997.github.io/HRDFuse/)
+  * [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](http://arxiv.org/abs/2304.03560v1)<br>:star:[code](https://antabangun.github.io/projects/DualRefine/)<br>:star:[code](https://github.com/antabangun/DualRefine)
   * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
 * 室内场景重建
   * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
@@ -828,6 +819,7 @@
 
 ## 9.Human Pose Estimation(人体姿态估计)
 * 手势
+  * [A2J-Transformer: Anchor-to-Joint Transformer Network for 3D Interacting Hand Pose Estimation from a Single RGB Image](http://arxiv.org/abs/2304.03635v1)<br>:star:[code](https://github.com/ChanglongJiangGit/A2J-Transformer)3D交互手势姿势估计
   * 音频驱动的联合语音手势生成
     * [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2303.09119)<br>:star:[code](https://github.com/Advocate99/DiffGesture)
   * 3D手势合成
@@ -1018,7 +1010,9 @@
   * [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation](http://arxiv.org/abs/2303.12112v1)<br>:star:[code](https://github.com/aimagelab/pacscore)
 * 图像字幕
   * [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)
+  * [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)图像字幕
 
+ 
 <a name="3"/>
 
 ## 3.Image Progress(图像处理)
