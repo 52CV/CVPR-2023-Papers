@@ -43,19 +43,17 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月12日更新 11 篇
-* [Improving Image Recognition by Retrieving from Web-Scale Image-Text Data](http://arxiv.org/abs/2304.05173v1)图像分类
-* [Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification](https://arxiv.org/abs/2304.05165)
-* [Video Event Restoration Based on Keyframes for Video Anomaly Detection](http://arxiv.org/abs/2304.05112v1)视频异常检测
-* [One-Shot High-Fidelity Talking-Head Synthesis with Deformable Neural Radiance Field](http://arxiv.org/abs/2304.05097v1)<br>:house:[project](https://www.waytron.net/hidenerf/)说话人合成
-* [Generating Features with Increased Crop-related Diversity for Few-Shot Object Detection](http://arxiv.org/abs/2304.05096v1)
-* [Continual Semantic Segmentation with Automatic Memory Sample Selection](http://arxiv.org/abs/2304.05015v1)
-* [Relational Context Learning for Human-Object Interaction Detection](http://arxiv.org/abs/2304.04997v1)
-* [Improving Vision-and-Language Navigation by Generating Future-View Image Semantics](http://arxiv.org/abs/2304.04907v1)<br>:star:[code](https://jialuli-luka.github.io/VLN-SIG)
-* [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)3D
-* [Task Difficulty Aware Parameter Allocation & Regularization for Lifelong Learning](http://arxiv.org/abs/2304.05288v1)<br>:star:[code](https://github.com/WenjinW/PAR)
-* [Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning](http://arxiv.org/abs/2304.04824v1)
-
+### 4月13日更新 10 篇
+* [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
+* [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)抠图
+* [Visual Localization using Imperfect 3D Models from the Internet](http://arxiv.org/abs/2304.05947v1)AR
+* [MED-VT: Multiscale Encoder-Decoder Video Transformer with Application to Object Segmentation](http://arxiv.org/abs/2304.05930v1)分割
+* [NoisyTwins: Class-Consistent and Diverse Image Generation through StyleGANs](http://arxiv.org/abs/2304.05866v1)<br>:star:[code](https://rangwani-harsh.github.io/NoisyTwins/)
+* [RIFormer: Keep Your Vision Backbone Effective While Removing Token Mixer](http://arxiv.org/abs/2304.05659v1)<br>:star:[code](https://techmonsterwang.github.io/RIFormer/)
+* [Hard Patches Mining for Masked Image Modeling](http://arxiv.org/abs/2304.05919v1)
+* [Instance-Aware Domain Generalization for Face Anti-Spoofing](http://arxiv.org/abs/2304.05640v1)<br>:star:[code](https://github.com/qianyuzqy/IADG)
+* [How you feelin'? Learning Emotions and Mental States in Movie Scenes](http://arxiv.org/abs/2304.05634v1)<br>:star:[code](https://katha-ai.github.io/projects/emotx/)
+* [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet)
   
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -427,7 +425,7 @@
   * [Lana: A Language-Capable Navigator for Instruction Following and Generation](https://arxiv.org/abs/2303.08409)<br>:star:[code](https://github.com/wxh1996/LANA-VLN)
   * [KERM: Knowledge Enhanced Reasoning for Vision-and-Language Navigation](http://arxiv.org/abs/2303.15796v1)<br>:star:[code](https://github.com/XiangyangLi20/KERM)
   * [Improving Vision-and-Language Navigation by Generating Future-View Image Semantics](http://arxiv.org/abs/2304.04907v1)<br>:star:[code](https://jialuli-luka.github.io/VLN-SIG)
-  
+
 <a name="30"/>
 
 ## 30.Visual Answer Questions(视觉问答)
@@ -677,6 +675,8 @@
 * [Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention](http://arxiv.org/abs/2304.03282v1)Transformer
 * [Token Boosting for Robust Self-Supervised Visual Transformer Pre-training](http://arxiv.org/abs/2304.04175v1)Transformer
 * [Slide-Transformer: Hierarchical Vision Transformer with Local Self-Attention](http://arxiv.org/abs/2304.04237v1)<br>:star:[code](https://github.com/LeapLabTHU/Slide-Transformer)
+* [RIFormer: Keep Your Vision Backbone Effective While Removing Token Mixer](http://arxiv.org/abs/2304.05659v1)<br>:star:[code](https://techmonsterwang.github.io/RIFormer/)
+* [DropKey](https://arxiv.org/abs/2208.02646)<br>:thumbsup:[CVPR 2023｜两行代码高效缓解视觉Transformer过拟合，美图&国科大联合提出正则化方法DropKey](https://mp.weixin.qq.com/s/rmr40kryYPILwEinzZOjUA)
 
 <a name="14"/>
 
@@ -701,6 +701,7 @@
   * [A Dynamic Multi-Scale Voxel Flow Network for Video Prediction](https://arxiv.org/abs/2303.09875)<br>:star:[code](https://huxiaotaostasy.github.io/DMVFN/)
 * 视频理解
   * [Selective Structured State-Spaces for Long-Form Video Understanding](http://arxiv.org/abs/2303.14526v1)
+  * [How you feelin'? Learning Emotions and Mental States in Movie Scenes](http://arxiv.org/abs/2304.05634v1)<br>:star:[code](https://katha-ai.github.io/projects/emotx/)
   * [System-status-aware Adaptive Network for Online Streaming Video Understanding](http://arxiv.org/abs/2303.15742v1)
   * [Streaming Video Model](http://arxiv.org/abs/2303.17228v1)<br>:star:[code](https://github.com/yuzhms/Streaming-Video-Model)
   * [Procedure-Aware Pretraining for Instructional Video Understanding](http://arxiv.org/abs/2303.18230v1)<br>:star:[code](https://github.com/salesforce/paprika)
@@ -724,13 +725,14 @@
   * [Hierarchical Semantic Contrast for Scene-aware Video Anomaly Detection](http://arxiv.org/abs/2303.13051v1)
   * [Video Event Restoration Based on Keyframes for Video Anomaly Detection](http://arxiv.org/abs/2304.05112v1) 
 
-
+  
 
 <a name="13"/>
 
 ## 13.GAN
 * [Improving GAN Training via Feature Space Shrinkage](https://arxiv.org/abs/2303.01559)<br>:star:[code](https://github.com/WentianZhang-ML/AdaptiveMix)
 * [CoralStyleCLIP: Co-optimized Region and Layer Selection for Image Editing](https://arxiv.org/abs/2303.05031)
+* [NoisyTwins: Class-Consistent and Diverse Image Generation through StyleGANs](http://arxiv.org/abs/2304.05866v1)<br>:star:[code](https://rangwani-harsh.github.io/NoisyTwins/)
 * [Graph Transformer GANs for Graph-Constrained House Generation](https://arxiv.org/abs/2303.08225)
 * [Cross-GAN Auditing: Unsupervised Identification of Attribute Level Similarities and Differences between Pretrained Generative Models](https://arxiv.org/abs/2303.10774)<br>:star:[code](https://github.com/mattolson93/cross_gan_auditing)
 * [Efficient Scale-Invariant Generator with Column-Row Entangled Pixel Synthesis](http://arxiv.org/abs/2303.14157v1)<br>:star:[code](https://github.com/VinAIResearch/CREPS)
@@ -749,7 +751,7 @@
 * 图像翻译    
   * [Masked and Adaptive Transformer for Exemplar Based Image Translation](http://arxiv.org/abs/2303.17123v1)<br>:star:[code](https://github.com/AiArt-HDU/MATEBIT)
  
-    
+  
 <a name="11"/>
 
 ## 11.Face(人脸)
@@ -777,6 +779,7 @@
   * [LightPainter: Interactive Portrait Relighting with Freehand Scribble](http://arxiv.org/abs/2303.12950v1)
 * 人脸活体检测
   * [Rethinking Domain Generalization for Face Anti-spoofing: Separability and Alignment](http://arxiv.org/abs/2303.13662v1)
+  * [Instance-Aware Domain Generalization for Face Anti-Spoofing](http://arxiv.org/abs/2304.05640v1)<br>:star:[code](https://github.com/qianyuzqy/IADG)
   * [Instance-Aware Domain Generalization for Face Anti-Spoofing]人脸(论文未公开)
 * 说话头
   * [OTAvatar: One-shot Talking Face Avatar with Controllable Tri-plane Rendering](http://arxiv.org/abs/2303.14662v1)<br>:star:[code](https://github.com/theEricMa/OTAvatar)
@@ -969,11 +972,11 @@
   * [Visual Prompt Multi-Modal Tracking](https://arxiv.org/abs/2303.10826)<br>:star:[code](https://github.com/jiawen-zhu/ViPT)
 
 
-
 <a name="5"/>
 
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
+* [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet) 
 * [ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection](http://arxiv.org/abs/2303.14679v1)<br>:star:[code](https://github.com/CASIA-IVA-Lab/ZBS)
 * [Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)<br>:star:[code](https://github.com/LutingWang/OADP)
 * [DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment](http://arxiv.org/abs/2304.04514v1)
@@ -1055,7 +1058,7 @@
   * [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)
   * [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)图像字幕
 
- 
+
 <a name="3"/>
 
 ## 3.Image Progress(低层图像处理、质量评价)
@@ -1067,6 +1070,7 @@
 * 图像恢复
   * [Efficient and Explicit Modelling of Image Hierarchies for Image Restoration](https://arxiv.org/pdf/2303.00748.pdf)<br>:star:[code](https://github.com/ofsoundof/GRL-Image-Restoration.git)
   * [Burstormer: Burst Image Restoration and Enhancement Transformer](http://arxiv.org/abs/2304.01194v1)
+  * [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
   * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
@@ -1105,6 +1109,8 @@
 * [FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](http://arxiv.org/abs/2303.17225v1)<br>:house:[project](https://FreeSeg.github.io)<br>在 VIS、VOS、MOTS 三个下游视频分割任务的五个数据集上，将 InstMove 插入到现有 SOTA 模型可以进一步带来 1~5 个点的提升。
 * [Zero-shot Referring Image Segmentation with Global-Local Context Features](http://arxiv.org/abs/2303.17811v1)<br>:star:[code](https://github.com/Seonghoon-Yu/Zero-shot-RIS)
 * [Meta Compositional Referring Expression Segmentation](http://arxiv.org/abs/2304.04415v1)
+* [Visual Localization using Imperfect 3D Models from the Internet](http://arxiv.org/abs/2304.05947v1)AR
+* [MED-VT: Multiscale Encoder-Decoder Video Transformer with Application to Object Segmentation](http://arxiv.org/abs/2304.05930v1)分割
 * 3D分割
   * [EFEM: Equivariant Neural Field Expectation Maximization for 3D Object Segmentation Without Scene Supervision](http://arxiv.org/abs/2303.15440v1)<br>:house:[project](https://www.cis.upenn.edu/~leijh/projects/efem)
 * 全景分割
@@ -1159,6 +1165,8 @@
 * 场景理解
   * [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)
   * [Language-driven Open-Vocabulary 3D Scene Understanding](https://arxiv.org/pdf/2211.16312.pdf)<br>:star:[code](https://github.com/CVMI-Lab/PLA)<br>:house:[project](https://dingry.github.io/projects/PLA.html)
+* 抠图
+  * [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)
 
 <a name="1"/>
 
@@ -1225,7 +1233,7 @@
 * [Meta Compositional Referring Expression Segmentation]论文未公开
 * [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
 * [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
-
+* [Hard Patches Mining for Masked Image Modeling](http://arxiv.org/abs/2304.05919v1)
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
 
