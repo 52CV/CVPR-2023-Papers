@@ -1058,7 +1058,7 @@
   * [Positive-Augmented Constrastive Learning for Image and Video Captioning Evaluation](http://arxiv.org/abs/2303.12112v1)<br>:star:[code](https://github.com/aimagelab/pacscore)
 * 图像字幕
   * [Cross-Domain Image Captioning with Discriminative Finetuning](http://arxiv.org/abs/2304.01662v1)
-  * [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)图像字幕
+  * [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)
 
 
 <a name="3"/>
