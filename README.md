@@ -43,7 +43,7 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月13日更新 10 篇
+### 4月13日更新 11 篇
 * [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
 * [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)抠图
 * [Visual Localization using Imperfect 3D Models from the Internet](http://arxiv.org/abs/2304.05947v1)AR
@@ -54,6 +54,7 @@
 * [Instance-Aware Domain Generalization for Face Anti-Spoofing](http://arxiv.org/abs/2304.05640v1)<br>:star:[code](https://github.com/qianyuzqy/IADG)
 * [How you feelin'? Learning Emotions and Mental States in Movie Scenes](http://arxiv.org/abs/2304.05634v1)<br>:star:[code](https://katha-ai.github.io/projects/emotx/)
 * [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet)
+* [An Image Quality Assessment Dataset for Portraits](https://arxiv.org/abs/2304.05772)<br>:star:[code](https://github.com/DXOMARK-Research/PIQ2023)
   
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -1076,6 +1077,7 @@
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
   * [Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective](http://arxiv.org/abs/2303.14968v1)<br>:star:[code](https://github.com/zwx8981/LIQE)
+  * [An Image Quality Assessment Dataset for Portraits](https://arxiv.org/abs/2304.05772)<br>:star:[code](https://github.com/DXOMARK-Research/PIQ2023)
   * [Re-IQA: Unsupervised Learning for Image Quality Assessment in the Wild](http://arxiv.org/abs/2304.00451v1)
 * 去雾
   * [Video Dehazing via a Multi-Range Temporal Alignment Network with Physical Prior](https://arxiv.org/abs/2303.09757)<br>:star:[code](https://github.com/jiaqixuac/MAP-Net)
