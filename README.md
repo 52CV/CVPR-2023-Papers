@@ -43,19 +43,13 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月14日更新 12 篇
-* [AutoShot: A Short Video Dataset and State-of-the-Art Shot Boundary Detection](http://arxiv.org/abs/2304.06116v1)<br>:star:[code](https://github.com/wentaozhu/AutoShot.git)<br>:house:[project](https://paperswithcode.com/paper/autoshot-a-short-video-dataset-and-state-of)公共短视频镜头边界检测数据集
-* [Boosting Video Object Segmentation via Space-time Correspondence Learning](http://arxiv.org/abs/2304.06211v1)<br>:star:[code](https://github.com/wenguanwang/VOS_Correspondence)
-* [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)3D
-* [iDisc: Internal Discretization for Monocular Depth Estimation](http://arxiv.org/abs/2304.06334v1)<br>:house:[project](http://vis.xyz/pub/idisc)
-* [CABM: Content-Aware Bit Mapping for Single Image Super-Resolution Network with Large Input](http://arxiv.org/abs/2304.06454v1)
-* [Multi-Mode Online Knowledge Distillation for Self-Supervised Visual Representation Learning](http://arxiv.org/abs/2304.06461v1)
-* [A-CAP: Anticipation Captioning with Commonsense Knowledge](http://arxiv.org/abs/2304.06602v1)字幕
-* [Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement](http://arxiv.org/abs/2304.06703v1)瞬间恢复与增强
-* [DiffusionRig: Learning Personalized Priors for Facial Appearance Editing](http://arxiv.org/abs/2304.06711v1)<br>:star:[code](https://diffusionrig.github.io)
-* [Noisy Correspondence Learning with Meta Similarity Correction](http://arxiv.org/abs/2304.06275v1)
-* [Efficient Multimodal Fusion via Interactive Prompting](http://arxiv.org/abs/2304.06306v1)
-* [Representing Volumetric Videos as Dynamic MLP Maps](http://arxiv.org/abs/2304.06717v1)<br>:star:[code](https://zju3dv.github.io/mlp_maps/)
+### 4月17日更新 6 篇
+* [A Unified HDR Imaging Method with Pixel and Patch Level](https://arxiv.org/abs/2304.06943)
+* [SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders](http://arxiv.org/abs/2304.06914v1)
+* [Bitstream-Corrupted JPEG Images are Restorable: Two-stage Compensation and Alignment Framework for Image Restoration](http://arxiv.org/abs/2304.06976v1)<br>:star:[code](https://github.com/wenyang001/Two-ACIR)
+* [Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement](http://arxiv.org/abs/2304.07039v1)
+* [DCFace: Synthetic Face Generation with Dual Condition Diffusion Model](http://arxiv.org/abs/2304.07060v1)<br>:star:[code](https://github.com/mk-minchul/dcface)
+* [DETR with Additional Global Aggregation for Cross-domain Weakly Supervised Object Detection](http://arxiv.org/abs/2304.07082v1)
 
 
 
@@ -772,6 +766,7 @@
 * [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
 * [DiffusionRig: Learning Personalized Priors for Facial Appearance Editing](http://arxiv.org/abs/2304.06711v1)<br>:star:[code](https://diffusionrig.github.io)
 * [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
+* [DCFace: Synthetic Face Generation with Dual Condition Diffusion Model](http://arxiv.org/abs/2304.07060v1)<br>:star:[code](https://github.com/mk-minchul/dcface)
 * 3D 人脸
   * [Graphics Capsule: Learning Hierarchical 3D Face Representations from 2D Images](https://arxiv.org/abs/2303.10896)
   * [Learning a 3D Morphable Face Reflectance Model from Low-cost Data](https://arxiv.org/abs/2303.11686)<br>:house:[project](https://yxuhan.github.io/ReflectanceMM/index.html)
@@ -987,7 +982,6 @@
 * 多模态跟踪
   * [Visual Prompt Multi-Modal Tracking](https://arxiv.org/abs/2303.10826)<br>:star:[code](https://github.com/jiawen-zhu/ViPT)
 
-
 <a name="5"/>
 
 ## 5.Object Detection(目标检测)
@@ -1043,6 +1037,8 @@
   * [Active Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.08348)<br>:star:[code](https://github.com/HunterJ-Lin/ActiveTeacher)
   * [SOOD: Towards Semi-Supervised Oriented Object Detection](http://arxiv.org/abs/2304.04515v1)<br>:star:[code](https://github.com/HamPerdredes/SOOD)
   * [MixTeacher: Mining Promising Labels with Mixed Scale Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2303.09061)<br>:star:[code](https://github.com/lliuz/MixTeacher)
+* 弱监督目标检测
+  * [DETR with Additional Global Aggregation for Cross-domain Weakly Supervised Object Detection](http://arxiv.org/abs/2304.07082v1)
 * 小样本目标检测
   * [NIFF: Alleviating Forgetting in Generalized Few-Shot Object Detection via Neural Instance Feature Forging](https://arxiv.org/abs/2303.04958)
   * [Generating Features with Increased Crop-related Diversity for Few-Shot Object Detection](http://arxiv.org/abs/2304.05096v1)
@@ -1089,6 +1085,7 @@
   * [Burstormer: Burst Image Restoration and Enhancement Transformer](http://arxiv.org/abs/2304.01194v1)
   * [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
   * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
+  * [Bitstream-Corrupted JPEG Images are Restorable: Two-stage Compensation and Alignment Framework for Image Restoration](http://arxiv.org/abs/2304.06976v1)<br>:star:[code](https://github.com/wenyang001/Two-ACIR)
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
   * [Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective](http://arxiv.org/abs/2303.14968v1)<br>:star:[code](https://github.com/zwx8981/LIQE)
@@ -1112,12 +1109,17 @@
   * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
   * [$\text{DC}^2$: Dual-Camera Defocus Control by Learning to Refocus](http://arxiv.org/abs/2304.03285v1)<br>:star:[code](https://defocus-control.github.io)去模糊
   * [HyperCUT: Video Sequence from a Single Blurry Image using Unsupervised Ordering](http://arxiv.org/abs/2304.01686v1)<br>:star:[code](https://github.com/VinAIResearch/HyperCUT.git)
+* 去鬼影
+  * [A Unified HDR Imaging Method with Pixel and Patch Level](https://arxiv.org/abs/2304.06943)
+  * [SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders](http://arxiv.org/abs/2304.06914v1)
 * 去反射光斑
   * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
 * 图像缩放
   * [HyperThumbnail: Real-time 6K Image Rescaling with Rate-distortion Optimization](http://arxiv.org/abs/2304.01064v1)<br>:star:[code](https://github.com/AbnerVictor/HyperThumbnail)
 * 瞬间恢复与增强
   * [Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement](http://arxiv.org/abs/2304.06703v1)
+* 图像增强
+  * [Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement](http://arxiv.org/abs/2304.07039v1)
 
 
 <a name="2"/>
