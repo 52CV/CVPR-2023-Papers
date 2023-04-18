@@ -43,13 +43,21 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月17日更新 6 篇
-* [A Unified HDR Imaging Method with Pixel and Patch Level](https://arxiv.org/abs/2304.06943)
-* [SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders](http://arxiv.org/abs/2304.06914v1)
-* [Bitstream-Corrupted JPEG Images are Restorable: Two-stage Compensation and Alignment Framework for Image Restoration](http://arxiv.org/abs/2304.06976v1)<br>:star:[code](https://github.com/wenyang001/Two-ACIR)
-* [Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement](http://arxiv.org/abs/2304.07039v1)
-* [DCFace: Synthetic Face Generation with Dual Condition Diffusion Model](http://arxiv.org/abs/2304.07060v1)<br>:star:[code](https://github.com/mk-minchul/dcface)
-* [DETR with Additional Global Aggregation for Cross-domain Weakly Supervised Object Detection](http://arxiv.org/abs/2304.07082v1)
+### 4月17日更新 13 篇
+* [Learning to Render Novel Views from Wide-Baseline Stereo Pairs](http://arxiv.org/abs/2304.08463v1)<br>:star:[code](https://yilundu.github.io/wide_baseline/)
+* [Delving into Shape-aware Zero-shot Semantic Segmentation](http://arxiv.org/abs/2304.08491v1)<br>:star:[code](https://github.com/Liuxinyv/SAZS)
+* [Conditional Generation of Audio from Video via Foley Analogies](http://arxiv.org/abs/2304.08490v1)<br>:star:[code](https://xypb.github.io/CondFoleyGen/)
+* [Neural Map Prior for Autonomous Driving](http://arxiv.org/abs/2304.08481v1)
+* [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
+* [OVTrack: Open-Vocabulary Multiple Object Tracking](http://arxiv.org/abs/2304.08408v1)<br>:house:[project](https://www.vis.xyz/pub/ovtrack/)
+* [Interactive and Explainable Region-guided Radiology Report Generation](http://arxiv.org/abs/2304.08295v1)<br>:star:[code](https://github.com/ttanida/rgrg)自动生成放射学报告
+* [Learning Geometry-aware Representations by Sketching](http://arxiv.org/abs/2304.08204v1)
+* [ViPLO: Vision Transformer based Pose-Conditioned Self-Loop Graph for Human-Object Interaction Detection](http://arxiv.org/abs/2304.08114v1)<br>:star:[code](https://github.com/Jeeseung-Park/ViPLO)
+* [MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning](http://arxiv.org/abs/2304.08028v1)<br>:star:[code](https://github.com/shicaiwei123/MMANet)
+* [Bootstrapping Objectness from Videos by Relaxed Common Fate and Visual Grouping](http://arxiv.org/abs/2304.08025v1)VOS
+* [Exploring Incompatible Knowledge Transfer in Few-shot Image Generation](http://arxiv.org/abs/2304.07574v1)
+* [Temporally Consistent Online Depth Estimation Using Point-Based Fusion](http://arxiv.org/abs/2304.07435v1)<br>:house:[project](https://research.facebook.com/publications/temporally-consistent-online-depth-estimation-using-point-based-fusion/)
+* [Affordances from Human Videos as a Versatile Representation for Robotics](http://arxiv.org/abs/2304.08488v1)<br>:star:[code](https://robo-affordances.github.io/)
 
 
 
@@ -128,6 +136,7 @@
 <a name="56"/>
 
 ## 56.Sound + Vision(声音与视觉)
+* [Conditional Generation of Audio from Video via Foley Analogies](http://arxiv.org/abs/2304.08490v1)<br>:star:[code](https://xypb.github.io/CondFoleyGen/)
 * 扬声器检测
   * [A Light Weight Model for Active Speaker Detection](https://arxiv.org/abs/2303.04439)<br>:star:[code](https://github.com/Junhua-Liao/Light-ASD)
 * 视听语音识别
@@ -156,7 +165,7 @@
 * [F$^{2}$-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories](http://arxiv.org/abs/2303.15951v1)<br>:star:[code](https://totoro97.github.io/projects/f2-nerf)
 * [Enhanced Stable View Synthesis](http://arxiv.org/abs/2303.17094v1)
 * [Consistent View Synthesis with Pose-Guided Diffusion Models](http://arxiv.org/abs/2303.17598v1)<br>:star:[code](https://poseguided-diffusion.github.io/)
-
+* [Learning to Render Novel Views from Wide-Baseline Stereo Pairs](http://arxiv.org/abs/2304.08463v1)<br>:star:[code](https://yilundu.github.io/wide_baseline/)
 
 
 
@@ -391,6 +400,7 @@
 * [Gazeformer: Scalable, Effective and Fast Prediction of Goal-Directed Human Attention](http://arxiv.org/abs/2303.15274v1)
 * [Relational Context Learning for Human-Object Interaction Detection](http://arxiv.org/abs/2304.04997v1)
 * [HOICLIP: Efficient Knowledge Transfer for HOI Detection with Vision-Language Models](http://arxiv.org/abs/2303.15786v1)<br>:star:[code](https://github.com/Artanic30/HOICLIP)
+* [ViPLO: Vision Transformer based Pose-Conditioned Self-Loop Graph for Human-Object Interaction Detection](http://arxiv.org/abs/2304.08114v1)<br>:star:[code](https://github.com/Jeeseung-Park/ViPLO)
 * [Visibility Aware Human-Object Interaction Tracking from Single RGB Camera](http://arxiv.org/abs/2303.16479v1)<br>:house:[project](https://virtualhumans.mpi-inf.mpg.de/VisTracker)
 * [Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream](http://arxiv.org/abs/2304.03184v1)
 * 双手交互
@@ -446,6 +456,7 @@
   * [PartManip: Learning Cross-Category Generalizable Part Manipulation Policy from Point Cloud Observations](http://arxiv.org/abs/2303.16958v1)
   * [Learning Human-to-Robot Handovers from Point Clouds](http://arxiv.org/abs/2303.17592v1)<br>:star:[code](https://handover-sim2real.github.io)
   * [Neural Volumetric Memory for Visual Locomotion Control](http://arxiv.org/abs/2304.01201v1)<br>:star:[code](https://rchalyang.github.io/NVM)
+  * [Affordances from Human Videos as a Versatile Representation for Robotics](http://arxiv.org/abs/2304.08488v1)<br>:star:[code](https://robo-affordances.github.io/)
   * 机器手抓取
     * [UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy](https://arxiv.org/abs/2303.00938)<br>:house:[project](https://pku-epic.github.io/UniDexGrasp/)
     * [UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning](http://arxiv.org/abs/2304.00464v1)
@@ -558,6 +569,7 @@
 * [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
 * [Zero-shot Generative Model Adaptation via Image-specific Prompt Learning](http://arxiv.org/abs/2304.03119v1)<br>:star:[code](https://github.com/Picsart-AI-Research/IPL-Zero-Shot-Generative-Model-Adaptation)
 * [TopNet: Transformer-based Object Placement Network for Image Compositing](https://arxiv.org/abs/2304.03372)
+* [Exploring Incompatible Knowledge Transfer in Few-shot Image Generation](http://arxiv.org/abs/2304.07574v1)
 * 基于草图生成
   * [Picture that Sketch: Photorealistic Image Generation from Abstract Sketches](https://arxiv.org/abs/2303.11162)<br>:house:[project](https://subhadeepkoley.github.io/PictureThatSketch)
 * 图像-视频合成
@@ -589,6 +601,7 @@
 * 自动驾驶
   * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
   * [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
+  * [Neural Map Prior for Autonomous Driving](http://arxiv.org/abs/2304.08481v1)
 * 轨迹预测
   * [IPCC-TP: Utilizing Incremental Pearson Correlation Coefficient for Joint Multi-Agent Trajectory Prediction](https://arxiv.org/pdf/2303.00575.pdf)
   * [Leapfrog Diffusion Model for Stochastic Trajectory Prediction](https://arxiv.org/abs/2303.10895)<br>:star:[code](https://github.com/MediaBrain-SJTU/LED)
@@ -648,7 +661,9 @@
   * [Directional Connectivity-based Segmentation of Medical Images](http://arxiv.org/abs/2304.00145v1)<br>:star:[code](https://github.com/Zyun-Y/DconnNet)
 * 肿瘤分割
   * [Label-Free Liver Tumor Segmentation](http://arxiv.org/abs/2303.14869v1)
- 
+* 医学影像报告生成
+  * [Interactive and Explainable Region-guided Radiology Report Generation](http://arxiv.org/abs/2304.08295v1)<br>:star:[code](https://github.com/ttanida/rgrg)自动生成放射学报告 
+
 <a name="16"/>
 
 ## 16.Semi/self-supervised learning(半/自监督)
@@ -854,6 +869,7 @@
   * [Fully Self-Supervised Depth Estimation from Defocus Clue](https://arxiv.org/abs/2303.10752)<br>:star:[code](https://github.com/Ehzoahis/DEReD)
   * [iDisc: Internal Discretization for Monocular Depth Estimation](http://arxiv.org/abs/2304.06334v1)<br>:house:[project](http://vis.xyz/pub/idisc)
   * [HRDFuse: Monocular 360°Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions](https://arxiv.org/abs/2303.11616)<br>:house:[project](https://haoai-1997.github.io/HRDFuse/)
+  * [Temporally Consistent Online Depth Estimation Using Point-Based Fusion](http://arxiv.org/abs/2304.07435v1)<br>:house:[project](https://research.facebook.com/publications/temporally-consistent-online-depth-estimation-using-point-based-fusion/)
   * [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](http://arxiv.org/abs/2304.03560v1)<br>:star:[code](https://antabangun.github.io/projects/DualRefine/)<br>:star:[code](https://github.com/antabangun/DualRefine)
   * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
 * 室内场景重建
@@ -977,6 +993,7 @@
 * 多目标跟踪
   * [Referring Multi-Object Tracking](https://arxiv.org/abs/2303.03366)<br>:star:[code](https://github.com/wudongming97/RMOT)
   * [MotionTrack: Learning Robust Short-term and Long-term Motions for Multi-Object Tracking](https://arxiv.org/abs/2303.10404)
+  * [OVTrack: Open-Vocabulary Multiple Object Tracking](http://arxiv.org/abs/2304.08408v1)<br>:house:[project](https://www.vis.xyz/pub/ovtrack/)
 * 细胞跟踪
   * [Unsupervised Contour Tracking of Live Cells by Mechanical and Cycle Consistency Losses](https://arxiv.org/abs/2303.08364)<br>:star:[code](https://github.com/JunbongJang/contour-tracking/)
 * 多模态跟踪
@@ -1159,6 +1176,7 @@
   * [Less is More: Reducing Task and Model Complexity for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/2303.11203)<br>:star:[code](https://github.com/l1997i/lim3d;)
   * [Instant Domain Augmentation for LiDAR Semantic Segmentation](http://arxiv.org/abs/2303.14378v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/LiDomAug)
   * [Leveraging Hidden Positives for Unsupervised Semantic Segmentation](http://arxiv.org/abs/2303.15014v1)<br>:star:[code](https://github.com/hynnsk/HP)
+  * [Delving into Shape-aware Zero-shot Semantic Segmentation](http://arxiv.org/abs/2304.08491v1)<br>:star:[code](https://github.com/Liuxinyv/SAZS)
   * 域适应语义分割
     * [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)
   * 半监督语义分割
@@ -1181,6 +1199,7 @@
   * [InstMove: Instance Motion for Object-centric Video Segmentation](https://arxiv.org/abs/2303.08132)<br>:star:[code](https://github.com/wjf5203/VNext)
   * [MobileVOS: Real-Time Video Object Segmentation Contrastive Learning meets Knowledge Distillation](https://arxiv.org/abs/2303.07815)
   * [Boosting Video Object Segmentation via Space-time Correspondence Learning](http://arxiv.org/abs/2304.06211v1)<br>:star:[code](https://github.com/wenguanwang/VOS_Correspondence)
+  * [Bootstrapping Objectness from Videos by Relaxed Common Fate and Visual Grouping](http://arxiv.org/abs/2304.08025v1)VOS
   * [Unified Mask Embedding and Correspondence Learning for Self-Supervised Video Segmentation](https://arxiv.org/abs/2303.10100)<br>:star:[code](https://github.com/0liliulei/Mask-VOS)
   * [Two-shot Video Object Segmentation](https://arxiv.org/abs/2303.12078)<br>:star:[code](https://github.com/yk-pku/Two-shot-Video-Object-Segmentation)
  * VIS
@@ -1263,6 +1282,10 @@
 * [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
 * [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
 * [Hard Patches Mining for Masked Image Modeling](http://arxiv.org/abs/2304.05919v1)
+* [Learning Geometry-aware Representations by Sketching](http://arxiv.org/abs/2304.08204v1)
+* [MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning](http://arxiv.org/abs/2304.08028v1)<br>:star:[code](https://github.com/shicaiwei123/MMANet)多模态
+* [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
+
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
 
