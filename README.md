@@ -43,21 +43,15 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月17日更新 13 篇
-* [Learning to Render Novel Views from Wide-Baseline Stereo Pairs](http://arxiv.org/abs/2304.08463v1)<br>:star:[code](https://yilundu.github.io/wide_baseline/)
-* [Delving into Shape-aware Zero-shot Semantic Segmentation](http://arxiv.org/abs/2304.08491v1)<br>:star:[code](https://github.com/Liuxinyv/SAZS)
-* [Conditional Generation of Audio from Video via Foley Analogies](http://arxiv.org/abs/2304.08490v1)<br>:star:[code](https://xypb.github.io/CondFoleyGen/)
-* [Neural Map Prior for Autonomous Driving](http://arxiv.org/abs/2304.08481v1)
-* [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
-* [OVTrack: Open-Vocabulary Multiple Object Tracking](http://arxiv.org/abs/2304.08408v1)<br>:house:[project](https://www.vis.xyz/pub/ovtrack/)
-* [Interactive and Explainable Region-guided Radiology Report Generation](http://arxiv.org/abs/2304.08295v1)<br>:star:[code](https://github.com/ttanida/rgrg)自动生成放射学报告
-* [Learning Geometry-aware Representations by Sketching](http://arxiv.org/abs/2304.08204v1)
-* [ViPLO: Vision Transformer based Pose-Conditioned Self-Loop Graph for Human-Object Interaction Detection](http://arxiv.org/abs/2304.08114v1)<br>:star:[code](https://github.com/Jeeseung-Park/ViPLO)
-* [MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning](http://arxiv.org/abs/2304.08028v1)<br>:star:[code](https://github.com/shicaiwei123/MMANet)
-* [Bootstrapping Objectness from Videos by Relaxed Common Fate and Visual Grouping](http://arxiv.org/abs/2304.08025v1)VOS
-* [Exploring Incompatible Knowledge Transfer in Few-shot Image Generation](http://arxiv.org/abs/2304.07574v1)
-* [Temporally Consistent Online Depth Estimation Using Point-Based Fusion](http://arxiv.org/abs/2304.07435v1)<br>:house:[project](https://research.facebook.com/publications/temporally-consistent-online-depth-estimation-using-point-based-fusion/)
-* [Affordances from Human Videos as a Versatile Representation for Robotics](http://arxiv.org/abs/2304.08488v1)<br>:star:[code](https://robo-affordances.github.io/)
+### 4月19日更新 8 篇
+* [Avatars Grow Legs: Generating Smooth Human Motion from Sparse Tracking Inputs with Diffusion Model](http://arxiv.org/abs/2304.08577v1)<br>:star:[code](https://dulucas.github.io/agrol/)VR/AR
+* [U2RLE: Uncertainty-Guided 2-Stage Room Layout Estimation](http://arxiv.org/abs/2304.08580v1)
+* [AdaMTL: Adaptive Input-dependent Inference for Efficient Multi-Task Learning](http://arxiv.org/abs/2304.08594v1)<br>:star:[code](https://github.com/scale-lab/AdaMTL.git)
+* [SViTT: Temporal Learning of Sparse Video-Text Transformers](http://arxiv.org/abs/2304.08809v1)<br>:house:[project](http://svcl.ucsd.edu/projects/svitt)视频文本检索和问答
+* [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](http://arxiv.org/abs/2304.08818v1)<br>:house:[project](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
+* [Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection](http://arxiv.org/abs/2304.08876v1)<br>:star:[code](https://github.com/Chasel-Tsui/mmrotate-dcfl)
+* [SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes](http://arxiv.org/abs/2304.08971v1)
+* [Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes](http://arxiv.org/abs/2304.08993v1)<br>:star:[code](https://github.com/ruili3/dynamic-multiframe-depth)
 
 
 
@@ -291,7 +285,7 @@
 <a name="43"/>
 
 ## 43.Multi-Task Learning(多任务学习)
-
+* [AdaMTL: Adaptive Input-dependent Inference for Efficient Multi-Task Learning](http://arxiv.org/abs/2304.08594v1)<br>:star:[code](https://github.com/scale-lab/AdaMTL.git)
 <a name="42"/>
 
 ## 42.Metric Learning(度量学习)
@@ -469,6 +463,7 @@
 * AR/VR
   * [Affordance Grounding from Demonstration Video to Target Image](http://arxiv.org/abs/2303.14644v1)<br>:star:[code](https://github.com/showlab/afformer)
   * [Learning to Zoom and Unzoom](http://arxiv.org/abs/2303.15390v1)<br>:star:[code](https://tchittesh.github.io/lzu/)
+  * [Avatars Grow Legs: Generating Smooth Human Motion from Sparse Tracking Inputs with Diffusion Model](http://arxiv.org/abs/2304.08577v1)<br>:star:[code](https://dulucas.github.io/agrol/)VR/AR
 * Visual Localization(视觉定位)
   * [OrienterNet: Visual Localization in 2D Public Maps with Neural Matching](http://arxiv.org/abs/2304.02009v1)
   * [Visual Localization using Imperfect 3D Models from the Internet](http://arxiv.org/abs/2304.05947v1)
@@ -560,7 +555,8 @@
   * [Zero-Shot Everything Sketch-Based Image Retrieval, and in Explainable Style](http://arxiv.org/abs/2303.14348v1)<br>:star:[code](https://github.com/buptLinfy/ZSE-SBIR)
 * 文本-视频检索
   * [Video-Text as Game Players: Hierarchical Banzhaf Interaction for Cross-Modal Representation Learning](http://arxiv.org/abs/2303.14369v1)<br>:star:[code](https://jpthu17.github.io/HBI/)
-
+* 视频-文本
+  * [SViTT: Temporal Learning of Sparse Video-Text Transformers](http://arxiv.org/abs/2304.08809v1)<br>:house:[project](http://svcl.ucsd.edu/projects/svitt)视频文本检索和问答
 
 <a name="22"/>
 
@@ -587,7 +583,10 @@
   * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/) 
   * [DiffCollage: Parallel Generation of Large Content with Diffusion Models](http://arxiv.org/abs/2303.17076v1)<br>:house:[project](https://research.nvidia.com/labs/dir/diffcollage) 
   * [LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation](http://arxiv.org/abs/2303.17189v1)<br>:star:[code](https://github.com/ZGCTroy/LayoutDiffusion)
-  
+* 视频生成
+  * [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](http://arxiv.org/abs/2304.08818v1)<br>:house:[project](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)  
+
+
 <a name="21"/>
 
 ## 21.UAV/Remote Sensing/Satellite Image(无人机/遥感/卫星图像)
@@ -824,7 +823,6 @@
 * 微表情识别
   * [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
 
-
 <a name="10"/>
 
 ## 10.3D(三维重建\三维视觉)
@@ -869,11 +867,14 @@
   * [Fully Self-Supervised Depth Estimation from Defocus Clue](https://arxiv.org/abs/2303.10752)<br>:star:[code](https://github.com/Ehzoahis/DEReD)
   * [iDisc: Internal Discretization for Monocular Depth Estimation](http://arxiv.org/abs/2304.06334v1)<br>:house:[project](http://vis.xyz/pub/idisc)
   * [HRDFuse: Monocular 360°Depth Estimation by Collaboratively Learning Holistic-with-Regional Depth Distributions](https://arxiv.org/abs/2303.11616)<br>:house:[project](https://haoai-1997.github.io/HRDFuse/)
+  * [Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes](http://arxiv.org/abs/2304.08993v1)<br>:star:[code](https://github.com/ruili3/dynamic-multiframe-depth)
   * [Temporally Consistent Online Depth Estimation Using Point-Based Fusion](http://arxiv.org/abs/2304.07435v1)<br>:house:[project](https://research.facebook.com/publications/temporally-consistent-online-depth-estimation-using-point-based-fusion/)
   * [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](http://arxiv.org/abs/2304.03560v1)<br>:star:[code](https://antabangun.github.io/projects/DualRefine/)<br>:star:[code](https://github.com/antabangun/DualRefine)
   * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
 * 室内场景重建
   * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
+  * [SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes](http://arxiv.org/abs/2304.08971v1)
+  * [U2RLE: Uncertainty-Guided 2-Stage Room Layout Estimation](http://arxiv.org/abs/2304.08580v1)
 * 场景重建
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
 
@@ -1073,6 +1074,7 @@
 * 目标发现
   * [Object Discovery from Motion-Guided Tokens](http://arxiv.org/abs/2303.15555v1)
 * 小目标检测
+  * [Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection](http://arxiv.org/abs/2304.08876v1)<br>:star:[code](https://github.com/Chasel-Tsui/mmrotate-dcfl)
   * 红外小目标检测
     * [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)
 
