@@ -1283,7 +1283,7 @@
 * [Meta Compositional Referring Expression Segmentation]论文未公开
 * [Learning Instance-Level Representation for Large-Scale Multi-Modal Pretraining in E-commerce](http://arxiv.org/abs/2304.02853v1)多模态预训练
 * [Adaptive Assignment for Geometry Aware Local Feature Matching](https://arxiv.org/abs/2207.08427)<br>:star:[code](https://github.com/AbyssGaze/AdaMatcher)特征匹配
-* [Hard Patches Mining for Masked Image Modeling](http://arxiv.org/abs/2304.05919v1)
+* [Hard Patches Mining for Masked Image Modeling](http://arxiv.org/abs/2304.05919v1)<br>:thumbsup:[CVPR 2023 | HPM：在掩码学习中挖掘困难样本，带来稳固性能提升！](https://mp.weixin.qq.com/s/I9XGSDwkkmkmIE4tBaIK3g)
 * [Learning Geometry-aware Representations by Sketching](http://arxiv.org/abs/2304.08204v1)
 * [MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning](http://arxiv.org/abs/2304.08028v1)<br>:star:[code](https://github.com/shicaiwei123/MMANet)多模态
 * [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
