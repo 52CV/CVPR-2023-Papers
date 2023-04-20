@@ -43,17 +43,13 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月19日更新 8 篇
-* [Avatars Grow Legs: Generating Smooth Human Motion from Sparse Tracking Inputs with Diffusion Model](http://arxiv.org/abs/2304.08577v1)<br>:star:[code](https://dulucas.github.io/agrol/)VR/AR
-* [U2RLE: Uncertainty-Guided 2-Stage Room Layout Estimation](http://arxiv.org/abs/2304.08580v1)
-* [AdaMTL: Adaptive Input-dependent Inference for Efficient Multi-Task Learning](http://arxiv.org/abs/2304.08594v1)<br>:star:[code](https://github.com/scale-lab/AdaMTL.git)
-* [SViTT: Temporal Learning of Sparse Video-Text Transformers](http://arxiv.org/abs/2304.08809v1)<br>:house:[project](http://svcl.ucsd.edu/projects/svitt)视频文本检索和问答
-* [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](http://arxiv.org/abs/2304.08818v1)<br>:house:[project](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
-* [Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection](http://arxiv.org/abs/2304.08876v1)<br>:star:[code](https://github.com/Chasel-Tsui/mmrotate-dcfl)
-* [SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes](http://arxiv.org/abs/2304.08971v1)
-* [Learning to Fuse Monocular and Multi-view Cues for Multi-frame Depth Estimation in Dynamic Scenes](http://arxiv.org/abs/2304.08993v1)<br>:star:[code](https://github.com/ruili3/dynamic-multiframe-depth)
-
-
+### 4月20日更新 6 篇
+* [AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation](http://arxiv.org/abs/2304.09790v1)<br>:star:[code](https://github.com/MCG-NKU/AMT)
+* [NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models](http://arxiv.org/abs/2304.09787v1)机器人
+* [Sampling is Matter: Point-guided 3D Human Mesh Reconstruction](http://arxiv.org/abs/2304.09502v1)<br>:star:[code](https://github.com/DCVL-3D/PointHMR_release)
+* [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](http://arxiv.org/abs/2304.09446v1)<br>:star:[code](https://github.com/WoodwindHu/DTS)
+* [Investigating the Nature of 3D Generalization in Deep Neural Networks](https://arxiv.org/abs/2304.09358)<br>:star:[code](https://github.com/shoaibahmed/investigating_3d_generalization.git)
+* [EC^2: Emergent Communication for Embodied Control](http://arxiv.org/abs/2304.09448v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -451,6 +447,7 @@
   * [Learning Human-to-Robot Handovers from Point Clouds](http://arxiv.org/abs/2303.17592v1)<br>:star:[code](https://handover-sim2real.github.io)
   * [Neural Volumetric Memory for Visual Locomotion Control](http://arxiv.org/abs/2304.01201v1)<br>:star:[code](https://rchalyang.github.io/NVM)
   * [Affordances from Human Videos as a Versatile Representation for Robotics](http://arxiv.org/abs/2304.08488v1)<br>:star:[code](https://robo-affordances.github.io/)
+  * [NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models](http://arxiv.org/abs/2304.09787v1)机器人
   * 机器手抓取
     * [UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy](https://arxiv.org/abs/2303.00938)<br>:house:[project](https://pku-epic.github.io/UniDexGrasp/)
     * [UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning](http://arxiv.org/abs/2304.00464v1)
@@ -713,6 +710,7 @@
   * [Collaborative Noisy Label Cleaner: Learning Scene-aware Trailers for Multi-modal Highlight Detection in Movies](http://arxiv.org/abs/2303.14768v1)<br>:star:[code](https://github.com/TencentYoutuResearch/HighlightDetection-CLC)
 * 视频帧插值
   * [Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation](https://arxiv.org/pdf/2303.00440.pdf)<br>:star:[code](https://github.com/MCG-NJU/EMA-VFI)
+  * [AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation](http://arxiv.org/abs/2304.09790v1)<br>:star:[code](https://github.com/MCG-NKU/AMT)
   * [Joint Video Multi-Frame Interpolation and Deblurring under Unknown Exposure Time](http://arxiv.org/abs/2303.15043v1)<br>:star:[code](https://github.com/shangwei5/VIDUE)
   * [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)视频帧插值
 * 视频合成
@@ -878,7 +876,6 @@
 * 场景重建
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
 
-
 <a name="9"/>
 
 ## 9.Human Pose Estimation(人体姿态估计)
@@ -914,6 +911,8 @@
     * [One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer](http://arxiv.org/abs/2303.16160v1)<br>:star:[code](https://osx-ubody.github.io/)<br>:thumbsup:[CVPR2023 IDEA与清华提出首个一阶段3D全身人体网格重建算法OSX](https://mp.weixin.qq.com/s/vAhPl4PJqR6LWWq-K28GQA)
   * 三维人体网格估计
     * [3D Human Mesh Estimation from Virtual Markers](https://arxiv.org/abs/2303.11726)<br>:star:[code](https://github.com/ShirleyMaxx/VirtualMarker) 
+  * 三维人体网格重建
+    * [Sampling is Matter: Point-guided 3D Human Mesh Reconstruction](http://arxiv.org/abs/2304.09502v1)<br>:star:[code](https://github.com/DCVL-3D/PointHMR_release)
   * 3D人体重建
     * [High-fidelity 3D Human Digitization from Single 2K Resolution Images](http://arxiv.org/abs/2303.15108v1)<br>:star:[code](https://github.com/SangHunHan92/2K2K)
     * [FeatER: An Efficient Network for Human Reconstruction via Feature Map-Based TransformER](https://arxiv.org/pdf/2205.15448.pdf)<br>:house:[project](https://zczcwh.github.io/feater_page/)
@@ -1031,6 +1030,7 @@
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
   * [LinK: Linear Kernel for LiDAR-based 3D Perception](http://arxiv.org/abs/2303.16094v1)<br>:star:[code](https://github.com/MCG-NJU/LinK)
   * [3D Video Object Detection with Learnable Object-Centric Global Optimization](http://arxiv.org/abs/2303.15416v1)<br>:star:[code](https://github.com/jiaweihe1996/BA-Det)
+  * [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](http://arxiv.org/abs/2304.09446v1)<br>:star:[code](https://github.com/WoodwindHu/DTS)
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
   * [Understanding the Robustness of 3D Object Detection with Bird's-Eye-View Representations in Autonomous Driving](http://arxiv.org/abs/2303.17297v1)
   * [Weakly Supervised Monocular 3D Object Detection using Multi-View Projection and Direction Consistency](https://arxiv.org/abs/2303.08686)<br>:star:[code](https://github.com/weakmono3d/weakmono3d)
@@ -1287,6 +1287,8 @@
 * [Learning Geometry-aware Representations by Sketching](http://arxiv.org/abs/2304.08204v1)
 * [MMANet: Margin-aware Distillation and Modality-aware Regularization for Incomplete Multimodal Learning](http://arxiv.org/abs/2304.08028v1)<br>:star:[code](https://github.com/shicaiwei123/MMANet)多模态
 * [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
+* [Investigating the Nature of 3D Generalization in Deep Neural Networks](https://arxiv.org/abs/2304.09358)<br>:star:[code](https://github.com/shoaibahmed/investigating_3d_generalization.git)
+* [EC^2: Emergent Communication for Embodied Control](http://arxiv.org/abs/2304.09448v1)
 
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
