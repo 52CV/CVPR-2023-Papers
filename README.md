@@ -43,13 +43,19 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月20日更新 6 篇
-* [AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation](http://arxiv.org/abs/2304.09790v1)<br>:star:[code](https://github.com/MCG-NKU/AMT)
-* [NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models](http://arxiv.org/abs/2304.09787v1)机器人
-* [Sampling is Matter: Point-guided 3D Human Mesh Reconstruction](http://arxiv.org/abs/2304.09502v1)<br>:star:[code](https://github.com/DCVL-3D/PointHMR_release)
-* [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](http://arxiv.org/abs/2304.09446v1)<br>:star:[code](https://github.com/WoodwindHu/DTS)
-* [Investigating the Nature of 3D Generalization in Deep Neural Networks](https://arxiv.org/abs/2304.09358)<br>:star:[code](https://github.com/shoaibahmed/investigating_3d_generalization.git)
-* [EC^2: Emergent Communication for Embodied Control](http://arxiv.org/abs/2304.09448v1)
+### 4月21日更新 12 篇
+* [Jedi: Entropy-based Localization and Removal of Adversarial Patches](http://arxiv.org/abs/2304.10029v1)
+* [Learning Neural Duplex Radiance Fields for Real-Time View Synthesis](http://arxiv.org/abs/2304.10537v1)<br>:house:[project](http://raywzy.com/NDRF)
+* [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)
+* [ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects](http://arxiv.org/abs/2304.10448v1)<br>:star:[code](https://eyecan-ai.github.io/rene)
+* [Search-Map-Search: A Frame Selection Paradigm for Action Recognition](http://arxiv.org/abs/2304.10316v1)
+* [Omni Aggregation Networks for Lightweight Image Super-Resolution](http://arxiv.org/abs/2304.10244v1)<br>:star:[code](https://github.com/Francis0625/Omni-SR)
+* [Regularizing Second-Order Influences for Continual Learning](http://arxiv.org/abs/2304.10177v1)<br>:star:[code](https://github.com/feifeiobama/InfluenceCL)
+* [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
+* [Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation](http://arxiv.org/abs/2304.10066v1)
+* [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
+* [Learning Bottleneck Concepts in Image Classification](http://arxiv.org/abs/2304.10131v1)<br>:house:[project](https://botcl.liangzhili.com/)<br>:star:[code](https://github.com/wbw520/BotCL)
+* [High-Fidelity and Freely Controllable Talking Head Video Generation](http://arxiv.org/abs/2304.10168v1)<br>:house:[project](https://yuegao.me/PECHead)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -150,6 +156,8 @@
 
 ## 55.Novel View Synthesis(视图合成)
 * [Frequency-Modulated Point Cloud Rendering with Easy Editing](https://arxiv.org/abs/2303.07596)<br>:star:[code](https://github.com/yizhangphd/FreqPCR)
+* [Learning Neural Duplex Radiance Fields for Real-Time View Synthesis](http://arxiv.org/abs/2304.10537v1)<br>:house:[project](http://raywzy.com/NDRF)
+* [ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects](http://arxiv.org/abs/2304.10448v1)<br>:star:[code](https://eyecan-ai.github.io/rene)
 * [Balanced Spherical Grid for Egocentric View Synthesis](http://arxiv.org/abs/2303.12408v1)
 * [Progressively Optimized Local Radiance Fields for Robust View Synthesis](http://arxiv.org/abs/2303.13791v1)<br>:star:[code](https://localrf.github.io/)
 * [F$^{2}$-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories](http://arxiv.org/abs/2303.15951v1)<br>:star:[code](https://totoro97.github.io/projects/f2-nerf)
@@ -316,6 +324,7 @@
   * [Transferable Adversarial Attacks on Vision Transformers with Token Gradient Regularization](http://arxiv.org/abs/2303.15754v1)
   * [Re-thinking Model Inversion Attacks Against Deep Neural Networks](http://arxiv.org/abs/2304.01669v1)<br>:star:[code](https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/)
   * [Defending Against Patch-based Backdoor Attacks on Self-Supervised Learning](http://arxiv.org/abs/2304.01482v1)<br>:star:[code](https://github.com/UCDvision/PatchSearch)
+  * [Jedi: Entropy-based Localization and Removal of Adversarial Patches](http://arxiv.org/abs/2304.10029v1)
 
 <a name="39"/>
 
@@ -323,6 +332,7 @@
 * [Achieving a Better Stability-Plasticity Trade-off via Auxiliary Networks in Continual Learning](https://arxiv.org/abs/2303.09483)<br>:star:[code](https://github.com/kim-sanghwan/ANCL)
 * [Computationally Budgeted Continual Learning: What Does Matter?](https://arxiv.org/abs/2303.11165)<br>:star:[code](https://github.com/drimpossible/BudgetCL)
 * [Preserving Linear Separability in Continual Learning by Backward Feature Projection](http://arxiv.org/abs/2303.14595v1)
+* [Regularizing Second-Order Influences for Continual Learning](http://arxiv.org/abs/2304.10177v1)<br>:star:[code](https://github.com/feifeiobama/InfluenceCL)
 * [Rethinking Gradient Projection Continual Learning: Stability / Plasticity Feature Space Decoupling]持续学习(论文未公开)
 * [Exploring Data Geometry for Continual Learning](http://arxiv.org/abs/2304.03931v1)
 * [PCR: Proxy-based Contrastive Replay for Online Class-Incremental Continual Learning](http://arxiv.org/abs/2304.04408v1)
@@ -493,8 +503,6 @@
 
 <a name="26"/>
 
-
-
 ## 26.GCN/GNN
 
 <a name="25"/>
@@ -507,6 +515,7 @@
 * [Regularization of polynomial networks for image recognition](http://arxiv.org/abs/2303.13896v1)<br>:star:[code](https://github.com/grigorisg9gr/regularized_polynomials)
 * [Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm](http://arxiv.org/abs/2303.14382v1)<br>:star:[code](https://github.com/yichen928/ActiveFT)
 * [Dynamic Conceptional Contrastive Learning for Generalized Category Discovery](http://arxiv.org/abs/2303.17393v1)<br>:star:[code](https://github.com/TPCD/DCCL)
+* [Learning Bottleneck Concepts in Image Classification](http://arxiv.org/abs/2304.10131v1)<br>:house:[project](https://botcl.liangzhili.com/)<br>:star:[code](https://github.com/wbw520/BotCL)
 * 小样本分类
   * [Prompt, Generate, then Cache: Cascade of Foundation Models makes Strong Few-shot Learners](https://arxiv.org/abs/2303.02151)<br>:star:[code](https://github.com/ZrrSkywalker/CaFo)
   * [Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings](https://arxiv.org/abs/2303.09352)<br>:star:[code](https://github.com/uitml/noHub)
@@ -537,6 +546,7 @@
   * [Human Guided Ground-truth Generation for Realistic Image Super-resolution](http://arxiv.org/abs/2303.13069v1)<br>:star:[code](https://github.com/ChrisDud0257/HGGT)
   * [Implicit Diffusion Models for Continuous Super-Resolution](http://arxiv.org/abs/2303.16491v1)
   * [Better "CMOS" Produces Clearer Images: Learning Space-Variant Blur Estimation for Blind Image Super-Resolution]超分辨率(论文未公开)
+  * [Omni Aggregation Networks for Lightweight Image Super-Resolution](http://arxiv.org/abs/2304.10244v1)<br>:star:[code](https://github.com/Francis0625/Omni-SR)
 * VSR
   * [Towards High-Quality and Efficient Video Super-Resolution via Spatial-Temporal Data Overfitting](https://arxiv.org/abs/2303.08331)<br>:star:[code](https://github.com/coulsonlee/STDO-CVPR2023.git)
 * 文本图像超分辨率
@@ -613,8 +623,6 @@
 
 ## 19.Neural Architecture Search(神经架构搜索)
 * [PA&DA: Jointly Sampling PAth and DAta for Consistent NAS](https://arxiv.org/pdf/2302.14772.pdf)<br>:star:[code](https://github.com/ShunLu91/PA-DA)
-
-
 
 
 <a name="18"/>
@@ -776,6 +784,8 @@
 ## 11.Face(人脸)
 * [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
 * [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
+* [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)
+* [Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation](http://arxiv.org/abs/2304.10066v1)
 * [DiffusionRig: Learning Personalized Priors for Facial Appearance Editing](http://arxiv.org/abs/2304.06711v1)<br>:star:[code](https://diffusionrig.github.io)
 * [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
 * [DCFace: Synthetic Face Generation with Dual Condition Diffusion Model](http://arxiv.org/abs/2304.07060v1)<br>:star:[code](https://github.com/mk-minchul/dcface)
@@ -805,6 +815,7 @@
 * 说话头
   * [OTAvatar: One-shot Talking Face Avatar with Controllable Tri-plane Rendering](http://arxiv.org/abs/2303.14662v1)<br>:star:[code](https://github.com/theEricMa/OTAvatar)
   * [Seeing What You Said: Talking Face Generation Guided by a Lip Reading Expert](http://arxiv.org/abs/2303.17480v1)
+  * [High-Fidelity and Freely Controllable Talking Head Video Generation](http://arxiv.org/abs/2304.10168v1)<br>:house:[project](https://yuegao.me/PECHead)
   * [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
   * [GANHead: Towards Generative Animatable Neural Head Avatars](http://arxiv.org/abs/2304.03950v1)<br>:star:[code](https://wsj-sjtu.github.io/GANHead/)
   * [One-Shot High-Fidelity Talking-Head Synthesis with Deformable Neural Radiance Field](http://arxiv.org/abs/2304.05097v1)<br>:house:[project](https://www.waytron.net/hidenerf/)
@@ -849,6 +860,7 @@
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
+  * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
   * [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)
   * [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](http://arxiv.org/abs/2303.14158v1)<br>:star:[code](https://bundlesdf.github.io)
   * [PAniC-3D: Stylized Single-view 3D Reconstruction from Portraits of Anime Characters](http://arxiv.org/abs/2303.14587v1)<br>:star:[code](https://github.com/ShuhongChen/panic3d-anime-reconstruction)
@@ -929,6 +941,7 @@
 * [Learning Action Changes by Measuring Verb-Adverb Textual Relationships](http://arxiv.org/abs/2303.15086v1)<br>:star:[code](https://github.com/dmoltisanti/air-cvpr23)
 * [STMixer: A One-Stage Sparse Action Detector](http://arxiv.org/abs/2303.15879v1)
 * [AutoLabel: CLIP-based framework for Open-set Video Domain Adaptation](http://arxiv.org/abs/2304.01110v1)
+* [Search-Map-Search: A Frame Selection Paradigm for Action Recognition](http://arxiv.org/abs/2304.10316v1)
 * [On the Benefits of 3D Pose and Tracking for Human Action Recognition](http://arxiv.org/abs/2304.01199v1)<br>:star:[code](https://brjathu.github.io/LART)
 * 基于骨架的动作识别
   * [Learning Discriminative Representations for Skeleton Based Action Recognition](https://arxiv.org/abs/2303.03729)
@@ -1219,6 +1232,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
 * [Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning](http://arxiv.org/abs/2304.04824v1)
 * [Noisy Correspondence Learning with Meta Similarity Correction](http://arxiv.org/abs/2304.06275v1)
 * [Efficient Multimodal Fusion via Interactive Prompting](http://arxiv.org/abs/2304.06306v1)
