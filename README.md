@@ -43,19 +43,11 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月21日更新 12 篇
-* [Jedi: Entropy-based Localization and Removal of Adversarial Patches](http://arxiv.org/abs/2304.10029v1)
-* [Learning Neural Duplex Radiance Fields for Real-Time View Synthesis](http://arxiv.org/abs/2304.10537v1)<br>:house:[project](http://raywzy.com/NDRF)
-* [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)
-* [ReLight My NeRF: A Dataset for Novel View Synthesis and Relighting of Real World Objects](http://arxiv.org/abs/2304.10448v1)<br>:star:[code](https://eyecan-ai.github.io/rene)
-* [Search-Map-Search: A Frame Selection Paradigm for Action Recognition](http://arxiv.org/abs/2304.10316v1)
-* [Omni Aggregation Networks for Lightweight Image Super-Resolution](http://arxiv.org/abs/2304.10244v1)<br>:star:[code](https://github.com/Francis0625/Omni-SR)
-* [Regularizing Second-Order Influences for Continual Learning](http://arxiv.org/abs/2304.10177v1)<br>:star:[code](https://github.com/feifeiobama/InfluenceCL)
-* [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
-* [Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation](http://arxiv.org/abs/2304.10066v1)
-* [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
-* [Learning Bottleneck Concepts in Image Classification](http://arxiv.org/abs/2304.10131v1)<br>:house:[project](https://botcl.liangzhili.com/)<br>:star:[code](https://github.com/wbw520/BotCL)
-* [High-Fidelity and Freely Controllable Talking Head Video Generation](http://arxiv.org/abs/2304.10168v1)<br>:house:[project](https://yuegao.me/PECHead)
+### 4月24日更新 4 篇
+* [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
+* [Joint Token Pruning and Squeezing Towards More Aggressive Compression of Vision Transformers](http://arxiv.org/abs/2304.10716v1)<br>:star:[code](https://github.com/megvii-research/TPS-CVPR2023)
+* [GeoLayoutLM: Geometric Pre-training for Visual Information Extraction](http://arxiv.org/abs/2304.10759v1)<br>:star:[code](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/GeoLayoutLM)
+* [Implicit Neural Head Synthesis via Controllable Local Deformation Fields](http://arxiv.org/abs/2304.11113v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -703,6 +695,7 @@
 * [Slide-Transformer: Hierarchical Vision Transformer with Local Self-Attention](http://arxiv.org/abs/2304.04237v1)<br>:star:[code](https://github.com/LeapLabTHU/Slide-Transformer)
 * [RIFormer: Keep Your Vision Backbone Effective While Removing Token Mixer](http://arxiv.org/abs/2304.05659v1)<br>:star:[code](https://techmonsterwang.github.io/RIFormer/)
 * [DropKey](https://arxiv.org/abs/2208.02646)<br>:thumbsup:[CVPR 2023｜两行代码高效缓解视觉Transformer过拟合，美图&国科大联合提出正则化方法DropKey](https://mp.weixin.qq.com/s/rmr40kryYPILwEinzZOjUA)
+* [Joint Token Pruning and Squeezing Towards More Aggressive Compression of Vision Transformers](http://arxiv.org/abs/2304.10716v1)<br>:star:[code](https://github.com/megvii-research/TPS-CVPR2023)
 
 <a name="14"/>
 
@@ -814,6 +807,7 @@
   * [Instance-Aware Domain Generalization for Face Anti-Spoofing]人脸(论文未公开)
 * 说话头
   * [OTAvatar: One-shot Talking Face Avatar with Controllable Tri-plane Rendering](http://arxiv.org/abs/2303.14662v1)<br>:star:[code](https://github.com/theEricMa/OTAvatar)
+  * [Implicit Neural Head Synthesis via Controllable Local Deformation Fields](http://arxiv.org/abs/2304.11113v1)
   * [Seeing What You Said: Talking Face Generation Guided by a Lip Reading Expert](http://arxiv.org/abs/2303.17480v1)
   * [High-Fidelity and Freely Controllable Talking Head Video Generation](http://arxiv.org/abs/2304.10168v1)<br>:house:[project](https://yuegao.me/PECHead)
   * [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
@@ -860,6 +854,7 @@
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
+  * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
   * [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)
   * [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](http://arxiv.org/abs/2303.14158v1)<br>:star:[code](https://bundlesdf.github.io)
@@ -1233,6 +1228,7 @@
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
 * [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
+* [GeoLayoutLM: Geometric Pre-training for Visual Information Extraction](http://arxiv.org/abs/2304.10759v1)<br>:star:[code](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/GeoLayoutLM)
 * [Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning](http://arxiv.org/abs/2304.04824v1)
 * [Noisy Correspondence Learning with Meta Similarity Correction](http://arxiv.org/abs/2304.06275v1)
 * [Efficient Multimodal Fusion via Interactive Prompting](http://arxiv.org/abs/2304.06306v1)
