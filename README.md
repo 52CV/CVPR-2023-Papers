@@ -43,24 +43,16 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月25日更新 17 篇
-* [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](http://arxiv.org/abs/2304.11379v1)<br>:star:[code](https://github.com/songw-zju/LiDAR2Map)
-* [TransFlow: Transformer as Flow Learner](http://arxiv.org/abs/2304.11523v1)
-* [Large-capacity and Flexible Video Steganography via Invertible Neural Network](http://arxiv.org/abs/2304.12300v1)<br>:star:[code](https://github.com/MC-E/LF-VSN)
-* [StyLess: Boosting the Transferability of Adversarial Examples](http://arxiv.org/abs/2304.11579v1)
-* [Learning Partial Correlation based Deep Visual Representation for Image Classification](http://arxiv.org/abs/2304.11597v1)
-* [Transductive Few-shot Learning with Prototype-based Label Propagation by Iterative Graph Refinement](http://arxiv.org/abs/2304.11598v1)
-* [gSDF: Geometry-Driven Signed Distance Functions for 3D Hand-Object Reconstruction](http://arxiv.org/abs/2304.11970v1)<br>:star:[code](https://zerchen.github.io/projects/gsdf.html)
-* [Evading DeepFake Detectors via Adversarial Statistical Consistency](http://arxiv.org/abs/2304.11670v1)
-* [Meta-tuning Loss Functions and Data Augmentation for Few-shot Object Detection](http://arxiv.org/abs/2304.12161v1)
-* [Indiscernible Object Counting in Underwater Scenes](http://arxiv.org/abs/2304.11677v1)<br>:star:[code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)
-* [SketchXAI: A First Look at Explainability for Human Sketches](http://arxiv.org/abs/2304.11744v1)<br>:star:[code](https://sketchxai.github.io)
-* [Master: Meta Style Transformer for Controllable Zero-Shot and Few-Shot Artistic Style Transfer](http://arxiv.org/abs/2304.11818v1)
-* [Auto-CARD: Efficient and Robust Codec Avatar Driving for Real-time Mobile Telepresence](http://arxiv.org/abs/2304.11835v1)
-* [Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions](http://arxiv.org/abs/2304.11846v1)<br>:star:[code](https://github.com/yunhe20/Grad-PU)
-* [Glocal Energy-based Learning for Few-Shot Open-Set Recognition](http://arxiv.org/abs/2304.11855v1)
-* [Learning Visibility Field for Detailed 3D Human Reconstruction and Relighting](http://arxiv.org/abs/2304.11900v1)
-* [AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation](http://arxiv.org/abs/2304.12301v1)<br>:star:[code](https://assemblyhands.github.io/)
+### 4月25日更新 9 篇
+* [LVQAC: Lattice Vector Quantization Coupled with Spatially Adaptive Companding for Efficient Learned Image Compression](http://arxiv.org/abs/2304.12319v1)
+* [CompletionFormer: Depth Completion with Convolutions and Vision Transformers](http://arxiv.org/abs/2304.13030v1)<br>:star:[code](https://github.com/youmi-zym/CompletionFormer)<br>:star:[code](https://youmi-zym.github.io/projects/CompletionFormer/)
+* [Class Attention Transfer Based Knowledge Distillation](http://arxiv.org/abs/2304.12777v1)<br>:star:[code](https://github.com/GzyAftermath/CAT-KD)
+* [Patch-based 3D Natural Scene Generation from a Single Example](http://arxiv.org/abs/2304.12670v1)<br>:house:[project](http://weiyuli.xyz/Sin3DGen/)
+* [Pointersect: Neural Rendering with Cloud-Ray Intersection](http://arxiv.org/abs/2304.12390v1)
+* [AutoFocusFormer: Image Segmentation off the Grid](http://arxiv.org/abs/2304.12406v1)
+* [Bias in Pruned Vision Models: In-Depth Analysis and Countermeasures](http://arxiv.org/abs/2304.12622v1)
+* [Local Implicit Ray Function for Generalizable Radiance Field Representation](http://arxiv.org/abs/2304.12746v1)<br>:star:[code](https://xhuangcv.github.io/lirf/)
+* [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -109,6 +101,7 @@
 * [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
 * [Context-Based Trit-Plane Coding for Progressive Image Compression](https://arxiv.org/abs/2303.05715)<br>:star:[code](https://github.com/seungminjeon-github/CTC)
 * [Learned Image Compression with Mixed Transformer-CNN Architectures](http://arxiv.org/abs/2303.14978v1)<br>:star:[code](https://github.com/jmliu206/LIC_TCM)
+* [LVQAC: Lattice Vector Quantization Coupled with Spatially Adaptive Companding for Efficient Learned Image Compression](http://arxiv.org/abs/2304.12319v1)
 * 视频压缩
   * [Towards Scalable Neural Representation for Diverse Videos](http://arxiv.org/abs/2303.14124v1)
   * [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV) 
@@ -118,6 +111,8 @@
 ## 58.Neural rendering(神经渲染)
 * [NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer](https://arxiv.org/abs/2303.06919)<br>:house:[project](https://redrock303.github.io/nerflix/)
 * [FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization](https://arxiv.org/abs/2303.07418)<br>:house:[project](https://jiawei-yang.github.io/FreeNeRF/)
+* [Local Implicit Ray Function for Generalizable Radiance Field Representation](http://arxiv.org/abs/2304.12746v1)<br>:star:[code](https://xhuangcv.github.io/lirf/)
+* [Pointersect: Neural Rendering with Cloud-Ray Intersection](http://arxiv.org/abs/2304.12390v1)
 * [StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields](https://arxiv.org/abs/2303.10598)<br>:house:[project](https://kunhao-liu.github.io/StyleRF/)
 * [Semantic Ray: Learning a Generalizable Semantic Field with Cross-Reprojection Attention](http://arxiv.org/abs/2303.13014v1)<br>:star:[code](https://liuff19.github.io/S-Ray/)
 * [WildLight: In-the-wild Inverse Rendering with a Flashlight](http://arxiv.org/abs/2303.14190v1)<br>:star:[code](https://junxuan-li.github.io/wildlight-website/)
@@ -398,12 +393,14 @@
   * [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906)<br>:star:[code](https://github.com/bytedance/MRECG)
 * 剪枝
   * [CP$^3$: Channel Pruning Plug-in for Point-based Networks](http://arxiv.org/abs/2303.13097v1)
+  * [Bias in Pruned Vision Models: In-Depth Analysis and Countermeasures](http://arxiv.org/abs/2304.12622v1)
 * MC
   * [Hard Sample Matters a Lot in Zero-Shot Quantization](http://arxiv.org/abs/2303.13826v1)
 * KD
   * [DisWOT: Student Architecture Search for Distillation WithOut Training](http://arxiv.org/abs/2303.15678v1)<br>:star:[code](https://lilujunai.github.io/DisWOT-CVPR2023/)
   * [KD-DLGAN: Data Limited Image Generation via Knowledge Distillation](http://arxiv.org/abs/2303.17158v1)
   * [Multi-Mode Online Knowledge Distillation for Self-Supervised Visual Representation Learning](http://arxiv.org/abs/2304.06461v1)
+  * [Class Attention Transfer Based Knowledge Distillation](http://arxiv.org/abs/2304.12777v1)<br>:star:[code](https://github.com/GzyAftermath/CAT-KD)
 
 <a name="33"/>
 
@@ -856,6 +853,7 @@
 
 ## 10.3D(三维重建\三维视觉)
 * [PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision](https://arxiv.org/abs/2303.09554)<br>:house:[project](https://ktertikas.github.io/part_nerf)
+* [Patch-based 3D Natural Scene Generation from a Single Example](http://arxiv.org/abs/2304.12670v1)<br>:house:[project](http://weiyuli.xyz/Sin3DGen/)
 * [Masked Scene Contrast: A Scalable Framework for Unsupervised 3D Representation Learning](http://arxiv.org/abs/2303.14191v1)<br>:star:[code](https://github.com/Pointcept/Pointcept)
 * [Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching](https://arxiv.org/abs/2303.10971)<br>:star:[code](https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching)
 * [SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field](http://arxiv.org/abs/2303.13277v1)<br>:star:[code](https://zju3dv.github.io/sine/)
@@ -902,6 +900,8 @@
   * [Temporally Consistent Online Depth Estimation Using Point-Based Fusion](http://arxiv.org/abs/2304.07435v1)<br>:house:[project](https://research.facebook.com/publications/temporally-consistent-online-depth-estimation-using-point-based-fusion/)
   * [DualRefine: Self-Supervised Depth and Pose Estimation Through Iterative Epipolar Sampling and Refinement Toward Equilibrium](http://arxiv.org/abs/2304.03560v1)<br>:star:[code](https://antabangun.github.io/projects/DualRefine/)<br>:star:[code](https://github.com/antabangun/DualRefine)
   * [Lite-Mono: A Lightweight CNN and Transformer Architecture for Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/2211.13202)<br>:star:[code](https://github.com/noahzn/Lite-Mono)<br>:thumbsup:[CVPR2023 | 轻量高效的自监督深度估计框架Lite-Mono](https://zhuanlan.zhihu.com/p/616672642)
+* 深度补全
+  * [CompletionFormer: Depth Completion with Convolutions and Vision Transformers](http://arxiv.org/abs/2304.13030v1)<br>:star:[code](https://github.com/youmi-zym/CompletionFormer)<br>:star:[code](https://youmi-zym.github.io/projects/CompletionFormer/)
 * 室内场景重建
   * [I2-SDF: Intrinsic Indoor Scene Reconstruction and Editing via Raytracing in Neural SDFs](https://arxiv.org/abs/2303.07634)<br>:house:[project](https://jingsenzhu.github.io/i2-sdf)
   * [SurfelNeRF: Neural Surfel Radiance Fields for Online Photorealistic Reconstruction of Indoor Scenes](http://arxiv.org/abs/2304.08971v1)
@@ -1184,6 +1184,7 @@
 
 ## 2.Image Segmentation(图像分割)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
+* [AutoFocusFormer: Image Segmentation off the Grid](http://arxiv.org/abs/2304.12406v1)
 * [MP-Former: Mask-Piloted Transformer for Image Segmentation](https://arxiv.org/abs/2303.07336)<br>:star:[code](https://github.com/IDEA-Research/MP-Former)
 * [Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883)<br>:star:[code](https://github.com/NiFangBaAGe/Explict-Visual-Prompt)
 * [Focused and Collaborative Feedback Integration for Interactive Image Segmentation](https://arxiv.org/abs/2303.11880)<br>:star:[code](https://github.com/veizgyauzgyauz/FCFI)
@@ -1258,6 +1259,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
 * [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
 * [GeoLayoutLM: Geometric Pre-training for Visual Information Extraction](http://arxiv.org/abs/2304.10759v1)<br>:star:[code](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/GeoLayoutLM)
 * [Gradient-based Uncertainty Attribution for Explainable Bayesian Deep Learning](http://arxiv.org/abs/2304.04824v1)
