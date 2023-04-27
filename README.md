@@ -43,16 +43,11 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月25日更新 9 篇
-* [LVQAC: Lattice Vector Quantization Coupled with Spatially Adaptive Companding for Efficient Learned Image Compression](http://arxiv.org/abs/2304.12319v1)
-* [CompletionFormer: Depth Completion with Convolutions and Vision Transformers](http://arxiv.org/abs/2304.13030v1)<br>:star:[code](https://github.com/youmi-zym/CompletionFormer)<br>:star:[code](https://youmi-zym.github.io/projects/CompletionFormer/)
-* [Class Attention Transfer Based Knowledge Distillation](http://arxiv.org/abs/2304.12777v1)<br>:star:[code](https://github.com/GzyAftermath/CAT-KD)
-* [Patch-based 3D Natural Scene Generation from a Single Example](http://arxiv.org/abs/2304.12670v1)<br>:house:[project](http://weiyuli.xyz/Sin3DGen/)
-* [Pointersect: Neural Rendering with Cloud-Ray Intersection](http://arxiv.org/abs/2304.12390v1)
-* [AutoFocusFormer: Image Segmentation off the Grid](http://arxiv.org/abs/2304.12406v1)
-* [Bias in Pruned Vision Models: In-Depth Analysis and Countermeasures](http://arxiv.org/abs/2304.12622v1)
-* [Local Implicit Ray Function for Generalizable Radiance Field Representation](http://arxiv.org/abs/2304.12746v1)<br>:star:[code](https://xhuangcv.github.io/lirf/)
-* [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
+### 4月25日更新 3 篇
+* [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/abs/2304.13166v1)
+* [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/abs/2304.13265v1)
+* [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
+
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -724,6 +719,7 @@
 
 ## 14.Video
 * [Weakly Supervised Video Representation Learning with Unaligned Text for Sequential Videos](http://arxiv.org/abs/2303.12370v1)<br>:star:[code](https://github.com/svip-lab/WeakSVR)
+* [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/abs/2304.13265v1)
 * [VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](http://arxiv.org/abs/2303.16727v1)
 * [Implicit View-Time Interpolation of Stereo Videos using Multi-Plane Disparities and Non-Uniform Coordinates](http://arxiv.org/abs/2303.17181v1)<br>:house:[project](https://people.engr.tamu.edu/nimak/Papers/CVPR23StereoVideo/index.html)<br>:house:[project](https://www.youtube.com/watch?v=XJa_bf8OCrc)
 * 视频时刻检索
@@ -908,6 +904,8 @@
   * [U2RLE: Uncertainty-Guided 2-Stage Room Layout Estimation](http://arxiv.org/abs/2304.08580v1)
 * 场景重建
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
+* MVS
+  * [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
 
 <a name="9"/>
 
@@ -1178,6 +1176,8 @@
   * [Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement](http://arxiv.org/abs/2304.06703v1)
 * 图像增强
   * [Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement](http://arxiv.org/abs/2304.07039v1)
+* 图像和谐化
+  * [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/abs/2304.13166v1)
 
 
 <a name="2"/>
