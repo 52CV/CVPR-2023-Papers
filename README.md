@@ -43,11 +43,12 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月27日更新 3 篇
-* [LEMaRT: Label-Efficient Masked Region Transform for Image Harmonization](http://arxiv.org/abs/2304.13166v1)
-* [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/abs/2304.13265v1)
-* [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
-
+### 4月27日更新 5 篇
+* [Optimization-Inspired Cross-Attention Transformer for Compressive Sensing](http://arxiv.org/abs/2304.13986v1)<br>:star:[code](https://github.com/songjiechong/OCTUF)
+* [Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM](http://arxiv.org/abs/2304.14377v1)<br>:star:[code](https://hengyiwang.github.io/projects/CoSLAM)
+* [SeqTrack: Sequence to Sequence Learning for Visual Object Tracking](http://arxiv.org/abs/2304.14394v1)
+* [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
+* [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -97,6 +98,7 @@
 * [Context-Based Trit-Plane Coding for Progressive Image Compression](https://arxiv.org/abs/2303.05715)<br>:star:[code](https://github.com/seungminjeon-github/CTC)
 * [Learned Image Compression with Mixed Transformer-CNN Architectures](http://arxiv.org/abs/2303.14978v1)<br>:star:[code](https://github.com/jmliu206/LIC_TCM)
 * [LVQAC: Lattice Vector Quantization Coupled with Spatially Adaptive Companding for Efficient Learned Image Compression](http://arxiv.org/abs/2304.12319v1)
+* [Optimization-Inspired Cross-Attention Transformer for Compressive Sensing](http://arxiv.org/abs/2304.13986v1)<br>:star:[code](https://github.com/songjiechong/OCTUF)
 * 视频压缩
   * [Towards Scalable Neural Representation for Diverse Videos](http://arxiv.org/abs/2303.14124v1)
   * [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV) 
@@ -470,6 +472,7 @@
     * [Renderable Neural Radiance Map for Visual Navigation](https://arxiv.org/pdf/2303.00304.pdf)
 * SLAM
   * [Efficient Map Sparsification Based on 2D and 3D Discretized Grids](https://arxiv.org/abs/2303.10882)<br>:star:[code](https://github.com/fishmarch/SLAM_Map_Compression)
+  * [Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM](http://arxiv.org/abs/2304.14377v1)<br>:star:[code](https://hengyiwang.github.io/projects/CoSLAM)
 * 虚拟试穿
   * [GP-VTON: Towards General Purpose Virtual Try-on via Collaborative Local-Flow Global-Parsing Learning](https://arxiv.org/abs/2303.13756)<br>:star:[code](https://github.com/xiezhy6/GP-VTON)
 * AR/VR
@@ -874,6 +877,7 @@
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
+  * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
   * [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)
@@ -1025,6 +1029,7 @@
 * [Propagate And Calibrate: Real-time Passive Non-line-of-sight Tracking](https://arxiv.org/abs/2303.11791)<br>:star:[code](https://againstentropy.github.io/NLOS-Track/)
 * [Joint Visual Grounding and Tracking with Natural Language Specification](https://arxiv.org/abs/2303.12027)<br>:star:[code](https://github.com/lizhou-cs/JointNLT)
 * [Generalized Relation Modeling for Transformer Tracking](http://arxiv.org/abs/2303.16580v1)<br>:star:[code](https://github.com/Little-Podi/GRM)
+* [SeqTrack: Sequence to Sequence Learning for Visual Object Tracking](http://arxiv.org/abs/2304.14394v1)
 * [DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks](http://arxiv.org/abs/2304.00571v1)<br>:star:[code](https://github.com/jimmy-dq/DropMAE.git)
 * 多目标跟踪
   * [Referring Multi-Object Tracking](https://arxiv.org/abs/2303.03366)<br>:star:[code](https://github.com/wudongming97/RMOT)
@@ -1259,6 +1264,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
 * [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
 * [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
 * [GeoLayoutLM: Geometric Pre-training for Visual Information Extraction](http://arxiv.org/abs/2304.10759v1)<br>:star:[code](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/DocumentUnderstanding/GeoLayoutLM)
