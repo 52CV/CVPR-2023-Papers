@@ -43,12 +43,20 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 4月27日更新 5 篇
-* [Optimization-Inspired Cross-Attention Transformer for Compressive Sensing](http://arxiv.org/abs/2304.13986v1)<br>:star:[code](https://github.com/songjiechong/OCTUF)
-* [Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM](http://arxiv.org/abs/2304.14377v1)<br>:star:[code](https://hengyiwang.github.io/projects/CoSLAM)
-* [SeqTrack: Sequence to Sequence Learning for Visual Object Tracking](http://arxiv.org/abs/2304.14394v1)
-* [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
-* [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
+### 5月1-4日更新 12 篇
+* [Generalizing Dataset Distillation via Deep Generative Prior](https://arxiv.org/abs/2305.01649)<br>:star:[code](https://github.com/GeorgeCazenavette/glad)<br>:house:[project](https://georgecazenavette.github.io/glad)
+* [Learning Locally Editable Virtual Humans](https://arxiv.org/abs/2305.00121)<br>:house:[project](https://custom-humans.github.io)
+* [Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation](https://arxiv.org/abs/2305.00673)<br>:star:[code](https://github.com/DeepMed-Lab-ECNU/BCP)
+* [Overcoming the Trade-off Between Accuracy and Plausibility in 3D Hand Shape Reconstruction](https://arxiv.org/abs/2305.00646)
+* [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
+* [Class-Balancing Diffusion Models](https://arxiv.org/abs/2305.00562)
+* [Discriminative Co-Saliency and Background Mining Transformer for Co-Salient Object Detection](https://arxiv.org/abs/2305.00514)<br>:star:[code](https://github.com/dragonlee258079/DMT)
+* [SFD2: Semantic-guided Feature Detection and Description](https://arxiv.org/abs/2304.14845)<br>:star:[code](https://github.com/feixue94/sfd2)
+* [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
+* [IMP: Iterative Matching and Pose Estimation with Adaptive Pooling](https://arxiv.org/abs/2304.14837)<br>:star:[code](https://github.com/feixue94/imp-release)
+* [Deep Graph Reprogramming](https://arxiv.org/abs/2304.14593)
+* [DynamicStereo: Consistent Dynamic Depth from Stereo Videos](https://arxiv.org/abs/2305.02296)<br>:house:[project](https://dynamic-stereo.github.io/)
+
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -493,6 +501,9 @@
 * [Modernizing Old Photos Using Multiple References via Photorealistic Style Transfer](http://arxiv.org/abs/2304.04461v1)<br>:star:[code](https://kaist-viclab.github.io/old-photo-modernization)
 * [Master: Meta Style Transformer for Controllable Zero-Shot and Few-Shot Artistic Style Transfer](http://arxiv.org/abs/2304.11818v1)
 
+
+
+
 <a name="27"/>
 
 ## 27.Pose Estimation(物体姿势估计)
@@ -507,6 +518,7 @@
   * [Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation](http://arxiv.org/abs/2303.12246v1)
   * [HS-Pose: Hybrid Scope Feature Extraction for Category-level Object Pose Estimation](http://arxiv.org/abs/2303.15743v1)
   * [TTA-COPE: Test-Time Adaptation for Category-Level Object Pose Estimation](http://arxiv.org/abs/2303.16730v1)<br>:house:[project](https://taeyeop.com/ttacope)
+  * [IMP: Iterative Matching and Pose Estimation with Adaptive Pooling](https://arxiv.org/abs/2304.14837)<br>:star:[code](https://github.com/feixue94/imp-release)
 * 6D
   * [Rigidity-Aware Detection for 6D Object Pose Estimation](http://arxiv.org/abs/2303.12396v1)
 * 动物姿态估计
@@ -652,6 +664,7 @@
 * 人群计数
   * [CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model](http://arxiv.org/abs/2304.04231v1)<br>:star:[code](https://github.com/dk-liang/CrowdCLIP)
 
+
 <a name="17"/>
 
 ## 17.Medical Image(医学影像)
@@ -671,6 +684,7 @@
 * 医学影像分割
   * [Orthogonal Annotation Benefits Barely-supervised Medical Image Segmentation](http://arxiv.org/abs/2303.13090v1)
   * [Fair Federated Medical Image Segmentation via Client Contribution Estimation](http://arxiv.org/abs/2303.16520v1)
+  * [Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation](https://arxiv.org/abs/2305.00673)<br>:star:[code](https://github.com/DeepMed-Lab-ECNU/BCP)
   * [Devil is in the Queries: Advancing Mask Transformers for Real-world Medical Image Segmentation and Out-of-Distribution Localization](http://arxiv.org/abs/2304.00212v1)
   * [Weakly supervised segmentation with point annotations for histopathology images via contrast-based variational model](http://arxiv.org/abs/2304.03572v1)
 * 医学影像分析
@@ -857,6 +871,7 @@
 * [Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching](https://arxiv.org/abs/2303.10971)<br>:star:[code](https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching)
 * [SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field](http://arxiv.org/abs/2303.13277v1)<br>:star:[code](https://zju3dv.github.io/sine/)
 * [3DQD: Generalized Deep 3D Shape Prior via Part-Discretized Diffusion Process](https://arxiv.org/abs/2303.10406)<br>:star:[code](https://github.com/colorful-liyu/3DQD)
+* [DynamicStereo: Consistent Dynamic Depth from Stereo Videos](https://arxiv.org/abs/2305.02296)<br>:house:[project](https://dynamic-stereo.github.io/)
 * [3D Concept Learning and Reasoning from Multi-View Images](https://arxiv.org/abs/2303.11327)<br>:house:[project](https://vis-www.cs.umass.edu/3d-clr/)
 * [PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360$^{\circ}$](http://arxiv.org/abs/2303.13071v1)<br>:star:[code](https://sizhean.github.io/panohead)
 * [Persistent Nature: A Generative Model of Unbounded 3D Worlds](https://arxiv.org/abs/2303.13515)<br>:house:[project](https://chail.github.io/persistent-nature/)
@@ -878,6 +893,7 @@
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
+  * [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
   * [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)
@@ -911,6 +927,7 @@
 * MVS
   * [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
 
+
 <a name="9"/>
 
 ## 9.Human Pose Estimation(人体姿态估计)
@@ -923,6 +940,7 @@
     * [Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement](https://arxiv.org/abs/2303.01765)
   * 手部重建
     * [ACR: Attention Collaboration-based Regressor for Arbitrary Two-Hand Reconstruction](https://arxiv.org/abs/2303.05938)<br>:star:[code](https://github.com/ZhengdiYu/Arbitrary-Hands-3D-Reconstruction)
+    * [Overcoming the Trade-off Between Accuracy and Plausibility in 3D Hand Shape Reconstruction](https://arxiv.org/abs/2305.00646)
     * [gSDF: Geometry-Driven Signed Distance Functions for 3D Hand-Object Reconstruction](http://arxiv.org/abs/2304.11970v1)<br>:star:[code](https://zerchen.github.io/projects/gsdf.html)
     * [MeMaHand: Exploiting Mesh-Mano Interaction for Single Image Two-Hand Reconstruction](http://arxiv.org/abs/2303.15718)
     * [POEM: Reconstructing Hand in a Point Embedded Multi-view Stereo](http://arxiv.org/abs/2304.04038v1)<br>:star:[code](https://github.com/lixiny/POEM)
@@ -988,6 +1006,8 @@
   * [MoLo: Motion-augmented Long-short Contrastive Learning for Few-shot Action Recognition](http://arxiv.org/abs/2304.00946v1)<br>:star:[code](https://github.com/alibaba-mmai-research/MoLo)
 * 半监督动作识别
   * [TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition](http://arxiv.org/abs/2303.16268v1)<br>:star:[code](https://github.com/DAVEISHAN/TimeBalance)
+* 时序动作定位
+  * [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
 
 <a name="7"/>
 
@@ -1113,6 +1133,8 @@
   * [Feature Shrinkage Pyramid for Camouflaged Object Detection with Transformers](http://arxiv.org/abs/2303.14816v1)<br>:star:[code](https://tzxiang.github.io/project/COD-FSPNet/index.html)<br>:star:[code](https://github.com/ZhouHuang23/FSPNet)
 * 密集目标检测
   * [Ambiguity-Resistant Semi-Supervised Learning for Dense Object Detection](http://arxiv.org/abs/2303.14960v1)<br>:star:[code](https://github.com/PaddlePaddle/PaddleDetection)
+* 协同目标检测
+  * [Discriminative Co-Saliency and Background Mining Transformer for Co-Salient Object Detection](https://arxiv.org/abs/2305.00514)<br>:star:[code](https://github.com/dragonlee258079/DMT)
 * 目标发现
   * [Object Discovery from Motion-Guided Tokens](http://arxiv.org/abs/2303.15555v1)
 * 小目标检测
@@ -1340,6 +1362,11 @@
 * [DisCo-CLIP: A Distributed Contrastive Loss for Memory Efficient CLIP Training](http://arxiv.org/abs/2304.08480v1)<br>:star:[code](https://github.com/IDEA-Research/DisCo-CLIP)
 * [Investigating the Nature of 3D Generalization in Deep Neural Networks](https://arxiv.org/abs/2304.09358)<br>:star:[code](https://github.com/shoaibahmed/investigating_3d_generalization.git)
 * [EC^2: Emergent Communication for Embodied Control](http://arxiv.org/abs/2304.09448v1)
+* [Generalizing Dataset Distillation via Deep Generative Prior](https://arxiv.org/abs/2305.01649)<br>:star:[code](https://github.com/GeorgeCazenavette/glad)<br>:house:[project](https://georgecazenavette.github.io/glad)
+* [Learning Locally Editable Virtual Humans](https://arxiv.org/abs/2305.00121)<br>:house:[project](https://custom-humans.github.io)
+* [Class-Balancing Diffusion Models](https://arxiv.org/abs/2305.00562)
+* [SFD2: Semantic-guided Feature Detection and Description](https://arxiv.org/abs/2304.14845)<br>:star:[code](https://github.com/feixue94/sfd2)
+* [Deep Graph Reprogramming](https://arxiv.org/abs/2304.14593)
 
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
