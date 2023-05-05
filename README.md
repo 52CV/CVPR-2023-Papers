@@ -43,19 +43,19 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月1-4日更新 12 篇
-* [Generalizing Dataset Distillation via Deep Generative Prior](https://arxiv.org/abs/2305.01649)<br>:star:[code](https://github.com/GeorgeCazenavette/glad)<br>:house:[project](https://georgecazenavette.github.io/glad)
-* [Learning Locally Editable Virtual Humans](https://arxiv.org/abs/2305.00121)<br>:house:[project](https://custom-humans.github.io)
-* [Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation](https://arxiv.org/abs/2305.00673)<br>:star:[code](https://github.com/DeepMed-Lab-ECNU/BCP)
-* [Overcoming the Trade-off Between Accuracy and Plausibility in 3D Hand Shape Reconstruction](https://arxiv.org/abs/2305.00646)
-* [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
-* [Class-Balancing Diffusion Models](https://arxiv.org/abs/2305.00562)
-* [Discriminative Co-Saliency and Background Mining Transformer for Co-Salient Object Detection](https://arxiv.org/abs/2305.00514)<br>:star:[code](https://github.com/dragonlee258079/DMT)
-* [SFD2: Semantic-guided Feature Detection and Description](https://arxiv.org/abs/2304.14845)<br>:star:[code](https://github.com/feixue94/sfd2)
-* [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
-* [IMP: Iterative Matching and Pose Estimation with Adaptive Pooling](https://arxiv.org/abs/2304.14837)<br>:star:[code](https://github.com/feixue94/imp-release)
-* [Deep Graph Reprogramming](https://arxiv.org/abs/2304.14593)
-* [DynamicStereo: Consistent Dynamic Depth from Stereo Videos](https://arxiv.org/abs/2305.02296)<br>:house:[project](https://dynamic-stereo.github.io/)
+### 5月5日更新 9 篇
+* [Tracking through Containers and Occluders in the Wild](http://arxiv.org/abs/2305.03052v1)<br>:house:[project](https://tcow.cs.columbia.edu/)
+* [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
+* [Contrastive Mean Teacher for Domain Adaptive Object Detectors](http://arxiv.org/abs/2305.03034v1)
+* [Incremental 3D Semantic Scene Graph Prediction from RGB Sequences](http://arxiv.org/abs/2305.02743v1)
+* [Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval](http://arxiv.org/abs/2305.02610v1)<br>:star:[code](https://github.com/Ashespt/AdvBCT)
+* [LayoutDM: Transformer-based Diffusion Model for Layout Generation](http://arxiv.org/abs/2305.02567v1)
+* [Catch Missing Details: Image Reconstruction with Frequency Augmented Variational Autoencoder](http://arxiv.org/abs/2305.02541v1)
+* [Self-Supervised 3D Scene Flow Estimation Guided by Superpoints](http://arxiv.org/abs/2305.02528v1)
+* [ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos](http://arxiv.org/abs/2305.02519v1)<br>:star:[code](https://milvlg.github.io/anetqa/)
+
+
+
 
 
 ## 计算机图形学
@@ -84,9 +84,11 @@
 * [DivClust: Controlling Diversity in Deep Clustering](http://arxiv.org/abs/2304.01042v1)
 * MVC
   * [On the Effects of Self-supervision and Contrastive Alignment in Deep Multi-view Clustering](https://arxiv.org/abs/2303.09877)<br>:star:[code](https://github.com/DanielTrosten/DeepMVC)
- 
+
+
 ## Scene flow estimation(场景流估计)
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
+* [Self-Supervised 3D Scene Flow Estimation Guided by Superpoints](http://arxiv.org/abs/2305.02528v1)
 
 ## Motion Retargeting(动作重定向)
 * [Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry](https://arxiv.org/abs/2303.08658)<br>:star:[code](https://github.com/Kebii/R2ET)
@@ -579,6 +581,7 @@
 <a name="23"/>
 
 ## 23.Image Retrieval(图像检索)
+* [Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval](http://arxiv.org/abs/2305.02610v1)<br>:star:[code](https://github.com/Ashespt/AdvBCT)
 * 基于草图的图像检索
   * [Data-Free Sketch-Based Image Retrieval](https://arxiv.org/abs/2303.07775)<br>:star:[code](https://github.com/abhrac/data-free-sbir)
   * [CLIP for All Things Zero-Shot Sketch-Based Image Retrieval, Fine-Grained or Not](http://arxiv.org/abs/2303.13440v1)
@@ -889,6 +892,7 @@
 * [3D Line Mapping Revisited](http://arxiv.org/abs/2303.17504v1)<br>:star:[code](https://github.com/cvg/limap)
 * [NeRF-Supervised Deep Stereo](http://arxiv.org/abs/2303.17603v1)<br>:star:[code](https://nerfstereo.github.io/)<br>:star:[code](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo)
 * [Robust Outlier Rejection for 3D Registration with Variational Bayes](http://arxiv.org/abs/2304.01514v1)三维
+* [Incremental 3D Semantic Scene Graph Prediction from RGB Sequences](http://arxiv.org/abs/2305.02743v1)
 * [Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation](http://arxiv.org/abs/2304.00152v1)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
@@ -897,6 +901,7 @@
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
   * [ShapeClipper: Scalable 3D Shape Learning from Single-View Images via Geometric and CLIP-based Consistency](http://arxiv.org/abs/2304.06247v1)<br>:house:[project](https://zixuanh.com/projects/shapeclipper.html)
+  * [Catch Missing Details: Image Reconstruction with Frequency Augmented Variational Autoencoder](http://arxiv.org/abs/2305.02541v1)
   * [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](http://arxiv.org/abs/2303.14158v1)<br>:star:[code](https://bundlesdf.github.io)
   * [PAniC-3D: Stylized Single-view 3D Reconstruction from Portraits of Anime Characters](http://arxiv.org/abs/2303.14587v1)<br>:star:[code](https://github.com/ShuhongChen/panic3d-anime-reconstruction)
   * [Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly](https://arxiv.org/abs/2303.01999)
@@ -926,8 +931,7 @@
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
 * MVS
   * [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
-
-
+ 
 <a name="9"/>
 
 ## 9.Human Pose Estimation(人体姿态估计)
@@ -1009,11 +1013,13 @@
 * 时序动作定位
   * [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
 
+
 <a name="7"/>
 
 ## 7.Point Cloud(点云)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
 * [SCPNet: Semantic Scene Completion on Point Cloud](https://arxiv.org/abs/2303.06884)
+* [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
 * [Rotation-Invariant Transformer for Point Cloud Matching](https://arxiv.org/abs/2303.08231)
 * [Recognizing Rigid Patterns of Unlabeled Point Clouds by Complete and Continuous Isometry Invariants with no False Negatives and no False Positives](http://arxiv.org/abs/2303.15385v1)<br>:house:[project](http://kurlin.org/projects/cloud-isometry-spaces/distance-based-invariants.pdf)
 * [VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud](http://arxiv.org/abs/2303.14408v1)<br>:star:[code](https://github.com/wz7in/CVPR2023-VLSAT)
@@ -1043,6 +1049,8 @@
 * 点云重建  
   * [Learning to Measure the Point Cloud Reconstruction Loss in a Representation Space](论文未公开)
 
+
+
 <a name="6"/>
 
 ## 6.Object Tracking(目标跟踪)
@@ -1050,6 +1058,7 @@
 * [Joint Visual Grounding and Tracking with Natural Language Specification](https://arxiv.org/abs/2303.12027)<br>:star:[code](https://github.com/lizhou-cs/JointNLT)
 * [Generalized Relation Modeling for Transformer Tracking](http://arxiv.org/abs/2303.16580v1)<br>:star:[code](https://github.com/Little-Podi/GRM)
 * [SeqTrack: Sequence to Sequence Learning for Visual Object Tracking](http://arxiv.org/abs/2304.14394v1)
+* [Tracking through Containers and Occluders in the Wild](http://arxiv.org/abs/2305.03052v1)<br>:house:[project](https://tcow.cs.columbia.edu/)
 * [DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks](http://arxiv.org/abs/2304.00571v1)<br>:star:[code](https://github.com/jimmy-dq/DropMAE.git)
 * 多目标跟踪
   * [Referring Multi-Object Tracking](https://arxiv.org/abs/2303.03366)<br>:star:[code](https://github.com/wudongming97/RMOT)
@@ -1125,6 +1134,7 @@
   * [DiGeo: Discriminative Geometry-Aware Learning for Generalized Few-Shot Object Detection](https://arxiv.org/abs/2303.09674)<br>:star:[code](https://github.com/Phoenix-V/DiGeo)
 * 域适应目标检测
   * [2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection](http://arxiv.org/abs/2303.13853v1)
+  * [Contrastive Mean Teacher for Domain Adaptive Object Detectors](http://arxiv.org/abs/2305.03034v1)
 * 显著目标检测
   * [Sketch2Saliency: Learning to Detect Salient Objects from Human Drawings](https://arxiv.org/abs/2303.11502)
 * 红外目标检测
@@ -1367,6 +1377,8 @@
 * [Class-Balancing Diffusion Models](https://arxiv.org/abs/2305.00562)
 * [SFD2: Semantic-guided Feature Detection and Description](https://arxiv.org/abs/2304.14845)<br>:star:[code](https://github.com/feixue94/sfd2)
 * [Deep Graph Reprogramming](https://arxiv.org/abs/2304.14593)
+* [LayoutDM: Transformer-based Diffusion Model for Layout Generation](http://arxiv.org/abs/2305.02567v1)
+* [ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos](http://arxiv.org/abs/2305.02519v1)<br>:star:[code](https://milvlg.github.io/anetqa/)
 
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
