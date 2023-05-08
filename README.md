@@ -43,16 +43,8 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月5日更新 9 篇
-* [Tracking through Containers and Occluders in the Wild](http://arxiv.org/abs/2305.03052v1)<br>:house:[project](https://tcow.cs.columbia.edu/)
-* [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
-* [Contrastive Mean Teacher for Domain Adaptive Object Detectors](http://arxiv.org/abs/2305.03034v1)
-* [Incremental 3D Semantic Scene Graph Prediction from RGB Sequences](http://arxiv.org/abs/2305.02743v1)
-* [Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval](http://arxiv.org/abs/2305.02610v1)<br>:star:[code](https://github.com/Ashespt/AdvBCT)
-* [LayoutDM: Transformer-based Diffusion Model for Layout Generation](http://arxiv.org/abs/2305.02567v1)
-* [Catch Missing Details: Image Reconstruction with Frequency Augmented Variational Autoencoder](http://arxiv.org/abs/2305.02541v1)
-* [Self-Supervised 3D Scene Flow Estimation Guided by Superpoints](http://arxiv.org/abs/2305.02528v1)
-* [ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos](http://arxiv.org/abs/2305.02519v1)<br>:star:[code](https://milvlg.github.io/anetqa/)
+### 5月8日更新 1 篇
+* [High-Fidelity 3D Face Generation from Natural Language Descriptions](https://arxiv.org/abs/2305.03302)<br>:house:[project](https://github.com/zhuhao-nju/describe3d)
 
 
 
