@@ -864,6 +864,8 @@
   * [Rethinking the Learning Paradigm for Dynamic Facial Expression Recognition]人脸(论文未公开)
 * 微表情识别
   * [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
+* 人脸合成
+  * [High-Fidelity 3D Face Generation from Natural Language Descriptions](https://arxiv.org/abs/2305.03302)<br>:house:[project](https://github.com/zhuhao-nju/describe3d)
 
 <a name="10"/>
 
