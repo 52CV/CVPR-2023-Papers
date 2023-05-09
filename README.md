@@ -43,12 +43,12 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月8日更新 1 篇
-* [High-Fidelity 3D Face Generation from Natural Language Descriptions](https://arxiv.org/abs/2305.03302)<br>:house:[project](https://github.com/zhuhao-nju/describe3d)
-
-
-
-
+### 5月9日更新 5 篇
+* [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
+* [Controllable Light Diffusion for Portraits](http://arxiv.org/abs/2305.04745v1)
+* [Neural Voting Field for Camera-Space 3D Hand Pose Estimation](http://arxiv.org/abs/2305.04328v1)
+* [Multi-Space Neural Radiance Fields](http://arxiv.org/abs/2305.04268v1)<br>:star:[code](https://zx-yin.github.io/msnerf)
+* [PointCMP: Contrastive Mask Prediction for Self-supervised Learning on Point Cloud Videos](http://arxiv.org/abs/2305.04075v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -126,7 +126,7 @@
 * [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
 * [PlenVDB: A Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering]<br>:house:[project](https://plenvdb.github.io/)论文未公开<br>在 iPhone12 手机上达到了对于输出 1280x720 分辨率的画面每秒 30 帧的速率。
 * [Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos](http://arxiv.org/abs/2304.04452v1)<br>:star:[code](https://aoliao12138.github.io/ReRF/)
-
+* [Multi-Space Neural Radiance Fields](http://arxiv.org/abs/2305.04268v1)<br>:star:[code](https://zx-yin.github.io/msnerf)
 
 <a name="57"/>
 
@@ -931,6 +931,7 @@
 ## 9.Human Pose Estimation(人体姿态估计)
 * 手势
   * [A2J-Transformer: Anchor-to-Joint Transformer Network for 3D Interacting Hand Pose Estimation from a Single RGB Image](http://arxiv.org/abs/2304.03635v1)<br>:star:[code](https://github.com/ChanglongJiangGit/A2J-Transformer)3D交互手势姿势估计
+  * [Neural Voting Field for Camera-Space 3D Hand Pose Estimation](http://arxiv.org/abs/2305.04328v1)
   * [AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation](http://arxiv.org/abs/2304.12301v1)<br>:star:[code](https://assemblyhands.github.io/)
   * 音频驱动的联合语音手势生成
     * [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2303.09119)<br>:star:[code](https://github.com/Advocate99/DiffGesture)
@@ -1016,6 +1017,7 @@
 * [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
 * [Rotation-Invariant Transformer for Point Cloud Matching](https://arxiv.org/abs/2303.08231)
 * [Recognizing Rigid Patterns of Unlabeled Point Clouds by Complete and Continuous Isometry Invariants with no False Negatives and no False Positives](http://arxiv.org/abs/2303.15385v1)<br>:house:[project](http://kurlin.org/projects/cloud-isometry-spaces/distance-based-invariants.pdf)
+* [PointCMP: Contrastive Mask Prediction for Self-supervised Learning on Point Cloud Videos](http://arxiv.org/abs/2305.04075v1)
 * [VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud](http://arxiv.org/abs/2303.14408v1)<br>:star:[code](https://github.com/wz7in/CVPR2023-VLSAT)
 * [Unsupervised Inference of Signed Distance Functions from Single Sparse Point Clouds without Learning Priors](http://arxiv.org/abs/2303.14505v1)<br>:star:[code](https://github.com/chenchao15/NeuralTPS)
 * [Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions](http://arxiv.org/abs/2304.11846v1)<br>:star:[code](https://github.com/yunhe20/Grad-PU)
@@ -1093,6 +1095,7 @@
 * 3D OD
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
   * [LinK: Linear Kernel for LiDAR-based 3D Perception](http://arxiv.org/abs/2303.16094v1)<br>:star:[code](https://github.com/MCG-NJU/LinK)
+  * [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
   * [3D Video Object Detection with Learnable Object-Centric Global Optimization](http://arxiv.org/abs/2303.15416v1)<br>:star:[code](https://github.com/jiaweihe1996/BA-Det)
   * [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](http://arxiv.org/abs/2304.09446v1)<br>:star:[code](https://github.com/WoodwindHu/DTS)
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
@@ -1173,6 +1176,8 @@
   * [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
   * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
   * [Bitstream-Corrupted JPEG Images are Restorable: Two-stage Compensation and Alignment Framework for Image Restoration](http://arxiv.org/abs/2304.06976v1)<br>:star:[code](https://github.com/wenyang001/Two-ACIR)
+* 图像照明
+  * [Controllable Light Diffusion for Portraits](http://arxiv.org/abs/2305.04745v1)
 * 图像质量评估
   * [Quality-aware Pre-trained Models for Blind Image Quality Assessment](https://arxiv.org/pdf/2303.00521.pdf)
   * [Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective](http://arxiv.org/abs/2303.14968v1)<br>:star:[code](https://github.com/zwx8981/LIQE)
