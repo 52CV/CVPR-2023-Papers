@@ -43,12 +43,11 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月9日更新 5 篇
-* [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
-* [Controllable Light Diffusion for Portraits](http://arxiv.org/abs/2305.04745v1)
-* [Neural Voting Field for Camera-Space 3D Hand Pose Estimation](http://arxiv.org/abs/2305.04328v1)
-* [Multi-Space Neural Radiance Fields](http://arxiv.org/abs/2305.04268v1)<br>:star:[code](https://zx-yin.github.io/msnerf)
-* [PointCMP: Contrastive Mask Prediction for Self-supervised Learning on Point Cloud Videos](http://arxiv.org/abs/2305.04075v1)
+### 5月10日更新 4 篇
+* [Self-supervised Pre-training with Masked Shape Prediction for 3D Scene Understanding](http://arxiv.org/abs/2305.05026v1)
+* [StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator](http://arxiv.org/abs/2305.05445v1)<br>:star:[code](https://hangz-nju-cuhk.github.io/projects/StyleSync)
+* [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
+* [ImageBind: One Embedding Space To Bind Them All](http://arxiv.org/abs/2305.05665v1)<br>:house:[project](https://imagebind.metademolab.com/)<br>:star:[code](https://github.com/facebookresearch/ImageBind)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -583,6 +582,8 @@
   * [Video-Text as Game Players: Hierarchical Banzhaf Interaction for Cross-Modal Representation Learning](http://arxiv.org/abs/2303.14369v1)<br>:star:[code](https://jpthu17.github.io/HBI/)
 * 视频-文本
   * [SViTT: Temporal Learning of Sparse Video-Text Transformers](http://arxiv.org/abs/2304.08809v1)<br>:house:[project](http://svcl.ucsd.edu/projects/svitt)视频文本检索和问答
+* 多模态检索
+  * [ImageBind: One Embedding Space To Bind Them All](http://arxiv.org/abs/2305.05665v1)<br>:house:[project](https://imagebind.metademolab.com/)<br>:star:[code](https://github.com/facebookresearch/ImageBind)
 
 <a name="22"/>
 
@@ -891,6 +892,7 @@
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
+  * [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
   * [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
@@ -1284,6 +1286,7 @@
    * [Mask-Free Video Instance Segmentation](http://arxiv.org/abs/2303.15904v1)<br>:star:[code](https://github.com/SysCV/MaskFreeVis)<br>:house:[project](http://vis.xyz/pub/maskfreevis)<br>:star:[code](https://github.com/SysCV/MaskFreeVis)
 * 场景理解
   * [FREDOM: Fairness Domain Adaptation Approach to Semantic Scene Understanding](http://arxiv.org/abs/2304.02135v1)
+  * [Self-supervised Pre-training with Masked Shape Prediction for 3D Scene Understanding](http://arxiv.org/abs/2305.05026v1)
   * [Language-driven Open-Vocabulary 3D Scene Understanding](https://arxiv.org/pdf/2211.16312.pdf)<br>:star:[code](https://github.com/CVMI-Lab/PLA)<br>:house:[project](https://dingry.github.io/projects/PLA.html)
 * 抠图
   * [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)
@@ -1295,6 +1298,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator](http://arxiv.org/abs/2305.05445v1)<br>:star:[code](https://hangz-nju-cuhk.github.io/projects/StyleSync)
 * [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
 * [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
 * [Visual DNA: Representing and Comparing Images using Distributions of Neuron Activations](http://arxiv.org/abs/2304.10036v1)<br>:star:[code](https://bramtoula.github.io/vdna/)
