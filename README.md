@@ -43,11 +43,11 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月10日更新 4 篇
-* [Self-supervised Pre-training with Masked Shape Prediction for 3D Scene Understanding](http://arxiv.org/abs/2305.05026v1)
-* [StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator](http://arxiv.org/abs/2305.05445v1)<br>:star:[code](https://hangz-nju-cuhk.github.io/projects/StyleSync)
-* [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
-* [ImageBind: One Embedding Space To Bind Them All](http://arxiv.org/abs/2305.05665v1)<br>:house:[project](https://imagebind.metademolab.com/)<br>:star:[code](https://github.com/facebookresearch/ImageBind)
+### 5月11日更新 4 篇
+* [DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects](http://arxiv.org/abs/2305.05706v1)<br>:house:[project](https://www.chenbao.tech/dexart/)
+* [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](http://arxiv.org/abs/2305.05873v1)
+* [V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting](http://arxiv.org/abs/2305.05938v1)<br>:star:[code](https://github.com/AIR-THU/DAIR-V2X-Seq)
+* [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](http://arxiv.org/abs/2305.06242v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -194,6 +194,7 @@
 * [CIMI4D: A Large Multimodal Climbing Motion Dataset under Human-scene Interactions](http://arxiv.org/abs/2303.17948v1)<br>:house:[project](http://www.lidarhumanmotion.net/cimi4d/)<br>攀爬动作数据集
 * [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](http://arxiv.org/abs/2304.02828v1)
 * [AutoShot: A Short Video Dataset and State-of-the-Art Shot Boundary Detection](http://arxiv.org/abs/2304.06116v1)<br>:star:[code](https://github.com/wentaozhu/AutoShot.git)<br>:house:[project](https://paperswithcode.com/paper/autoshot-a-short-video-dataset-and-state-of)公共短视频镜头边界检测数据集
+* [V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting](http://arxiv.org/abs/2305.05938v1)<br>:star:[code](https://github.com/AIR-THU/DAIR-V2X-Seq)
 
 <a name="53"/>
 
@@ -462,6 +463,7 @@
 ## 29.SLAM/Augmented Reality/Virtual Reality/Robotics(增强/虚拟现实/机器人)
 * 机器人
   * [PartManip: Learning Cross-Category Generalizable Part Manipulation Policy from Point Cloud Observations](http://arxiv.org/abs/2303.16958v1)
+  * [DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects](http://arxiv.org/abs/2305.05706v1)<br>:house:[project](https://www.chenbao.tech/dexart/)
   * [Learning Human-to-Robot Handovers from Point Clouds](http://arxiv.org/abs/2303.17592v1)<br>:star:[code](https://handover-sim2real.github.io)
   * [Neural Volumetric Memory for Visual Locomotion Control](http://arxiv.org/abs/2304.01201v1)<br>:star:[code](https://rchalyang.github.io/NVM)
   * [Affordances from Human Videos as a Versatile Representation for Robotics](http://arxiv.org/abs/2304.08488v1)<br>:star:[code](https://robo-affordances.github.io/)
@@ -627,6 +629,7 @@
 * 自动驾驶
   * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
   * [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](http://arxiv.org/abs/2304.11379v1)<br>:star:[code](https://github.com/songw-zju/LiDAR2Map)
+  * [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](http://arxiv.org/abs/2305.06242v1)
   * [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
   * [Neural Map Prior for Autonomous Driving](http://arxiv.org/abs/2304.08481v1)
 * 轨迹预测
@@ -1015,6 +1018,7 @@
 
 ## 7.Point Cloud(点云)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
+* [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](http://arxiv.org/abs/2305.05873v1)
 * [SCPNet: Semantic Scene Completion on Point Cloud](https://arxiv.org/abs/2303.06884)
 * [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
 * [Rotation-Invariant Transformer for Point Cloud Matching](https://arxiv.org/abs/2303.08231)
