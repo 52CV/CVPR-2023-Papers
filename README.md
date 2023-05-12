@@ -43,11 +43,12 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月11日更新 4 篇
-* [DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects](http://arxiv.org/abs/2305.05706v1)<br>:house:[project](https://www.chenbao.tech/dexart/)
-* [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](http://arxiv.org/abs/2305.05873v1)
-* [V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting](http://arxiv.org/abs/2305.05938v1)<br>:star:[code](https://github.com/AIR-THU/DAIR-V2X-Seq)
-* [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](http://arxiv.org/abs/2305.06242v1)
+### 5月12日更新 5 篇
+* [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](http://arxiv.org/abs/2305.06621v1)<br>:star:[code](https://github.com/Nightmare-n/PVT-SSD)
+* [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://arxiv.org/abs/2305.07011v1)
+* [EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](http://arxiv.org/abs/2305.07027v1)<br>:star:[code](https://github.com/microsoft/Cream/tree/main/EfficientViT)
+* [HuManiFlow: Ancestor-Conditioned Normalising Flows on SO(3) Manifolds for Human Pose and Shape Distribution Estimation](http://arxiv.org/abs/2305.06968v1)<br>:star:[code](https://github.com/akashsengupta1997/HuManiFlow)
+* [Virtual Occlusions Through Implicit Depth](http://arxiv.org/abs/2305.07014v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -730,6 +731,7 @@
 * [RIFormer: Keep Your Vision Backbone Effective While Removing Token Mixer](http://arxiv.org/abs/2304.05659v1)<br>:star:[code](https://techmonsterwang.github.io/RIFormer/)
 * [DropKey](https://arxiv.org/abs/2208.02646)<br>:thumbsup:[CVPR 2023｜两行代码高效缓解视觉Transformer过拟合，美图&国科大联合提出正则化方法DropKey](https://mp.weixin.qq.com/s/rmr40kryYPILwEinzZOjUA)
 * [Joint Token Pruning and Squeezing Towards More Aggressive Compression of Vision Transformers](http://arxiv.org/abs/2304.10716v1)<br>:star:[code](https://github.com/megvii-research/TPS-CVPR2023)
+* [EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](http://arxiv.org/abs/2305.07027v1)<br>:star:[code](https://github.com/microsoft/Cream/tree/main/EfficientViT)
 
 <a name="14"/>
 
@@ -958,6 +960,7 @@
     * [Human Pose as Compositional Tokens](https://arxiv.org/abs/2303.11638)<br>:star:[code](https://github.com/Gengzigang/PCT)
     * [Mutual Information-Based Temporal Difference Learning for Human Pose Estimation in Video](https://arxiv.org/abs/2303.08475)
     * [Self-Correctable and Adaptable Inference for Generalizable Human Pose Estimation](https://arxiv.org/abs/2303.11180)
+    * [HuManiFlow: Ancestor-Conditioned Normalising Flows on SO(3) Manifolds for Human Pose and Shape Distribution Estimation](http://arxiv.org/abs/2305.06968v1)<br>:star:[code](https://github.com/akashsengupta1997/HuManiFlow)
     * [Human Pose Estimation in Extremely Low-Light Conditions](http://arxiv.org/abs/2303.15410v1)
   * 3D HPE
     * [PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers](https://arxiv.org/abs/2303.09187)
@@ -1077,6 +1080,7 @@
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
 * [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet) 
 * [ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection](http://arxiv.org/abs/2303.14679v1)<br>:star:[code](https://github.com/CASIA-IVA-Lab/ZBS)
+* [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://arxiv.org/abs/2305.07011v1)
 * [Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection](https://arxiv.org/abs/2303.05892)<br>:star:[code](https://github.com/LutingWang/OADP)
 * [DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment](http://arxiv.org/abs/2304.04514v1)
 * [Curricular Object Manipulation in LiDAR-based Object Detection](http://arxiv.org/abs/2304.04248v1)<br>:star:[code](https://github.com/ZZY816/COM)
@@ -1102,6 +1106,7 @@
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
   * [LinK: Linear Kernel for LiDAR-based 3D Perception](http://arxiv.org/abs/2303.16094v1)<br>:star:[code](https://github.com/MCG-NJU/LinK)
   * [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
+  * [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](http://arxiv.org/abs/2305.06621v1)<br>:star:[code](https://github.com/Nightmare-n/PVT-SSD)
   * [3D Video Object Detection with Learnable Object-Centric Global Optimization](http://arxiv.org/abs/2303.15416v1)<br>:star:[code](https://github.com/jiaweihe1996/BA-Det)
   * [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](http://arxiv.org/abs/2304.09446v1)<br>:star:[code](https://github.com/WoodwindHu/DTS)
   * [X3KD: Knowledge Distillation Across Modalities, Tasks and Stages for Multi-Camera 3D Object Detection](https://arxiv.org/abs/2303.02203)<br>:star:[code](https://youtu.be/1do9DPFmr38)
@@ -1302,6 +1307,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [Virtual Occlusions Through Implicit Depth](http://arxiv.org/abs/2305.07014v1)
 * [StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator](http://arxiv.org/abs/2305.05445v1)<br>:star:[code](https://hangz-nju-cuhk.github.io/projects/StyleSync)
 * [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
 * [Inverting the Imaging Process by Learning an Implicit Camera Model](http://arxiv.org/abs/2304.12748v1)<br>:star:[code](https://xhuangcv.github.io/neucam/)
