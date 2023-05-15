@@ -95,6 +95,15 @@
 * 工业异常检测
   * [Multimodal Industrial Anomaly Detection via Hybrid Fusion](https://arxiv.org/pdf/2303.00601.pdf)<br>:star:[code](https://github.com/nomewang/M3DM)
 
+## Object Counting(物体计数)
+* [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
+* [Indiscernible Object Counting in Underwater Scenes](http://arxiv.org/abs/2304.11677v1)<br>:star:[code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)
+
+## Object Re-identification(物体重识别)
+* [MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065)<br>:star:[code](https://github.com/vimar-gu/MSINet)
+* [Large-scale Training Data Search for Object Re-identification](http://arxiv.org/abs/2303.16186v1)<br>:star:[code](https://github.com/yorkeyao/SnP)
+* [Adaptive Sparse Pairwise Loss for Object Re-Identification](http://arxiv.org/abs/2303.18247v1)<br>:star:[code](https://github.com/Astaxanthin/AdaSP)
+
 ## .Image\Video Compression(图像视频压缩)
 * [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
 * [Context-Based Trit-Plane Coding for Progressive Image Compression](https://arxiv.org/abs/2303.05715)<br>:star:[code](https://github.com/seungminjeon-github/CTC)
@@ -505,13 +514,6 @@
 <a name="27"/>
 
 ## 27.Pose Estimation(物体姿势估计)
-* 物体计数
-  * [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
-  * [Indiscernible Object Counting in Underwater Scenes](http://arxiv.org/abs/2304.11677v1)<br>:star:[code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)
-* 物体重识别
-  * [MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065)<br>:star:[code](https://github.com/vimar-gu/MSINet)
-  * [Large-scale Training Data Search for Object Re-identification](http://arxiv.org/abs/2303.16186v1)<br>:star:[code](https://github.com/yorkeyao/SnP)
-  * [Adaptive Sparse Pairwise Loss for Object Re-Identification](http://arxiv.org/abs/2303.18247v1)<br>:star:[code](https://github.com/Astaxanthin/AdaSP)
 * 物体姿势估计
   * [Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation](http://arxiv.org/abs/2303.12246v1)
   * [HS-Pose: Hybrid Scope Feature Extraction for Category-level Object Pose Estimation](http://arxiv.org/abs/2303.15743v1)
