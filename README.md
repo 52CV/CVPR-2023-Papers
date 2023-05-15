@@ -43,12 +43,12 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月12日更新 5 篇
-* [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](http://arxiv.org/abs/2305.06621v1)<br>:star:[code](https://github.com/Nightmare-n/PVT-SSD)
-* [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://arxiv.org/abs/2305.07011v1)
-* [EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](http://arxiv.org/abs/2305.07027v1)<br>:star:[code](https://github.com/microsoft/Cream/tree/main/EfficientViT)
-* [HuManiFlow: Ancestor-Conditioned Normalising Flows on SO(3) Manifolds for Human Pose and Shape Distribution Estimation](http://arxiv.org/abs/2305.06968v1)<br>:star:[code](https://github.com/akashsengupta1997/HuManiFlow)
-* [Virtual Occlusions Through Implicit Depth](http://arxiv.org/abs/2305.07014v1)
+### 5月15日更新 5 篇
+* [MMG-Ego4D: Multi-Modal Generalization in Egocentric Action Recognition](http://arxiv.org/abs/2305.07214v1)<br>:star:[code](https://github.com/facebookresearch/MMG_Ego4D)
+* [BlendFields: Few-Shot Example-Driven Facial Modeling](http://arxiv.org/abs/2305.07514v1)<br>:star:[code](https://blendfields.github.io/)
+* [WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models](http://arxiv.org/abs/2305.07528v1)<br>:star:[code](https://infernolia.github.io/WEDGE)
+* [Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training](http://arxiv.org/abs/2305.07613v1)
+* [Meta Omnium: A Benchmark for General-Purpose Learning-to-Learn](http://arxiv.org/abs/2305.07625v1)<br>:star:[code](https://edi-meta-learning.github.io/meta-omnium)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -196,6 +196,7 @@
 * [Uncurated Image-Text Datasets: Shedding Light on Demographic Bias](http://arxiv.org/abs/2304.02828v1)
 * [AutoShot: A Short Video Dataset and State-of-the-Art Shot Boundary Detection](http://arxiv.org/abs/2304.06116v1)<br>:star:[code](https://github.com/wentaozhu/AutoShot.git)<br>:house:[project](https://paperswithcode.com/paper/autoshot-a-short-video-dataset-and-state-of)公共短视频镜头边界检测数据集
 * [V2X-Seq: A Large-Scale Sequential Dataset for Vehicle-Infrastructure Cooperative Perception and Forecasting](http://arxiv.org/abs/2305.05938v1)<br>:star:[code](https://github.com/AIR-THU/DAIR-V2X-Seq)
+* [WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models](http://arxiv.org/abs/2305.07528v1)<br>:star:[code](https://infernolia.github.io/WEDGE)用于极端天气条件下的物体检测和天气分类任务的合成数据集
 
 <a name="53"/>
 
@@ -349,6 +350,7 @@
 
 ## 38.Meta-Learning(元学习)
 * [Meta-Learning with a Geometry-Adaptive Preconditioner](http://arxiv.org/abs/2304.01552v1)<br>:star:[code](https://github.com/Suhyun777/CVPR23-GAP)元学习
+* [Meta Omnium: A Benchmark for General-Purpose Learning-to-Learn](http://arxiv.org/abs/2305.07625v1)<br>:star:[code](https://edi-meta-learning.github.io/meta-omnium)
 
 <a name="37"/>
 
@@ -789,6 +791,7 @@
 ## 13.GAN
 * [Improving GAN Training via Feature Space Shrinkage](https://arxiv.org/abs/2303.01559)<br>:star:[code](https://github.com/WentianZhang-ML/AdaptiveMix)
 * [CoralStyleCLIP: Co-optimized Region and Layer Selection for Image Editing](https://arxiv.org/abs/2303.05031)
+* [Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training](http://arxiv.org/abs/2305.07613v1)
 * [NoisyTwins: Class-Consistent and Diverse Image Generation through StyleGANs](http://arxiv.org/abs/2304.05866v1)<br>:star:[code](https://rangwani-harsh.github.io/NoisyTwins/)
 * [Graph Transformer GANs for Graph-Constrained House Generation](https://arxiv.org/abs/2303.08225)
 * [Cross-GAN Auditing: Unsupervised Identification of Attribute Level Similarities and Differences between Pretrained Generative Models](https://arxiv.org/abs/2303.10774)<br>:star:[code](https://github.com/mattolson93/cross_gan_auditing)
@@ -813,6 +816,7 @@
 
 ## 11.Face(人脸)
 * [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
+* [BlendFields: Few-Shot Example-Driven Facial Modeling](http://arxiv.org/abs/2305.07514v1)<br>:star:[code](https://blendfields.github.io/)
 * [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
 * [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)
 * [Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation](http://arxiv.org/abs/2304.10066v1)
@@ -994,6 +998,7 @@
 * [AutoLabel: CLIP-based framework for Open-set Video Domain Adaptation](http://arxiv.org/abs/2304.01110v1)
 * [Search-Map-Search: A Frame Selection Paradigm for Action Recognition](http://arxiv.org/abs/2304.10316v1)
 * [On the Benefits of 3D Pose and Tracking for Human Action Recognition](http://arxiv.org/abs/2304.01199v1)<br>:star:[code](https://brjathu.github.io/LART)
+* [MMG-Ego4D: Multi-Modal Generalization in Egocentric Action Recognition](http://arxiv.org/abs/2305.07214v1)<br>:star:[code](https://github.com/facebookresearch/MMG_Ego4D)
 * 基于骨架的动作识别
   * [Learning Discriminative Representations for Skeleton Based Action Recognition](https://arxiv.org/abs/2303.03729)
   * [Actionlet-Dependent Contrastive Learning for Unsupervised Skeleton-Based Action Recognition](https://arxiv.org/abs/2303.10904)<br>:house:[project](https://langlandslin.github.io/projects/ActCLR/)
