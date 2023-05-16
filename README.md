@@ -40,7 +40,8 @@
 |[45.Dense Prediction(密集预测)](#45)|[46.Scene Graph Generation(场景图生成)](#46)|[47.Few/Zero-Shot Learning/DG/Adaptation(小/零样本/域泛化/适应)](#47)|[48.Visual Grounding](#48)|
 |[49.Image Geo-localization(图像地理定位)](#49)|[50.Anomaly Detection(异常检测)](#50)|[51.光学、几何、光场成像](#51)|[52.Human Motion Forecasting(人体运动预测)](#52)|
 |[53.Sign Language Translation(手语翻译)](#53)|[54.Dataset(数据集)](#54)|[55.Novel View Synthesis(视图合成)](#55)|[56.Sound](#56)|
-|[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
+|[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.Image\Video Compression(图像视频压缩)](#59)|[60.Industrial Anomaly Detection(工业缺陷检测)](#60)|
+|[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#64)|
 
 
 ### 5月16日更新 6 篇
@@ -83,29 +84,41 @@
 * [Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision](https://arxiv.org/pdf/2303.00462.pdf)<br>:star:[code](https://github.com/Toytiny/CMFlow)
 * [Self-Supervised 3D Scene Flow Estimation Guided by Superpoints](http://arxiv.org/abs/2305.02528v1)
 
-## Motion Retargeting(动作重定向)
+<a name="64"/>
+
+## 64.Motion Retargeting(动作重定向)
 * [Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry](https://arxiv.org/abs/2303.08658)<br>:star:[code](https://github.com/Kebii/R2ET)
 
-## edge detection(边缘检测)
+<a name="63"/>
+
+## 63.edge detection(边缘检测)
 * edge detection
   * [The Treasure Beneath Multiple Annotations: An Uncertainty-aware Edge Detector](https://arxiv.org/abs/2303.11828)<br>:star:[code](https://github.com/ZhouCX117/UAED)
 
-## Industrial Anomaly Detection(工业缺陷检测)
+<a name="62"/>
+
+## 62.Object Counting(物体计数)
+* [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
+* [Indiscernible Object Counting in Underwater Scenes](http://arxiv.org/abs/2304.11677v1)<br>:star:[code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)
+
+<a name="61"/>
+
+## 61.Object Re-identification(物体重识别)
+* [MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065)<br>:star:[code](https://github.com/vimar-gu/MSINet)
+* [Large-scale Training Data Search for Object Re-identification](http://arxiv.org/abs/2303.16186v1)<br>:star:[code](https://github.com/yorkeyao/SnP)
+* [Adaptive Sparse Pairwise Loss for Object Re-Identification](http://arxiv.org/abs/2303.18247v1)<br>:star:[code](https://github.com/Astaxanthin/AdaSP)
+
+<a name="60"/>
+
+## 60.Industrial Anomaly Detection(工业缺陷检测)
 * 缺陷定位
   * [PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow](https://arxiv.org/abs/2303.02595)
 * 工业异常检测
   * [Multimodal Industrial Anomaly Detection via Hybrid Fusion](https://arxiv.org/pdf/2303.00601.pdf)<br>:star:[code](https://github.com/nomewang/M3DM)
 
-## Object Counting(物体计数)
-* [Zero-shot Object Counting](https://arxiv.org/abs/2303.02001)<br>:star:[code](https://github.com/cvlab-stonybrook/zero-shot-counting)
-* [Indiscernible Object Counting in Underwater Scenes](http://arxiv.org/abs/2304.11677v1)<br>:star:[code](https://github.com/GuoleiSun/Indiscernible-Object-Counting)
+<a name="59"/>
 
-## Object Re-identification(物体重识别)
-* [MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID](https://arxiv.org/abs/2303.07065)<br>:star:[code](https://github.com/vimar-gu/MSINet)
-* [Large-scale Training Data Search for Object Re-identification](http://arxiv.org/abs/2303.16186v1)<br>:star:[code](https://github.com/yorkeyao/SnP)
-* [Adaptive Sparse Pairwise Loss for Object Re-Identification](http://arxiv.org/abs/2303.18247v1)<br>:star:[code](https://github.com/Astaxanthin/AdaSP)
-
-## .Image\Video Compression(图像视频压缩)
+## 59.Image\Video Compression(图像视频压缩)
 * [Backdoor Attacks Against Deep Image Compression via Adaptive Frequency Trigger](https://arxiv.org/pdf/2302.14677.pdf)
 * [Context-Based Trit-Plane Coding for Progressive Image Compression](https://arxiv.org/abs/2303.05715)<br>:star:[code](https://github.com/seungminjeon-github/CTC)
 * [Learned Image Compression with Mixed Transformer-CNN Architectures](http://arxiv.org/abs/2303.14978v1)<br>:star:[code](https://github.com/jmliu206/LIC_TCM)
