@@ -43,12 +43,13 @@
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.动画](#59)|[60.Visual Emotion Analysis(视觉情感分析)](#60)|
 
 
-### 5月15日更新 5 篇
-* [MMG-Ego4D: Multi-Modal Generalization in Egocentric Action Recognition](http://arxiv.org/abs/2305.07214v1)<br>:star:[code](https://github.com/facebookresearch/MMG_Ego4D)
-* [BlendFields: Few-Shot Example-Driven Facial Modeling](http://arxiv.org/abs/2305.07514v1)<br>:star:[code](https://blendfields.github.io/)
-* [WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models](http://arxiv.org/abs/2305.07528v1)<br>:star:[code](https://infernolia.github.io/WEDGE)
-* [Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training](http://arxiv.org/abs/2305.07613v1)
-* [Meta Omnium: A Benchmark for General-Purpose Learning-to-Learn](http://arxiv.org/abs/2305.07625v1)<br>:star:[code](https://edi-meta-learning.github.io/meta-omnium)
+### 5月16日更新 6 篇
+* [AutoRecon: Automated 3D Object Discovery and Reconstruction](http://arxiv.org/abs/2305.08810v1)<br>:star:[code](https://zju3dv.github.io/autorecon)
+* [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](http://arxiv.org/abs/2305.08808v1)
+* [Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](http://arxiv.org/abs/2305.08661v1)<br>:star:[code](https://github.com/ynu-yangpeng/GLMC)
+* [NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation](http://arxiv.org/abs/2305.08590v1)<br>:star:[code](https://github.com/Jeff-sjtu/NIKI)
+* [Inverse Rendering of Translucent Objects using Physical and Neural Renderers](http://arxiv.org/abs/2305.08336v1)
+* [Identity-Preserving Talking Face Generation with Landmark and Appearance Priors](http://arxiv.org/abs/2305.08293v1)<br>:star:[code](https://github.com/Weizhi-Zhong/IP_LAP)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -126,6 +127,7 @@
 * [WildLight: In-the-wild Inverse Rendering with a Flashlight](http://arxiv.org/abs/2303.14190v1)<br>:star:[code](https://junxuan-li.github.io/wildlight-website/)
 * [Grid-guided Neural Radiance Fields for Large Urban Scenes](http://arxiv.org/abs/2303.14001v1)<br>:star:[code](https://city-super.github.io/gridnerf/)
 * [GM-NeRF: Learning Generalizable Model-based Neural Radiance Fields from Multi-view Images](http://arxiv.org/abs/2303.13777v1)
+* [Inverse Rendering of Translucent Objects using Physical and Neural Renderers](http://arxiv.org/abs/2305.08336v1)
 * [HandNeRF: Neural Radiance Fields for Animatable Interacting Hands](http://arxiv.org/abs/2303.13825v1)
 * [ABLE-NeRF: Attention-Based Rendering with Learnable Embeddings for Neural Radiance Field](http://arxiv.org/abs/2303.13817v1)
 * [NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects](http://arxiv.org/abs/2303.14435v1)<br>:star:[code](https://github.com/JokerYan/NeRF-DS)
@@ -550,6 +552,7 @@
   * [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
 * 长尾视觉识别
   * [SuperDisco: Super-Class Discovery Improves Visual Recognition for the Long-Tail](http://arxiv.org/abs/2304.00101v1)
+  * [Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](http://arxiv.org/abs/2305.08661v1)<br>:star:[code](https://github.com/ynu-yangpeng/GLMC)
   * [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)
 * 多标签分类
   * [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
@@ -851,6 +854,7 @@
 * 说话头
   * [OTAvatar: One-shot Talking Face Avatar with Controllable Tri-plane Rendering](http://arxiv.org/abs/2303.14662v1)<br>:star:[code](https://github.com/theEricMa/OTAvatar)
   * [Implicit Neural Head Synthesis via Controllable Local Deformation Fields](http://arxiv.org/abs/2304.11113v1)
+  * [Identity-Preserving Talking Face Generation with Landmark and Appearance Priors](http://arxiv.org/abs/2305.08293v1)<br>:star:[code](https://github.com/Weizhi-Zhong/IP_LAP)
   * [Seeing What You Said: Talking Face Generation Guided by a Lip Reading Expert](http://arxiv.org/abs/2303.17480v1)
   * [High-Fidelity and Freely Controllable Talking Head Video Generation](http://arxiv.org/abs/2304.10168v1)<br>:house:[project](https://yuegao.me/PECHead)
   * [High-fidelity Generalized Emotional Talking Face Generation with Multi-modal Emotion Space Learning]说话人脸生成(论文未公开)
@@ -904,6 +908,7 @@
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
   * [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
+  * [AutoRecon: Automated 3D Object Discovery and Reconstruction](http://arxiv.org/abs/2305.08810v1)<br>:star:[code](https://zju3dv.github.io/autorecon)
   * [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
@@ -970,6 +975,7 @@
     * [Human Pose Estimation in Extremely Low-Light Conditions](http://arxiv.org/abs/2303.15410v1)
   * 3D HPE
     * [PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers](https://arxiv.org/abs/2303.09187)
+    * [NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation](http://arxiv.org/abs/2305.08590v1)<br>:star:[code](https://github.com/Jeff-sjtu/NIKI)
     * [PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation](http://arxiv.org/abs/2303.17472v1)<br>:star:[code](https://qitaozhao.github.io/PoseFormerV2)<br>:star:[code](https://github.com/QitaoZhao/PoseFormerV2)
     * [3D Human Pose Estimation via Intuitive Physics](http://arxiv.org/abs/2303.18246v1)<br>:house:[project](https://ipman.is.tue.mpg.de)
   * 4D HPE
@@ -1029,6 +1035,7 @@
 ## 7.Point Cloud(点云)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
 * [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](http://arxiv.org/abs/2305.05873v1)
+* [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](http://arxiv.org/abs/2305.08808v1)
 * [SCPNet: Semantic Scene Completion on Point Cloud](https://arxiv.org/abs/2303.06884)
 * [NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds](http://arxiv.org/abs/2305.03049v1)<br>:star:[code](https://immortalco.github.io/NeuralEditor)
 * [Rotation-Invariant Transformer for Point Cloud Matching](https://arxiv.org/abs/2303.08231)
