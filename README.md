@@ -44,13 +44,9 @@
 |[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#64)|
 
 
-### 5月16日更新 6 篇
-* [AutoRecon: Automated 3D Object Discovery and Reconstruction](http://arxiv.org/abs/2305.08810v1)<br>:star:[code](https://zju3dv.github.io/autorecon)
-* [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](http://arxiv.org/abs/2305.08808v1)
-* [Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](http://arxiv.org/abs/2305.08661v1)<br>:star:[code](https://github.com/ynu-yangpeng/GLMC)
-* [NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation](http://arxiv.org/abs/2305.08590v1)<br>:star:[code](https://github.com/Jeff-sjtu/NIKI)
-* [Inverse Rendering of Translucent Objects using Physical and Neural Renderers](http://arxiv.org/abs/2305.08336v1)
-* [Identity-Preserving Talking Face Generation with Landmark and Appearance Priors](http://arxiv.org/abs/2305.08293v1)<br>:star:[code](https://github.com/Weizhi-Zhong/IP_LAP)
+### 5月17日更新 2 篇
+* [FitMe: Deep Photorealistic 3D Morphable Model Avatars](http://arxiv.org/abs/2305.09641v1)<br>:star:[code](https://lattas.github.io/fitme)
+* [PanelNet: Understanding 360 Indoor Environment via Panel Representation](http://arxiv.org/abs/2305.09078v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -134,6 +130,7 @@
 * [NeRFLiX: High-Quality Neural View Synthesis by Learning a Degradation-Driven Inter-viewpoint MiXer](https://arxiv.org/abs/2303.06919)<br>:house:[project](https://redrock303.github.io/nerflix/)
 * [FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization](https://arxiv.org/abs/2303.07418)<br>:house:[project](https://jiawei-yang.github.io/FreeNeRF/)
 * [Local Implicit Ray Function for Generalizable Radiance Field Representation](http://arxiv.org/abs/2304.12746v1)<br>:star:[code](https://xhuangcv.github.io/lirf/)
+* [FitMe: Deep Photorealistic 3D Morphable Model Avatars](http://arxiv.org/abs/2305.09641v1)<br>:star:[code](https://lattas.github.io/fitme)
 * [Pointersect: Neural Rendering with Cloud-Ray Intersection](http://arxiv.org/abs/2304.12390v1)
 * [StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields](https://arxiv.org/abs/2303.10598)<br>:house:[project](https://kunhao-liu.github.io/StyleRF/)
 * [Semantic Ray: Learning a Generalizable Semantic Field with Cross-Reprojection Attention](http://arxiv.org/abs/2303.13014v1)<br>:star:[code](https://liuff19.github.io/S-Ray/)
@@ -1258,6 +1255,7 @@
 
 ## 2.Image Segmentation(图像分割)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
+* [PanelNet: Understanding 360 Indoor Environment via Panel Representation](http://arxiv.org/abs/2305.09078v1)
 * [AutoFocusFormer: Image Segmentation off the Grid](http://arxiv.org/abs/2304.12406v1)
 * [MP-Former: Mask-Piloted Transformer for Image Segmentation](https://arxiv.org/abs/2303.07336)<br>:star:[code](https://github.com/IDEA-Research/MP-Former)
 * [Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883)<br>:star:[code](https://github.com/NiFangBaAGe/Explict-Visual-Prompt)
