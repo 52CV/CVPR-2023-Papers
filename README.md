@@ -46,7 +46,7 @@
 
 
 ### 5月18日更新 1 篇
-* [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09880)
+* [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09699)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -1104,7 +1104,7 @@
 
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
-* [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09880)
+* [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09699)
 * [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet) 
 * [ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection](http://arxiv.org/abs/2303.14679v1)<br>:star:[code](https://github.com/CASIA-IVA-Lab/ZBS)
 * [Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers](http://arxiv.org/abs/2305.07011v1)
