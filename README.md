@@ -46,7 +46,13 @@
 
 
 ### 5月18日更新 1 篇
-* [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09699)
+* [QPGesture: Quantization-Based and Phase-Guided Motion Matching for Natural Speech-Driven Gesture Generation](http://arxiv.org/abs/2305.11094v1)<br>:star:[code](https://github.com/YoungSeng/QPGesture)
+* [DualVector: Unsupervised Vector Font Synthesis with Dual-Part Representation](http://arxiv.org/abs/2305.10462v1)<br>:star:[code](https://github.com/thuliu-yt16/dualvector)
+* [ReasonNet: End-to-End Driving with Temporal and Global Reasoning](http://arxiv.org/abs/2305.10507v1)
+* [Boost Vision Transformer with GPU-Friendly Sparsity and Quantization](http://arxiv.org/abs/2305.10727v1)
+* [3D Registration with Maximal Cliques](http://arxiv.org/abs/2305.10854v1)
+* [Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark](http://arxiv.org/abs/2305.10899v1)<br>:star:[code](https://github.com/jankyee/URUR)
+* [SDC-UDA: Volumetric Unsupervised Domain Adaptation Framework for Slice-Direction Continuous Cross-Modality Medical Image Segmentation](http://arxiv.org/abs/2305.11012v1)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -403,6 +409,7 @@
   * [Improving Table Structure Recognition with Visual-Alignment Sequential Coordinate Modeling](https://arxiv.org/abs/2303.06949)
 * 字体生成
   * [CF-Font: Content Fusion for Few-shot Font Generation](http://arxiv.org/abs/2303.14017v1)<br>:star:[code](https://github.com/wangchi95/CF-Font)
+  * [DualVector: Unsupervised Vector Font Synthesis with Dual-Part Representation](http://arxiv.org/abs/2305.10462v1)<br>:star:[code](https://github.com/thuliu-yt16/dualvector)
 * 手写文本生成
   * [Disentangling Writer and Character Styles for Handwriting Generation](http://arxiv.org/abs/2303.14736v1)<br>:star:[code](https://github.com/dailenson/SDT)
   * [Handwritten Text Generation from Visual Archetypes](http://arxiv.org/abs/2303.15269v1)
@@ -418,6 +425,7 @@
 * [Run, Don’t Walk: Chasing Higher FLOPS for Faster Neural Networks](https://arxiv.org/abs/2303.03667)<br>:star:[code](https://github.com/JierunChen/FasterNet)
 * 量化
   * [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906)<br>:star:[code](https://github.com/bytedance/MRECG)
+  * [Boost Vision Transformer with GPU-Friendly Sparsity and Quantization](http://arxiv.org/abs/2305.10727v1)
 * 剪枝
   * [CP$^3$: Channel Pruning Plug-in for Point-based Networks](http://arxiv.org/abs/2303.13097v1)
   * [Bias in Pruned Vision Models: In-Depth Analysis and Countermeasures](http://arxiv.org/abs/2304.12622v1)
@@ -650,6 +658,7 @@
 ## 20.Autonomous vehicles(自动驾驶)
 * 自动驾驶
   * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
+  * [ReasonNet: End-to-End Driving with Temporal and Global Reasoning](http://arxiv.org/abs/2305.10507v1)
   * [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](http://arxiv.org/abs/2304.11379v1)<br>:star:[code](https://github.com/songw-zju/LiDAR2Map)
   * [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](http://arxiv.org/abs/2305.06242v1)
   * [GINA-3D: Learning to Generate Implicit Neural Assets in the Wild](http://arxiv.org/abs/2304.02163v1)自动驾驶
@@ -704,6 +713,7 @@
   * [Dynamic Graph Enhanced Contrastive Learning for Chest X-ray Report Generation](https://arxiv.org/abs/2303.10323)<br>:star:[code](https://github.com/mlii0117/DCL)
 * 医学影像分割
   * [Orthogonal Annotation Benefits Barely-supervised Medical Image Segmentation](http://arxiv.org/abs/2303.13090v1)
+  * [SDC-UDA: Volumetric Unsupervised Domain Adaptation Framework for Slice-Direction Continuous Cross-Modality Medical Image Segmentation](http://arxiv.org/abs/2305.11012v1)
   * [Fair Federated Medical Image Segmentation via Client Contribution Estimation](http://arxiv.org/abs/2303.16520v1)
   * [Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation](https://arxiv.org/abs/2305.00673)<br>:star:[code](https://github.com/DeepMed-Lab-ECNU/BCP)
   * [Devil is in the Queries: Advancing Mask Transformers for Real-world Medical Image Segmentation and Out-of-Distribution Localization](http://arxiv.org/abs/2304.00212v1)
@@ -923,6 +933,7 @@
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
   * [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
   * [AutoRecon: Automated 3D Object Discovery and Reconstruction](http://arxiv.org/abs/2305.08810v1)<br>:star:[code](https://zju3dv.github.io/autorecon)
+  * [3D Registration with Maximal Cliques](http://arxiv.org/abs/2305.10854v1)
   * [3D shape reconstruction of semi-transparent worms](https://arxiv.org/abs/2304.14841)
   * [VisFusion: Visibility-aware Online 3D Scene Reconstruction from Videos](http://arxiv.org/abs/2304.10687v1)<br>:star:[code](https://github.com/huiyu-gao/VisFusion)
   * [NeUDF: Leaning Neural Unsigned Distance Fields with Volume Rendering](http://arxiv.org/abs/2304.10080v1)<br>:house:[project](http://geometrylearning.com/neudf/)
@@ -967,6 +978,7 @@
   * [AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation](http://arxiv.org/abs/2304.12301v1)<br>:star:[code](https://assemblyhands.github.io/)
   * 音频驱动的联合语音手势生成
     * [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2303.09119)<br>:star:[code](https://github.com/Advocate99/DiffGesture)
+    * [QPGesture: Quantization-Based and Phase-Guided Motion Matching for Natural Speech-Driven Gesture Generation](http://arxiv.org/abs/2305.11094v1)<br>:star:[code](https://github.com/YoungSeng/QPGesture)
   * 3D手势合成
     * [Diverse 3D Hand Gesture Prediction from Body Dynamics by Bilateral Hand Disentanglement](https://arxiv.org/abs/2303.01765)
   * 手部重建
@@ -1261,6 +1273,7 @@
 ## 2.Image Segmentation(图像分割)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
 * [PanelNet: Understanding 360 Indoor Environment via Panel Representation](http://arxiv.org/abs/2305.09078v1)
+* [Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark](http://arxiv.org/abs/2305.10899v1)<br>:star:[code](https://github.com/jankyee/URUR)
 * [AutoFocusFormer: Image Segmentation off the Grid](http://arxiv.org/abs/2304.12406v1)
 * [MP-Former: Mask-Piloted Transformer for Image Segmentation](https://arxiv.org/abs/2303.07336)<br>:star:[code](https://github.com/IDEA-Research/MP-Former)
 * [Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883)<br>:star:[code](https://github.com/NiFangBaAGe/Explict-Visual-Prompt)
