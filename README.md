@@ -45,14 +45,11 @@
 |[65.Scene flow estimation(场景流估计)](#65)|[66.Clustering(聚类)](#66)|
 
 
-### 5月18日更新 1 篇
-* [QPGesture: Quantization-Based and Phase-Guided Motion Matching for Natural Speech-Driven Gesture Generation](http://arxiv.org/abs/2305.11094v1)<br>:star:[code](https://github.com/YoungSeng/QPGesture)
-* [DualVector: Unsupervised Vector Font Synthesis with Dual-Part Representation](http://arxiv.org/abs/2305.10462v1)<br>:star:[code](https://github.com/thuliu-yt16/dualvector)
-* [ReasonNet: End-to-End Driving with Temporal and Global Reasoning](http://arxiv.org/abs/2305.10507v1)
-* [Boost Vision Transformer with GPU-Friendly Sparsity and Quantization](http://arxiv.org/abs/2305.10727v1)
-* [3D Registration with Maximal Cliques](http://arxiv.org/abs/2305.10854v1)
-* [Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark](http://arxiv.org/abs/2305.10899v1)<br>:star:[code](https://github.com/jankyee/URUR)
-* [SDC-UDA: Volumetric Unsupervised Domain Adaptation Framework for Slice-Direction Continuous Cross-Modality Medical Image Segmentation](http://arxiv.org/abs/2305.11012v1)
+### 5月22日更新 4 篇
+* [DSFNet: Dual Space Fusion Network for Occlusion-Robust 3D Dense Face Alignment](http://arxiv.org/abs/2305.11522v1)<br>:star:[code](https://github.com/lhyfst/DSFNet)
+* [Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment](http://arxiv.org/abs/2305.11601v1)<br>:star:[code](https://github.com/mabaorui/TowardsBetterGradient)
+* [Towards Accurate Image Coding: Improved Autoregressive Image Generation with Dynamic Vector Quantization](http://arxiv.org/abs/2305.11718v1)<br>:star:[code](https://github.com/CrossmodalGroup/DynamicVectorQuantization)
+* [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](http://arxiv.org/abs/2305.11733v1)<br>:star:[code](https://github.com/Keke921/GCLLoss)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
@@ -574,6 +571,7 @@
   * [Curvature-Balanced Feature Manifold Learning for Long-Tailed Classification](http://arxiv.org/abs/2303.12307v1)
 * 长尾视觉识别
   * [SuperDisco: Super-Class Discovery Improves Visual Recognition for the Long-Tail](http://arxiv.org/abs/2304.00101v1)
+  * [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](http://arxiv.org/abs/2305.11733v1)<br>:star:[code](https://github.com/Keke921/GCLLoss)
   * [Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions](http://arxiv.org/abs/2305.08661v1)<br>:star:[code](https://github.com/ynu-yangpeng/GLMC)
   * [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)
 * 多标签分类
@@ -641,6 +639,7 @@
   * [LayoutDM: Discrete Diffusion Model for Controllable Layout Generation](https://arxiv.org/abs/2303.08137)<br>:house:[project](https://cyberagentailab.github.io/layout-dm/)
   * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/) 
   * [DiffCollage: Parallel Generation of Large Content with Diffusion Models](http://arxiv.org/abs/2303.17076v1)<br>:house:[project](https://research.nvidia.com/labs/dir/diffcollage) 
+  * [Towards Accurate Image Coding: Improved Autoregressive Image Generation with Dynamic Vector Quantization](http://arxiv.org/abs/2305.11718v1)<br>:star:[code](https://github.com/CrossmodalGroup/DynamicVectorQuantization)
   * [LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation](http://arxiv.org/abs/2303.17189v1)<br>:star:[code](https://github.com/ZGCTroy/LayoutDiffusion)
 * 视频生成
   * [Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](http://arxiv.org/abs/2304.08818v1)<br>:house:[project](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)  
@@ -862,6 +861,8 @@
   * [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/pdf/2302.14434.pdf)<br>:house:[project](https://younglbw.github.io/HRN-homepage/)
 * 人脸恢复
   * [DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration](https://arxiv.org/abs/2303.06885)
+* 人脸对齐
+  * [* [DSFNet: Dual Space Fusion Network for Occlusion-Robust 3D Dense Face Alignment](http://arxiv.org/abs/2305.11522v1)<br>:star:[code](https://github.com/lhyfst/DSFNet)]
 * 人脸匿名化
   * [Attribute-preserving Face Dataset Anonymization via Latent Code Optimization](https://arxiv.org/abs/2303.11296)<br>:star:[code](https://github.com/chi0tzp/FALCO)
 * 裸眼年龄识别
@@ -1350,6 +1351,7 @@
 
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
+* [Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment](http://arxiv.org/abs/2305.11601v1)<br>:star:[code](https://github.com/mabaorui/TowardsBetterGradient)
 * [Virtual Occlusions Through Implicit Depth](http://arxiv.org/abs/2305.07014v1)
 * [StyleSync: High-Fidelity Generalized and Personalized Lip Sync in Style-based Generator](http://arxiv.org/abs/2305.05445v1)<br>:star:[code](https://hangz-nju-cuhk.github.io/projects/StyleSync)
 * [Putting People in Their Place: Affordance-Aware Human Insertion into Scenes](http://arxiv.org/abs/2304.14406v1)<br>:star:[code](https://sumith1896.github.io/affordance-insertion/)
