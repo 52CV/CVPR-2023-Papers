@@ -225,6 +225,8 @@ com/sungonce/SENet)
 * [Consistent View Synthesis with Pose-Guided Diffusion Models](http://arxiv.org/abs/2303.17598v1)<br>:star:[code](https://poseguided-diffusion.github.io/)
 * [Learning to Render Novel Views from Wide-Baseline Stereo Pairs](http://arxiv.org/abs/2304.08463v1)<br>:star:[code](https://yilundu.github.io/wide_baseline/)
  * [Painting 3D Nature in 2D: View Synthesis of Natural Scenes From a Single Semantic Mask](https://arxiv.org/abs/2302.07224)<br>:house:[project](https://zju3dv.github.io/paintingnature/)
+ * [NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior](https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf)<br>:house:[project](https://nope-nerf.
+active.vision)
 
 
 
@@ -351,6 +353,7 @@ com/sungonce/SENet)
 ## 44.Federated Learning(联邦学习)
 * [Make Landscape Flatter in Differentially Private Federated Learning](https://arxiv.org/abs/2303.11242)
 * [The Resource Problem of Using Linear Layer Leakage Attack in Federated Learning](http://arxiv.org/abs/2303.14868v1)
+* [Rethinking Federated Learning With Domain Shift: A Prototype View](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Rethinking_Federated_Learning_With_Domain_Shift_A_Prototype_View_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/WenkeHuang/RethinkFL)
 
 <a name="43"/>
 
@@ -607,6 +610,8 @@ com/sungonce/SENet)
   * [Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation](http://arxiv.org/abs/2304.01279v1)
 * 多标签分类
   * [Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification](http://arxiv.org/abs/2304.01804v1)<br>:star:[code](https://github.com/youngwk/BridgeGapExplanationPAMC)
+* 多标签识别
+  * [Exploring Structured Semantic Prior for Multi Label Recognition With Incomplete Labels](https://arxiv.org/abs/2303.13223)<br>:star:[code](https://github.com/jameslahm/SCPNet)    
 * 多视觉分类
   * [Exploring and Exploiting Uncertainty for Incomplete Multi-View Classification](https://arxiv.org/abs/2304.05165)
 
@@ -979,6 +984,7 @@ com/sungonce/SENet)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
+  * [3D Shape Reconstruction of Semi-Transparent Worms](https://arxiv.org/abs/2304.14841)
   * [Power Bundle Adjustment for Large-Scale 3D Reconstruction](https://arxiv.org/abs/2204.12834)
   * [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
   * [AutoRecon: Automated 3D Object Discovery and Reconstruction](http://arxiv.org/abs/2305.08810v1)<br>:star:[code](https://zju3dv.github.io/autorecon)
@@ -1017,7 +1023,8 @@ com/sungonce/SENet)
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
 * MVS
   * [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
-
+* 三维形状分类
+  * [Robust 3D Shape Classification via Non-Local Graph Attention Network](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_Robust_3D_Shape_Classification_via_Non-Local_Graph_Attention_Network_CVPR_2023_paper.pdf)
 
 <a name="9"/>
 
@@ -1105,6 +1112,7 @@ com/sungonce/SENet)
   * [TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition](http://arxiv.org/abs/2303.16268v1)<br>:star:[code](https://github.com/DAVEISHAN/TimeBalance)
 * 时序动作定位
   * [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
+  * [Distilling Vision-Language Pre-Training To Collaborate With Weakly-Supervised Temporal Action Localization](https://arxiv.org/abs/2212.09335)
 
 <a name="7"/>
 
@@ -1170,6 +1178,7 @@ com/sungonce/SENet)
 
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
+* [Multiclass Confidence and Localization Calibration for Object Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Pathiraja_Multiclass_Confidence_and_Localization_Calibration_for_Object_Detection_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/bimsarapathiraja/MCCL)
 * [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09699)
 * [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet) 
 * [ZBS: Zero-shot Background Subtraction via Instance-level Background Modeling and Foreground Selection](http://arxiv.org/abs/2303.14679v1)<br>:star:[code](https://github.com/CASIA-IVA-Lab/ZBS)
@@ -1250,6 +1259,7 @@ com/sungonce/SENet)
   * [Object Discovery from Motion-Guided Tokens](http://arxiv.org/abs/2303.15555v1)
 * 小目标检测
   * [Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection](http://arxiv.org/abs/2304.08876v1)<br>:star:[code](https://github.com/Chasel-Tsui/mmrotate-dcfl)
+  * [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection With Single Point Supervision](https://arxiv.org/abs/2304.01484)<br>:star:[code](https://github.com/XinyiYing/LESPS)
   * 红外小目标检测
     * [Mapping Degeneration Meets Label Evolution: Learning Infrared Small Target Detection with Single Point Supervision](http://arxiv.org/abs/2304.01484v1)<br>:star:[code](https://github.com/XinyiYing/LESPS)
 
@@ -1366,8 +1376,13 @@ com/sungonce/SENet)
   * [Delving into Shape-aware Zero-shot Semantic Segmentation](http://arxiv.org/abs/2304.08491v1)<br>:star:[code](https://github.com/Liuxinyv/SAZS)
   * 域适应语义分割
     * [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)
+  * 域泛化语义分割
+    * [HGFormer: Hierarchical Grouping Transformer for Domain Generalized Semantic Segmentation](https://openaccess.thecvf.com/content/CVPR2023/papers/Ding_HGFormer_Hierarchical_Grouping_Transformer_for_Domain_Generalized_Semantic_Segmentation_CVPR_2023_paper.pdf)<br>:star:[code](https:
+//github.com/dingjiansw101/HGFormer)
   * 半监督语义分割
     * [Conflict-Based Cross-View Consistency for Semi-Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.01276.pdf)<br>:star:[code](https://github.com/xiaoyao3302/CCVC)  
+    * [Instance-Specific and Model-Adaptive Supervision for Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2211.11335)
+    * [Augmentation Matters: A Simple-Yet-Effective Approach to Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2212.04976)
   * 弱监督语义分割
     * [Token Contrast for Weakly-Supervised Semantic Segmentation](https://arxiv.org/pdf/2303.01267.pdf)<br>:star:[code](https://github.com/rulixiang/ToCo)
   * 点云语义分割
@@ -1405,7 +1420,9 @@ com/sungonce/SENet)
 ## 1.other(其它,待分类)
 * [Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/abs/2303.01311)
 * [Towards Better Gradient Consistency for Neural Signed Distance Functions via Level Set Alignment](http://arxiv.org/abs/2305.11601v1)<br>:star:[code](https://github.com/mabaorui/TowardsBetterGradient)
+* [Swept-Angle Synthetic Wavelength Interferometry](https://arxiv.org/abs/2205.10655)
 * [Shape, Pose, and Appearance From a Single Image via Bootstrapped Radiance Field Inversion](https://arxiv.org/abs/2211.11674)<br>:house:[project](https://github.com/google-research/nerf-from-image)
+* [Unlearnable Clusters: Towards Label-Agnostic Unlearnable Examples](https://arxiv.org/abs/2301.01217)<br>:star:[code](https://github.com/jiamingzhang94/Unlearnable-Clusters)
 * [3D-Aware Object Goal Navigation via Simultaneous Exploration and Identification](https://arxiv.org/abs/2212.00338)
 * [EcoTTA: Memory-Efficient Continual Test-Time Adaptation via Self-Distilled Regularization](https://arxiv.org/abs/2303.01904)
 * [Text-Guided Unsupervised Latent Transformation for Multi-Attribute Image Manipulation](https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Text-Guided_Unsupervised_Latent_Transformation_for_Multi-Attribute_Image_Manipulation_CVPR_2023_paper.pdf)
