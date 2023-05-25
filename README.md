@@ -68,6 +68,12 @@
 * [Re-thinking Federated Active Learning based on Inter-class Diversity](http://arxiv.org/abs/2303.12317v1)
 * [Box-Level Active Detection](http://arxiv.org/abs/2303.13089v1)<br>:star:[code](https://github.com/lyumengyao/blad)
 
+## Image Editing(图像编辑)
+* [CoralStyleCLIP: Co-optimized Region and Layer Selection for Image Editing](https://arxiv.org/abs/2303.05031)
+* [SIEDOB: Semantic Image Editing by Disentangling Object and Background](http://arxiv.org/abs/2303.13062v1)
+* 基于样本的图像编辑
+  * [Paint by Example: Exemplar-based Image Editing with Diffusion Models](https://arxiv.org/abs/2211.13227)<br>:star:[code](https://github.com/Fantasy-Studio/Paint-by-Example)
+
 <a name="66"/>
 
 ## 66.Clustering(聚类)
@@ -236,6 +242,7 @@ active.vision)
 ## 53.Sign Language Translation(手语翻译)
 * 手语识别
   * [Continuous Sign Language Recognition with Correlation Network](https://arxiv.org/abs/2303.03202)<br>:star:[code](https://github.com/hulianyuyy/CorrNet)
+  * [CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition With Variational Alignment](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_CVT-SLR_Contrastive_Visual-Textual_Transformation_for_Sign_Language_Recognition_With_Variational_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/binbinjiang/CVT-SLR)
   * [Natural Language-Assisted Sign Language Recognition](https://arxiv.org/abs/2303.12080)<br>:star:[code](https://github.com/FangyunWei/SLRT)
 * 手语检索
   * [CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning](http://arxiv.org/abs/2303.12793v1)<br>:star:[code](https://github.com/FangyunWei/SLRT)
@@ -251,6 +258,8 @@ active.vision)
 ## 51.Computed Imaging(计算成像，如光学、几何、光场成像等)
 * [DyLiN: Making Light Field Networks Dynamic](http://arxiv.org/abs/2303.14243v1)<br>:star:[code](https://dylin2023.github.io)
 * [Learning Rotation-Equivariant Features for Visual Correspondence](http://arxiv.org/abs/2303.15472v1)<br>:house:[project](http://cvlab.postech.ac.kr/research/RELF)
+* 相机姿势估计
+  * [SliceMatch: Geometry-Guided Aggregation for Cross-View Pose Estimation](https://arxiv.org/abs/2211.14651)
 
 <a name="50"/>
 
@@ -353,6 +362,7 @@ active.vision)
 ## 40.Adversarial Learning(对抗学习)
 * [Feature Separation and Recalibration for Adversarial Robustness](http://arxiv.org/abs/2303.13846v1)<br>:star:[code](https://github.com/wkim97/FSR)
 * [CFA: Class-wise Calibrated Fair Adversarial Training](http://arxiv.org/abs/2303.14460v1)<br>:star:[code](https://github.com/PKU-ML/CFA)
+* [Towards Compositional Adversarial Robustness: Generalizing Adversarial Training to Composite Semantic Perturbations](https://arxiv.org/abs/2202.04235)<br>:house:[project](https://hsiung.cc/CARBEN/)
 * 黑盒
   * [BlackVIP: Black-Box Visual Prompting for Robust Transfer Learning](http://arxiv.org/abs/2303.14773v1)<br>:star:[code](https://github.com/changdaeoh/BlackVIP)
   * [Reinforcement Learning-Based Black-Box Model Inversion Attacks](http://arxiv.org/abs/2304.04625v1)
@@ -423,7 +433,8 @@ active.vision)
   * [DeepVecFont-v2: Exploiting Transformers to Synthesize Vector Fonts with Higher Quality](http://arxiv.org/abs/2303.14585v1)<br>:star:[code](https://github.com/yizhiwang96/deepvecfont-v2)
 * 生成图形文档
   * [Towards Flexible Multi-modal Document Models](http://arxiv.org/abs/2303.18248v1)<br>:star:[code](https://cyberagentailab.github.io/flex-dm)
-
+* 文本检测
+  * [Towards Robust Tampered Text Detection in Document Image: New Dataset and New Solution](https://openaccess.thecvf.com/content/CVPR2023/papers/Qu_Towards_Robust_Tampered_Text_Detection_in_Document_Image_New_Dataset_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/qcf-568/DocTamper)
 
 <a name="34"/>
 
@@ -564,6 +575,7 @@ active.vision)
 
 ## 25.Fine-Grained/Image Classification(细粒度/图像分类)
 * [Equiangular Basis Vectors](https://arxiv.org/abs/2303.11637)<br>:star:[code](https://github.com/NJUST-VIPGroup/Equiangular-Basis-Vectors)
+* [Prefix Conditioning Unifies Language and Label Supervision](https://arxiv.org/abs/2206.01125)
 * [Improving Image Recognition by Retrieving from Web-Scale Image-Text Data](http://arxiv.org/abs/2304.05173v1)
 * [Boosting Verified Training for Robust Image Classifications via Abstraction](https://arxiv.org/abs/2303.11552)<br>:star:[code](https://github.com/zhangzhaodi233/ABSCERT.git)
 * [Semantic Prompt for Few-Shot Image Recognition](http://arxiv.org/abs/2303.14123v1)
@@ -678,6 +690,7 @@ com/sungonce/SENet)
 
 ## 20.Autonomous vehicles(自动驾驶)
 * 自动驾驶
+  * [UniSim: A Neural Closed-Loop Sensor Simulator](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_UniSim_A_Neural_Closed-Loop_Sensor_Simulator_CVPR_2023_paper.pdf)<br>:house:[project](https://waabi.ai/research/unisim/)
   * [Visual Exemplar Driven Task-Prompting for Unified Perception in Autonomous Driving](https://arxiv.org/abs/2303.01788)
   * [ReasonNet: End-to-End Driving with Temporal and Global Reasoning](http://arxiv.org/abs/2305.10507v1)
   * [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](http://arxiv.org/abs/2304.11379v1)<br>:star:[code](https://github.com/songw-zju/LiDAR2Map)
@@ -844,14 +857,14 @@ com/sungonce/SENet)
 * VAD
   * [Hierarchical Semantic Contrast for Scene-aware Video Anomaly Detection](http://arxiv.org/abs/2303.13051v1)
   * [Video Event Restoration Based on Keyframes for Video Anomaly Detection](http://arxiv.org/abs/2304.05112v1) 
-
+* 视频镜像检测
+  * [Learning To Detect Mirrors From Videos via Dual Correspondences](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Learning_To_Detect_Mirrors_From_Videos_via_Dual_Correspondences_CVPR_2023_paper.pdf)<br>:house:[project](https://jiaying.link/cvpr2023-vmd/)
   
 
 <a name="13"/>
 
 ## 13.GAN
 * [Improving GAN Training via Feature Space Shrinkage](https://arxiv.org/abs/2303.01559)<br>:star:[code](https://github.com/WentianZhang-ML/AdaptiveMix)
-* [CoralStyleCLIP: Co-optimized Region and Layer Selection for Image Editing](https://arxiv.org/abs/2303.05031)
 * [Spider GAN: Leveraging Friendly Neighbors to Accelerate GAN Training](http://arxiv.org/abs/2305.07613v1)
 * [NoisyTwins: Class-Consistent and Diverse Image Generation through StyleGANs](http://arxiv.org/abs/2304.05866v1)<br>:star:[code](https://rangwani-harsh.github.io/NoisyTwins/)
 * [Graph Transformer GANs for Graph-Constrained House Generation](https://arxiv.org/abs/2303.08225)
@@ -1041,6 +1054,7 @@ com/sungonce/SENet)
     * [Human Pose Estimation in Extremely Low-Light Conditions](http://arxiv.org/abs/2303.15410v1)
   * 3D HPE
     * [PSVT: End-to-End Multi-person 3D Pose and Shape Estimation with Progressive Video Transformers](https://arxiv.org/abs/2303.09187)
+    * [Ego-Body Pose Estimation via Ego-Head Pose Estimation](https://arxiv.org/abs/2212.04636)<br>获奖论文候选
     * [NIKI: Neural Inverse Kinematics with Invertible Neural Networks for 3D Human Pose and Shape Estimation](http://arxiv.org/abs/2305.08590v1)<br>:star:[code](https://github.com/Jeff-sjtu/NIKI)
     * [GFPose: Learning 3D Human Pose Prior With Gradient Fields](https://arxiv.org/abs/2212.08641)<br>:house:[project](https://sites.google.com/view/gfpose/)
     * [PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation](http://arxiv.org/abs/2303.17472v1)<br>:star:[code](https://qitaozhao.github.io/PoseFormerV2)<br>:star:[code](https://github.com/QitaoZhao/PoseFormerV2)
@@ -1058,6 +1072,7 @@ com/sungonce/SENet)
     * [High-fidelity 3D Human Digitization from Single 2K Resolution Images](http://arxiv.org/abs/2303.15108v1)<br>:star:[code](https://github.com/SangHunHan92/2K2K)
     * [Learning Visibility Field for Detailed 3D Human Reconstruction and Relighting](http://arxiv.org/abs/2304.11900v1)
     * [FeatER: An Efficient Network for Human Reconstruction via Feature Map-Based TransformER](https://arxiv.org/pdf/2205.15448.pdf)<br>:house:[project](https://zczcwh.github.io/feater_page/)
+    * [Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing](https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Learning_Semantic-Aware_Disentangled_Representation_for_Flexible_3D_Human_Body_Editing_CVPR_2023_paper.pdf)<br>:house:[project](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman)
  * 多人姿态预测
    * [Trajectory-Aware Body Interaction Transformer for Multi-Person Pose Forecasting](https://arxiv.org/abs/2303.05095)<br>:star:[code](https://github.com/xiaogangpeng/TBIFormer)
 * 人体解析
@@ -1096,6 +1111,8 @@ com/sungonce/SENet)
 * 时序动作定位
   * [Boosting Weakly-Supervised Temporal Action Localization with Text Information](https://arxiv.org/abs/2305.00607)<br>:star:[code](https://github.com/lgzlIlIlI/Boosting-WTAL)
   * [Distilling Vision-Language Pre-Training To Collaborate With Weakly-Supervised Temporal Action Localization](https://arxiv.org/abs/2212.09335)
+* 群组动作质量评估
+  * [LOGO: A Long-Form Video Dataset for Group Action Quality Assessment](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_LOGO_A_Long-Form_Video_Dataset_for_Group_Action_Quality_Assessment_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/shiyi-zh0408/LOGO)
 
 <a name="7"/>
 
@@ -1116,6 +1133,7 @@ com/sungonce/SENet)
 * [NerVE: Neural Volumetric Edges for Parametric Curve Extraction from Point Cloud](http://arxiv.org/abs/2303.16465v1)<br>:star:[code](https://dongdu3.github.io/projects/2023/NerVE/)
 * [IterativePFN: True Iterative Point Cloud Filtering](http://arxiv.org/abs/2304.01529v1)<br>:star:[code](https://github.com/ddsediri/IterativePFN)
 * [Fast Point Cloud Generation With Straight Flows](https://arxiv.org/abs/2212.01747)
+* [GD-MAE: Generative Decoder for MAE Pre-Training on LiDAR Point Clouds](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_GD-MAE_Generative_Decoder_for_MAE_Pre-Training_on_LiDAR_Point_Clouds_CVPR_2023_paper.pdf)
 * 3D点云
   * [Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134)<br>:star:[code](https://github.com/ZrrSkywalker/Point-NN)
   * [MarS3D: A Plug-and-Play Motion-Aware Model for Semantic Segmentation on Multi-Scan 3D Point Clouds](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_MarS3D_A_Plug-and-Play_Motion-Aware_Model_for_Semantic_Segmentation_on_Multi-Scan_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/CVMI-Lab/MarS3D)
@@ -1160,6 +1178,8 @@ com/sungonce/SENet)
 
 ## 5.Object Detection(目标检测)
 * [Lite DETR : An Interleaved Multi-Scale Encoder for Efficient DETR](https://arxiv.org/abs/2303.07335)<br>:star:[code](https://github.com/IDEA-Research/Lite-DETR)
+* [SAP-DETR: Bridging the Gap Between Salient Points and Queries-Based Transformer Detector for Fast Model Convergency](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_SAP-DETR_Bridging_the_Gap_Between_Salient_Points_and_Queries-Based_Transformer_CVPR_2023_paper.pdf)<br>:star:[code](https:
+//github.com/liuyang-ict/SAP-DETR)
 * [Multiclass Confidence and Localization Calibration for Object Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Pathiraja_Multiclass_Confidence_and_Localization_Calibration_for_Object_Detection_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/bimsarapathiraja/MCCL)
 * [Mobile User Interface Element Detection Via Adaptively Prompt Tuning](https://arxiv.org/abs/2305.09699)
 * [DynamicDet: A Unified Dynamic Architecture for Object Detection](http://arxiv.org/abs/2304.05552v1)<br>:star:[code](https://github.com/VDIGPKU/DynamicDet) 
@@ -1192,6 +1212,7 @@ com/sungonce/SENet)
   * [CapDet: Unifying Dense Captioning and Open-World Detection Pretraining](https://arxiv.org/abs/2303.02489)
 * 3D OD
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
+  * [itKD: Interchange Transfer-Based Knowledge Distillation for 3D Object Detection](https://arxiv.org/abs/2205.15531)
   * [LinK: Linear Kernel for LiDAR-based 3D Perception](http://arxiv.org/abs/2303.16094v1)<br>:star:[code](https://github.com/MCG-NJU/LinK)
   * [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
   * [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](http://arxiv.org/abs/2305.06621v1)<br>:star:[code](https://github.com/Nightmare-n/PVT-SSD)
@@ -1277,6 +1298,8 @@ com/sungonce/SENet)
   * [Generating Aligned Pseudo-Supervision from Non-Aligned Data for Image Restoration in Under-Display Camera](http://arxiv.org/abs/2304.06019v1)<br>:star:[code](https://github.com/jnjaby/AlignFormer)
   * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](http://arxiv.org/abs/2304.01247v1)
   * [Bitstream-Corrupted JPEG Images are Restorable: Two-stage Compensation and Alignment Framework for Image Restoration](http://arxiv.org/abs/2304.06976v1)<br>:star:[code](https://github.com/wenyang001/Two-ACIR)
+* 视频恢复
+  * [A Simple Baseline for Video Restoration With Grouped Spatial-Temporal Shift](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_A_Simple_Baseline_for_Video_Restoration_With_Grouped_Spatial-Temporal_Shift_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/dasongli1/Shift-Net)
 * 图像照明
   * [Controllable Light Diffusion for Portraits](http://arxiv.org/abs/2305.04745v1)
 * 图像质量评估
@@ -1307,6 +1330,8 @@ com/sungonce/SENet)
   * [SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders](http://arxiv.org/abs/2304.06914v1)
 * 去反射光斑
   * [Nighttime Smartphone Reflective Flare Removal Using Optical Center Symmetry Prior](http://arxiv.org/abs/2303.15046v1)<br>:star:[code](https://github.com/ykdai/BracketFlare)
+* image deweathering
+  * [WeatherStream: Light Transport Automation of Single Image Deweathering](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.pdf)<br>:house:[project](http://visual.ee.ucla.edu/wstream.htm/)
 * 图像缩放
   * [HyperThumbnail: Real-time 6K Image Rescaling with Rate-distortion Optimization](http://arxiv.org/abs/2304.01064v1)<br>:star:[code](https://github.com/AbnerVictor/HyperThumbnail)
 * 瞬间恢复与增强
@@ -1342,6 +1367,8 @@ com/sungonce/SENet)
   * [FastInst: A Simple Query-Based Model for Real-Time Instance Segmentation](https://arxiv.org/abs/2303.08594)<br>:star:[code](https://github.com/junjiehe96/FastInst)
   * [SIM: Semantic-aware Instance Mask Generation for Box-Supervised Instance Segmentation](https://arxiv.org/abs/2303.08578)<br>:star:[code](https://github.com/lslrh/SIM)
   * [Mask-free OVIS: Open-Vocabulary Instance Segmentation without Manual Mask Annotations](http://arxiv.org/abs/2303.16891v1)<br>:star:[code](https://vibashan.github.io/ovis-web/)
+  * 半监督实例分割
+    * [The Devil Is in the Points: Weakly Semi-Supervised Instance Segmentation via Point-Guided Mask Representation](https://arxiv.org/abs/2303.15062)<br>:star:[code](https://github.com/clovaai/PointWSSIS)
   * 弱监督实例分割
     * [The Devil is in the Points: Weakly Semi-Supervised Instance Segmentation via Point-Guided Mask Representation](http://arxiv.org/abs/2303.15062v1)<br>:star:[code](https://github.com/clovaai/PointWSSIS)
 * 语义分割
@@ -1400,6 +1427,8 @@ com/sungonce/SENet)
   * [Self-supervised Pre-training with Masked Shape Prediction for 3D Scene Understanding](http://arxiv.org/abs/2305.05026v1)
   * [Language-driven Open-Vocabulary 3D Scene Understanding](https://arxiv.org/pdf/2211.16312.pdf)<br>:star:[code](https://github.com/CVMI-Lab/PLA)<br>:house:[project](https://dingry.github.io/projects/PLA.html)
   * [CLIP2Scene: Towards Label-Efficient 3D Scene Understanding by CLIP](https://arxiv.org/abs/2301.04926)<br>:star:[code](https://github.com/runnanchen/CLIP2Scene)
+  * [Single View Scene Scale Estimation Using Scale Field](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Single_View_Scene_Scale_Estimation_Using_Scale_Field_CVPR_2023_paper.pdf)
+  * [Panoptic Lifting for 3D Scene Understanding With Neural Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Siddiqui_Panoptic_Lifting_for_3D_Scene_Understanding_With_Neural_Fields_CVPR_2023_paper.pdf)<br>:house:[project](nihalsid.github.io/panoptic-lifting/)
 * 抠图
   * [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)
 
@@ -1409,6 +1438,7 @@ com/sungonce/SENet)
 
 ## 1.other(其它,待分类)
 * [Multi Domain Learning for Motion Magnification](https://openaccess.thecvf.com/content/CVPR2023/papers/Singh_Multi_Domain_Learning_for_Motion_Magnification_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/jasdeep-singh-007/Multi-Domain-Learning-for-Motion-Magnification)
+* [DexArt: Benchmarking Generalizable Dexterous Manipulation With Articulated Objects](https://arxiv.org/abs/2305.05706)<br>:house:[project](https://www.chenbao.tech/dexart/)
 * [Two-View Geometry Scoring Without Correspondences](https://openaccess.thecvf.com/content/CVPR2023/papers/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.pdf)<br>:house:[project](http://www.github.com/nianticlabs/scoring-without-correspondences)
 * [Towards All-in-One Pre-Training via Maximizing Multi-Modal Mutual Information](https://arxiv.org/abs/2211.09807)<br>:star:[code](https://github.com/OpenGVLab/M3I-Pretraining)
 * [ScanDMM: A Deep Markov Model of Scanpath Prediction for 360deg Images](https://openaccess.thecvf.com/content/CVPR2023/papers/Sui_ScanDMM_A_Deep_Markov_Model_of_Scanpath_Prediction_for_360deg_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/xiangjieSui/ScanDMM)
@@ -1471,7 +1501,6 @@ com/sungonce/SENet)
 * [Exploring Structured Semantic Prior for Multi Label Recognition with Incomplete Labels](http://arxiv.org/abs/2303.13223v1)<br>:star:[code](https://github.com/jameslahm/SCPNet)
 * [Marching-Primitives: Shape Abstraction from Signed Distance Function](http://arxiv.org/abs/2303.13190v1)<br>:star:[code](https://github.com/ChirikjianLab/Marching-Primitives.git)
 * [Robust Generalization against Photon-Limited Corruptions via Worst-Case Sharpness Minimization](http://arxiv.org/abs/2303.13087v1)
-* [SIEDOB: Semantic Image Editing by Disentangling Object and Background](http://arxiv.org/abs/2303.13062v1)
 * [Robust Test-Time Adaptation in Dynamic Scenarios](http://arxiv.org/abs/2303.13899v1)<br>:star:[code](https://github.com/BIT-DA/RoTTA)
 * [Enhancing Multiple Reliability Measures via Nuisance-extended Information Bottleneck](http://arxiv.org/abs/2303.14096v1)<br>:star:[code](https://github.com/jh-jeong/nuisance_ib)
 * [IDGI: A Framework to Eliminate Explanation Noise from Integrated Gradients](http://arxiv.org/abs/2303.14242v1)
