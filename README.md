@@ -445,6 +445,7 @@ active.vision)
 * 量化
   * [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906)<br>:star:[code](https://github.com/bytedance/MRECG)
   * [Post-training Quantization on Diffusion Models](https://arxiv.org/abs/2211.15736)<br>:star:[code](https://github.com/42Shawn/PTQ4DM)
+  * [PD-Quant: Post-Training Quantization Based on Prediction Difference Metric](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_PD-Quant_Post-Training_Quantization_Based_on_Prediction_Difference_Metric_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/hustvl/PD-Quant)
   * [Boost Vision Transformer with GPU-Friendly Sparsity and Quantization](http://arxiv.org/abs/2305.10727v1)
 * 剪枝
   * [CP$^3$: Channel Pruning Plug-in for Point-based Networks](http://arxiv.org/abs/2303.13097v1)
@@ -955,6 +956,8 @@ com/sungonce/SENet)
   * [Micron-BERT: BERT-based Facial Micro-Expression Recognition](http://arxiv.org/abs/2304.03195v1)<br>:star:[code](https://github.com/uark-cviu/Micron-BERT)微表情识别
 * 人脸合成
   * [High-Fidelity 3D Face Generation from Natural Language Descriptions](https://arxiv.org/abs/2305.03302)<br>:house:[project](https://github.com/zhuhao-nju/describe3d)
+* 假脸检测
+  * [AUNet: Learning Relations Between Action Units for Face Forgery Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Bai_AUNet_Learning_Relations_Between_Action_Units_for_Face_Forgery_Detection_CVPR_2023_paper.pdf)
 
 <a name="10"/>
 
@@ -989,6 +992,7 @@ com/sungonce/SENet)
 * 三维重建
   * [Neural Lens Modeling](http://arxiv.org/abs/2304.04848v1)<br>:star:[code](https://neural-lens.github.io)
   * [Learning Articulated Shape with Keypoint Pseudo-labels from Web Images](http://arxiv.org/abs/2304.14396v1)<br>:star:[code](https://statho.github.io/projects/animals3d/index.html)
+  * [SparseFusion: Distilling View-Conditioned Diffusion for 3D Reconstruction](https://arxiv.org/abs/2212.00792)<br>:house:[project](https://sparsefusion.github.io/)
   * [3D Shape Reconstruction of Semi-Transparent Worms](https://arxiv.org/abs/2304.14841)
   * [Power Bundle Adjustment for Large-Scale 3D Reconstruction](https://arxiv.org/abs/2204.12834)
   * [PET-NeuS: Positional Encoding Tri-Planes for Neural Surfaces](http://arxiv.org/abs/2305.05594v1)<br>:star:[code](https://github.com/yiqun-wang/PET-NeuS)
@@ -1027,6 +1031,7 @@ com/sungonce/SENet)
   * [U2RLE: Uncertainty-Guided 2-Stage Room Layout Estimation](http://arxiv.org/abs/2304.08580v1)
 * 场景重建
   * [Neural Fields meet Explicit Geometric Representation for Inverse Rendering of Urban Scenes](http://arxiv.org/abs/2304.03266v1)<br>:star:[code](https://nv-tlabs.github.io/fegr/)
+  * [BUOL: A Bottom-Up Framework With Occupancy-Aware Lifting for Panoptic 3D Scene Reconstruction From a Single Image](https://openaccess.thecvf.com/content/CVPR2023/papers/Chu_BUOL_A_Bottom-Up_Framework_With_Occupancy-Aware_Lifting_for_Panoptic_3D_CVPR_2023_paper.pdf)
 * MVS
   * [Multi-View Stereo Representation Revist: Region-Aware MVSNet](http://arxiv.org/abs/2304.13614v1)
 * 三维形状分类
@@ -1215,6 +1220,7 @@ com/sungonce/SENet)
   * [DetCLIPv2: Scalable Open-Vocabulary Object Detection Pre-training via Word-Region Alignment](http://arxiv.org/abs/2304.04514v1)
 * 开放世界目标检测
   * [Annealing-Based Label-Transfer Learning for Open World Object Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_Annealing-Based_Label-Transfer_Learning_for_Open_World_Object_Detection_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/DIG-Beihang/ALLOW.git)
+  * [PROB: Probabilistic Objectness for Open World Object Detection](https://arxiv.org/abs/2212.01424)<br>:star:[code](https://github.com/orrzohar/PROB)
   * [Detecting Everything in the Open World: Towards Universal Object Detection](https://arxiv.org/abs/2303.11749)<br>:star:[code](https://github.com/zhenyuw16/UniDetector)<br>:thumbsup:[CVPR 2023 | 标注500类，检测7000类！清华大学等提出通用目标检测算法UniDetector](https://zhuanlan.zhihu.com/p/616328874)
 * 目标定位
   * [LOCATE: Localize and Transfer Object Parts for Weakly Supervised Affordance Grounding](https://arxiv.org/abs/2303.09665)<br>:house:[project](https://reagan1311.github.io/locate/)
@@ -1366,7 +1372,6 @@ com/sungonce/SENet)
 * [Explicit Visual Prompting for Low-Level Structure Segmentations](https://arxiv.org/abs/2303.10883)<br>:star:[code](https://github.com/NiFangBaAGe/Explict-Visual-Prompt)
 * [Focused and Collaborative Feedback Integration for Interactive Image Segmentation](https://arxiv.org/abs/2303.11880)<br>:star:[code](https://github.com/veizgyauzgyauz/FCFI)
 * [FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](http://arxiv.org/abs/2303.17225v1)<br>:house:[project](https://FreeSeg.github.io)<br>在 VIS、VOS、MOTS 三个下游视频分割任务的五个数据集上，将 InstMove 插入到现有 SOTA 模型可以进一步带来 1~5 个点的提升。
-* [Zero-shot Referring Image Segmentation with Global-Local Context Features](http://arxiv.org/abs/2303.17811v1)<br>:star:[code](https://github.com/Seonghoon-Yu/Zero-shot-RIS)
 * [Meta Compositional Referring Expression Segmentation](http://arxiv.org/abs/2304.04415v1)
 * [MED-VT: Multiscale Encoder-Decoder Video Transformer with Application to Object Segmentation](http://arxiv.org/abs/2304.05930v1)分割
 * 3D分割
@@ -1443,7 +1448,9 @@ com/sungonce/SENet)
   * [Panoptic Lifting for 3D Scene Understanding With Neural Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Siddiqui_Panoptic_Lifting_for_3D_Scene_Understanding_With_Neural_Fields_CVPR_2023_paper.pdf)<br>:house:[project](nihalsid.github.io/panoptic-lifting/)
 * 抠图
   * [Adaptive Human Matting for Dynamic Videos](http://arxiv.org/abs/2304.06018v1)<br>:star:[code](https://github.com/microsoft/AdaM)
-
+* 指代图像分割
+  * [PolyFormer: Referring Image Segmentation As Sequential Polygon Generation](https://arxiv.org/abs/2302.07387)<br>:house:[project](https://polyformer.github.io/)
+  * [Zero-shot Referring Image Segmentation with Global-Local Context Features](http://arxiv.org/abs/2303.17811v1)<br>:star:[code](https://github.com/Seonghoon-Yu/Zero-shot-RIS)
 
 
 <a name="1"/>
