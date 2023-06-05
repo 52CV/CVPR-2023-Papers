@@ -332,6 +332,7 @@ active.vision)
 ## 46.Scene Graph Generation(场景图生成)
 * [Prototype-based Embedding Network for Scene Graph Generation](https://arxiv.org/abs/2303.07096)<br>:star:[code](https://github.com/VL-Group/PENET)
 * [Devil's on the Edges: Selective Quad Attention for Scene Graph Generation](http://arxiv.org/abs/2304.03495v1)<br>:house:[project](https://cvlab.postech.ac.kr/research/SQUAT/)
+* [Learning To Generate Language-Supervised and Open-Vocabulary Scene Graph Using Pre-Trained Visual-Semantic Space](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Learning_To_Generate_Language-Supervised_and_Open-Vocabulary_Scene_Graph_Using_Pre-Trained_CVPR_2023_paper.pdf)
 
 <a name="45"/>
 
@@ -572,7 +573,7 @@ active.vision)
 * [StyleGAN Salon: Multi-View Latent Optimization for Pose-Invariant Hairstyle Transfer](http://arxiv.org/abs/2304.02744v1)<br>:star:[code](https://stylegan-salon.github.io/)
 * [Modernizing Old Photos Using Multiple References via Photorealistic Style Transfer](http://arxiv.org/abs/2304.04461v1)<br>:star:[code](https://kaist-viclab.github.io/old-photo-modernization)
 * [Master: Meta Style Transformer for Controllable Zero-Shot and Few-Shot Artistic Style Transfer](http://arxiv.org/abs/2304.11818v1)
-
+* [Neural Preset for Color Style Transfer](https://arxiv.org/abs/2303.13511)<br>:house:[project](https://zhkkke.github.io/NeuralPreset)
 
 
 
@@ -695,6 +696,7 @@ com/sungonce/SENet)
   * [LayoutDM: Discrete Diffusion Model for Controllable Layout Generation](https://arxiv.org/abs/2303.08137)<br>:house:[project](https://cyberagentailab.github.io/layout-dm/)
   * [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](https://arxiv.org/abs/2303.07938)<br>:house:[project](https://slide-3d.github.io/) 
   * [Exploring Incompatible Knowledge Transfer in Few-shot Image Generation](http://arxiv.org/abs/2304.07574v1)
+  * [Wavelet Diffusion Models Are Fast and Scalable Image Generators](https://arxiv.org/abs/2211.16152)<br>:star:[code](https://github.com/VinAIResearch/WaveDiff.git)
   * [Picture That Sketch: Photorealistic Image Generation From Abstract Sketches](https://arxiv.org/abs/2303.11162)<br>:house:[project](https://subhadeepkoley.github.io/PictureThatSketch)
   * [DiffCollage: Parallel Generation of Large Content with Diffusion Models](http://arxiv.org/abs/2303.17076v1)<br>:house:[project](https://research.nvidia.com/labs/dir/diffcollage) 
   * [Towards Accurate Image Coding: Improved Autoregressive Image Generation with Dynamic Vector Quantization](http://arxiv.org/abs/2305.11718v1)<br>:star:[code](https://github.com/CrossmodalGroup/DynamicVectorQuantization)
@@ -758,7 +760,8 @@ com/sungonce/SENet)
   * [VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision](http://arxiv.org/abs/2304.03135v1)<br>:star:[code](https://github.com/lmy98129/VLPD)
 * 人群计数
   * [CrowdCLIP: Unsupervised Crowd Counting via Vision-Language Model](http://arxiv.org/abs/2304.04231v1)<br>:star:[code](https://github.com/dk-liang/CrowdCLIP)
-
+* 步态识别
+  * [Dynamic Aggregated Network for Gait Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Ma_Dynamic_Aggregated_Network_for_Gait_Recognition_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/XKMar/FastGait)
 
 <a name="17"/>
 
@@ -858,6 +861,7 @@ com/sungonce/SENet)
   * [AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation](http://arxiv.org/abs/2304.09790v1)<br>:star:[code](https://github.com/MCG-NKU/AMT)
   * [Joint Video Multi-Frame Interpolation and Deblurring under Unknown Exposure Time](http://arxiv.org/abs/2303.15043v1)<br>:star:[code](https://github.com/shangwei5/VIDUE)
   * [BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation](http://arxiv.org/abs/2304.02225v1)<br>:star:[code](https://github.com/JunHeum/BiFormer)视频帧插值
+  * [Frame Interpolation Transformer and Uncertainty Guidance](https://openaccess.thecvf.com/content/CVPR2023/papers/Plack_Frame_Interpolation_Transformer_and_Uncertainty_Guidance_CVPR_2023_paper.pdf)
 * 视频合成
   * [Decomposed Diffusion Models for High-Quality Video Generation](https://arxiv.org/abs/2303.08320)
 * 视频预测
@@ -985,6 +989,7 @@ com/sungonce/SENet)
 <a name="10"/>
 
 ## 10.3D(三维重建\三维视觉)
+* [Sphere-Guided Training of Neural Implicit Surfaces](https://arxiv.org/abs/2209.15511)<br>:house:[project](https://andreeadogaru.github.io/SphereGuided/)
 * [PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision](https://arxiv.org/abs/2303.09554)<br>:house:[project](https://ktertikas.github.io/part_nerf)
 * [Patch-based 3D Natural Scene Generation from a Single Example](http://arxiv.org/abs/2304.12670v1)<br>:house:[project](http://weiyuli.xyz/Sin3DGen/)
 * [Masked Scene Contrast: A Scalable Framework for Unsupervised 3D Representation Learning](http://arxiv.org/abs/2303.14191v1)<br>:star:[code](https://github.com/Pointcept/Pointcept)
@@ -1161,6 +1166,7 @@ com/sungonce/SENet)
 
 ## 7.Point Cloud(点云)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
+* [3D Spatial Multimodal Knowledge Accumulation for Scene Graph Prediction in Point Cloud](https://openaccess.thecvf.com/content/CVPR2023/papers/Feng_3D_Spatial_Multimodal_Knowledge_Accumulation_for_Scene_Graph_Prediction_in_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/HHrEtvP/SMKA)
 * [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](http://arxiv.org/abs/2305.05873v1)
 * [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](http://arxiv.org/abs/2305.08808v1)
 * [SCPNet: Semantic Scene Completion on Point Cloud](https://arxiv.org/abs/2303.06884)
@@ -1393,6 +1399,7 @@ com/sungonce/SENet)
 <a name="2"/>
 
 ## 2.Image Segmentation(图像分割)
+* [VectorFloorSeg: Two-Stream Graph Attention Network for Vectorized Roughcast Floorplan Segmentation](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_VectorFloorSeg_Two-Stream_Graph_Attention_Network_for_Vectorized_Roughcast_Floorplan_Segmentation_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/DrZiji/VecFloorSeg)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
 * [OneFormer: One Transformer To Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220)<br>:house:[project](https://praeclarumjj3.github.io/oneformer)
 * [PanelNet: Understanding 360 Indoor Environment via Panel Representation](http://arxiv.org/abs/2305.09078v1)
@@ -1488,6 +1495,7 @@ com/sungonce/SENet)
 <a name="1"/>
 
 ## 1.other(其它,待分类)
+* [DeCo: Decomposition and Reconstruction for Compositional Temporal Grounding via Coarse-To-Fine Contrastive Ranking](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_DeCo_Decomposition_and_Reconstruction_for_Compositional_Temporal_Grounding_via_Coarse-To-Fine_CVPR_2023_paper.pdf)
 * [Structured Kernel Estimation for Photon-Limited Deconvolution](https://arxiv.org/abs/2303.03472)<br>:star:[code](https://github.com/sanghviyashiitb/structured-kernel-cvpr23)
 * [FlexiViT: One Model for All Patch Sizes](https://arxiv.org/abs/2212.08013)<br>:star:[code](https://github.com/google-research/big_vision)
 * [BiasBed - Rigorous Texture Bias Evaluation](https://openaccess.thecvf.com/content/CVPR2023/papers/Kalischek_BiasBed_-_Rigorous_Texture_Bias_Evaluation_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/D1noFuzi/BiasBed)
