@@ -61,6 +61,8 @@
 * [Multi-Space Neural Radiance Fields](http://arxiv.org/abs/2305.04268v1)<br>:star:[code](https://zx-yin.github.io/msnerf)
 * [DBARF: Deep Bundle-Adjusting Generalizable Neural Radiance Fields](https://arxiv.org/abs/2303.14478)<br>:star:[code](https://aibluefisher.github.io/dbarf)
 * [StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields](https://arxiv.org/abs/2303.10598)<br>:house:[project](https://kunhao-liu.github.io/StyleRF/)
+* 去模糊
+  * [BAD-NeRF: Bundle Adjusted Deblur Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_BAD-NeRF_Bundle_Adjusted_Deblur_Neural_Radiance_Fields_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/WU-CVGL/BAD-NeRF)
 
 ## open-set recognition(开集识别)
 * [Glocal Energy-based Learning for Few-Shot Open-Set Recognition](http://arxiv.org/abs/2304.11855v1)
@@ -150,6 +152,7 @@
 * 视频压缩
   * [Towards Scalable Neural Representation for Diverse Videos](http://arxiv.org/abs/2303.14124v1)
   * [HNeRV: A Hybrid Neural Representation for Videos](http://arxiv.org/abs/2304.02633v1)<br>:star:[code](https://haochen-rye.github.io/HNeRV)<br>:star:[code](https://github.com/haochen-rye/HNeRV) 
+  * [Video Compression With Entropy-Constrained Neural Representations](https://openaccess.thecvf.com/content/CVPR2023/papers/Gomes_Video_Compression_With_Entropy-Constrained_Neural_Representations_CVPR_2023_paper.pdf)
    
 <a name="58"/>
 
@@ -211,8 +214,8 @@
 * [Consistent View Synthesis with Pose-Guided Diffusion Models](http://arxiv.org/abs/2303.17598v1)<br>:star:[code](https://poseguided-diffusion.github.io/)
 * [Learning to Render Novel Views from Wide-Baseline Stereo Pairs](http://arxiv.org/abs/2304.08463v1)<br>:star:[code](https://yilundu.github.io/wide_baseline/)
  * [Painting 3D Nature in 2D: View Synthesis of Natural Scenes From a Single Semantic Mask](https://arxiv.org/abs/2302.07224)<br>:house:[project](https://zju3dv.github.io/paintingnature/)
- * [NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior](https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf)<br>:house:[project](https://nope-nerf.
-active.vision)
+ * [NoPe-NeRF: Optimising Neural Radiance Field With No Pose Prior](https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf)<br>:house:[project](https://nope-nerf.active.vision)
+ * [Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis](https://arxiv.org/abs/2303.03808)<br>:star:[code](https://github.com/imkanghan/nrff)
 
 
 
@@ -326,6 +329,8 @@ active.vision)
   * [Zero-shot Model Diagnosis](http://arxiv.org/abs/2303.15441v1)
 * FSL
   * [Transductive Few-shot Learning with Prototype-based Label Propagation by Iterative Graph Refinement](http://arxiv.org/abs/2304.11598v1)
+  * [Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners](https://arxiv.org/abs/2303.02151)<br>:star:[code](https://github.com/ZrrSkywalker/CaFo)
+  * [Revisiting Prototypical Network for Cross Domain Few-Shot Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Revisiting_Prototypical_Network_for_Cross_Domain_Few-Shot_Learning_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/NWPUZhoufei/LDP-Net)
 
 <a name="46"/>
 
@@ -372,12 +377,15 @@ active.vision)
 <a name="40"/>
 
 ## 40.Adversarial Learning(对抗学习)
+* [Revisiting Residual Networks for Adversarial Robustness](https://arxiv.org/abs/2212.11005)<br>:star:[code](https://github.com/zhichao-lu/robust-residual-network)
 * [Feature Separation and Recalibration for Adversarial Robustness](http://arxiv.org/abs/2303.13846v1)<br>:star:[code](https://github.com/wkim97/FSR)
 * [CFA: Class-wise Calibrated Fair Adversarial Training](http://arxiv.org/abs/2303.14460v1)<br>:star:[code](https://github.com/PKU-ML/CFA)
 * [Towards Compositional Adversarial Robustness: Generalizing Adversarial Training to Composite Semantic Perturbations](https://arxiv.org/abs/2202.04235)<br>:house:[project](https://hsiung.cc/CARBEN/)
+* [Efficient Loss Function by Minimizing the Detrimental Effect of Floating-Point Errors on Gradient-Based Attacks](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Efficient_Loss_Function_by_Minimizing_the_Detrimental_Effect_of_Floating-Point_CVPR_2023_paper.pdf)
 * 黑盒
   * [BlackVIP: Black-Box Visual Prompting for Robust Transfer Learning](http://arxiv.org/abs/2303.14773v1)<br>:star:[code](https://github.com/changdaeoh/BlackVIP)
   * [Reinforcement Learning-Based Black-Box Model Inversion Attacks](http://arxiv.org/abs/2304.04625v1)
+  * [Minimizing Maximum Model Discrepancy for Transferable Black-Box Targeted Attacks](https://arxiv.org/abs/2212.09035)
 * 对抗样本
   * [Demystifying Causal Features on Adversarial Examples and Causal Inoculation for Robust Network by Adversarial Instrumental Variable Regression](https://arxiv.org/abs/2303.01052)
   * [Improving the Transferability of Adversarial Samples by Path-Augmented Method](http://arxiv.org/abs/2303.15735v1)
@@ -457,6 +465,7 @@ active.vision)
 * 量化
   * [Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective](https://arxiv.org/abs/2303.11906)<br>:star:[code](https://github.com/bytedance/MRECG)
   * [Post-training Quantization on Diffusion Models](https://arxiv.org/abs/2211.15736)<br>:star:[code](https://github.com/42Shawn/PTQ4DM)
+  * [NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers](https://arxiv.org/abs/2211.16056)
   * [PD-Quant: Post-Training Quantization Based on Prediction Difference Metric](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_PD-Quant_Post-Training_Quantization_Based_on_Prediction_Difference_Metric_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/hustvl/PD-Quant)
   * [Boost Vision Transformer with GPU-Friendly Sparsity and Quantization](http://arxiv.org/abs/2305.10727v1)
 * 剪枝
@@ -502,6 +511,7 @@ active.vision)
 <a name="31"/>
 
 ## 31.Vision-Language(视觉语言)
+* [RA-CLIP: Retrieval Augmented Contrastive Language-Image Pre-Training](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_RA-CLIP_Retrieval_Augmented_Contrastive_Language-Image_Pre-Training_CVPR_2023_paper.pdf)
 * [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://arxiv.org/abs/2303.02483)<br>:star:[code](https://github.com/BrandonHanx/FAME-ViL)
 * [Seeing What You Miss: Vision-Language Pre-Training With Semantic Completion Learning](https://arxiv.org/abs/2211.13437)
 * [You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model](https://arxiv.org/abs/2211.11152)
@@ -686,6 +696,8 @@ com/sungonce/SENet)
   * [Conditional Image-to-Video Generation with Latent Flow Diffusion Models](http://arxiv.org/abs/2303.13744v1)<br>:star:[code](https://github.com/nihaomiao/CVPR23_LFDM)
 * 海报生成
   * [Unsupervised Domain Adaption with Pixel-level Discriminator for Image-aware Layout Generation](http://arxiv.org/abs/2303.14377v1)
+* 海报布局
+  * [PosterLayout: A New Benchmark and Approach for Content-Aware Visual-Textual Presentation Layout](https://arxiv.org/abs/2303.15937)<br>:star:[code](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
 * 文本-图像合成
   * [Variational Distribution Learning for Unsupervised Text-to-Image Generation](http://arxiv.org/abs/2303.16105v1)
   * [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)
@@ -709,6 +721,7 @@ com/sungonce/SENet)
 
 ## 21.UAV/Remote Sensing/Satellite Image(无人机/遥感/卫星图像)
 * [MethaneMapper: Spectral Absorption aware Hyperspectral Transformer for Methane Detection](http://arxiv.org/abs/2304.02767v1)
+* [ViTs for SITS: Vision Transformers for Satellite Image Time Series](https://arxiv.org/abs/2301.04944)
 * 图像检测
   * [Adaptive Sparse Convolutional Networks with Global Context Enhancement for Faster Object Detection on Drone Images](http://arxiv.org/abs/2303.14488v1)<br>:star:[code](https://github.com/Cuogeihong/CEASC)
 * 超高分辨率
@@ -841,11 +854,13 @@ com/sungonce/SENet)
 * [TrojViT: Trojan Insertion in Vision Transformers](https://arxiv.org/abs/2208.13049)
 * [Castling-ViT: Compressing Self-Attention via Switching Towards Linear-Angular Attention at Vision Transformer Inference](https://openaccess.thecvf.com/content/CVPR2023/papers/You_Castling-ViT_Compressing_Self-Attention_via_Switching_Towards_Linear-Angular_Attention_at_Vision_CVPR_2023_paper.pdf)<br>:house:[project](https://www.haoranyou.com/castling-vit)
 * [ResFormer: Scaling ViTs with Multi-Resolution Training](https://arxiv.org/abs/2212.00776)<br>:star:[code](https://github.com/ruitian12/resformer)
+* [Vision Transformer With Super Token Sampling](https://arxiv.org/abs/2211.11167)<br>:star:[code](https://github.com/hhb072/SViT)
 
 <a name="14"/>
 
 ## 14.Video
 * [3D Video Loops From Asynchronous Input](https://arxiv.org/abs/2303.05312)<br>:house:[project](https://limacv.github.io/VideoLoop3D_web/)
+* [VideoMAE V2: Scaling Video Masked Autoencoders With Dual Masking](https://arxiv.org/abs/2303.16727)<br>:star:[code](https://github.com/OpenGVLab/VideoMAEv2)
 * [Weakly Supervised Video Representation Learning with Unaligned Text for Sequential Videos](http://arxiv.org/abs/2303.12370v1)<br>:star:[code](https://github.com/svip-lab/WeakSVR)
 * [StepFormer: Self-supervised Step Discovery and Localization in Instructional Videos](http://arxiv.org/abs/2304.13265v1)
 * [VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking](http://arxiv.org/abs/2303.16727v1)
@@ -989,6 +1004,8 @@ com/sungonce/SENet)
 <a name="10"/>
 
 ## 10.3D(三维重建\三维视觉)
+* [GANmouflage: 3D Object Nondetection With Texture Fields](https://arxiv.org/abs/2201.07202)<br>:house:[project](https://rrrrrguo.github.io/ganmouflage/)
+* [Learning Accurate 3D Shape Based on Stereo Polarimetric Imaging](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Learning_Accurate_3D_Shape_Based_on_Stereo_Polarimetric_Imaging_CVPR_2023_paper.pdf)
 * [Sphere-Guided Training of Neural Implicit Surfaces](https://arxiv.org/abs/2209.15511)<br>:house:[project](https://andreeadogaru.github.io/SphereGuided/)
 * [PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision](https://arxiv.org/abs/2303.09554)<br>:house:[project](https://ktertikas.github.io/part_nerf)
 * [Patch-based 3D Natural Scene Generation from a Single Example](http://arxiv.org/abs/2304.12670v1)<br>:house:[project](http://weiyuli.xyz/Sin3DGen/)
@@ -1263,6 +1280,7 @@ com/sungonce/SENet)
 * 3D OD
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
   * [itKD: Interchange Transfer-Based Knowledge Distillation for 3D Object Detection](https://arxiv.org/abs/2205.15531)
+  * [Semi-Supervised Stereo-Based 3D Object Detection via Cross-View Consensus](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Semi-Supervised_Stereo-Based_3D_Object_Detection_via_Cross-View_Consensus_CVPR_2023_paper.pdf)
   * [LinK: Linear Kernel for LiDAR-based 3D Perception](http://arxiv.org/abs/2303.16094v1)<br>:star:[code](https://github.com/MCG-NJU/LinK)
   * [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](http://arxiv.org/abs/2305.04925v1)
   * [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](http://arxiv.org/abs/2305.06621v1)<br>:star:[code](https://github.com/Nightmare-n/PVT-SSD)
@@ -1495,6 +1513,12 @@ com/sungonce/SENet)
 <a name="1"/>
 
 ## 1.other(其它,待分类)
+* [Teacher-Generated Spatial-Attention Labels Boost Robustness and Accuracy of Contrastive Models](https://openaccess.thecvf.com/content/CVPR2023/papers/Yao_Teacher-Generated_Spatial-Attention_Labels_Boost_Robustness_and_Accuracy_of_Contrastive_Models_CVPR_2023_paper.pdf)
+* [A General Regret Bound of Preconditioned Gradient Method for DNN Training](https://openaccess.thecvf.com/content/CVPR2023/papers/Yong_A_General_Regret_Bound_of_Preconditioned_Gradient_Method_for_DNN_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/Yonghongwei/AdaBK)
+* [A Practical Upper Bound for the Worst-Case Attribution Deviations](https://arxiv.org/abs/2303.00340)
+* [Perception and Semantic Aware Regularization for Sequential Confidence Calibration](https://arxiv.org/abs/2305.19498)<br>:star:[code](https://github.com/husterpzh/PSSR)
+* [Deep Random Projector: Accelerated Deep Image Prior](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Deep_Random_Projector_Accelerated_Deep_Image_Prior_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/sun- umn/DeepRandom-Projector)
+* [Bias Mimicking: A Simple Sampling Approach for Bias Mitigation](https://arxiv.org/abs/2209.15605)<br>:star:[code](https://github.com/mqraitem/Bias-Mimicking)
 * [DeCo: Decomposition and Reconstruction for Compositional Temporal Grounding via Coarse-To-Fine Contrastive Ranking](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_DeCo_Decomposition_and_Reconstruction_for_Compositional_Temporal_Grounding_via_Coarse-To-Fine_CVPR_2023_paper.pdf)
 * [Structured Kernel Estimation for Photon-Limited Deconvolution](https://arxiv.org/abs/2303.03472)<br>:star:[code](https://github.com/sanghviyashiitb/structured-kernel-cvpr23)
 * [FlexiViT: One Model for All Patch Sizes](https://arxiv.org/abs/2212.08013)<br>:star:[code](https://github.com/google-research/big_vision)
