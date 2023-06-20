@@ -272,6 +272,7 @@
 * [WEDGE: A multi-weather autonomous driving dataset built from generative vision-language models](http://arxiv.org/abs/2305.07528v1)<br>:star:[code](https://infernolia.github.io/WEDGE)用于极端天气条件下的物体检测和天气分类任务的合成数据集
 * [CLOTH4D: A Dataset for Clothed Human Reconstruction](https://openaccess.thecvf.com/content/CVPR2023/papers/Zou_CLOTH4D_A_Dataset_for_Clothed_Human_Reconstruction_CVPR_2023_paper.pdf)<br>:sunflower:[dataset](http://www.github.com/AemikaChow/AiDLab-fAshIon-Data)<br>用于穿衣服人体重建的数据集
 * [OmniCity: Omnipotent City Understanding With Multi-Level and Multi-View Images](https://arxiv.org/abs/2208.00928)<br>:sunflower:[dataset](https://city-super.github.io/omnicity)<br>从多层次和多视图图像中获取全能城市理解的新数据集。
+* [RealImpact: A Dataset of Impact Sound Fields for Real Objects](https://openaccess.thecvf.com/content/CVPR2023/papers/Clarke_RealImpact_A_Dataset_of_Impact_Sound_Fields_for_Real_Objects_CVPR_2023_paper.pdf)<br>:star:[code](https://samuelpclarke.com/realimpact/)
 
 <a name="53"/>
 
@@ -294,7 +295,8 @@
 * 人体运动预测
   * [EqMotion: Equivariant Multi-agent Motion Prediction with Invariant Interaction Reasoning](https://arxiv.org/abs/2303.10876)<br>:star:[code](https://github.com/MediaBrain-SJTU/EqMotion)
   * [DeFeeNet: Consecutive 3D Human Motion Prediction with Deviation Feedback](http://arxiv.org/abs/2304.04496v1)
-
+* 人体运动合成
+  * [Generating Human Motion From Textual Descriptions With Discrete Representations](https://arxiv.org/abs/2301.06052)<br>:house:[project](https://mael-zys.github.io/T2M-GPT/)
 
 <a name="51"/>
 
@@ -305,6 +307,8 @@
   * [SliceMatch: Geometry-Guided Aggregation for Cross-View Pose Estimation](https://arxiv.org/abs/2211.14651)
 * 快门校正
   * [EvShutter: Transforming Events for Unconstrained Rolling Shutter Correction](https://openaccess.thecvf.com/content/CVPR2023/papers/Erbach_EvShutter_Transforming_Events_for_Unconstrained_Rolling_Shutter_Correction_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/juliuserbach/EvShutter)
+* 相机校准
+  * [Perspective Fields for Single Image Camera Calibration](https://arxiv.org/abs/2212.03239)<br>:house:[project](https://jinlinyi.github.io/PerspectiveFields/)
 
 <a name="50"/>
 
@@ -329,7 +333,7 @@
 
 ## 48.Visual Grounding(视觉指代)
 * [Text-Visual Prompting for Efficient 2D Temporal Video Grounding](https://arxiv.org/abs/2303.04995)
-
+* [WINNER: Weakly-Supervised hIerarchical decompositioN and aligNment for Spatio-tEmporal Video gRounding](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_WINNER_Weakly-Supervised_hIerarchical_decompositioN_and_aligNment_for_Spatio-tEmporal_Video_gRounding_CVPR_2023_paper.pdf)
   
 <a name="47"/>
 
@@ -350,6 +354,7 @@
   * [Guiding Pseudo-labels with Uncertainty Estimation for Test-Time Adaptation](https://arxiv.org/abs/2303.03770)<br>:star:[code](https://github.com/MattiaLitrico/Guiding-Pseudo-labels-with-Uncertainty-Estimation-for-Test-Time-Adaptation)
   * [DATE: Domain Adaptive Product Seeker for E-commerce](http://arxiv.org/abs/2304.03669v1)<br>:star:[code](https://github.com/Taobao-live/Product-Seeking)
   * [Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective](http://arxiv.org/abs/2303.13434v1)
+  * [MHPL: Minimum Happy Points Learning for Active Source Free Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MHPL_Minimum_Happy_Points_Learning_for_Active_Source_Free_Domain_CVPR_2023_paper.pdf)
   * [COT: Unsupervised Domain Adaptation with Clustering and Optimal Transport](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_COT_Unsupervised_Domain_Adaptation_With_Clustering_and_Optimal_Transport_CVPR_2023_paper.pdf)
   * [Upcycling Models under Domain and Category Shift](https://arxiv.org/abs/2303.07110)<br>:star:[code](https://github.com/ispc-lab/GLC)
   * [C-SFDA: A Curriculum Learning Aided Self-Training Framework for Efficient Source Free Domain Adaptation](http://arxiv.org/abs/2303.17132v1)
@@ -767,6 +772,7 @@
   * [PosterLayout: A New Benchmark and Approach for Content-Aware Visual-Textual Presentation Layout](https://arxiv.org/abs/2303.15937)<br>:star:[code](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
 * 文本-图像合成
   * [Variational Distribution Learning for Unsupervised Text-to-Image Generation](http://arxiv.org/abs/2303.16105v1)
+  * [ReCo: Region-Controlled Text-to-Image Generation](https://arxiv.org/abs/2211.15518)
   * [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](http://arxiv.org/abs/2304.01816v1)
   * [Shifted Diffusion for Text-to-image Generation](https://arxiv.org/abs/2211.15388)<br>:star:[code](https://github.com/drboog/Shifted_Diffusion)
 * prompting
@@ -1674,7 +1680,11 @@
 <a name="1"/>
 
 ## 1.other(其它,待分类)
+* [Metadata-Based RAW Reconstruction via Implicit Neural Functions](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Metadata-Based_RAW_Reconstruction_via_Implicit_Neural_Functions_CVPR_2023_paper.pdf)
+* [Coaching a Teachable Student](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Coaching_a_Teachable_Student_CVPR_2023_paper.pdf)
 * [Progressive Transformation Learning for Leveraging Virtual Images in Training](https://arxiv.org/abs/2211.01778)
+* [NIRVANA: Neural Implicit Representations of Videos with Adaptive Networks and Autoregressive Patch-wise Modeling](https://arxiv.org/abs/2212.14593)
+* [Spatial-Temporal Concept Based Explanation of 3D ConvNets](https://arxiv.org/abs/2206.05275)
 * [Overlooked Factors in Concept-Based Explanations: Dataset Choice, Concept Learnability, and Human Capability](https://arxiv.org/abs/2207.09615)<br>:star:[code](https://github.com/princetonvisualai/OverlookedFactors)
 * [Neural Fourier Filter Bank](https://arxiv.org/abs/2212.01735)<br>:star:[code](https://github.com/ubc-vision/NFFB)
 * [ECON: Explicit Clothed Humans Optimized via Normal Integration](https://arxiv.org/abs/2212.07422)<br>:star:[code](https://github.com/YuliangXiu/ECON)
