@@ -992,7 +992,7 @@
 * 视频摘要
   * [Align and Attend: Multimodal Summarization with Dual Contrastive Losses](https://arxiv.org/abs/2303.07284)<br>:star:[code](https://boheumd.github.io/A2Summ/)
 * 视频识别
-  * [Frame Flexible Network](http://arxiv.org/abs/2303.14817v1)<br>:star:[code](https://github.com/BeSpontaneous/FFN)
+  * [Frame Flexible Network](http://arxiv.org/abs/2303.14817v1)<br>:star:[code](https://github.com/BeSpontaneous/FFN)<br>:thumbsup:[CVPR-2023 | FFN: 针对视频识别的通用Once-For-All框架](https://mp.weixin.qq.com/s/-h0P7_mcxlqwTt5uWgeiMg)
   * [Use Your Head: Improving Long-Tail Video Recognition](http://arxiv.org/abs/2304.01143v1)
 * Video Deflickering(去闪烁)
   * [Blind Video Deflickering by Neural Filtering with a Flawed Atlas](https://arxiv.org/abs/2303.08120)<br>:star:[code](http://github.com/ChenyangLEI/All-In-One-Deflicker)
@@ -1051,7 +1051,7 @@
 * [Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition](http://arxiv.org/abs/2303.12512v1)
 * [BlendFields: Few-Shot Example-Driven Facial Modeling](http://arxiv.org/abs/2305.07514v1)<br>:star:[code](https://blendfields.github.io/)
 * [Towards Effective Adversarial Textured 3D Meshes on Physical Face Recognition](http://arxiv.org/abs/2303.15818v1)<br>:thumbsup:[CVPR 2023 | 人脸识别路漫漫：清华、北大等提出AT3D人脸识别系统攻击方法](https://zhuanlan.zhihu.com/p/618189634)
-* [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)
+* [Collaborative Diffusion for Multi-Modal Face Generation and Editing](http://arxiv.org/abs/2304.10530v1)<br>:star:[code](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)<br>:star:[code](https://github.com/ziqihuangg/Collaborative-Diffusion)<br>:thumbsup:[CVPR 2023 | Collaborative Diffusion 怎样让不同的扩散模型合作？](https://mp.weixin.qq.com/s/yhxcKlj6m-M6Hw7X31-JYQ)
 * [Recognizability Embedding Enhancement for Very Low-Resolution Face Recognition and Quality Estimation](http://arxiv.org/abs/2304.10066v1)
 * [DiffusionRig: Learning Personalized Priors for Facial Appearance Editing](http://arxiv.org/abs/2304.06711v1)<br>:star:[code](https://diffusionrig.github.io)
 * [Probabilistic Knowledge Distillation of Face Ensembles]人脸(论文未公开)
@@ -1114,6 +1114,7 @@
 <a name="10"/>
 
 ## 10.3D(三维重建\三维视觉)
+* [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/abs/2301.07525)<br>:house:[project](https://omniobject3d.github.io/)<br>:thumbsup:[CVPR 2023 Award Candidate | 真实高精三维物体数据集OmniObject3D](https://mp.weixin.qq.com/s/aJQCc-Iu50bYP2cE1BrY-w)
 * [Neural Scene Chronology](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Neural_Scene_Chronology_CVPR_2023_paper.pdf)<br>:house:[project](https://zju3dv.github.io/NeuSC/)
 * [3D Neural Field Generation Using Triplane Diffusion](https://arxiv.org/abs/2211.16677)<br>:house:[project](https://jryanshue.com/nfd)
 * [Learning Adaptive Dense Event Stereo From the Image Domain](https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Learning_Adaptive_Dense_Event_Stereo_From_the_Image_Domain_CVPR_2023_paper.pdf)
@@ -1630,6 +1631,7 @@
   * [Delving into Shape-aware Zero-shot Semantic Segmentation](http://arxiv.org/abs/2304.08491v1)<br>:star:[code](https://github.com/Liuxinyv/SAZS)
   * 开放词汇语义分割
     * [Open Vocabulary Semantic Segmentation With Patch Aligned Contrastive Learning](https://arxiv.org/abs/2212.04994)
+    * [Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2302.12242)<br>:star:[code](https://github.com/MendelXu/SAN)<br>:thumbsup:[CVPR2023 Highlight | Side Adapter Network – 极致轻薄却性能强劲的开放词汇语义分割器](https://mp.weixin.qq.com/s/yBmBniIMF9JG0RG6GdSQng)
   * 域适应语义分割
     * [DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation](http://arxiv.org/abs/2304.02222v1)<br>:star:[code](https://github.com/fy-vision/DiGA)
   * 域泛化语义分割
@@ -1684,6 +1686,8 @@
 * 指代图像分割
   * [PolyFormer: Referring Image Segmentation As Sequential Polygon Generation](https://arxiv.org/abs/2302.07387)<br>:house:[project](https://polyformer.github.io/)
   * [Zero-shot Referring Image Segmentation with Global-Local Context Features](http://arxiv.org/abs/2303.17811v1)<br>:star:[code](https://github.com/Seonghoon-Yu/Zero-shot-RIS)
+* 引用表达分割  
+  * [GRES: Generalized Referring Expression Segmentation](https://arxiv.org/abs/2306.00968)<br>:house:[project](https://henghuiding.github.io/GRES/)<br>:thumbsup:[CVPR23 Highlight 多模态新任务、新数据集：NTU提出广义引用分割问题GRES](https://mp.weixin.qq.com/s/YoL_8a_8OPHovFrfJSXm4A)
 
 
 <a name="1"/>
