@@ -44,7 +44,16 @@
 |[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#64)|
 |[65.Scene flow estimation(场景流估计)](#65)|[66.Clustering(聚类)](#66)|
 
-
+# :loudspeaker::loudspeaker::loudspeaker::trophy::trophy::trophy:
+### Best Paper
+* [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559)
+* [Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156)<br>:house:[project](https://opendrivelab.github.io/UniAD/)
+### Best student Paper
+* [3D Registration with Maximal Cliques](http://arxiv.org/abs/2305.10854v1)
+### Honorable Mention
+* [DynIBaR: Neural Dynamic Image-Based Rendering](https://arxiv.org/abs/2211.11082)<br>:house:[project](http://dynibar.github.io/)
+### Honorable Mention(Student)
+* [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242)<br>:house:[project](https://dreambooth.github.io/)
 
 ## 计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
