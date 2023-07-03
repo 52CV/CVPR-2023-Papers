@@ -90,6 +90,7 @@
   * [A Data-Based Perspective on Transfer Learning](https://arxiv.org/abs/2207.05739)<br>:star:[code](https://github.com/MadryLab/data-transfer)
 
 ## Neural Radiance Fields(神经辐射场)
+* [SteerNeRF: Accelerating NeRF Rendering via Smooth Viewpoint Trajectory](https://arxiv.org/abs/2212.08476)
 * [Complementary Intrinsics From Neural Radiance Fields and CNNs for Outdoor Scene Relighting](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Complementary_Intrinsics_From_Neural_Radiance_Fields_and_CNNs_for_Outdoor_CVPR_2023_paper.pdf)
 * [Point2Pix: Photo-Realistic Point Cloud Rendering via Neural Radiance Fields](https://arxiv.org/abs/2303.16482)
 * [Removing Objects From Neural Radiance Fields](https://arxiv.org/abs/2212.11966)
@@ -115,6 +116,7 @@
 ## visual reasoning(视觉推理)
 * [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559)<br>:trophy:Best Paper
 * [Abstract Visual Reasoning: An Algebraic Approach for Solving Raven's Progressive Matrices](https://arxiv.org/abs/2303.11730)<br>:star:[code](https://github.com/Xu-Jingyi/AlgebraicMR)
+* [Super-CLEVR: A Virtual Benchmark To Diagnose Domain Robustness in Visual Reasoning](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Super-CLEVR_A_Virtual_Benchmark_To_Diagnose_Domain_Robustness_in_Visual_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/Lizw14/Super-CLEVR)
 
 ## Image Forgery Detection
 * [Hierarchical Fine-Grained Image Forgery Detection and Localization](http://arxiv.org/abs/2303.17111v1)<br>:star:[code](https://github.com/CHELSEA234/HiFi_IFDL)
@@ -472,6 +474,7 @@
 
 ## 41.Incremental Learning(增量学习)
 * [AttriCLIP: A Non-Incremental Learner for Incremental Knowledge Learning](https://arxiv.org/abs/2305.11488)<br>:star:[code](https://github.com/bhrqw/AttriCLIP)
+* [GKEAL: Gaussian Kernel Embedded Analytic Learning for Few-Shot Class Incremental Task](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhuang_GKEAL_Gaussian_Kernel_Embedded_Analytic_Learning_for_Few-Shot_Class_Incremental_CVPR_2023_paper.pdf)
 * 类增量学习
   * [Dense Network Expansion for Class Incremental Learning](http://arxiv.org/abs/2303.12696v1)
   * [Class-Incremental Exemplar Compression for Class-Incremental Learning](http://arxiv.org/abs/2303.14042v1)<br>:star:[code](https://github.com/xfflzl/CIM-CIL)
@@ -899,6 +902,8 @@
   * [Few-shot Semantic Image Synthesis with Class Affinity Transfer](http://arxiv.org/abs/2304.02321v1)图像合成
   * [Regularized Vector Quantization for Tokenized Image Synthesis](https://arxiv.org/abs/2303.06424)
   * [High-Fidelity Guided Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2211.17084)<br>:house:[project](https://1jsingh.github.io/gradop)
+* 文本-运动生成
+  * [Being Comes From Not-Being: Open-Vocabulary Text-to-Motion Generation With Wordless Training](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Being_Comes_From_Not-Being_Open-Vocabulary_Text-to-Motion_Generation_With_Wordless_Training_CVPR_2023_paper.pdf)<br>:house:[project](https://github.com/junfanlin/)
 
 <a name="21"/>
 
@@ -960,6 +965,7 @@
 
 ## 18.Person Re-Identification(人员重识别)
 * [Patch-Wise High-Frequency Augmentation for Transformer-Based Person Re-Identification](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_PHA_Patch-Wise_High-Frequency_Augmentation_for_Transformer-Based_Person_Re-Identification_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/zhangguiwei610/PHA)
+* [TranSG: Transformer-Based Skeleton Graph Prototype Contrastive Learning with Structure-Trajectory Prompted Reconstruction for Person Re-Identification](https://arxiv.org/abs/2303.06819)<br>:star:[code](https://github.com/Kali-Hac/TranSG)
 * 人员检索
   * [Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](http://arxiv.org/abs/2303.12501v1)<br>:star:[code](https://github.com/anosorae/IRRA)
 * 可见光-红外人员重识别(VIReID)
@@ -1180,6 +1186,8 @@
   * [Scaling up GANs for Text-to-Image Synthesis](https://arxiv.org/abs/2303.05511)<br>:house:[project](https://mingukkang.github.io/GigaGAN/)
 * 扩散模型
   * [How to Backdoor Diffusion Models?](https://arxiv.org/abs/2212.05400)<br>:star:[code](https://github.com/IBM/BadDiffusion)
+  * [All Are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/abs/2209.12152)
+  * [Unite and Conquer: Plug & Play Multi-Modal Synthesis using Diffusion Models](https://arxiv.org/abs/2212.00793)<br>:house:[project](https://nithin-gk.github.io/projectpages/Multidiff/index.html)
   * [Binary Latent Diffusion](https://arxiv.org/abs/2304.04820)
   * [Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models](https://arxiv.org/abs/2211.05105)
   * [EDICT: Exact Diffusion Inversion via Coupled Transformations](https://arxiv.org/abs/2211.12446)<br>:star:[code](https://github.com/salesforce/EDICT)
@@ -1235,6 +1243,8 @@
   * [* [DSFNet: Dual Space Fusion Network for Occlusion-Robust 3D Dense Face Alignment](http://arxiv.org/abs/2305.11522v1)<br>:star:[code](https://github.com/lhyfst/DSFNet)]
 * 人脸匿名化
   * [Attribute-preserving Face Dataset Anonymization via Latent Code Optimization](https://arxiv.org/abs/2303.11296)<br>:star:[code](https://github.com/chi0tzp/FALCO)
+* 人脸超分辨率
+  * [Spatial-Frequency Mutual Learning for Face Super-Resolution](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Spatial-Frequency_Mutual_Learning_for_Face_Super-Resolution_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/wcy-cs/SFMNet)
 * 裸眼年龄识别
   * [DAA: A Delta Age AdaIN operation for age estimation via binary code transformer](https://arxiv.org/abs/2303.07929)
 * 情绪识别
@@ -1287,6 +1297,7 @@
 <a name="10"/>
 
 ## 10.3D(三维重建\三维视觉)
+* [Magic3D: High-Resolution Text-to-3D Content Creation](https://arxiv.org/abs/2211.10440)<br>:house:[project](https://research.nvidia.com/labs/dir/magic3d/)
 * [PointListNet: Deep Learning on 3D Point Lists](https://openaccess.thecvf.com/content/CVPR2023/papers/Fan_PointListNet_Deep_Learning_on_3D_Point_Lists_CVPR_2023_paper.pdf)
 * [Omnimatte3D: Associating Objects and Their Effects in Unconstrained Monocular Video](https://openaccess.thecvf.com/content/CVPR2023/papers/Suhail_Omnimatte3D_Associating_Objects_and_Their_Effects_in_Unconstrained_Monocular_Video_CVPR_2023_paper.pdf)
 * [HexPlane: A Fast Representation for Dynamic Scenes](https://arxiv.org/abs/2301.09632)<br>:house:[project](https://caoang327.github.io/HexPlane)
@@ -1368,6 +1379,7 @@
   * [VolRecon: Volume Rendering of Signed Ray Distance Functions for Generalizable Multi-View Reconstruction](https://arxiv.org/abs/2212.08067)
 * 深度估计
   * [Fully Self-Supervised Depth Estimation from Defocus Clue](https://arxiv.org/abs/2303.10752)<br>:star:[code](https://github.com/Ehzoahis/DEReD)
+  * [PlaneDepth: Self-supervised Depth Estimation via Orthogonal Planes](https://arxiv.org/abs/2210.01612)<br>:star:[code](https://github.com/svip-lab/PlaneDepth)
   * [Depth Estimation From Indoor Panoramas With Neural Scene Representation](https://openaccess.thecvf.com/content/CVPR2023/papers/Chang_Depth_Estimation_From_Indoor_Panoramas_With_Neural_Scene_Representation_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/WJ-Chang-42/IndoorPanoDepth)
   * [Polarimetric iToF:Measuring High-Fidelity Depth Through Scattering Media](https://openaccess.thecvf.com/content/CVPR2023/papers/Jeon_Polarimetric_iToF_Measuring_High-Fidelity_Depth_Through_Scattering_Media_CVPR_2023_paper.pdf)
   * [SCADE: NeRFs from Space Carving With Ambiguity-Aware Depth Estimates](https://arxiv.org/abs/2303.13582)<br>:star:[code](https://scade-spacecarving-nerfs.github.io/)
@@ -1398,6 +1410,7 @@
   * [Seeing a Rose in Five Thousand Ways](https://arxiv.org/abs/2212.04965)
 * 三维形状
   * [Conjugate Product Graphs for Globally Optimal 2D-3D Shape Matching](https://openaccess.thecvf.com/content/CVPR2023/papers/Roetzer_Conjugate_Product_Graphs_for_Globally_Optimal_2D-3D_Shape_Matching_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/paul0noah/sm-2D3D)
+  * [Diffusion-SDF: Text-To-Shape via Voxelized Diffusion](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Diffusion-SDF_Text-To-Shape_via_Voxelized_Diffusion_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/ttlmh/Diffusion-SDF)
 
 <a name="9"/>
 
@@ -1512,6 +1525,7 @@
   * [STMT: A Spatial-Temporal Mesh Transformer for MoCap-Based Action Recognition](http://arxiv.org/abs/2303.18177v1)<br>:star:[code](https://github.com/zgzxy001/STMT)
 * 小样本动作识别
   * [MoLo: Motion-augmented Long-short Contrastive Learning for Few-shot Action Recognition](http://arxiv.org/abs/2304.00946v1)<br>:star:[code](https://github.com/alibaba-mmai-research/MoLo)
+  * [Active Exploration of Multimodal Complementarity for Few-Shot Action Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Wanyan_Active_Exploration_of_Multimodal_Complementarity_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf)
 * 半监督动作识别
   * [TimeBalance: Temporally-Invariant and Temporally-Distinctive Video Representations for Semi-Supervised Action Recognition](http://arxiv.org/abs/2303.16268v1)<br>:star:[code](https://github.com/DAVEISHAN/TimeBalance)
 * 时序动作定位
@@ -1525,6 +1539,7 @@
 <a name="7"/>
 
 ## 7.Point Cloud(点云)
+* [ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_ULIP_Learning_a_Unified_Representation_of_Language_Images_and_Point_CVPR_2023_paper.pdf)
 * [SE-ORNet: Self-Ensembling Orientation-Aware Network for Unsupervised Point Cloud Shape Correspondence](https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_SE-ORNet_Self-Ensembling_Orientation-Aware_Network_for_Unsupervised_Point_Cloud_Shape_Correspondence_CVPR_2023_paper.pdf)
 * [GeoMAE: Masked Geometric Target Prediction for Self-Supervised Point Cloud Pre-Training](https://arxiv.org/abs/2305.08808)
 * [Neural Intrinsic Embedding for Non-rigid Point Cloud Matching](https://arxiv.org/pdf/2303.01038.pdf)
@@ -1639,6 +1654,7 @@
   * [CapDet: Unifying Dense Captioning and Open-World Detection Pretraining](https://arxiv.org/abs/2303.02489)
 * 3D OD
   * [Virtual Sparse Convolution for Multimodal 3D Object Detection](https://arxiv.org/abs/2303.02314)<br>:star:[code](https://github.com/hailanyi/VirConv)
+  * [Distilling Focal Knowledge From Imperfect Expert for 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe)
   * [Are We Ready for Vision-Centric Driving Streaming Perception? The ASAP Benchmark](https://arxiv.org/abs/2212.08914)<br>:star:[code](https://github.com/JeffWang987/ASAP)
   * [Deep Dive Into Gradients: Better Optimization for 3D Object Detection With Gradient-Corrected IoU Supervision](https://openaccess.thecvf.com/content/CVPR2023/papers/Ming_Deep_Dive_Into_Gradients_Better_Optimization_for_3D_Object_Detection_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/ming71/GCIoU-loss)
   * [AeDet: Azimuth-invariant Multi-view 3D Object Detection](https://arxiv.org/abs/2211.12501)<br>:star:[code](https://fcjian.github.io/aedet)
@@ -1724,6 +1740,7 @@
   * [Model-Agnostic Gender Debiased Image Captioning](http://arxiv.org/abs/2304.03693v1)
   * [A-CAP: Anticipation Captioning with Commonsense Knowledge](http://arxiv.org/abs/2304.06602v1)字幕
   * [Positive-Augmented Contrastive Learning for Image and Video Captioning Evaluation](https://arxiv.org/abs/2303.12112)<br>:star:[code](https://github.com/aimagelab/pacscore)
+  * [Semantic-Conditional Diffusion Networks for Image Captioning](https://arxiv.org/abs/2212.03099)<br>:star:[code](https://github.com/YehLi/xmodaler/tree/master/configs/image_caption/scdnet)
 * story generation(视觉故事生成)
   * [Make-A-Story: Visual Memory Conditioned Consistent Story Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Rahman_Make-a-Story_Visual_Memory_Conditioned_Consistent_Story_Generation_CVPR_2023_paper.pdf)  
   
@@ -1766,6 +1783,7 @@
 * 去雾
   * [Video Dehazing via a Multi-Range Temporal Alignment Network with Physical Prior](https://arxiv.org/abs/2303.09757)<br>:star:[code](https://github.com/jiaqixuac/MAP-Net)
   * [Curricular Contrastive Regularization for Physics-aware Single Image Dehazing](http://arxiv.org/abs/2303.14218v1)
+  * [Efficient Frequency Domain-Based Transformers for High-Quality Image Deblurring](https://arxiv.org/abs/2211.12250)<br>:star:[code](https://github.com/kkkls/FFTformer)
   * [RIDCP: Revitalizing Real Image Dehazing via High-Quality Codebook Priors](http://arxiv.org/abs/2304.03994v1)
 * 去雨
   * [Learning A Sparse Transformer Network for Effective Image Deraining](https://arxiv.org/abs/2303.11950)<br>:star:[code](https://github.com/cschenxiang/DRSformer) 
@@ -1813,6 +1831,7 @@
 <a name="2"/>
 
 ## 2.Image Segmentation(图像分割)
+* [Compositor: Bottom-Up Clustering and Compositing for Robust Part and Object Segmentation](https://openaccess.thecvf.com/content/CVPR2023/papers/He_Compositor_Bottom-Up_Clustering_and_Compositing_for_Robust_Part_and_Object_CVPR_2023_paper.pdf)
 * [VectorFloorSeg: Two-Stream Graph Attention Network for Vectorized Roughcast Floorplan Segmentation](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_VectorFloorSeg_Two-Stream_Graph_Attention_Network_for_Vectorized_Roughcast_Floorplan_Segmentation_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/DrZiji/VecFloorSeg)
 * [Nerflets: Local Radiance Fields for Efficient Structure-Aware 3D Scene Representation from 2D Supervisio](https://arxiv.org/abs/2303.03361)
 * [OneFormer: One Transformer To Rule Universal Image Segmentation](https://arxiv.org/abs/2211.06220)<br>:house:[project](https://praeclarumjj3.github.io/oneformer)
@@ -1949,6 +1968,8 @@
 <a name="1"/>
 
 ## 1.other(其它,待分类)
+* [Sliced Optimal Partial Transport](https://arxiv.org/abs/2212.08049)
+* [Deep Learning of Partial Graph Matching via Differentiable Top-K](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Deep_Learning_of_Partial_Graph_Matching_via_Differentiable_Top-K_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/Thinklab-SJTU/ThinkMatch)
 * [Unsupervised Volumetric Animation](https://arxiv.org/abs/2301.11326)<br>:house:[project](https://snap-research.github.io/unsupervised-volumetric-animation)
 * [Passive Micron-Scale Time-of-Flight With Sunlight Interferometry](https://arxiv.org/abs/2211.10732)
 * [Generalizable Implicit Neural Representations via Instance Pattern Composers](https://arxiv.org/abs/2211.13223)<br>:star:[code](https://github.com/kakaobrain/ginr-ipc)
