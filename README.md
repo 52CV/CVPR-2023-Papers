@@ -41,11 +41,11 @@
 |[49.Image Geo-localization(图像地理定位)](#49)|[50.Anomaly Detection(异常检测)](#50)|[51.光学、几何、光场成像](#51)|[52.Human Motion Forecasting(人体运动预测)](#52)|
 |[53.Sign Language Translation(手语翻译)](#53)|[54.Benchmark/Dataset(基准/数据集)](#54)|[55.Novel View Synthesis(视图合成)](#55)|[56.Sound](#56)|
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.Image\Video Compression(图像视频压缩)](#59)|[60.Industrial Anomaly Detection(工业缺陷检测)](#60)|
-|[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#64)|
+|[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#63)|[64.Motion Retargeting(动作重定向)](#64)|
 |[65.Scene flow estimation(场景流估计)](#65)|[66.Clustering(聚类)](#66)|[67.Active Learning(主动学习)](#67)|[68.Lifelong Learning(终身学习)](#68)|
 |[69.Reinforcement learning(强化学习)](#69)|[70.Image Forgery Detection](#70)|[71.visual reasoning(视觉推理)](#71)|[72.open-set recognition(开集识别)](#72)
 |[73.Neural Radiance Fields(神经辐射场)](#73)|[74.Machine Learning(机器学习)](#74)|[75.Semantic Scene Completion(语义场景补全)](#75)|[76.IP protection(知识产权保护)](#76)|
-|[77.sketch(草图)](#77)|[78.Image/Video Editing(图像/视频编辑)](#78)|[79.thermal imaging technology(热敏成像技术)](#79)|
+|[77.sketch(草图)](#77)|[78.Image/Video Editing(图像/视频编辑)](#78)|[79.thermal imaging technology(热敏成像技术)](#79)|[80.计算机图形学](#80)|
 
 # 获奖论文:loudspeaker::loudspeaker::loudspeaker:
 ### :trophy:Best Paper
