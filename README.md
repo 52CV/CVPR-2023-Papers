@@ -1,8 +1,8 @@
 # CVPR-2023-Papers
 ![1ad4f8f92d9208b0f4b579e426b2dcd](https://user-images.githubusercontent.com/62801906/225788627-781870be-cc92-4054-b865-e2556b88cefc.jpg)
 
-## ❣❣❣ CVPR 2023 论文分类整理已完成
-# 获奖论文:loudspeaker::loudspeaker::loudspeaker:
+# ❣❣❣ CVPR 2023 论文分类整理已完成
+# :loudspeaker::loudspeaker::loudspeaker:获奖论文
 ### :trophy:Best Paper
 * [Planning-oriented Autonomous Driving](https://arxiv.org/abs/2212.10156)<br>:house:[project](https://opendrivelab.github.io/UniAD/)
 * [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559)
@@ -305,7 +305,7 @@
 * [NeUDF: Leaning Neural Unsigned Distance Fields With Volume Rendering](http://arxiv.org/abs/2304.10080)
 * [DiffRF: Rendering-Guided 3D Radiance Field Diffusion](https://openaccess.thecvf.com/content/CVPR2023/papers/Muller_DiffRF_Rendering-Guided_3D_Radiance_Field_Diffusion_CVPR_2023_paper.pdf)<br>:house:[project](https://sirwyver.github.io/DiffRF/)
 * [Unsupervised Continual Semantic Adaptation Through Neural Rendering](https://arxiv.org/abs/2211.13969)
-* [Neural Fields Meet Explicit Geometric Representations for Inverse Rendering of Urban Scenes](https://arxiv.org/abs/2304.03266)<br>:house:[project]  (https://nv-tlabs.github.io/fegr/)
+* [Neural Fields Meet Explicit Geometric Representations for Inverse Rendering of Urban Scenes](https://arxiv.org/abs/2304.03266)<br>:house:[project](https://nv-tlabs.github.io/fegr/)
 * [UV Volumes for Real-Time Rendering of Editable Free-View Human Performance](https://arxiv.org/abs/2203.14402)<br>:house:[project](https://fanegg.github.io/UV-Volumes)
 * [Inverse Rendering of Translucent Objects Using Physical and Neural Renderers](https://arxiv.org/abs/2305.08336)
 * [ORCa: Glossy Objects As Radiance-Field Cameras](https://arxiv.org/abs/2212.04531)<br>:house:[project](https://ktiwary2.github.io/objectsascam/)
@@ -324,9 +324,8 @@
 * [FlexNeRF: Photorealistic Free-viewpoint Rendering of Moving Humans from Sparse Views](http://arxiv.org/abs/2303.14368v1)<br>:star:[code](https://flex-nerf.github.io/)
 * [NeFII: Inverse Rendering for Reflectance Decomposition with Near-Field Indirect Illumination](http://arxiv.org/abs/2303.16617v1)
 * [MonoHuman: Animatable Human Neural Field from Monocular Video](http://arxiv.org/abs/2304.02001v1)<br>:star:[code](https://yzmblog.github.io/projects/MonoHuman/)
-* [PlenVDB: A Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering]<br>:house:[project](https://plenvdb.github.io/)论文未公开<br>在 iPhone12 手机上达到了对于输出 1280x720 分辨率的画面每秒 30 帧的速率。
 * [Neural Residual Radiance Fields for Streamably Free-Viewpoint Videos](http://arxiv.org/abs/2304.04452v1)<br>:star:[code](https://aoliao12138.github.io/ReRF/)
-* [PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_PlenVDB_Memory_Efficient_VDB-Based_Radiance_Fields_for_Fast_Training_and_CVPR_2023_paper.pdf)
+* [PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_PlenVDB_Memory_Efficient_VDB-Based_Radiance_Fields_for_Fast_Training_and_CVPR_2023_paper.pdf)<br>在 iPhone12 手机上达到了对于输出 1280x720 分辨率的画面每秒 30 帧的速率。
 * [NeFII: Inverse Rendering for Reflectance Decomposition With Near-Field Indirect Illumination](https://arxiv.org/abs/2303.16617)
 
 <a name="57"/>
@@ -468,7 +467,7 @@
   * [Dense-Localizing Audio-Visual Events in Untrimmed Videos: A Large-Scale Benchmark and Baseline](http://arxiv.org/abs/2303.12930v1)
   * [ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos](https://arxiv.org/abs/2305.02519)<br>:house:[project](https://milvlg.github.io/anetqa/)
   * Image Similarity
-  * [GeneCIS: A Benchmark for General Conditional Image Similarity](https://openaccess.thecvf.com/content/CVPR2023/papers/Vaze_GeneCIS_A_Benchmark_for_General_Conditional_Image_Similarity_CVPR_2023_paper.pdf)<br>:house:[project](sgvaze.github.io/genecis)
+    * [GeneCIS: A Benchmark for General Conditional Image Similarity](https://openaccess.thecvf.com/content/CVPR2023/papers/Vaze_GeneCIS_A_Benchmark_for_General_Conditional_Image_Similarity_CVPR_2023_paper.pdf)<br>:house:[project](sgvaze.github.io/genecis)
   * [ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos](http://arxiv.org/abs/2305.02519v1)<br>:star:[code](https://milvlg.github.io/anetqa/)
   * [Ultra-High Resolution Segmentation with Ultra-Rich Context: A Novel Benchmark](http://arxiv.org/abs/2305.10899v1)<br>:star:[code](https://github.com/jankyee/URUR)
   * [NewsNet: A Novel Benchmark for Hierarchical Temporal Segmentation](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_NewsNet_A_Novel_Dataset_for_Hierarchical_Temporal_Segmentation_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/NewsNet-Benchmark/NewsNet)
@@ -689,7 +688,7 @@
 * [Independent Component Alignment for Multi-Task Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Senushkin_Independent_Component_Alignment_for_Multi-Task_Learning_CVPR_2023_paper.pdf)
 * [Dynamic Neural Network for Multi-Task Learning Searching Across Diverse Network Topologies](https://arxiv.org/abs/2303.06856)
 * [AdaMTL: Adaptive Input-dependent Inference for Efficient Multi-Task Learning](http://arxiv.org/abs/2304.08594v1)<br>:star:[code](https://github.com/scale-lab/AdaMTL.git)
-* [Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners]<br>:house:[project](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.pdf)(https://vis-www.cs.umass.edu/mod-squad/)
+* [Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Mod-Squad_Designing_Mixtures_of_Experts_As_Modular_Multi-Task_Learners_CVPR_2023_paper.pdf)<br>:house:[project](https://vis-www.cs.umass.edu/mod-squad/)
 * [Mitigating Task Interference in Multi-Task Learning via Explicit Task Routing With Non-Learnable Primitives](https://openaccess.thecvf.com/content/CVPR2023/papers/Ding_Mitigating_Task_Interference_in_Multi-Task_Learning_via_Explicit_Task_Routing_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/zhichao-lu/etr-nlp-mtl)
 * [Hierarchical Prompt Learning for Multi-Task Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Hierarchical_Prompt_Learning_for_Multi-Task_Learning_CVPR_2023_paper.pdf)
 
@@ -1229,7 +1228,7 @@
   * [CABM: Content-Aware Bit Mapping for Single Image Super-Resolution Network with Large Input](http://arxiv.org/abs/2304.06454v1)
   * [Memory-Friendly Scalable Super-Resolution via Rewinding Lottery Ticket Hypothesis](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Memory-Friendly_Scalable_Super-Resolution_via_Rewinding_Lottery_Ticket_Hypothesis_CVPR_2023_paper.pdf)
   * [B-Spline Texture Coefficients Estimator for Screen Content Image Super-Resolution](https://openaccess.thecvf.com/content/CVPR2023/papers/Pak_B-Spline_Texture_Coefficients_Estimator_for_Screen_Content_Image_Super-Resolution_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/ByeongHyunPak/btc)
-  * [Rethinking Image Super Resolution From Long-Tailed Distribution Learning Perspective](https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Rethinking_Image_Super_Resolution_From_Long-Tailed _Distribution_Learning_Perspective_CVPR_2023_paper.pdf)
+  * [Rethinking Image Super Resolution From Long-Tailed Distribution Learning Perspective](https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Rethinking_Image_Super_Resolution_From_Long-Tailed_Distribution_Learning_Perspective_CVPR_2023_paper.pdf)
   * [Correspondence Transformers With Asymmetric Feature Learning and Matching Flow Super-Resolution](https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Correspondence_Transformers_With_Asymmetric_Feature_Learning_and_Matching_Flow_Super-Resolution_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/YXSUNMADMAX/ACTR)
   * [Toward Accurate Post-Training Quantization for Image Super Resolution](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Toward_Accurate_Post-Training_Quantization_for_Image_Super_Resolution_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/PTQ4SR)
   * [Image Super-Resolution Using T-Tetromino Pixels](https://openaccess.thecvf.com/content/CVPR2023/papers/Grosche_Image_Super-Resolution_Using_T-Tetromino_Pixels_CVPR_2023_paper.pdf)
