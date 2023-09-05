@@ -1,8 +1,7 @@
 # CVPR-2023-Papers
 ![1ad4f8f92d9208b0f4b579e426b2dcd](https://user-images.githubusercontent.com/62801906/225788627-781870be-cc92-4054-b865-e2556b88cefc.jpg)
 
-官网链接：
-
+## ❣❣❣ CVPR 2023 论文分类整理已完成
 ## 历年综述论文分类汇总戳这里↘️[CV-Surveys](https://github.com/52CV/CV-Surveys)施工中~~~~~~~~~~
 
 ## 2023 年论文分类汇总戳这里
@@ -43,7 +42,10 @@
 |[53.Sign Language Translation(手语翻译)](#53)|[54.Benchmark/Dataset(基准/数据集)](#54)|[55.Novel View Synthesis(视图合成)](#55)|[56.Sound](#56)|
 |[57.Gaze Estimation(视线估计)](#57)|[58.Neural rendering(神经渲染)](#58)|[59.Image\Video Compression(图像视频压缩)](#59)|[60.Industrial Anomaly Detection(工业缺陷检测)](#60)|
 |[61.Object Re-identification(物体重识别)](#61)|[62.Object Counting(物体计数)](#62)|[63.edge detection(边缘检测)](#64)|
-|[65.Scene flow estimation(场景流估计)](#65)|[66.Clustering(聚类)](#66)|
+|[65.Scene flow estimation(场景流估计)](#65)|[66.Clustering(聚类)](#66)|[67.Active Learning(主动学习)](#67)|[68.Lifelong Learning(终身学习)](#68)|
+|[69.Reinforcement learning(强化学习)](#69)|[70.Image Forgery Detection](#70)|[71.visual reasoning(视觉推理)](#71)|[72.open-set recognition(开集识别)](#72)
+|[73.Neural Radiance Fields(神经辐射场)](#73)|[74.Machine Learning(机器学习)](#74)|[75.Semantic Scene Completion(语义场景补全)](#75)|[76.IP protection(知识产权保护)](#76)|
+|[77.sketch(草图)](#77)|[78.Image/Video Editing(图像/视频编辑)](#78)|[79.thermal imaging technology(热敏成像技术)](#79)|
 
 # 获奖论文:loudspeaker::loudspeaker::loudspeaker:
 ### :trophy:Best Paper
@@ -56,16 +58,22 @@
 ### :trophy:Honorable Mention(Student)
 * [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242)<br>:house:[project](https://dreambooth.github.io/)
 
-## 计算机图形学
+<a name="80"/>
+
+## 80.计算机图形学
 * [Learning Anchor Transformations for 3D Garment Animation](http://arxiv.org/abs/2304.00761v1)<br>:star:[code](https://semanticdh.github.io/AnchorDEF)
 * [Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion](http://arxiv.org/abs/2304.01893v1)<br>:star:[code](https://nv-tlabs.github.io/trace-pace)
 * [CloSET: Modeling Clothed Humans on Continuous Surface with Explicit Template Decomposition](http://arxiv.org/abs/2304.03167v1)<br>:house:[project](https://www.liuyebin.com/closet)
 * [FLEX: Full-Body Grasping Without Full-Body Grasps](https://openaccess.thecvf.com/content/CVPR2023/papers/Tendulkar_FLEX_Full-Body_Grasping_Without_Full-Body_Grasps_CVPR_2023_paper.pdf)<br>:house:[project](flex.cs.columbia.edu)
 
-## thermal imaging technology(热敏成像技术)
+<a name="79"/>
+
+## 79.thermal imaging technology(热敏成像技术)
 * [What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging](https://arxiv.org/abs/2304.13651)<br>:star:[code](https://github.com/ZitianTang/Thermal-IM)
 
-## Image/Video Editing(图像/视频编辑)
+<a name="78"/>
+
+## 78.Image/Video Editing(图像/视频编辑)
 * [PREIM3D: 3D Consistent Precise Image Attribute Editing from a Single Image](https://arxiv.org/abs/2304.10263)<br>:house:[project](https://mybabyyh.github.io/Preim3D/)
 * 文本驱动的视频编辑
   * [Shape-aware Text-driven Layered Video Editing](https://arxiv.org/abs/2301.13173)<br>:house:[project](https://text-video-edit.github.io/)
@@ -80,21 +88,28 @@
   * 基于样本的图像编辑
     * [Paint by Example: Exemplar-based Image Editing with Diffusion Models](https://arxiv.org/abs/2211.13227)<br>:star:[code](https://github.com/Fantasy-Studio/Paint-by-Example)
 
+<a name="77"/>
 
-## sketch(草图)
+## 77.sketch(草图)
 * [Photo Pre-Training, but for Sketch](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Photo_Pre-Training_but_for_Sketch_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/KeLi-SketchX/Photo-Pre-Training-But-for-Sketch)
 * [Restoration of Hand-Drawn Architectural Drawings Using Latent Space Mapping With Degradation Generator](https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Restoration_of_Hand-Drawn_Architectural_Drawings_Using_Latent_Space_Mapping_With_CVPR_2023_paper.pdf)
 * [SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SECAD-Net_Self-Supervised_CAD_Reconstruction_by_Learning_Sketch-Extrude_Operations_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/BunnySoCrazy/SECAD-Net)
 
-## IP protection(知识产权保护)
+<a name="76"/>
+
+## 76.IP protection(知识产权保护)
 * [Model Barrier: A Compact Un-Transferable Isolation Domain for Model Intellectual Property Protection](https://arxiv.org/abs/2303.11078)
 * [Effective Ambiguity Attack Against Passport-Based DNN Intellectual Property Protection Schemes Through Fully Connected Layer Substitution](https://arxiv.org/abs/2303.11595)
 
-## Semantic Scene Completion(语义场景补全)
+<a name="75"/>
+
+## 75.Semantic Scene Completion(语义场景补全)
 * [Semantic Scene Completion With Cleaner Self](https://arxiv.org/abs/2303.09977)
 * [VoxFormer: Sparse Voxel Transformer for Camera-Based 3D Semantic Scene Completion](https://arxiv.org/abs/2302.12251)<br>:star:[code](https://github.com/NVlabs/VoxFormer)
 
-## Machine Learning(机器学习)
+<a name="74"/>
+
+## 74.Machine Learning(机器学习)
 * [Cooperation or Competition: Avoiding Player Domination for Multi-Target Robustness via Adaptive Budgets](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Cooperation_or_Competition_Avoiding_Player_Domination_for_Multi-Target_Robustness_via_CVPR_2023_paper.pdf )
 * [Multi-Agent Automated Machine Learning](https://arxiv.org/abs/2210.09084)
 * [Towards Better Decision Forests: Forest Alternating Optimization](https://openaccess.thecvf.com/content/CVPR2023/papers/Carreira-Perpinan_Towards_Better_Decision_Forests_Forest_Alternating_Optimization_CVPR_2023_paper.pdf)
@@ -108,7 +123,9 @@
   * [A Data-Based Perspective on Transfer Learning](https://arxiv.org/abs/2207.05739)<br>:star:[code](https://github.com/MadryLab/data-transfer)
   * [Manipulating Transfer Learning for Property Inference](https://arxiv.org/abs/2303.11643)<br>:star:[code](https://github.com/yulongt23/Transfer-Inference)
 
-## Neural Radiance Fields(神经辐射场)
+<a name="73"/>
+
+## 73.Neural Radiance Fields(神经辐射场)
 * [Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ref-NPR_Reference-Based_Non-Photorealistic_Radiance_Fields_for_Controllable_Scene_Stylization_CVPR_2023_paper.pdf)
 * [Discriminating Known From Unknown Objects via Structure-Enhanced Recurrent Variational AutoEncoder](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Discriminating_Known_From_Unknown_Objects_via_Structure-Enhanced_Recurrent_Variational_AutoEncoder_CVPR_2023_paper.pdf)
 * [Occlusion-Free Scene Recovery via Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Occlusion-Free_Scene_Recovery_via_Neural_Radiance_Fields_CVPR_2023_paper.pdf)
@@ -151,16 +168,22 @@
   * [BAD-NeRF: Bundle Adjusted Deblur Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_BAD-NeRF_Bundle_Adjusted_Deblur_Neural_Radiance_Fields_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/WU-CVGL/BAD-NeRF)
   * [DP-NeRF: Deblurred Neural Radiance Field With Physical Scene Priors](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_DP-NeRF_Deblurred_Neural_Radiance_Field_With_Physical_Scene_Priors_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/dogyoonlee/DP-NeRF)<br>:house:[project](https://dogyoonlee.github.io/dpnerf/)
 
-## open-set recognition(开集识别)
+<a name="72"/>
+
+## 72.open-set recognition(开集识别)
 * [Glocal Energy-based Learning for Few-Shot Open-Set Recognition](http://arxiv.org/abs/2304.11855v1)
 
-## visual reasoning(视觉推理)
+<a name="71"/>
+
+## 71.visual reasoning(视觉推理)
 * [Visual Programming: Compositional visual reasoning without training](https://arxiv.org/abs/2211.11559)<br>:trophy:Best Paper
 * [Abstract Visual Reasoning: An Algebraic Approach for Solving Raven's Progressive Matrices](https://arxiv.org/abs/2303.11730)<br>:star:[code](https://github.com/Xu-Jingyi/AlgebraicMR)
 * [Super-CLEVR: A Virtual Benchmark To Diagnose Domain Robustness in Visual Reasoning](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Super-CLEVR_A_Virtual_Benchmark_To_Diagnose_Domain_Robustness_in_Visual_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/Lizw14/Super-CLEVR)
 * [Unicode Analogies: An Anti-Objectivist Visual Reasoning Challenge](https://openaccess.thecvf.com/content/CVPR2023/papers/Spratley_Unicode_Analogies_An_Anti-Objectivist_Visual_Reasoning_Challenge_CVPR_2023_paper.pdf)
 
-## Image Forgery Detection
+<a name="70"/>
+
+## 70.Image Forgery Detection
 * [Hierarchical Fine-Grained Image Forgery Detection and Localization](http://arxiv.org/abs/2303.17111v1)<br>:star:[code](https://github.com/CHELSEA234/HiFi_IFDL)
 * [Detecting and Grounding Multi-Modal Media Manipulation](http://arxiv.org/abs/2304.02556v1)<br>:star:[code](https://rshaojimmy.github.io/Projects/MultiModal-DeepFake)<br>:star:[code](https://github.com/rshaojimmy/MultiModal-DeepFake)虚假信息检测
 * [Evading DeepFake Detectors via Adversarial Statistical Consistency](http://arxiv.org/abs/2304.11670v1)
@@ -171,18 +194,23 @@
   * [Implicit Identity Leakage: The Stumbling Block to Improving Deepfake Detection Generalization](https://arxiv.org/abs/2210.14457)<br>:star:[code](https://github.com/megvii-research/CADDM)
   * [Dynamic Graph Learning With Content-Guided Spatial-Frequency Relation Reasoning for Deepfake Detection](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Dynamic_Graph_Learning_With_Content-Guided_Spatial-Frequency_Relation_Reasoning_for_Deepfake_CVPR_2023_paper.pdf)
 
+<a name="69"/>
 
-## Reinforcement learning(强化学习)
+## 69.Reinforcement learning(强化学习)
 * [PIRLNav: Pretraining with Imitation and RL Finetuning for ObjectNav](https://arxiv.org/abs/2301.07302)
 * [Local-Guided Global: Paired Similarity Representation for Visual Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Choi_Local-Guided_Global_Paired_Similarity_Representation_for_Visual_Reinforcement_Learning_CVPR_2023_paper.pdf)
 * [Fusing Pre-Trained Language Models With Multimodal Prompts Through Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Fusing_Pre-Trained_Language_Models_With_Multimodal_Prompts_Through_Reinforcement_Learning_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/JiwanChung/esper)
 * [Galactic: Scaling End-to-End Reinforcement Learning for Rearrangement at 100k Steps-per-Second](https://openaccess.thecvf.com/content/CVPR2023/papers/Berges_Galactic_Scaling_End-to-End_Reinforcement_Learning_for_Rearrangement_at_100k_Steps-per-Second_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/facebookresearch/galactic)
 * [Frustratingly Easy Regularization on Representation Can Boost Deep Reinforcement Learning](https://arxiv.org/abs/2205.14557)<br>:house:[project](https://sites.google.com/view/peer-cvpr2023/)
 
-## Lifelong Learning(终身学习)
+<a name="68"/>
+
+## 68.Lifelong Learning(终身学习)
 * [Task Difficulty Aware Parameter Allocation & Regularization for Lifelong Learning](http://arxiv.org/abs/2304.05288v1)<br>:star:[code](https://github.com/WenjinW/PAR)
 
-## Active Learning(主动学习)
+<a name="67"/>
+
+## 67.Active Learning(主动学习)
 * [Re-thinking Federated Active Learning based on Inter-class Diversity](http://arxiv.org/abs/2303.12317v1)
 * [Box-Level Active Detection](http://arxiv.org/abs/2303.13089v1)<br>:star:[code](https://github.com/lyumengyao/blad)
 * [Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-Based Active Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Ji_Are_Binary_Annotations_Sufficient_Video_Moment_Retrieval_via_Hierarchical_Uncertainty-Based_CVPR_2023_paper.pdf)<br>:star:[code](https://github.com/renjie-liang/HUAL)
