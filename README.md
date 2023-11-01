@@ -15,23 +15,17 @@
 
 ## 历年综述论文分类汇总戳这里↘️[CV-Surveys](https://github.com/52CV/CV-Surveys)施工中~~~~~~~~~~
 
+## 2024 年论文分类汇总戳这里
+↘️[WACV-2024-Papers](https://github.com/52CV/WACV-2024-Papers)
+
 ## 2023 年论文分类汇总戳这里
 ↘️[CVPR-2023-Papers](https://github.com/52CV/CVPR-2023-Papers)
 ↘️[WACV-2023-Papers](https://github.com/52CV/WACV-2023-Papers)
 ↘️[ICCV-2023-Papers](https://github.com/52CV/ICCV-2023-Papers)
 
-## 2022 年论文分类汇总戳这里
-↘️[CVPR-2022-Papers](https://github.com/52CV/CVPR-2022-Papers)
-↘️[WACV-2022-Papers](https://github.com/52CV/WACV-2022-Papers)
-↘️[ECCV-2022-Papers](https://github.com/52CV/ECCV-2022-Papers)
-
-## 2021年论文分类汇总戳这里
-↘️[ICCV-2021-Papers](https://github.com/52CV/ICCV-2021-Papers)
-↘️[CVPR-2021-Papers](https://github.com/52CV/CVPR-2021-Papers)
-
-## 2020 年论文分类汇总戳这里
-↘️[CVPR-2020-Papers](https://github.com/52CV/CVPR-2020-Papers)
-↘️[ECCV-2020-Papers](https://github.com/52CV/ECCV-2020-Papers)
+## [2022 年论文分类汇总戳这里](#000)
+## [2021 年论文分类汇总戳这里](#00)
+## [2020 年论文分类汇总戳这里](#0)
 
 ## 目录
 
@@ -3332,6 +3326,26 @@
   * [Normal-Guided Garment UV Prediction for Human Re-Texturing](https://arxiv.org/abs/2303.06504)
 * vector quantization(矢量量化)
   * [Vector Quantization With Self-Attention for Quality-Independent Representation Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Vector_Quantization_With_Self-Attention_for_Quality-Independent_Representation_Learning_CVPR_2023_paper.pdf)<br>:house:[project](https://see.xidian.edu.cn/faculty/wsdong/Projects/VQSA.htm)
+
+<a name="0"/>
+
+## 2020 年论文分类汇总戳这里
+↘️[CVPR-2020-Papers](https://github.com/52CV/CVPR-2020-Papers) 
+↘️[ECCV-2020-Papers](https://github.com/52CV/ECCV-2020-Papers)
+
+<a name="00"/>
+
+## 2021 年论文分类汇总戳这里
+↘️[ICCV-2021-Papers](https://github.com/52CV/ICCV-2021-Papers)
+↘️[CVPR-2021-Papers](https://github.com/52CV/CVPR-2021-Papers)
+
+<a name="000"/>
+
+## 2022 年论文分类汇总戳这里
+↘️[CVPR-2022-Papers](https://github.com/52CV/CVPR-2022-Papers/blob/main/README.md)
+↘️[WACV-2022-Papers](https://github.com/52CV/WACV-2022-Papers)
+↘️[ECCV-2022-Papers](https://github.com/52CV/ECCV-2022-Papers/blob/main/README.md)
+
 ### 扫码CV君微信(注明：CVPR)入微信交流群：
 ![9475fa20fd5e95235d9fa23ae9587a2](https://user-images.githubusercontent.com/62801906/156720309-de92964f-a6da-464a-b21f-cfb270c13e27.png)
 
